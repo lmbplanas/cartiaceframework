@@ -175,12 +175,21 @@ tr:hover td { background: #16161f; }
   <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">59.7%</div></div>
   <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+$1,216.55</div></div>
   <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+24.33u</div></div>
+  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2335</div></div>
+  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.060</div></div>
   <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">62 bets</div></div>
 </div>
 
 <div class="chart-wrap">
   <canvas id="chart" height="280" style="width:100%"></canvas>
 </div>
+
+<!-- BRIER CALIBRATION -->
+<div class="chart-wrap" style="margin-bottom:24px;">
+  <div style="font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">📊 Calibration — Predicted vs Actual Win Rate</div>
+  <canvas id="brierChart" height="200" style="width:100%"></canvas>
+</div>
+
 <div id="tooltip"></div>
 
 <div class="filters">
@@ -348,6 +357,7 @@ function sortBy(key) {
 function updateStats() {
   const wins = filtered.filter(b => b.result === 'W').length;
   const losses = filtered.filter(b => b.result === 'L').length;
+  const resolved = filtered.filter(b => b.result === 'W' || b.result === 'L');
   const pnl = filtered.reduce((s, b) => s + b.pnl, 0);
   const wr = wins + losses > 0 ? (wins / (wins + losses) * 100).toFixed(1) : '—';
   document.getElementById('s-record').textContent = `${wins}W-${losses}L`;
@@ -358,6 +368,17 @@ function updateStats() {
   document.getElementById('s-units').textContent = (pnl / 50 >= 0 ? '+' : '') + (pnl / 50).toFixed(2) + 'u';
   document.getElementById('s-units').style.color = pnl >= 0 ? '#22c55e' : '#ef4444';
   document.getElementById('s-showing').textContent = filtered.length + ' bets';
+  // Brier score (dynamic on filtered)
+  if (resolved.length > 0) {
+    const brier = resolved.reduce((s, b) => s + Math.pow(b.price - (b.result === 'W' ? 1 : 0), 2), 0) / resolved.length;
+    const baseWR = wins / (wins + losses);
+    const uncertainty = baseWR * (1 - baseWR);
+    const skill = uncertainty > 0 ? (1 - brier / uncertainty) : 0;
+    const brierEl = document.getElementById('s-brier');
+    const skillEl = document.getElementById('s-skill');
+    if (brierEl) { brierEl.textContent = brier.toFixed(4); brierEl.style.color = brier < 0.20 ? '#22c55e' : brier < 0.23 ? '#eab308' : '#ef4444'; }
+    if (skillEl) { skillEl.textContent = (skill >= 0 ? '+' : '') + skill.toFixed(3); skillEl.style.color = skill > 0 ? '#22c55e' : '#ef4444'; }
+  }
 }
 
 function renderTable() {
@@ -580,9 +601,104 @@ function drawChart() {
   cv.onmouseleave = () => { document.getElementById('tooltip').style.display='none'; };
 }
 
+
+function drawBrierChart() {
+  const cv = document.getElementById('brierChart');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = cv.parentElement.getBoundingClientRect();
+  cv.width = rect.width * dpr;
+  cv.height = 200 * dpr;
+  cv.style.height = '200px';
+  const ctx = cv.getContext('2d');
+  ctx.scale(dpr, dpr);
+  const W = rect.width, H = 200;
+  const PAD = { t: 20, r: 20, b: 50, l: 50 };
+  const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
+
+  // Bucket data from resolved bets
+  const buckets = [
+    { label: '<30¢', midP: 0.250, actualWR: 0.000, n: 4 },
+    { label: '30-45¢', midP: 0.364, actualWR: 0.529, n: 17 },
+    { label: '45-60¢', midP: 0.519, actualWR: 0.536, n: 28 },
+    { label: '60-75¢', midP: 0.657, actualWR: 0.750, n: 12 },
+    { label: '>75¢', midP: 0.805, actualWR: 0.500, n: 2 },
+  ];
+
+  ctx.clearRect(0, 0, W, H);
+
+  // Axes
+  ctx.strokeStyle = '#2a2a38'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(PAD.l, PAD.t); ctx.lineTo(PAD.l, H-PAD.b); ctx.lineTo(W-PAD.r, H-PAD.b); ctx.stroke();
+
+  // Perfect calibration line
+  ctx.strokeStyle = '#333'; ctx.lineWidth = 1; ctx.setLineDash([4,4]);
+  ctx.beginPath();
+  ctx.moveTo(PAD.l, H-PAD.b);
+  ctx.lineTo(W-PAD.r, PAD.t);
+  ctx.stroke(); ctx.setLineDash([]);
+
+  // Grid lines
+  [0.25, 0.50, 0.75, 1.0].forEach(v => {
+    const y = H - PAD.b - v * cH;
+    const x = PAD.l + v * cW;
+    ctx.fillStyle = '#333'; ctx.font = '9px sans-serif';
+    ctx.textAlign = 'right'; ctx.fillText((v*100).toFixed(0)+'%', PAD.l-4, y+3);
+    ctx.textAlign = 'center'; ctx.fillText((v*100).toFixed(0)+'%', x, H-PAD.b+14);
+    ctx.strokeStyle = '#191922'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PAD.l, y); ctx.lineTo(W-PAD.r, y); ctx.stroke();
+  });
+
+  // Axis labels
+  ctx.fillStyle = '#555'; ctx.font = '10px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('Predicted Win Rate (Market Price)', PAD.l + cW/2, H-4);
+  ctx.save(); ctx.translate(12, PAD.t + cH/2); ctx.rotate(-Math.PI/2);
+  ctx.fillText('Actual Win Rate', 0, 0); ctx.restore();
+
+  // Brier score label
+  ctx.fillStyle = '#eab308'; ctx.font = 'bold 11px sans-serif'; ctx.textAlign = 'right';
+  ctx.fillText('Brier: 0.2335  |  Skill: +0.060', W-PAD.r, PAD.t-4);
+
+  // Plot buckets
+  buckets.forEach(b => {
+    const x = PAD.l + b.midP * cW;
+    const yActual = H - PAD.b - b.actualWR * cH;
+    const yPerfect = H - PAD.b - b.midP * cH;
+    const over = b.actualWR > b.midP;
+
+    // Bubble size proportional to N
+    const r = Math.max(6, Math.sqrt(b.n) * 4);
+
+    // Draw circle
+    ctx.beginPath(); ctx.arc(x, yActual, r, 0, Math.PI*2);
+    ctx.fillStyle = over ? 'rgba(34,197,94,0.25)' : 'rgba(239,68,68,0.25)';
+    ctx.fill();
+    ctx.strokeStyle = over ? '#22c55e' : '#ef4444'; ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Gap line to perfect calibration
+    ctx.strokeStyle = over ? 'rgba(34,197,94,0.4)' : 'rgba(239,68,68,0.4)';
+    ctx.lineWidth = 1; ctx.setLineDash([2,3]);
+    ctx.beginPath(); ctx.moveTo(x, yPerfect); ctx.lineTo(x, yActual); ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Label
+    ctx.fillStyle = '#aaa'; ctx.font = 'bold 10px sans-serif'; ctx.textAlign = 'center';
+    ctx.fillText(b.label, x, yActual - r - 4);
+    ctx.fillStyle = '#555'; ctx.font = '9px sans-serif';
+    ctx.fillText('n='+b.n, x, yActual + r + 12);
+
+    // Win rate label
+    const diff = b.actualWR - b.midP;
+    ctx.fillStyle = over ? '#22c55e' : '#ef4444';
+    ctx.fillText((diff>=0?'+':'')+(diff*100).toFixed(0)+'%', x, yActual - r - 16);
+  });
+}
+
 // Init
 drawChart();
-window.addEventListener('resize', drawChart);
+drawBrierChart();
+window.addEventListener('resize', () => { drawChart(); drawBrierChart(); });
 renderTable();
 updateStats();
 ['search','filter-result','filter-fw','filter-surface'].forEach(id => {
