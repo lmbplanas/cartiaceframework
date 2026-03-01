@@ -106,21 +106,10 @@ tr:hover td { background: #16161f; }
 
 
 
-    <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
-      <div style="font-size:10px;color:#555;margin-bottom:4px;">BNP Paribas Q · 5:00 AM PHT (Mar 2)</div>
-      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Kalieva ML</div>
-      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Starodubtseva &nbsp;|&nbsp; 38¢ &nbsp;|&nbsp; 0.5u = $25</div>
-      <div style="display:flex;gap:8px;font-size:11px;">
-        <span style="color:#22c55e">P_true 51.0%</span>
-        <span style="color:#555">·</span>
-        <span style="color:#22c55e">Edge +13.0%</span>
-        <span style="color:#555">·</span>
-        <span style="color:#eab308">MC 100%</span>
-      </div>
-    </div>    <div style="background:#0d130d;border:1px solid #1e3a1e;border-radius:8px;padding:12px 16px;min-width:160px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
+    <div style="background:#0d130d;border:1px solid #1e3a1e;border-radius:8px;padding:12px 16px;min-width:160px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
       <div style="font-size:10px;color:#555;">Total at risk</div>
-      <div style="font-size:22px;font-weight:800;color:#eab308;">2.5u · $125</div>
-      <div style="font-size:11px;color:#555;">Best case: +$183 &nbsp;|&nbsp; Worst: −$125</div>
+      <div style="font-size:22px;font-weight:800;color:#eab308;">2u · $100</div>
+      <div style="font-size:11px;color:#555;">Best case: +$158.73 &nbsp;|&nbsp; Worst: −$100</div>
     </div>
   </div>
 </div>
@@ -259,6 +248,7 @@ const BETS = [
   { date:'Feb 28', tournament:'St. Brieuc CH', match:'Ofner vs Martineau', pick:'Ofner ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.7', surface:'Indoor' },
   // Mar 2
   { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard' },
   { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
   { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
   { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
@@ -474,7 +464,6 @@ function drawChart() {
   // Pending bets — projected dots
   const pending = [
     { label: 'Darderi ML\nChile Open Final\n2u @ 63¢', winPnl: 100*((1/0.63)-1), lossPnl: -100 },
-    { label: 'Kalieva ML\nBNP Paribas Q\n0.5u @ 38¢', winPnl: 25*((1/0.38)-1), lossPnl: -25 },
   ];
   const lastCum = series[series.length-1].cum;
   pending.forEach((p, i) => {
