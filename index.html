@@ -374,11 +374,11 @@ function drawChart() {
   cv.width = rect.width * dpr;
   cv.height = 280 * dpr;
   cv.style.height = '280px';
-  ctx = cv.getContext('2d');
+  const ctx = cv.getContext('2d');
   ctx.scale(dpr, dpr);
-  let ctx;
   const W = rect.width, H = 280;
-  const PAD = { t: 20, r: 20, b: 40, l: 68 };
+  const isMobile = W < 500;
+  const PAD = { t: 20, r: 12, b: 40, l: isMobile ? 44 : 68 };
   const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
 
   // Build cumulative series
@@ -408,18 +408,19 @@ function drawChart() {
     ctx.strokeStyle = g === 0 ? '#333' : '#191922';
     ctx.lineWidth = g === 0 ? 1.5 : 1;
     ctx.beginPath(); ctx.moveTo(PAD.l, yP(g)); ctx.lineTo(W-PAD.r, yP(g)); ctx.stroke();
-    ctx.fillStyle = '#444'; ctx.font = '10px sans-serif'; ctx.textAlign = 'right';
-    ctx.fillText((g>=0?'+':'')+'$'+g, PAD.l-5, yP(g)+4);
+    ctx.fillStyle = '#444'; ctx.font = (isMobile ? '8px' : '10px') + ' sans-serif'; ctx.textAlign = 'right';
+    ctx.fillText((g>=0?'+':'')+'$'+g, PAD.l-(isMobile?3:5), yP(g)+4);
   });
 
   // Date labels
   const dates = [...new Set(BETS.map(b=>b.date))];
-  dates.forEach(d => {
+  dates.forEach((d, di) => {
+    if (isMobile && di % 2 !== 0) return; // skip every other label on mobile
     const firstIdx = BETS.findIndex(b=>b.date===d);
     const x = xPI(firstIdx);
     ctx.fillStyle = '#2a2a38';
     ctx.fillRect(x, PAD.t, 1, cH);
-    ctx.fillStyle = '#333'; ctx.font = '9px sans-serif'; ctx.textAlign = 'center';
+    ctx.fillStyle = '#333'; ctx.font = (isMobile ? '7px' : '9px') + ' sans-serif'; ctx.textAlign = 'center';
     ctx.fillText(d, x, H - 5);
   });
 
