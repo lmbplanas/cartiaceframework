@@ -195,6 +195,7 @@ tr:hover td { background: #16161f; }
     <thead>
       <tr>
         <th onclick="sortBy('date')">#&nbsp;Date</th>
+        <th>Time</th>
         <th onclick="sortBy('tournament')">Tournament</th>
         <th onclick="sortBy('match')">Match</th>
         <th onclick="sortBy('pick')">Pick</th>
@@ -214,85 +215,85 @@ tr:hover td { background: #16161f; }
 <script>
 const BETS = [
   // Feb 22
-  { date:'Feb 22', tournament:'Delray Beach', match:'Paul vs Korda', pick:'Paul ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.0', surface:'Hard' },
+  { date:'Feb 22', tournament:'Delray Beach', match:'Paul vs Korda', pick:'Paul ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.0', surface:'Hard', time:'' },
   // Feb 23
-  { date:'Feb 23', tournament:'Acapulco Q', match:'Svajda vs Shimabukuro', pick:'Svajda ML', price:0.77, stake:1.5, result:'R', pnl:0, fw:'v1.0', surface:'Hard' },
+  { date:'Feb 23', tournament:'Acapulco Q', match:'Svajda vs Shimabukuro', pick:'Svajda ML', price:0.77, stake:1.5, result:'R', pnl:0, fw:'v1.0', surface:'Hard', time:'' },
   // Feb 24
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Bartunkova vs Volynets', pick:'Bartunkova ML', price:0.50, stake:2.0, result:'W', pnl:100.00, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Chidekh vs ?', pick:'Chidekh ML', price:0.56, stake:2.0, result:'W', pnl:78.57, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Wawrinka vs ?', pick:'Wawrinka -1.5', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Pellegrino vs ?', pick:'Pellegrino ML', price:0.51, stake:1.0, result:'W', pnl:48.04, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Echargui vs ?', pick:'Echargui ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Schoolkate vs ?', pick:'Schoolkate ML', price:0.26, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Boulter vs BHM', pick:'Boulter ML', price:0.70, stake:2.0, result:'W', pnl:42.86, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Wang vs Masarova', pick:'Wang -1.5', price:0.57, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Arango vs Potapova', pick:'Potapova ML', price:0.72, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Jodar vs Norrie', pick:'Jodar ML', price:0.46, stake:2.0, result:'W', pnl:117.39, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'WTA Qatar', match:'Vacherot vs Wong', pick:'Vacherot ML', price:0.68, stake:2.0, result:'W', pnl:47.06, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Medvedev vs ?', pick:'Medvedev ML', price:0.84, stake:2.0, result:'W', pnl:19.05, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'PCB vs ?', pick:'PCB ML', price:0.32, stake:1.0, result:'W', pnl:106.25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Bublik vs ?', pick:'Bublik ML', price:0.72, stake:1.5, result:'W', pnl:29.17, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Griekspoor vs ?', pick:'Griekspoor ML', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Mensik vs ?', pick:'Mensik ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Shevchenko vs ?', pick:'Shevchenko +1.5', price:0.46, stake:1.0, result:'W', pnl:58.70, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Kopriva vs ?', pick:'Kopriva +1.5', price:0.65, stake:1.5, result:'W', pnl:40.38, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Vallejo vs ?', pick:'Vallejo ML', price:0.58, stake:2.0, result:'W', pnl:72.41, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Tabilo vs ?', pick:'Tabilo ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Zverev vs ?', pick:'Zverev -1.5', price:0.57, stake:1.5, result:'W', pnl:56.58, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 24', tournament:'Multi-Tour', match:'Tiafoe vs ?', pick:'Tiafoe ML', price:0.61, stake:1.5, result:'W', pnl:47.95, fw:'v1.2', surface:'Hard' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Bartunkova vs Volynets', pick:'Bartunkova ML', price:0.50, stake:2.0, result:'W', pnl:100.00, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Chidekh vs ?', pick:'Chidekh ML', price:0.56, stake:2.0, result:'W', pnl:78.57, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Wawrinka vs ?', pick:'Wawrinka -1.5', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Pellegrino vs ?', pick:'Pellegrino ML', price:0.51, stake:1.0, result:'W', pnl:48.04, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Echargui vs ?', pick:'Echargui ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Schoolkate vs ?', pick:'Schoolkate ML', price:0.26, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Boulter vs BHM', pick:'Boulter ML', price:0.70, stake:2.0, result:'W', pnl:42.86, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Wang vs Masarova', pick:'Wang -1.5', price:0.57, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Arango vs Potapova', pick:'Potapova ML', price:0.72, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Jodar vs Norrie', pick:'Jodar ML', price:0.46, stake:2.0, result:'W', pnl:117.39, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Vacherot vs Wong', pick:'Vacherot ML', price:0.68, stake:2.0, result:'W', pnl:47.06, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Medvedev vs ?', pick:'Medvedev ML', price:0.84, stake:2.0, result:'W', pnl:19.05, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'PCB vs ?', pick:'PCB ML', price:0.32, stake:1.0, result:'W', pnl:106.25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Bublik vs ?', pick:'Bublik ML', price:0.72, stake:1.5, result:'W', pnl:29.17, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Griekspoor vs ?', pick:'Griekspoor ML', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Mensik vs ?', pick:'Mensik ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Shevchenko vs ?', pick:'Shevchenko +1.5', price:0.46, stake:1.0, result:'W', pnl:58.70, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Kopriva vs ?', pick:'Kopriva +1.5', price:0.65, stake:1.5, result:'W', pnl:40.38, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Vallejo vs ?', pick:'Vallejo ML', price:0.58, stake:2.0, result:'W', pnl:72.41, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Tabilo vs ?', pick:'Tabilo ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Zverev vs ?', pick:'Zverev -1.5', price:0.57, stake:1.5, result:'W', pnl:56.58, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Tiafoe vs ?', pick:'Tiafoe ML', price:0.61, stake:1.5, result:'W', pnl:47.95, fw:'v1.2', surface:'Hard', time:'' },
   // Feb 25
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Bergs vs ?', pick:'Bergs ML', price:0.49, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Tsitsipas vs ?', pick:'Tsitsipas ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Majchrzak vs ?', pick:'Majchrzak ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Marozsan vs ?', pick:'Marozsan ML', price:0.62, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Royer vs ?', pick:'Royer +1.5', price:0.44, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Buse vs ?', pick:'Buse ML', price:0.47, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Grenier vs ?', pick:'Grenier ML', price:0.47, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
-  { date:'Feb 25', tournament:'Multi-Tour', match:'Fils vs ?', pick:'Fils ML', price:0.45, stake:1.0, result:'R', pnl:0, fw:'v1.2', surface:'Hard' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Bergs vs ?', pick:'Bergs ML', price:0.49, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Tsitsipas vs ?', pick:'Tsitsipas ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Majchrzak vs ?', pick:'Majchrzak ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Marozsan vs ?', pick:'Marozsan ML', price:0.62, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Royer vs ?', pick:'Royer +1.5', price:0.44, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Buse vs ?', pick:'Buse ML', price:0.47, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Grenier vs ?', pick:'Grenier ML', price:0.47, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Fils vs ?', pick:'Fils ML', price:0.45, stake:1.0, result:'R', pnl:0, fw:'v1.2', surface:'Hard', time:'' },
   // Feb 26
-  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA ML', price:0.66, stake:2.0, result:'W', pnl:51.51, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA -1.5', price:0.42, stake:1.5, result:'W', pnl:103.57, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'O23.5 games', price:0.49, stake:1.5, result:'W', pnl:78.06, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor ML', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor +1.5', price:0.50, stake:1.0, result:'W', pnl:50.00, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Chile Open QF', match:'Vallejo vs Nava', pick:'Vallejo ML', price:0.59, stake:2.0, result:'L', pnl:-100, fw:'v1.5', surface:'Clay' },
-  { date:'Feb 26', tournament:'Chile Open QF', match:'Cerundolo vs Moeller', pick:'Moeller +1.5', price:0.38, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Clay' },
-  { date:'Feb 26', tournament:'Mexico Open QF', match:'Wu vs Cobolli', pick:'Cobolli ML', price:0.44, stake:1.0, result:'W', pnl:63.63, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Mexico Open QF', match:'Kecmanovic vs Atmane', pick:'Atmane ML', price:0.38, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Mexico Open QF', match:'Tiafoe vs Bellucci', pick:'Bellucci ML', price:0.35, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'Mexico Open QF', match:'Vacherot vs Nakashima', pick:'Vacherot ML', price:0.45, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard' },
-  { date:'Feb 26', tournament:'St. Brieuc CH', match:'Lajal vs Herbert', pick:'Herbert ML', price:0.41, stake:1.5, result:'W', pnl:107.92, fw:'v1.5', surface:'Indoor' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA ML', price:0.66, stake:2.0, result:'W', pnl:51.51, fw:'v1.5', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA -1.5', price:0.42, stake:1.5, result:'W', pnl:103.57, fw:'v1.5', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'O23.5 games', price:0.49, stake:1.5, result:'W', pnl:78.06, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor ML', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor +1.5', price:0.50, stake:1.0, result:'W', pnl:50.00, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Chile Open QF', match:'Vallejo vs Nava', pick:'Vallejo ML', price:0.59, stake:2.0, result:'L', pnl:-100, fw:'v1.5', surface:'Clay', time:'4:00 AM' },
+  { date:'Feb 26', tournament:'Chile Open QF', match:'Cerundolo vs Moeller', pick:'Moeller +1.5', price:0.38, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Clay', time:'6:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Wu vs Cobolli', pick:'Cobolli ML', price:0.44, stake:1.0, result:'W', pnl:63.63, fw:'v1.5', surface:'Hard', time:'6:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Kecmanovic vs Atmane', pick:'Atmane ML', price:0.38, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Hard', time:'8:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Tiafoe vs Bellucci', pick:'Bellucci ML', price:0.35, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard', time:'10:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Vacherot vs Nakashima', pick:'Vacherot ML', price:0.45, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard', time:'4:00 AM' },
+  { date:'Feb 26', tournament:'St. Brieuc CH', match:'Lajal vs Herbert', pick:'Herbert ML', price:0.41, stake:1.5, result:'W', pnl:107.92, fw:'v1.5', surface:'Indoor', time:'8:00 PM' },
   // Feb 27
-  { date:'Feb 27', tournament:'St. Brieuc CH', match:'Droguet vs Poullain', pick:'Poullain ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor' },
-  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'Moro Canas ML', price:0.32, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor' },
-  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Indoor' },
+  { date:'Feb 27', tournament:'St. Brieuc CH', match:'Droguet vs Poullain', pick:'Poullain ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor', time:'' },
+  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'Moro Canas ML', price:0.32, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor', time:'' },
+  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Indoor', time:'' },
   // Feb 28
-  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev ML', price:0.55, stake:2.0, result:'W', pnl:81.82, fw:'v1.7', surface:'Hard' },
-  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev -1.5', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.7', surface:'Hard' },
-  { date:'Feb 28', tournament:'Mexico Open SF', match:'Kecmanovic vs Cobolli', pick:'Cobolli ML', price:0.42, stake:2.0, result:'W', pnl:138.10, fw:'v1.7', surface:'Hard' },
-  { date:'Feb 28', tournament:'Mexico Open SF', match:'Tiafoe vs Nakashima', pick:'Tiafoe ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Hard' },
-  { date:'Feb 28', tournament:'Chile Open SF', match:'Tabilo vs Baez', pick:'Baez ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Clay' },
-  { date:'Feb 28', tournament:'Chile Open SF', match:'Hanfmann vs Gaubas', pick:'Gaubas ML', price:0.30, stake:0.5, result:'L', pnl:-25, fw:'v1.7', surface:'Clay' },
-  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Herbert vs Droguet', pick:'Herbert ML', price:0.33, stake:1.0, result:'W', pnl:101.52, fw:'v1.7', surface:'Indoor' },
-  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Ofner vs Martineau', pick:'Ofner ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.7', surface:'Indoor' },
+  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev ML', price:0.55, stake:2.0, result:'W', pnl:81.82, fw:'v1.7', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev -1.5', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.7', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 28', tournament:'Mexico Open SF', match:'Kecmanovic vs Cobolli', pick:'Cobolli ML', price:0.42, stake:2.0, result:'W', pnl:138.10, fw:'v1.7', surface:'Hard', time:'6:00 AM' },
+  { date:'Feb 28', tournament:'Mexico Open SF', match:'Tiafoe vs Nakashima', pick:'Tiafoe ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Hard', time:'8:00 AM' },
+  { date:'Feb 28', tournament:'Chile Open SF', match:'Tabilo vs Baez', pick:'Baez ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Clay', time:'5:00 AM' },
+  { date:'Feb 28', tournament:'Chile Open SF', match:'Hanfmann vs Gaubas', pick:'Gaubas ML', price:0.30, stake:0.5, result:'L', pnl:-25, fw:'v1.7', surface:'Clay', time:'3:00 AM' },
+  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Herbert vs Droguet', pick:'Herbert ML', price:0.33, stake:1.0, result:'W', pnl:101.52, fw:'v1.7', surface:'Indoor', time:'8:00 PM' },
+  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Ofner vs Martineau', pick:'Ofner ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.7', surface:'Indoor', time:'10:00 PM' },
   // Mar 1
-  { date:'Mar 1', tournament:'Pune CH', match:'Ajdukovic vs Cina', pick:'Ajdukovic ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 1', tournament:'Dubai Final', match:'Griekspoor vs Medvedev', pick:'Griekspoor +1.5', price:0.40, stake:1.0, result:'R', pnl:0, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Chidekh vs Ofner', pick:'Chidekh ML', price:0.49, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor' },
-  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Herbert vs Gaston', pick:'Herbert ML', price:0.37, stake:1.5, result:'W', pnl:121.22, fw:'v1.8', surface:'Indoor' },
-  { date:'Mar 1', tournament:'Chile Open SF', match:'Cerundolo vs Hanfmann', pick:'U22.5 games', price:0.57, stake:2.0, result:'W', pnl:85.96, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez ML', price:0.39, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez +1.5', price:0.66, stake:2.0, result:'L', pnl:-100, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 1', tournament:'Mexico Open Final', match:'Tiafoe vs Cobolli', pick:'Tiafoe ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
+  { date:'Mar 1', tournament:'Pune CH', match:'Ajdukovic vs Cina', pick:'Ajdukovic ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'3:30 PM' },
+  { date:'Mar 1', tournament:'Dubai Final', match:'Griekspoor vs Medvedev', pick:'Griekspoor +1.5', price:0.40, stake:1.0, result:'R', pnl:0, fw:'v1.8', surface:'Hard', time:'12:00 AM' },
+  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Chidekh vs Ofner', pick:'Chidekh ML', price:0.49, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor', time:'7:00 PM' },
+  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Herbert vs Gaston', pick:'Herbert ML', price:0.37, stake:1.5, result:'W', pnl:121.22, fw:'v1.8', surface:'Indoor', time:'10:00 PM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Cerundolo vs Hanfmann', pick:'U22.5 games', price:0.57, stake:2.0, result:'W', pnl:85.96, fw:'v1.8', surface:'Clay', time:'4:00 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez ML', price:0.39, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez +1.5', price:0.66, stake:2.0, result:'L', pnl:-100, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Mexico Open Final', match:'Tiafoe vs Cobolli', pick:'Tiafoe ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard', time:'7:00 AM' },
   // Mar 2
-  { date:'Mar 2', tournament:'St. Brieuc CH Final', match:'Ofner vs Herbert', pick:'Herbert ML', price:0.50, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor' },
-  { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard' },
-  { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'Chile Open Final', match:'Hanfmann vs Darderi', pick:'Darderi ML', price:0.63, stake:2.0, result:'W', pnl:58.73, fw:'v1.8', surface:'Clay' },
+  { date:'Mar 2', tournament:'St. Brieuc CH Final', match:'Ofner vs Herbert', pick:'Herbert ML', price:0.50, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor', time:'5:00 PM' },
+  { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay', time:'10:00 PM' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard', time:'3:00 AM' },
+  { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard', time:'5:00 AM' },
+  { date:'Mar 2', tournament:'Chile Open Final', match:'Hanfmann vs Darderi', pick:'Darderi ML', price:0.63, stake:2.0, result:'W', pnl:58.73, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
 ];
 
 // ─── Sort & Filter State ───────────────────────────────────
@@ -394,9 +395,9 @@ function renderTable() {
 
 // ─── CSV Export ────────────────────────────────────────────
 function exportCSV() {
-  const headers = ['#','Date','Tournament','Match','Pick','Price','Stake(u)','Result','PnL($)','PnL(u)','Framework','Surface'];
+  const headers = ['#','Date','Time','Tournament','Match','Pick','Price','Stake(u)','Result','PnL($)','PnL(u)','Framework','Surface'];
   const rows = filtered.map((b, i) => [
-    i+1, b.date, b.tournament, `"${b.match}"`, `"${b.pick}"`,
+    i+1, b.date, b.time || '', b.tournament, `"${b.match}"`, `"${b.pick}"`,
     Math.round(b.price * 100) + '¢', b.stake, b.result,
     (b.pnl >= 0 ? '+' : '') + b.pnl.toFixed(2),
     (b.pnl/50 >= 0 ? '+' : '') + (b.pnl/50).toFixed(3),
@@ -518,7 +519,7 @@ function drawChart() {
       const resClass = b.result==='W' ? 'tt-win' : b.result==='L' ? 'tt-loss' : 'tt-void';
       tt.innerHTML = `
         <div class="tt-match">${b.match}</div>
-        <div>${b.tournament} · ${b.date}</div>
+        <div>${b.tournament} · ${b.date}${b.time ? " · " + b.time : ""}</div>
         <div>Pick: <b>${b.pick}</b> @ ${Math.round(b.price*100)}¢ · ${b.stake}u</div>
         <div class="${resClass}"><b>${b.result === 'W' ? '✅ WIN' : b.result === 'L' ? '❌ LOSS' : '🔄 REFUND'}</b> · ${b.pnl>0?'+':''}$${b.pnl.toFixed(2)}</div>
         <div style="color:#555;margin-top:3px">Running: ${best.cum>=0?'+':''}$${best.cum.toFixed(2)}</div>
