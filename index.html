@@ -89,26 +89,6 @@ tr:hover td { background: #16161f; }
 <h2>Framework Era P&amp;L</h2>
 <div class="meta">Feb 22 – Mar 2, 2026 &nbsp;|&nbsp; 1u = $50 &nbsp;|&nbsp; Polymarket</div>
 
-<!-- NO PENDING BETS -->
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">36W-34L</div></div>
-  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">51.4%</div></div>
-  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+987.11</div></div>
-  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+19.74u</div></div>
-  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2239</div></div>
-  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.104</div></div>
-  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">73 bets</div></div>
-</div>
-
-<div class="chart-wrap" style="position:relative;">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-    <div style="font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">📈 Cumulative P&L</div>
-    <button onclick="resetChartZoom()" style="background:#1a1f2e;border:1px solid #2d3a5e;border-radius:4px;color:#60a5fa;font-size:10px;padding:3px 10px;cursor:pointer;">Reset Zoom</button>
-  </div>
-  <canvas id="chart"></canvas>
-</div>
-
 <!-- PENDING CARD -->
 <div style="margin:24px 0 8px;font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">⏳ Active Picks</div>
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;">
@@ -163,6 +143,31 @@ tr:hover td { background: #16161f; }
   <div style="font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">📈 Pending — Win/Loss Projection</div>
   <canvas id="projChart" height="160" style="width:100%"></canvas>
 </div>
+
+
+
+
+<!-- NO PENDING BETS -->
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">36W-34L</div></div>
+  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">51.4%</div></div>
+  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+987.11</div></div>
+  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+19.74u</div></div>
+  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2239</div></div>
+  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.104</div></div>
+  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">73 bets</div></div>
+</div>
+
+<div class="chart-wrap" style="position:relative;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+    <div style="font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">📈 Cumulative P&L</div>
+    <button onclick="resetChartZoom()" style="background:#1a1f2e;border:1px solid #2d3a5e;border-radius:4px;color:#60a5fa;font-size:10px;padding:3px 10px;cursor:pointer;">Reset Zoom</button>
+  </div>
+  <canvas id="chart"></canvas>
+</div>
+
+
 
 <!-- BRIER CALIBRATION -->
 <div class="chart-wrap" style="margin-bottom:24px;">
