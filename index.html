@@ -90,13 +90,13 @@ tr:hover td { background: #16161f; }
 <!-- NO PENDING BETS -->
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">36W-33L</div></div>
-  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">52.2%</div></div>
-  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+1012.11</div></div>
-  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+20.24u</div></div>
-  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2256</div></div>
-  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.096</div></div>
-  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">72 bets</div></div>
+  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">36W-34L</div></div>
+  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">51.4%</div></div>
+  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+987.11</div></div>
+  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+19.74u</div></div>
+  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2239</div></div>
+  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.104</div></div>
+  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">73 bets</div></div>
 </div>
 
 <div class="chart-wrap">
@@ -106,19 +106,7 @@ tr:hover td { background: #16161f; }
 <!-- PENDING CARD -->
 <div style="margin:24px 0 8px;font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">⏳ Active Picks</div>
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;">
-    <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
-      <div style="font-size:10px;color:#555;margin-bottom:4px;">Hersonissos CH · R32</div>
-      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Vasami ML</div>
-      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Neumayer &nbsp;|&nbsp; 33¢ &nbsp;|&nbsp; 0.5u = $25</div>
-      <div style="display:flex;gap:8px;font-size:11px;">
-        <span style="color:#22c55e">P_true 46.5%</span>
-        <span style="color:#555">·</span>
-        <span style="color:#22c55e">Edge +13.5%</span>
-        <span style="color:#555">·</span>
-        <span style="color:#eab308">MC 100%</span>
-      </div>
-      <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">Clay specialist on hard. Corrected F (ITF wins). Neumayer 68¢ overpriced.</div>
-    </div>
+
     <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">Hersonissos CH · R32</div>
       <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Rybakov ML</div>
@@ -161,7 +149,7 @@ tr:hover td { background: #16161f; }
     </div>
 </div>
 <div style="font-size:11px;color:#555;margin-bottom:20px;">
-  2.5u · $125 &nbsp;|&nbsp; Best case: +$129.34 &nbsp;|&nbsp; Worst: −$125
+  2u · $100 &nbsp;|&nbsp; Best case: +$104.17 &nbsp;|&nbsp; Worst: −$100
 </div>
 
 <!-- PROJECTION CHART -->
@@ -305,6 +293,7 @@ const BETS = [
   { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay', time:'10:00 PM' },
   { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
   { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
+  { date:'Mar 2', tournament:'Hersonissos CH R32', match:'Neumayer vs Vasami', pick:'Vasami ML', price:0.33, stake:0.5, result:'L', pnl:-25, fw:'v1.10', surface:'Hard' },
   { date:'Mar 2', tournament:'Hersonissos CH R32', match:'Rincon vs Durasovic', pick:'Durasovic ML', price:0.38, stake:1.0, result:'L', pnl:-50, fw:'v1.9', surface:'Hard' },
   { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard', time:'3:00 AM' },
   { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard', time:'5:00 AM' },
