@@ -700,8 +700,7 @@ function drawBrierChart() {
 drawChart();
 drawBrierChart();
 window.addEventListener('resize', () => { drawBrierChart(); });
-renderTable();
-updateStats();
+applyFilters();
 ['search','filter-result','filter-fw','filter-surface'].forEach(id => {
   document.getElementById(id).addEventListener('input', applyFilters);
   document.getElementById(id).addEventListener('change', applyFilters);
