@@ -626,10 +626,10 @@ function drawChart() {
         x: {
           ticks: {
             color: '#444',
-            font: { size: 9 },
-            maxRotation: 45,
+            font: { size: window.innerWidth < 640 ? 7 : 9 },
+            maxRotation: window.innerWidth < 640 ? 60 : 45,
             autoSkip: true,
-            maxTicksLimit: 15,
+            maxTicksLimit: window.innerWidth < 640 ? 8 : 15,
             callback: function(val, idx) {
               // Show date only, skip duplicates
               const label = this.getLabelForValue(val);
@@ -642,7 +642,8 @@ function drawChart() {
         y: {
           ticks: {
             color: '#444',
-            font: { size: 10 },
+            font: { size: window.innerWidth < 640 ? 8 : 10 },
+            maxTicksLimit: window.innerWidth < 640 ? 6 : 8,
             callback: v => (v >= 0 ? '+' : '') + '$' + v
           },
           grid: {
@@ -740,13 +741,15 @@ function drawBrierChart() {
   const cv = document.getElementById('brierChart');
   const dpr = window.devicePixelRatio || 1;
   const rect = cv.parentElement.getBoundingClientRect();
+  const isMobile = rect.width < 500;
   cv.width = rect.width * dpr;
-  cv.height = 200 * dpr;
-  cv.style.height = '200px';
+  const chartH = isMobile ? 180 : 200;
+  cv.height = chartH * dpr;
+  cv.style.height = chartH + 'px';
   const ctx = cv.getContext('2d');
   ctx.scale(dpr, dpr);
-  const W = rect.width, H = 200;
-  const PAD = { t: 20, r: 20, b: 50, l: 50 };
+  const W = rect.width, H = chartH;
+  const PAD = { t: isMobile ? 16 : 20, r: isMobile ? 12 : 20, b: isMobile ? 40 : 50, l: isMobile ? 36 : 50 };
   const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
 
   // Bucket data from resolved bets
@@ -775,23 +778,25 @@ function drawBrierChart() {
   [0.25, 0.50, 0.75, 1.0].forEach(v => {
     const y = H - PAD.b - v * cH;
     const x = PAD.l + v * cW;
-    ctx.fillStyle = '#333'; ctx.font = '9px sans-serif';
-    ctx.textAlign = 'right'; ctx.fillText((v*100).toFixed(0)+'%', PAD.l-4, y+3);
-    ctx.textAlign = 'center'; ctx.fillText((v*100).toFixed(0)+'%', x, H-PAD.b+14);
+    ctx.fillStyle = '#333'; ctx.font = (isMobile ? '7px' : '9px') + ' sans-serif';
+    ctx.textAlign = 'right'; ctx.fillText((v*100).toFixed(0)+'%', PAD.l-3, y+3);
+    ctx.textAlign = 'center'; ctx.fillText((v*100).toFixed(0)+'%', x, H-PAD.b+(isMobile?10:14));
     ctx.strokeStyle = '#191922'; ctx.lineWidth = 1;
     ctx.beginPath(); ctx.moveTo(PAD.l, y); ctx.lineTo(W-PAD.r, y); ctx.stroke();
   });
 
   // Axis labels
-  ctx.fillStyle = '#555'; ctx.font = '10px sans-serif';
+  ctx.fillStyle = '#555'; ctx.font = (isMobile ? '8px' : '10px') + ' sans-serif';
   ctx.textAlign = 'center';
-  ctx.fillText('Predicted Win Rate (Market Price)', PAD.l + cW/2, H-4);
-  ctx.save(); ctx.translate(12, PAD.t + cH/2); ctx.rotate(-Math.PI/2);
-  ctx.fillText('Actual Win Rate', 0, 0); ctx.restore();
+  ctx.fillText(isMobile ? 'Predicted WR' : 'Predicted Win Rate (Market Price)', PAD.l + cW/2, H-(isMobile?2:4));
+  if (!isMobile) {
+    ctx.save(); ctx.translate(12, PAD.t + cH/2); ctx.rotate(-Math.PI/2);
+    ctx.fillText('Actual Win Rate', 0, 0); ctx.restore();
+  }
 
   // Brier score label
-  ctx.fillStyle = '#eab308'; ctx.font = 'bold 11px sans-serif'; ctx.textAlign = 'right';
-  ctx.fillText('Brier: 0.2268 | Skill: +0.090', W-PAD.r, PAD.t-4);
+  ctx.fillStyle = '#eab308'; ctx.font = 'bold ' + (isMobile ? '9px' : '11px') + ' sans-serif'; ctx.textAlign = 'right';
+  ctx.fillText('Brier: 0.2268 | Skill: +0.090', W-PAD.r, PAD.t-(isMobile?2:4));
 
   // Plot buckets
   buckets.forEach(b => {
@@ -801,7 +806,7 @@ function drawBrierChart() {
     const over = b.actualWR > b.midP;
 
     // Bubble size proportional to N
-    const r = Math.max(6, Math.sqrt(b.n) * 4);
+    const r = Math.max(isMobile ? 4 : 6, Math.sqrt(b.n) * (isMobile ? 3 : 4));
 
     // Draw circle
     ctx.beginPath(); ctx.arc(x, yActual, r, 0, Math.PI*2);
@@ -817,15 +822,17 @@ function drawBrierChart() {
     ctx.setLineDash([]);
 
     // Label
-    ctx.fillStyle = '#aaa'; ctx.font = 'bold 10px sans-serif'; ctx.textAlign = 'center';
+    const fs = isMobile ? '8px' : '10px';
+    const fsSmall = isMobile ? '7px' : '9px';
+    ctx.fillStyle = '#aaa'; ctx.font = 'bold ' + fs + ' sans-serif'; ctx.textAlign = 'center';
     ctx.fillText(b.label, x, yActual - r - 4);
-    ctx.fillStyle = '#555'; ctx.font = '9px sans-serif';
-    ctx.fillText('n='+b.n, x, yActual + r + 12);
+    ctx.fillStyle = '#555'; ctx.font = fsSmall + ' sans-serif';
+    ctx.fillText('n='+b.n, x, yActual + r + (isMobile ? 10 : 12));
 
     // Win rate label
     const diff = b.actualWR - b.midP;
     ctx.fillStyle = over ? '#22c55e' : '#ef4444';
-    ctx.fillText((diff>=0?'+':'')+(diff*100).toFixed(0)+'%', x, yActual - r - 16);
+    ctx.fillText((diff>=0?'+':'')+(diff*100).toFixed(0)+'%', x, yActual - r - (isMobile ? 13 : 16));
   });
 }
 
