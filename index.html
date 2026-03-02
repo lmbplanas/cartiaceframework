@@ -19,7 +19,7 @@ h2 { font-size: 20px; color: #fff; font-weight: 800; margin-bottom: 2px; }
 
 /* Chart */
 .chart-wrap { background: #14141c; border: 1px solid #1e1e2a; border-radius: 10px; padding: 20px; margin-bottom: 24px; position: relative; }
-canvas { display: block; cursor: crosshair; }
+canvas { display: block; cursor: crosshair; touch-action: pan-y; }
 #tooltip {
   position: fixed; background: #1e1e2e; border: 1px solid #333; border-radius: 6px;
   padding: 8px 12px; font-size: 11px; pointer-events: none; display: none; z-index: 100;
@@ -84,16 +84,63 @@ tr:hover td { background: #16161f; }
 .daily-bar { height: 6px; border-radius: 3px; display: inline-block; vertical-align: middle; }
 
 /* Mobile responsive */
-@media (max-width: 640px) {
-  body { padding: 12px; }
-  h2 { font-size: 17px; }
+/* ── Tablet ── */
+@media (max-width: 768px) {
   .stats-row { gap: 8px; }
-  .stat { min-width: 80px; padding: 8px 10px; flex: 1; }
-  .stat-val { font-size: 16px; }
-  .chart-wrap { padding: 10px; overflow-x: auto; }
+  .stat { min-width: 100px; padding: 10px 12px; }
+  .stat-val { font-size: 18px; }
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  body { padding: 14px 10px; }
+  h1 { font-size: 10px; letter-spacing: 1.5px; }
+  h2 { font-size: 16px; }
+  .meta { font-size: 10px; margin-bottom: 16px; }
+
+  /* Stats: 2x grid instead of flex row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .stat { min-width: unset; padding: 10px 12px; }
+  .stat-label { font-size: 8px; }
+  .stat-val { font-size: 15px; }
+
+  /* Charts */
+  .chart-wrap { padding: 10px; border-radius: 8px; margin-bottom: 16px; }
+
+  /* Filters stack */
   .filters { flex-direction: column; gap: 6px; }
-  .filters input, .filters select { width: 100%; }
-  td, th { padding: 5px 6px; font-size: 11px; }
+  .filters input, .filters select { width: 100%; font-size: 13px; padding: 8px 10px; }
+  .btn { width: 100%; text-align: center; padding: 8px 14px; font-size: 12px; }
+
+  /* Table: tighter, horizontal scroll */
+  .table-wrap { margin: 0 -10px; padding: 0 10px; }
+  td, th { padding: 6px 8px; font-size: 10px; }
+  th { font-size: 9px; letter-spacing: 0.5px; }
+
+  /* Pick cards */
+  .pick-card { min-width: unset !important; width: 100% !important; }
+
+  /* Daily performance */
+  .daily-toggle { padding: 10px 12px; }
+  .daily-toggle h3 { font-size: 10px; }
+  .daily-table td, .daily-table th { padding: 6px 8px; font-size: 10px; }
+  .daily-table th { font-size: 9px; }
+
+  /* Summary footer */
+  .summary-footer { font-size: 10px; }
+}
+
+/* ── Small phones ── */
+@media (max-width: 380px) {
+  body { padding: 10px 8px; }
+  h2 { font-size: 14px; }
+  .stat-val { font-size: 13px; }
+  .stat-label { font-size: 7px; }
+  td, th { padding: 4px 5px; font-size: 9px; }
 }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
@@ -107,9 +154,9 @@ tr:hover td { background: #16161f; }
 
 <!-- PENDING CARD -->
 <div style="margin:24px 0 8px;font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;"> Active Picks</div>
-<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;">
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;">
 
-    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;">
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 2:00 AM PHT (Mar 3)</div>
       <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">JPJ ML</div>
       <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Bonzi &nbsp;|&nbsp; 53¢ &nbsp;|&nbsp; 1u = $50</div>
@@ -123,7 +170,7 @@ tr:hover td { background: #16161f; }
       <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">JPJ return-focused baseliners (RET=7) directly neutralizes Bonzi's serve weapon on IW's slow courts. Beat Cobolli #20 6-2 6-2. Bonzi BH=5 leaks under pressure. Slow Laykold + Dunlop ball reduces Bonzi's SRV advantage by 10%. Three CH-level losses in last 10. Matchup texture right — fast returner on slow courts vs serve-reliant player with leaky BH.</div>
     </div>
 
-    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;">
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 2:00 AM PHT (Mar 3)</div>
       <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Blockx ML</div>
       <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Landaluce &nbsp;|&nbsp; 74¢ &nbsp;|&nbsp; 0.5u = $25</div>
@@ -136,7 +183,7 @@ tr:hover td { background: #16161f; }
       </div>
       <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">Blockx 11-4 in 2026, Canberra title. Landaluce 2-7 on hard. Passes high-price premium (P_true 86.8%).</div>
     </div>
-    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;">
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
       <div style="font-size:10px;color:#555;font-weight:800;margin-bottom:4px;"> IW Qualifying Q1 · 2:00 AM PHT (Mar 3)</div>
       <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Maestrelli ML</div>
       <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Jarry &nbsp;|&nbsp; 53¢ &nbsp;|&nbsp; 1u = $50</div>
@@ -150,7 +197,7 @@ tr:hover td { background: #16161f; }
       <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">Jarry 0-4 in 2026, clay specialist on hard, injured. Market 50/50 is a massive misprice. Manual override: 1u.</div>
     </div>
 
-    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;">
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 5:00 AM PHT (Mar 3)</div>
       <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Tseng ML</div>
       <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Goffin &nbsp;|&nbsp; 40¢ &nbsp;|&nbsp; 0.5u = $25</div>
@@ -164,7 +211,7 @@ tr:hover td { background: #16161f; }
       <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">IW slow courts + Dunlop ball favors Tseng clay bg. Goffin 0-2 in 2026, 29% hard WR. Multi-component B+S drive. Audit passed. F-dom 24.7% </div>
     </div>
 </div>
-<div style="font-size:11px;color:#555;margin-bottom:20px;">
+<div style="font-size:11px;color:#555;margin-bottom:16px;">
   3u · $150 &nbsp;|&nbsp; Max return: +$160.15 &nbsp;|&nbsp; Max risk: −$150
 </div>
 
