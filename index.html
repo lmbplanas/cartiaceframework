@@ -402,6 +402,7 @@ function renderTable() {
     const surfColor = b.surface === 'Clay' ? '#b45309' : b.surface === 'Indoor' ? '#2563eb' : '#374151';
     tr.innerHTML = `
       <td style="color:#444">${i+1} &nbsp;<span style="color:#666">${b.date}</span></td>
+      <td style="color:#555;font-size:10px">${b.time || '—'}</td>
       <td style="color:#888">${b.tournament}</td>
       <td style="color:#ccc">${b.match}</td>
       <td style="color:#fff;font-weight:600">${b.pick}</td>
