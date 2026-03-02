@@ -89,7 +89,7 @@ tr:hover td { background: #16161f; }
 
 <!-- PENDING BETS -->
 <div style="background:#0f1a0f;border:1px solid #1e4a1e;border-radius:10px;padding:16px 20px;margin-bottom:24px;">
-  <div style="font-size:10px;color:#22c55e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">⏳ Mar 2 Card — Live</div>
+  <div style="font-size:10px;color:#22c55e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">✅ Mar 2 Card — Settled</div>
   <div style="display:flex;gap:12px;flex-wrap:wrap;">
     <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">Chile Open Final · 6:30 AM PHT (Mar 2)</div>
@@ -108,20 +108,20 @@ tr:hover td { background: #16161f; }
 
     <div style="background:#0d130d;border:1px solid #1e3a1e;border-radius:8px;padding:12px 16px;min-width:160px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
       <div style="font-size:10px;color:#555;">Total at risk</div>
-      <div style="font-size:22px;font-weight:800;color:#eab308;">2u · $100</div>
-      <div style="font-size:11px;color:#555;">Best case: +$158.73 &nbsp;|&nbsp; Worst: −$100</div>
+      <div style="font-size:22px;font-weight:800;color:#eab308;">0u · $0</div>
+      <div style="font-size:11px;color:#555;">Day P&amp;L: −$100.48 &nbsp;|&nbsp; 2W-6L</div>
     </div>
   </div>
 </div>
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">37W-25L</div></div>
-  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">59.7%</div></div>
-  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+$1,216.55</div></div>
-  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+24.33u</div></div>
+  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">35W-32L</div></div>
+  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">52.2%</div></div>
+  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+$1,003.38</div></div>
+  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+20.07u</div></div>
   <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2335</div></div>
   <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.060</div></div>
-  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">62 bets</div></div>
+  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">70 bets</div></div>
 </div>
 
 <div class="chart-wrap">
@@ -188,8 +188,8 @@ const BETS = [
   // Feb 22
   { date:'Feb 22', tournament:'Delray Beach', match:'Paul vs Korda', pick:'Paul ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.0', surface:'Hard' },
   // Feb 23
-  { date:'Feb 23', tournament:'Acapulco Q', match:'Svajda vs Shimabukuro', pick:'Svajda ML', price:0.77, stake:1.5, result:'R', pnl:-75, fw:'v1.0', surface:'Hard' },
-  // Feb 24 WTA Qatar
+  { date:'Feb 23', tournament:'Acapulco Q', match:'Svajda vs Shimabukuro', pick:'Svajda ML', price:0.77, stake:1.5, result:'R', pnl:0, fw:'v1.0', surface:'Hard' },
+  // Feb 24
   { date:'Feb 24', tournament:'WTA Qatar', match:'Bartunkova vs Volynets', pick:'Bartunkova ML', price:0.50, stake:2.0, result:'W', pnl:100.00, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'WTA Qatar', match:'Chidekh vs ?', pick:'Chidekh ML', price:0.56, stake:2.0, result:'W', pnl:78.57, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'WTA Qatar', match:'Wawrinka vs ?', pick:'Wawrinka -1.5', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard' },
@@ -201,7 +201,6 @@ const BETS = [
   { date:'Feb 24', tournament:'WTA Qatar', match:'Arango vs Potapova', pick:'Potapova ML', price:0.72, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'WTA Qatar', match:'Jodar vs Norrie', pick:'Jodar ML', price:0.46, stake:2.0, result:'W', pnl:117.39, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'WTA Qatar', match:'Vacherot vs Wong', pick:'Vacherot ML', price:0.68, stake:2.0, result:'W', pnl:47.06, fw:'v1.2', surface:'Hard' },
-  // Feb 24-25 multi
   { date:'Feb 24', tournament:'Multi-Tour', match:'Medvedev vs ?', pick:'Medvedev ML', price:0.84, stake:2.0, result:'W', pnl:19.05, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'Multi-Tour', match:'PCB vs ?', pick:'PCB ML', price:0.32, stake:1.0, result:'W', pnl:106.25, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'Multi-Tour', match:'Bublik vs ?', pick:'Bublik ML', price:0.72, stake:1.5, result:'W', pnl:29.17, fw:'v1.2', surface:'Hard' },
@@ -213,6 +212,7 @@ const BETS = [
   { date:'Feb 24', tournament:'Multi-Tour', match:'Tabilo vs ?', pick:'Tabilo ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'Multi-Tour', match:'Zverev vs ?', pick:'Zverev -1.5', price:0.57, stake:1.5, result:'W', pnl:56.58, fw:'v1.2', surface:'Hard' },
   { date:'Feb 24', tournament:'Multi-Tour', match:'Tiafoe vs ?', pick:'Tiafoe ML', price:0.61, stake:1.5, result:'W', pnl:47.95, fw:'v1.2', surface:'Hard' },
+  // Feb 25
   { date:'Feb 25', tournament:'Multi-Tour', match:'Bergs vs ?', pick:'Bergs ML', price:0.49, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard' },
   { date:'Feb 25', tournament:'Multi-Tour', match:'Tsitsipas vs ?', pick:'Tsitsipas ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
   { date:'Feb 25', tournament:'Multi-Tour', match:'Majchrzak vs ?', pick:'Majchrzak ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
@@ -221,7 +221,7 @@ const BETS = [
   { date:'Feb 25', tournament:'Multi-Tour', match:'Buse vs ?', pick:'Buse ML', price:0.47, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard' },
   { date:'Feb 25', tournament:'Multi-Tour', match:'Grenier vs ?', pick:'Grenier ML', price:0.47, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard' },
   { date:'Feb 25', tournament:'Multi-Tour', match:'Fils vs ?', pick:'Fils ML', price:0.45, stake:1.0, result:'R', pnl:0, fw:'v1.2', surface:'Hard' },
-  // Feb 26-27
+  // Feb 26
   { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA ML', price:0.66, stake:2.0, result:'W', pnl:51.51, fw:'v1.5', surface:'Hard' },
   { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA -1.5', price:0.42, stake:1.5, result:'W', pnl:103.57, fw:'v1.5', surface:'Hard' },
   { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'O23.5 games', price:0.49, stake:1.5, result:'W', pnl:78.06, fw:'v1.5', surface:'Hard' },
@@ -234,6 +234,7 @@ const BETS = [
   { date:'Feb 26', tournament:'Mexico Open QF', match:'Tiafoe vs Bellucci', pick:'Bellucci ML', price:0.35, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard' },
   { date:'Feb 26', tournament:'Mexico Open QF', match:'Vacherot vs Nakashima', pick:'Vacherot ML', price:0.45, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard' },
   { date:'Feb 26', tournament:'St. Brieuc CH', match:'Lajal vs Herbert', pick:'Herbert ML', price:0.41, stake:1.5, result:'W', pnl:107.92, fw:'v1.5', surface:'Indoor' },
+  // Feb 27
   { date:'Feb 27', tournament:'St. Brieuc CH', match:'Droguet vs Poullain', pick:'Poullain ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor' },
   { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'Moro Canas ML', price:0.32, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor' },
   { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Indoor' },
@@ -246,13 +247,6 @@ const BETS = [
   { date:'Feb 28', tournament:'Chile Open SF', match:'Hanfmann vs Gaubas', pick:'Gaubas ML', price:0.30, stake:0.5, result:'L', pnl:-25, fw:'v1.7', surface:'Clay' },
   { date:'Feb 28', tournament:'St. Brieuc CH', match:'Herbert vs Droguet', pick:'Herbert ML', price:0.33, stake:1.0, result:'W', pnl:101.52, fw:'v1.7', surface:'Indoor' },
   { date:'Feb 28', tournament:'St. Brieuc CH', match:'Ofner vs Martineau', pick:'Ofner ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.7', surface:'Indoor' },
-  // Mar 2
-  { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard' },
-  { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
-  { date:'Mar 2', tournament:'St. Brieuc CH Final', match:'Ofner vs Herbert', pick:'Herbert ML', price:0.50, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor' },
   // Mar 1
   { date:'Mar 1', tournament:'Pune CH', match:'Ajdukovic vs Cina', pick:'Ajdukovic ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
   { date:'Mar 1', tournament:'St. Brieuc CH', match:'Chidekh vs Ofner', pick:'Chidekh ML', price:0.49, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor' },
@@ -263,10 +257,18 @@ const BETS = [
   { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez +1.5', price:0.66, stake:2.0, result:'L', pnl:-100, fw:'v1.8', surface:'Clay' },
   { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Clay' },
   { date:'Mar 1', tournament:'Mexico Open Final', match:'Tiafoe vs Cobolli', pick:'Tiafoe ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
+  // Mar 2
+  { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay' },
+  { date:'Mar 2', tournament:'Chile Open Final', match:'Hanfmann vs Darderi', pick:'Darderi ML', price:0.63, stake:2.0, result:'W', pnl:58.73, fw:'v1.8', surface:'Clay' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard' },
+  { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard' },
+  { date:'Mar 2', tournament:'St. Brieuc CH Final', match:'Ofner vs Herbert', pick:'Herbert ML', price:0.50, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor' },
 ];
 
 // ─── Sort & Filter State ───────────────────────────────────
-let sortKey = 'date', sortDir = 1;
+let sortKey = 'date', sortDir = -1;
 let filtered = [...BETS];
 
 function resetFilters() {
@@ -289,6 +291,10 @@ function applyFilters() {
     if (surf && b.surface !== surf) return false;
     return true;
   });
+  // Apply current sort (default: newest first)
+  if (sortKey === 'date') {
+    filtered = sortDir === -1 ? [...filtered].reverse() : filtered;
+  }
   renderTable();
   updateStats();
 }
@@ -463,7 +469,6 @@ function drawChart() {
 
   // Pending bets — projected dots
   const pending = [
-    { label: 'Darderi ML\nChile Open Final\n2u @ 63¢', winPnl: 100*((1/0.63)-1), lossPnl: -100 },
   ];
   const lastCum = series[series.length-1].cum;
   pending.forEach((p, i) => {
