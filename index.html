@@ -80,6 +80,8 @@ tr:hover td { background: #16161f; }
   td, th { padding: 5px 6px; font-size: 11px; }
 }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.2.0/dist/chartjs-plugin-zoom.min.js"></script>
 </head>
 <body>
 
@@ -99,8 +101,12 @@ tr:hover td { background: #16161f; }
   <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">73 bets</div></div>
 </div>
 
-<div class="chart-wrap">
-  <canvas id="chart" height="280" style="width:100%"></canvas>
+<div class="chart-wrap" style="position:relative;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+    <div style="font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">📈 Cumulative P&L</div>
+    <button onclick="resetChartZoom()" style="background:#1a1f2e;border:1px solid #2d3a5e;border-radius:4px;color:#60a5fa;font-size:10px;padding:3px 10px;cursor:pointer;">Reset Zoom</button>
+  </div>
+  <canvas id="chart"></canvas>
 </div>
 
 <!-- PENDING CARD -->
@@ -414,129 +420,168 @@ function exportCSV() {
 }
 
 // ─── Chart ────────────────────────────────────────────────
+let pnlChart = null;
+function resetChartZoom() { if (pnlChart) pnlChart.resetZoom(); }
+
 function drawChart() {
   const cv = document.getElementById('chart');
-  const dpr = window.devicePixelRatio || 1;
-  const rect = cv.parentElement.getBoundingClientRect();
-  cv.width = rect.width * dpr;
-  cv.height = 280 * dpr;
-  cv.style.height = '280px';
-  const ctx = cv.getContext('2d');
-  ctx.scale(dpr, dpr);
-  const W = rect.width, H = 280;
-  const isMobile = W < 500;
-  const PAD = { t: 20, r: 12, b: 40, l: isMobile ? 44 : 68 };
-  const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
+  if (pnlChart) { pnlChart.destroy(); pnlChart = null; }
 
-  // Build cumulative series: index 0 = origin ($0), index 1..N = bets
-  const series = [{ bet: null, cum: 0 }];
+  // Build cumulative series
+  const labels = ['Start'];
+  const cumData = [0];
+  const dotColors = ['#555'];
+  const dotBorders = ['#0d0d12'];
+  const betMeta = [null];
   let cum = 0;
-  BETS.forEach(b => {
+  BETS.forEach((b, i) => {
     cum += b.pnl;
-    series.push({ bet: b, cum });
+    const label = b.date + (b.time ? ' ' + b.time : '') + ' #' + (i+1);
+    labels.push(label);
+    cumData.push(parseFloat(cum.toFixed(2)));
+    dotColors.push(b.result === 'W' ? '#22c55e' : b.result === 'L' ? '#ef4444' : '#888');
+    dotBorders.push('#0d0d12');
+    betMeta.push(b);
   });
 
-  const mn = Math.min(...series.map(s => s.cum)) - 50;
-  const mx = Math.max(...series.map(s => s.cum)) + 80;
-  const rng = mx - mn;
-
-  // Simple mapping: series index i (0..N) to x position
-  const N = series.length - 1; // number of bets
-  const xAt = i => PAD.l + (i / N) * cW;
-  const yAt = v => PAD.t + cH - ((v - mn) / rng) * cH;
-
-  ctx.clearRect(0, 0, W, H);
-
-  // Grid lines
-  const step = Math.ceil(rng / 6 / 100) * 100;
-  for (let g = Math.ceil(mn/step)*step; g <= mx; g += step) {
-    ctx.strokeStyle = g === 0 ? '#333' : '#191922';
-    ctx.lineWidth = g === 0 ? 1.5 : 1;
-    ctx.beginPath(); ctx.moveTo(PAD.l, yAt(g)); ctx.lineTo(W-PAD.r, yAt(g)); ctx.stroke();
-    ctx.fillStyle = '#444'; ctx.font = (isMobile ? '8px' : '10px') + ' sans-serif'; ctx.textAlign = 'right';
-    ctx.fillText((g>=0?'+':'')+'$'+g, PAD.l-(isMobile?3:5), yAt(g)+4);
-  }
-
-  // Date labels & vertical lines
-  const dates = [...new Set(BETS.map(b => b.date))];
-  dates.forEach((d, di) => {
-    if (isMobile && di % 2 !== 0) return;
-    const firstBetIdx = BETS.findIndex(b => b.date === d);
-    const x = xAt(firstBetIdx + 1); // +1 because series[0] is origin
-    ctx.fillStyle = '#2a2a38';
-    ctx.fillRect(x, PAD.t, 1, cH);
-    ctx.fillStyle = '#333'; ctx.font = (isMobile ? '7px' : '9px') + ' sans-serif'; ctx.textAlign = 'center';
-    ctx.fillText(d, x, H - 5);
+  pnlChart = new Chart(cv, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Cumulative P&L ($)',
+        data: cumData,
+        borderColor: '#22c55e',
+        borderWidth: 2,
+        pointBackgroundColor: dotColors,
+        pointBorderColor: dotBorders,
+        pointBorderWidth: 1.5,
+        pointRadius: 4,
+        pointHoverRadius: 7,
+        tension: 0,
+        fill: {
+          target: 'origin',
+          above: 'rgba(34,197,94,0.08)',
+          below: 'rgba(239,68,68,0.05)'
+        }
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 600, easing: 'easeOutQuart' },
+      layout: { padding: { top: 5, right: 5, bottom: 5, left: 5 } },
+      scales: {
+        x: {
+          ticks: {
+            color: '#444',
+            font: { size: 9 },
+            maxRotation: 45,
+            autoSkip: true,
+            maxTicksLimit: 15,
+            callback: function(val, idx) {
+              // Show date only, skip duplicates
+              const label = this.getLabelForValue(val);
+              const date = label.split(' #')[0].split(' ').slice(0, 2).join(' ');
+              return date;
+            }
+          },
+          grid: { color: '#191922', lineWidth: 1 }
+        },
+        y: {
+          ticks: {
+            color: '#444',
+            font: { size: 10 },
+            callback: v => (v >= 0 ? '+' : '') + '$' + v
+          },
+          grid: {
+            color: ctx => ctx.tick.value === 0 ? '#333' : '#191922',
+            lineWidth: ctx => ctx.tick.value === 0 ? 1.5 : 1
+          }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e1e2e',
+          borderColor: '#333',
+          borderWidth: 1,
+          titleColor: '#fff',
+          bodyColor: '#ccc',
+          padding: 10,
+          cornerRadius: 6,
+          displayColors: false,
+          callbacks: {
+            title: function(items) {
+              const i = items[0].dataIndex;
+              const b = betMeta[i];
+              if (!b) return 'Start';
+              return b.match;
+            },
+            label: function(item) {
+              const i = item.dataIndex;
+              const b = betMeta[i];
+              if (!b) return 'P&L: $0';
+              const lines = [];
+              lines.push(b.tournament + ' · ' + b.date + (b.time ? ' · ' + b.time : ''));
+              lines.push('Pick: ' + b.pick + ' @ ' + Math.round(b.price*100) + '¢ · ' + b.stake + 'u');
+              const icon = b.result === 'W' ? '✅ WIN' : b.result === 'L' ? '❌ LOSS' : '🔄 REFUND';
+              lines.push(icon + ' · ' + (b.pnl > 0 ? '+' : '') + '$' + b.pnl.toFixed(2));
+              lines.push('Running: ' + (item.parsed.y >= 0 ? '+' : '') + '$' + item.parsed.y.toFixed(2));
+              lines.push(b.fw + ' · ' + b.surface);
+              return lines;
+            }
+          }
+        },
+        zoom: {
+          pan: {
+            enabled: true,
+            mode: 'x',
+            modifierKey: null
+          },
+          zoom: {
+            wheel: { enabled: true, speed: 0.1 },
+            pinch: { enabled: true },
+            mode: 'x',
+            onZoomComplete: function({chart}) {
+              chart.update('none');
+            }
+          },
+          limits: {
+            x: { min: 0, max: labels.length - 1 },
+          }
+        }
+      },
+      interaction: {
+        mode: 'nearest',
+        intersect: false,
+        axis: 'x'
+      }
+    },
+    plugins: [{
+      id: 'zeroLine',
+      beforeDraw(chart) {
+        const yScale = chart.scales.y;
+        const ctx = chart.ctx;
+        const zeroY = yScale.getPixelForValue(0);
+        if (zeroY >= chart.chartArea.top && zeroY <= chart.chartArea.bottom) {
+          ctx.save();
+          ctx.strokeStyle = '#444';
+          ctx.lineWidth = 1;
+          ctx.setLineDash([4, 4]);
+          ctx.beginPath();
+          ctx.moveTo(chart.chartArea.left, zeroY);
+          ctx.lineTo(chart.chartArea.right, zeroY);
+          ctx.stroke();
+          ctx.restore();
+        }
+      }
+    }]
   });
 
-  // Gradient fill under the line
-  const grad = ctx.createLinearGradient(0, PAD.t, 0, H-PAD.b);
-  grad.addColorStop(0, 'rgba(34,197,94,0.15)');
-  grad.addColorStop(1, 'rgba(34,197,94,0.01)');
-  ctx.beginPath();
-  ctx.moveTo(xAt(0), yAt(0));
-  for (let i = 1; i < series.length; i++) ctx.lineTo(xAt(i), yAt(series[i].cum));
-  ctx.lineTo(xAt(N), yAt(mn));
-  ctx.lineTo(xAt(0), yAt(mn));
-  ctx.closePath(); ctx.fillStyle = grad; ctx.fill();
-
-  // P&L line
-  ctx.strokeStyle = '#22c55e'; ctx.lineWidth = 2; ctx.lineJoin = 'round';
-  ctx.beginPath();
-  ctx.moveTo(xAt(0), yAt(0));
-  for (let i = 1; i < series.length; i++) ctx.lineTo(xAt(i), yAt(series[i].cum));
-  ctx.stroke();
-
-  // Bet dots
-  for (let i = 1; i < series.length; i++) {
-    const s = series[i];
-    const x = xAt(i), y = yAt(s.cum);
-    ctx.beginPath(); ctx.arc(x, y, 3.5, 0, Math.PI*2);
-    ctx.fillStyle = s.bet.result==='W' ? '#22c55e' : s.bet.result==='L' ? '#ef4444' : '#888';
-    ctx.fill();
-    ctx.strokeStyle = '#0d0d12'; ctx.lineWidth = 1.5; ctx.stroke();
-  }
-
-  // Legend
-  const legend = [['W', '#22c55e', 'Win'], ['L', '#ef4444', 'Loss'], ['R', '#888', 'Refund']];
-  legend.forEach(([sym, col, lbl], li) => {
-    const lx = PAD.l + li * 90, ly = H - 8;
-    ctx.beginPath(); ctx.arc(lx + 5, ly - 3, 4, 0, Math.PI*2);
-    ctx.fillStyle = col; ctx.fill();
-    ctx.fillStyle = '#555'; ctx.font = '10px sans-serif'; ctx.textAlign = 'left';
-    ctx.fillText(lbl, lx + 12, ly);
-  });
-
-  // Hover tooltip
-  cv.onmousemove = e => {
-    const r = cv.getBoundingClientRect();
-    const mouseX = e.clientX - r.left, mouseY = e.clientY - r.top;
-    let best = null, bestDist = 20;
-    for (let i = 1; i < series.length; i++) {
-      const x = xAt(i), y = yAt(series[i].cum);
-      const d = Math.hypot(mouseX-x, mouseY-y);
-      if (d < bestDist) { bestDist = d; best = series[i]; }
-    }
-    const tt = document.getElementById('tooltip');
-    if (best && best.bet) {
-      const b = best.bet;
-      const resClass = b.result==='W' ? 'tt-win' : b.result==='L' ? 'tt-loss' : 'tt-void';
-      tt.innerHTML = `
-        <div class="tt-match">${b.match}</div>
-        <div>${b.tournament} · ${b.date}${b.time ? " · " + b.time : ""}</div>
-        <div>Pick: <b>${b.pick}</b> @ ${Math.round(b.price*100)}¢ · ${b.stake}u</div>
-        <div class="${resClass}"><b>${b.result === 'W' ? '✅ WIN' : b.result === 'L' ? '❌ LOSS' : '🔄 REFUND'}</b> · ${b.pnl>0?'+':''}$${b.pnl.toFixed(2)}</div>
-        <div style="color:#555;margin-top:3px">Running: ${best.cum>=0?'+':''}$${best.cum.toFixed(2)}</div>
-        <div style="color:#333;font-size:10px">${b.fw} · ${b.surface}</div>
-      `;
-      tt.style.display = 'block';
-      tt.style.left = (e.clientX + 14) + 'px';
-      tt.style.top = (e.clientY - 10) + 'px';
-    } else {
-      tt.style.display = 'none';
-    }
-  };
-  cv.onmouseleave = () => { document.getElementById('tooltip').style.display='none'; };
+  // Set canvas container height
+  cv.parentElement.style.height = '300px';
+  cv.style.height = '300px';
 }
 
 
@@ -697,7 +742,7 @@ function drawProjChart() {
 drawChart();
 drawBrierChart();
 drawProjChart();
-window.addEventListener('resize', () => { drawChart(); drawBrierChart(); drawProjChart(); });
+window.addEventListener('resize', () => { drawBrierChart(); drawProjChart(); });
 renderTable();
 updateStats();
 ['search','filter-result','filter-fw','filter-surface'].forEach(id => {
