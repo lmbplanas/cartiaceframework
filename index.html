@@ -743,13 +743,13 @@ function drawBrierChart() {
   const rect = cv.parentElement.getBoundingClientRect();
   const isMobile = rect.width < 500;
   cv.width = rect.width * dpr;
-  const chartH = isMobile ? 180 : 200;
+  const chartH = isMobile ? 160 : 200;
   cv.height = chartH * dpr;
   cv.style.height = chartH + 'px';
   const ctx = cv.getContext('2d');
   ctx.scale(dpr, dpr);
   const W = rect.width, H = chartH;
-  const PAD = { t: isMobile ? 16 : 20, r: isMobile ? 12 : 20, b: isMobile ? 40 : 50, l: isMobile ? 36 : 50 };
+  const PAD = { t: isMobile ? 10 : 14, r: isMobile ? 14 : 20, b: isMobile ? 36 : 46, l: isMobile ? 36 : 50 };
   const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
 
   // Bucket data from resolved bets
@@ -794,12 +794,21 @@ function drawBrierChart() {
     ctx.fillText('Actual Win Rate', 0, 0); ctx.restore();
   }
 
-  // Brier score label
-  ctx.fillStyle = '#eab308'; ctx.font = 'bold ' + (isMobile ? '9px' : '11px') + ' sans-serif'; ctx.textAlign = 'right';
-  ctx.fillText('Brier: 0.2268 | Skill: +0.090', W-PAD.r, PAD.t-(isMobile?2:4));
+  // Brier score label (rendered in HTML above canvas)
+  // Update the HTML label dynamically
+  const resolved = BETS.filter(b => b.result === 'W' || b.result === 'L');
+  if (resolved.length > 0) {
+    const wins = resolved.filter(b => b.result === 'W').length;
+    const brier = resolved.reduce((s, b) => s + Math.pow(b.price - (b.result === 'W' ? 1 : 0), 2), 0) / resolved.length;
+    const baseWR = wins / resolved.length;
+    const unc = baseWR * (1 - baseWR);
+    const skill = unc > 0 ? (1 - brier / unc) : 0;
+    const lbl = document.getElementById('brierLabel');
+    if (lbl) lbl.textContent = 'Brier: ' + brier.toFixed(4) + ' | Skill: ' + (skill >= 0 ? '+' : '') + skill.toFixed(3);
+  }
 
   // Plot buckets
-  buckets.forEach(b => {
+  buckets.filter(b => !(isMobile && b.n <= 1)).forEach(b => {
     const x = PAD.l + b.midP * cW;
     const yActual = H - PAD.b - b.actualWR * cH;
     const yPerfect = H - PAD.b - b.midP * cH;
