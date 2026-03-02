@@ -153,9 +153,39 @@ tr:hover td { background: #16161f; }
 <div class="meta">Feb 22 – Mar 3, 2026 &nbsp;|&nbsp; 1u = $50 &nbsp;|&nbsp; Polymarket</div>
 
 <!-- PENDING CARD -->
+<div style="margin:0 0 12px;font-size:10px;color:#555;letter-spacing:2px;text-transform:uppercase;font-weight:600;">ACTIVE POSITIONS</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;">
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
+      <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 5:00 AM PHT (Mar 3)</div>
+      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Tseng ML</div>
+      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Goffin | 40c | 0.5u = $25</div>
+      <div style="display:flex;gap:8px;font-size:11px;">
+        <span style="color:#22c55e">P_true 54.8%</span>
+        <span style="color:#555">·</span>
+        <span style="color:#22c55e">Edge +14.8%</span>
+        <span style="color:#555">·</span>
+        <span style="color:#22c55e">MC 99.6%</span>
+      </div>
+    </div>
+    <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;min-width:220px;" class="pick-card">
+      <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 8:00 AM PHT (Mar 3)</div>
+      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Kopriva ML</div>
+      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Sakamoto | 49c | 0.5u = $25</div>
+      <div style="display:flex;gap:8px;font-size:11px;">
+        <span style="color:#22c55e">P_true 66.0%</span>
+        <span style="color:#555">·</span>
+        <span style="color:#22c55e">Edge +17.0%</span>
+        <span style="color:#555">·</span>
+        <span style="color:#22c55e">MC 99.9%</span>
+      </div>
+    </div>
+</div>
+<div style="font-size:11px;color:#555;margin-bottom:16px;">
+  1u · $50 | Max return: +$87.50 | Max risk: -$50
+</div>
 <div class="stats-row">
-  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">38W-36L</div></div>
-  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">51.4%</div></div>
+  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">37W-34L</div></div>
+  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">52.1%</div></div>
   <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+987.11</div></div>
   <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+19.74u</div></div>
   <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2239</div></div>
@@ -218,6 +248,8 @@ tr:hover td { background: #16161f; }
     <option value="v1.5">v1.5</option>
     <option value="v1.7">v1.7</option>
     <option value="v1.8">v1.8</option>
+    <option value="v1.9">v1.9</option>
+    <option value="v1.10">v1.10</option>
   </select>
   <select id="filter-surface">
     <option value="">All Surfaces</option>
@@ -249,31 +281,554 @@ tr:hover td { background: #16161f; }
     <tbody id="tableBody"></tbody>
   </table>
 </div>
-<div style="margin:24px 0 8px;font-size:10px;color:#444;letter-spacing:2px;text-transform:uppercase;">⏳ Active Picks</div>
-<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;">
-    <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
-      <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 5:00 AM PHT (Mar 3)</div>
-      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Tseng ML</div>
-      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Goffin &nbsp;|&nbsp; 40¢ &nbsp;|&nbsp; 0.5u = $25</div>
-      <div style="display:flex;gap:8px;font-size:11px;">
-        <span style="color:#22c55e">P_true 54.8%</span><span style="color:#555">·</span>
-        <span style="color:#22c55e">Edge +14.8%</span><span style="color:#555">·</span>
-        <span style="color:#22c55e">MC 99.6%</span>
-      </div>
-      <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">IW slow courts + Dunlop favors Tseng clay bg. Goffin 0-2 in 2026, 29% hard WR. B+S multi-component. Audit passed.</div>
-    </div>
-    <div style="background:#111a11;border:1px solid #2a4a2a;border-radius:8px;padding:12px 16px;min-width:220px;">
-      <div style="font-size:10px;color:#555;margin-bottom:4px;">IW Qualifying Q1 · 8:00 AM PHT (Mar 3)</div>
-      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">Kopriva ML</div>
-      <div style="font-size:12px;color:#888;margin-bottom:6px;">vs Sakamoto &nbsp;|&nbsp; 49¢ &nbsp;|&nbsp; 0.5u = $25</div>
-      <div style="display:flex;gap:8px;font-size:11px;">
-        <span style="color:#22c55e">P_true 66.0%</span><span style="color:#555">·</span>
-        <span style="color:#22c55e">Edge +17.0%</span><span style="color:#555">·</span>
-        <span style="color:#22c55e">MC 99.9%</span>
-      </div>
-      <div style="font-size:10px;color:#666;margin-top:6px;line-height:1.4;">Clay specialist (#62) on IW slow Laykold + Dunlop. Beat Berrettini #40, Cerúndolo JM #50, Struff #45. Market 49¢ = 50/50, framework says 66%. ZEP cap 0.5u.</div>
-    </div>
-</div>
-<div style="font-size:11px;color:#555;margin-bottom:20px;">1u · $50 &nbsp;|&nbsp; Best case: +$51.02 &nbsp;|&nbsp; Worst: −$50</div>
+<div class="summary-footer" id="tableFooter"></div>
+
+<script>
+const BETS = [
+  // Feb 22
+  { date:'Feb 22', tournament:'Delray Beach', match:'Paul vs Korda', pick:'Paul ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.0', surface:'Hard', time:'' },
+  // Feb 23
+  { date:'Feb 23', tournament:'Acapulco Q', match:'Svajda vs Shimabukuro', pick:'Svajda ML', price:0.77, stake:1.5, result:'R', pnl:0, fw:'v1.0', surface:'Hard', time:'' },
+  // Feb 24
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Bartunkova vs Volynets', pick:'Bartunkova ML', price:0.50, stake:2.0, result:'W', pnl:100.00, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Chidekh vs ?', pick:'Chidekh ML', price:0.56, stake:2.0, result:'W', pnl:78.57, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Wawrinka vs ?', pick:'Wawrinka -1.5', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Pellegrino vs ?', pick:'Pellegrino ML', price:0.51, stake:1.0, result:'W', pnl:48.04, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Echargui vs ?', pick:'Echargui ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Schoolkate vs ?', pick:'Schoolkate ML', price:0.26, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Boulter vs BHM', pick:'Boulter ML', price:0.70, stake:2.0, result:'W', pnl:42.86, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Wang vs Masarova', pick:'Wang -1.5', price:0.57, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Arango vs Potapova', pick:'Potapova ML', price:0.72, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Jodar vs Norrie', pick:'Jodar ML', price:0.46, stake:2.0, result:'W', pnl:117.39, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'WTA Qatar', match:'Vacherot vs Wong', pick:'Vacherot ML', price:0.68, stake:2.0, result:'W', pnl:47.06, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Medvedev vs ?', pick:'Medvedev ML', price:0.84, stake:2.0, result:'W', pnl:19.05, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'PCB vs ?', pick:'PCB ML', price:0.32, stake:1.0, result:'W', pnl:106.25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Bublik vs ?', pick:'Bublik ML', price:0.72, stake:1.5, result:'W', pnl:29.17, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Griekspoor vs ?', pick:'Griekspoor ML', price:0.57, stake:2.0, result:'W', pnl:75.44, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Mensik vs ?', pick:'Mensik ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Shevchenko vs ?', pick:'Shevchenko +1.5', price:0.46, stake:1.0, result:'W', pnl:58.70, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Kopriva vs ?', pick:'Kopriva +1.5', price:0.65, stake:1.5, result:'W', pnl:40.38, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Vallejo vs ?', pick:'Vallejo ML', price:0.58, stake:2.0, result:'W', pnl:72.41, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Tabilo vs ?', pick:'Tabilo ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Zverev vs ?', pick:'Zverev -1.5', price:0.57, stake:1.5, result:'W', pnl:56.58, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 24', tournament:'Multi-Tour', match:'Tiafoe vs ?', pick:'Tiafoe ML', price:0.61, stake:1.5, result:'W', pnl:47.95, fw:'v1.2', surface:'Hard', time:'' },
+  // Feb 25
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Bergs vs ?', pick:'Bergs ML', price:0.49, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Tsitsipas vs ?', pick:'Tsitsipas ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Majchrzak vs ?', pick:'Majchrzak ML', price:0.49, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Marozsan vs ?', pick:'Marozsan ML', price:0.62, stake:1.5, result:'L', pnl:-75, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Royer vs ?', pick:'Royer +1.5', price:0.44, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Buse vs ?', pick:'Buse ML', price:0.47, stake:1.0, result:'L', pnl:-50, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Grenier vs ?', pick:'Grenier ML', price:0.47, stake:0.5, result:'L', pnl:-25, fw:'v1.2', surface:'Hard', time:'' },
+  { date:'Feb 25', tournament:'Multi-Tour', match:'Fils vs ?', pick:'Fils ML', price:0.45, stake:1.0, result:'R', pnl:0, fw:'v1.2', surface:'Hard', time:'' },
+  // Feb 26
+  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA ML', price:0.66, stake:2.0, result:'W', pnl:51.51, fw:'v1.5', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'FAA vs Lehecka', pick:'FAA -1.5', price:0.42, stake:1.5, result:'W', pnl:103.57, fw:'v1.5', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'O23.5 games', price:0.49, stake:1.5, result:'W', pnl:78.06, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor ML', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Dubai QF', match:'Mensik vs Griekspoor', pick:'Griekspoor +1.5', price:0.50, stake:1.0, result:'W', pnl:50.00, fw:'v1.5', surface:'Hard', time:'11:00 PM' },
+  { date:'Feb 26', tournament:'Chile Open QF', match:'Vallejo vs Nava', pick:'Vallejo ML', price:0.59, stake:2.0, result:'L', pnl:-100, fw:'v1.5', surface:'Clay', time:'4:00 AM' },
+  { date:'Feb 26', tournament:'Chile Open QF', match:'Cerundolo vs Moeller', pick:'Moeller +1.5', price:0.38, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Clay', time:'6:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Wu vs Cobolli', pick:'Cobolli ML', price:0.44, stake:1.0, result:'W', pnl:63.63, fw:'v1.5', surface:'Hard', time:'6:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Kecmanovic vs Atmane', pick:'Atmane ML', price:0.38, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Hard', time:'8:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Tiafoe vs Bellucci', pick:'Bellucci ML', price:0.35, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard', time:'10:00 AM' },
+  { date:'Feb 26', tournament:'Mexico Open QF', match:'Vacherot vs Nakashima', pick:'Vacherot ML', price:0.45, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Hard', time:'4:00 AM' },
+  { date:'Feb 26', tournament:'St. Brieuc CH', match:'Lajal vs Herbert', pick:'Herbert ML', price:0.41, stake:1.5, result:'W', pnl:107.92, fw:'v1.5', surface:'Indoor', time:'8:00 PM' },
+  // Feb 27
+  { date:'Feb 27', tournament:'St. Brieuc CH', match:'Droguet vs Poullain', pick:'Poullain ML', price:0.23, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor', time:'' },
+  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'Moro Canas ML', price:0.32, stake:0.5, result:'L', pnl:-25, fw:'v1.5', surface:'Indoor', time:'' },
+  { date:'Feb 27', tournament:'Lugano CH', match:'Moro Canas vs Stricker', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.5', surface:'Indoor', time:'' },
+  // Feb 28
+  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev ML', price:0.55, stake:2.0, result:'W', pnl:81.82, fw:'v1.7', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 28', tournament:'Dubai SF', match:'FAA vs Medvedev', pick:'Medvedev -1.5', price:0.30, stake:0.5, result:'W', pnl:58.33, fw:'v1.7', surface:'Hard', time:'1:00 AM' },
+  { date:'Feb 28', tournament:'Mexico Open SF', match:'Kecmanovic vs Cobolli', pick:'Cobolli ML', price:0.42, stake:2.0, result:'W', pnl:138.10, fw:'v1.7', surface:'Hard', time:'6:00 AM' },
+  { date:'Feb 28', tournament:'Mexico Open SF', match:'Tiafoe vs Nakashima', pick:'Tiafoe ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Hard', time:'8:00 AM' },
+  { date:'Feb 28', tournament:'Chile Open SF', match:'Tabilo vs Baez', pick:'Baez ML', price:0.52, stake:1.5, result:'W', pnl:69.23, fw:'v1.7', surface:'Clay', time:'5:00 AM' },
+  { date:'Feb 28', tournament:'Chile Open SF', match:'Hanfmann vs Gaubas', pick:'Gaubas ML', price:0.30, stake:0.5, result:'L', pnl:-25, fw:'v1.7', surface:'Clay', time:'3:00 AM' },
+  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Herbert vs Droguet', pick:'Herbert ML', price:0.33, stake:1.0, result:'W', pnl:101.52, fw:'v1.7', surface:'Indoor', time:'8:00 PM' },
+  { date:'Feb 28', tournament:'St. Brieuc CH', match:'Ofner vs Martineau', pick:'Ofner ML', price:0.62, stake:2.0, result:'W', pnl:61.29, fw:'v1.7', surface:'Indoor', time:'10:00 PM' },
+  // Mar 1
+  { date:'Mar 1', tournament:'Pune CH', match:'Ajdukovic vs Cina', pick:'Ajdukovic ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'3:30 PM' },
+  { date:'Mar 1', tournament:'Dubai Final', match:'Griekspoor vs Medvedev', pick:'Griekspoor +1.5', price:0.40, stake:1.0, result:'R', pnl:0, fw:'v1.8', surface:'Hard', time:'12:00 AM' },
+  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Chidekh vs Ofner', pick:'Chidekh ML', price:0.49, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor', time:'7:00 PM' },
+  { date:'Mar 1', tournament:'St. Brieuc CH', match:'Herbert vs Gaston', pick:'Herbert ML', price:0.37, stake:1.5, result:'W', pnl:121.22, fw:'v1.8', surface:'Indoor', time:'10:00 PM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Cerundolo vs Hanfmann', pick:'U22.5 games', price:0.57, stake:2.0, result:'W', pnl:85.96, fw:'v1.8', surface:'Clay', time:'4:00 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez ML', price:0.39, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'Baez +1.5', price:0.66, stake:2.0, result:'L', pnl:-100, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Chile Open SF', match:'Baez vs Darderi', pick:'O22.5 games', price:0.51, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 1', tournament:'Mexico Open Final', match:'Tiafoe vs Cobolli', pick:'Tiafoe ML', price:0.54, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard', time:'7:00 AM' },
+  // Mar 2
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Jones vs Bartunkova', pick:'Jones ML', price:0.43, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Lepchenko vs Fruhvirtova', pick:'Lepchenko ML', price:0.28, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Hard', time:'1:00 AM' },
+  { date:'Mar 2', tournament:'BNP Paribas Q', match:'Starodubtseva vs Kalieva', pick:'Kalieva ML', price:0.38, stake:0.5, result:'W', pnl:40.79, fw:'v1.9', surface:'Hard', time:'3:00 AM' },
+  { date:'Mar 2', tournament:'ATX Open Final', match:'Townsend vs Stearns', pick:'Townsend ML', price:0.52, stake:1.5, result:'L', pnl:-75, fw:'v1.8', surface:'Hard', time:'5:00 AM' },
+  { date:'Mar 2', tournament:'Chile Open Final', match:'Hanfmann vs Darderi', pick:'Darderi ML', price:0.63, stake:2.0, result:'W', pnl:58.73, fw:'v1.8', surface:'Clay', time:'6:30 AM' },
+  { date:'Mar 2', tournament:'St. Brieuc CH Final', match:'Ofner vs Herbert', pick:'Herbert ML', price:0.50, stake:1.0, result:'L', pnl:-50, fw:'v1.8', surface:'Indoor', time:'5:00 PM' },
+  { date:'Mar 2', tournament:'Lugano CH Final', match:'Schwaerzler vs Piros', pick:'Schwaerzler ML', price:0.31, stake:0.5, result:'L', pnl:-25, fw:'v1.8', surface:'Clay', time:'10:00 PM' },
+  { date:'Mar 2', tournament:'Hersonissos CH R32', match:'Neumayer vs Vasami', pick:'Vasami ML', price:0.33, stake:0.5, result:'L', pnl:-25, fw:'v1.10', surface:'Hard', time:'11:30 PM' },
+  { date:'Mar 2', tournament:'Hersonissos CH R32', match:'Rincon vs Durasovic', pick:'Durasovic ML', price:0.38, stake:1.0, result:'L', pnl:-50, fw:'v1.9', surface:'Hard', time:'11:30 PM' },
+  // Mar 3
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Bonzi vs JPJ', pick:'JPJ ML', price:0.53, stake:1.0, result:'L', pnl:-50, fw:'v1.9', surface:'Hard', time:'2:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Landaluce vs Blockx', pick:'Blockx ML', price:0.74, stake:0.5, result:'L', pnl:-25, fw:'v1.9', surface:'Hard', time:'2:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Jarry vs Maestrelli', pick:'Maestrelli ML', price:0.53, stake:1.0, result:'W', pnl:44.34, fw:'v1.9', surface:'Hard', time:'2:00 AM' },
+  // Mar 3 — IW Qualifying + Thionville CH
+  { date:'Mar 3', tournament:'Thionville CH R32', match:'Berrettini vs Rybakov', pick:'Rybakov ML', price:0.47, stake:0.5, result:'W', pnl:28.19, fw:'v1.10', surface:'Hard', time:'2:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Landaluce vs Blockx', pick:'Blockx ML', price:0.74, stake:0.5, result:'P', pnl:0, fw:'v1.10', surface:'Hard', time:'2:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Jarry vs Maestrelli', pick:'Maestrelli ML', price:0.53, stake:1.0, result:'P', pnl:0, fw:'v1.10', surface:'Hard', time:'2:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Tseng vs Goffin', pick:'Tseng ML', price:0.40, stake:0.5, result:'P', pnl:0, fw:'v1.10', surface:'Hard', time:'5:00 AM' },
+  { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Bonzi vs Pinnington Jones', pick:'JPJ ML', price:0.53, stake:1.0, result:'P', pnl:0, fw:'v1.10', surface:'Hard', time:'2:00 AM' },
+];
+
+//  Sort & Filter State 
+let sortKey = 'date', sortDir = -1;
+let filtered = [...BETS];
+
+function resetFilters() {
+  document.getElementById('search').value = '';
+  document.getElementById('filter-result').value = '';
+  document.getElementById('filter-fw').value = '';
+  document.getElementById('filter-surface').value = '';
+  applyFilters();
+renderDaily();
+}
+
+function applyFilters() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const res = document.getElementById('filter-result').value;
+  const fw = document.getElementById('filter-fw').value;
+  const surf = document.getElementById('filter-surface').value;
+  filtered = BETS.filter(b => {
+    if (q && !`${b.date} ${b.tournament} ${b.match} ${b.pick}`.toLowerCase().includes(q)) return false;
+    if (res && b.result !== res) return false;
+    if (fw && b.fw !== fw) return false;
+    if (surf && b.surface !== surf) return false;
+    return true;
+  });
+  // Apply current sort (default: newest first)
+  if (sortKey === 'date') {
+    filtered = sortDir === -1 ? [...filtered].reverse() : filtered;
+  }
+  renderTable();
+  updateStats();
+}
+
+function sortBy(key) {
+  if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+  filtered.sort((a, b) => {
+    let av = a[key], bv = b[key];
+    if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
+    return (av - bv) * sortDir;
+  });
+  renderTable();
+}
+
+function updateStats() {
+  const wins = filtered.filter(b => b.result === 'W').length;
+  const losses = filtered.filter(b => b.result === 'L').length;
+  const resolved = filtered.filter(b => b.result === 'W' || b.result === 'L');
+  const pnl = filtered.reduce((s, b) => s + b.pnl, 0);
+  const wr = wins + losses > 0 ? (wins / (wins + losses) * 100).toFixed(1) : '—';
+  document.getElementById('s-record').textContent = `${wins}W-${losses}L`;
+  document.getElementById('s-wr').textContent = `${wr}%`;
+  document.getElementById('s-pnl').textContent = (pnl >= 0 ? '+' : '') + '$' + pnl.toFixed(2);
+  document.getElementById('s-pnl').style.color = pnl >= 0 ? '#22c55e' : '#ef4444';
+  document.getElementById('s-wr').style.color = parseFloat(wr) >= 55 ? '#22c55e' : '#ef4444';
+  document.getElementById('s-units').textContent = (pnl / 50 >= 0 ? '+' : '') + (pnl / 50).toFixed(2) + 'u';
+  document.getElementById('s-units').style.color = pnl >= 0 ? '#22c55e' : '#ef4444';
+  document.getElementById('s-showing').textContent = filtered.length + ' bets';
+  // Brier score (dynamic on filtered)
+  if (resolved.length > 0) {
+    const brier = resolved.reduce((s, b) => s + Math.pow(b.price - (b.result === 'W' ? 1 : 0), 2), 0) / resolved.length;
+    const baseWR = wins / (wins + losses);
+    const uncertainty = baseWR * (1 - baseWR);
+    const skill = uncertainty > 0 ? (1 - brier / uncertainty) : 0;
+    const brierEl = document.getElementById('s-brier');
+    const skillEl = document.getElementById('s-skill');
+    if (brierEl) { brierEl.textContent = brier.toFixed(4); brierEl.style.color = brier < 0.20 ? '#22c55e' : brier < 0.23 ? '#eab308' : '#ef4444'; }
+    if (skillEl) { skillEl.textContent = (skill >= 0 ? '+' : '') + skill.toFixed(3); skillEl.style.color = skill > 0 ? '#22c55e' : '#ef4444'; }
+  }
+}
+
+function renderTable() {
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '';
+  let running = 0;
+  filtered.forEach((b, i) => {
+    running += b.pnl;
+    const tr = document.createElement('tr');
+    const resultClass = b.result === 'W' ? 'badge-w' : b.result === 'L' ? 'badge-l' : 'badge-r';
+    const pnlClass = b.pnl > 0 ? 'col-pnl-pos' : b.pnl < 0 ? 'col-pnl-neg' : 'col-pnl-zero';
+    const surfColor = b.surface === 'Clay' ? '#b45309' : b.surface === 'Indoor' ? '#2563eb' : '#374151';
+    tr.innerHTML = `
+      <td style="color:#444">${i+1} &nbsp;<span style="color:#666">${b.date}</span></td>
+      <td style="color:#555;font-size:10px">${b.time || '—'}</td>
+      <td style="color:#888">${b.tournament}</td>
+      <td style="color:#ccc">${b.match}</td>
+      <td style="color:#fff;font-weight:600">${b.pick}</td>
+      <td style="color:#888">${Math.round(b.price * 100)}¢</td>
+      <td style="color:#888">${b.stake}u</td>
+      <td><span class="badge ${resultClass}">${b.result}</span></td>
+      <td class="${pnlClass}">${b.pnl > 0 ? '+' : ''}$${b.pnl.toFixed(2)}</td>
+      <td><span class="fw-badge">${b.fw}</span></td>
+      <td><span style="background:${surfColor}22;border:1px solid ${surfColor}44;border-radius:3px;padding:1px 5px;font-size:10px;color:${surfColor === '#374151' ? '#9ca3af' : surfColor}">${b.surface}</span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+  const total = filtered.reduce((s,b) => s + b.pnl, 0);
+  document.getElementById('tableFooter').textContent = `Showing ${filtered.length} bets · Total P&L: ${total >= 0 ? '+' : ''}$${total.toFixed(2)} · ${(total/50 >= 0 ? '+' : '')}${(total/50).toFixed(2)}u`;
+}
+
+//  CSV Export 
+function exportCSV() {
+  const headers = ['#','Date','Time','Tournament','Match','Pick','Price','Stake(u)','Result','PnL($)','PnL(u)','Framework','Surface'];
+  const rows = filtered.map((b, i) => [
+    i+1, b.date, b.time || '', b.tournament, `"${b.match}"`, `"${b.pick}"`,
+    Math.round(b.price * 100) + '¢', b.stake, b.result,
+    (b.pnl >= 0 ? '+' : '') + b.pnl.toFixed(2),
+    (b.pnl/50 >= 0 ? '+' : '') + (b.pnl/50).toFixed(3),
+    b.fw, b.surface
+  ]);
+  const csv = [headers, ...rows].map(r => r.join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = 'ace_results.csv'; a.click();
+}
+
+//  Chart 
+
+function renderDaily() {
+  const days = {};
+  BETS.forEach(b => {
+    if (!days[b.date]) days[b.date] = { wins: 0, losses: 0, refunds: 0, pnl: 0, bets: 0 };
+    const d = days[b.date];
+    d.bets++;
+    d.pnl += b.pnl;
+    if (b.result === 'W') d.wins++;
+    else if (b.result === 'L') d.losses++;
+    else d.refunds++;
+  });
+
+  const dateOrder = Object.keys(days);
+  // Show newest first
+  dateOrder.reverse();
+
+  const tbody = document.getElementById('dailyTableBody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+
+  // Find max absolute PnL for bar scaling
+  const maxPnl = Math.max(...dateOrder.map(d => Math.abs(days[d].pnl)), 1);
+
+  dateOrder.forEach(date => {
+    const d = days[date];
+    const resolved = d.wins + d.losses;
+    const wr = resolved > 0 ? (d.wins / resolved * 100).toFixed(0) : '—';
+    const pnlStr = (d.pnl >= 0 ? '+' : '') + '$' + d.pnl.toFixed(2);
+    const units = (d.pnl / 50);
+    const unitsStr = (units >= 0 ? '+' : '') + units.toFixed(2) + 'u';
+    const pnlColor = d.pnl > 0 ? '#22c55e' : d.pnl < 0 ? '#ef4444' : '#888';
+    const wrColor = parseFloat(wr) >= 55 ? '#22c55e' : parseFloat(wr) < 45 ? '#ef4444' : '#eab308';
+    const barWidth = Math.round(Math.abs(d.pnl) / maxPnl * 80);
+    const barColor = d.pnl >= 0 ? '#22c55e' : '#ef4444';
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td style="color:#ccc;font-weight:600">${date}</td>
+      <td><span style="color:#22c55e">${d.wins}W</span>-<span style="color:#ef4444">${d.losses}L</span>${d.refunds ? '-<span style="color:#888">' + d.refunds + 'R</span>' : ''}</td>
+      <td style="color:${wrColor}">${wr}%</td>
+      <td style="color:${pnlColor};font-weight:700">${pnlStr}</td>
+      <td style="color:${pnlColor}">${unitsStr}</td>
+      <td style="color:#555">${d.bets}</td>
+      <td><span class="daily-bar" style="width:${barWidth}px;background:${barColor}"></span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+let pnlChart = null;
+function resetChartZoom() { if (pnlChart) pnlChart.resetZoom(); }
+
+function drawChart() {
+  const cv = document.getElementById('chart');
+  if (pnlChart) { pnlChart.destroy(); pnlChart = null; }
+
+  // Build cumulative series
+  const labels = ['Start'];
+  const cumData = [0];
+  const dotColors = ['#555'];
+  const dotBorders = ['#0d0d12'];
+  const betMeta = [null];
+  let cum = 0;
+  BETS.forEach((b, i) => {
+    cum += b.pnl;
+    const label = b.date + (b.time ? ' ' + b.time : '') + ' #' + (i+1);
+    labels.push(label);
+    cumData.push(parseFloat(cum.toFixed(2)));
+    dotColors.push(b.result === 'W' ? '#22c55e' : b.result === 'L' ? '#ef4444' : '#888');
+    dotBorders.push('#0d0d12');
+    betMeta.push(b);
+  });
+
+  pnlChart = new Chart(cv, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Cumulative P&L ($)',
+        data: cumData,
+        borderColor: '#22c55e',
+        borderWidth: 2,
+        pointBackgroundColor: dotColors,
+        pointBorderColor: dotBorders,
+        pointBorderWidth: 1.5,
+        pointRadius: 4,
+        pointHoverRadius: 7,
+        tension: 0,
+        fill: {
+          target: 'origin',
+          above: 'rgba(34,197,94,0.08)',
+          below: 'rgba(239,68,68,0.05)'
+        }
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 600, easing: 'easeOutQuart' },
+      layout: { padding: { top: 5, right: 5, bottom: 5, left: 5 } },
+      scales: {
+        x: {
+          ticks: {
+            color: '#444',
+            font: { size: window.innerWidth < 640 ? 7 : 9 },
+            maxRotation: window.innerWidth < 640 ? 60 : 45,
+            autoSkip: true,
+            maxTicksLimit: window.innerWidth < 640 ? 8 : 15,
+            callback: function(val, idx) {
+              // Show date only, skip duplicates
+              const label = this.getLabelForValue(val);
+              const date = label.split(' #')[0].split(' ').slice(0, 2).join(' ');
+              return date;
+            }
+          },
+          grid: { color: '#191922', lineWidth: 1 }
+        },
+        y: {
+          ticks: {
+            color: '#444',
+            font: { size: window.innerWidth < 640 ? 8 : 10 },
+            maxTicksLimit: window.innerWidth < 640 ? 6 : 8,
+            callback: v => (v >= 0 ? '+' : '') + '$' + v
+          },
+          grid: {
+            color: ctx => ctx.tick.value === 0 ? '#333' : '#191922',
+            lineWidth: ctx => ctx.tick.value === 0 ? 1.5 : 1
+          }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e1e2e',
+          borderColor: '#333',
+          borderWidth: 1,
+          titleColor: '#fff',
+          bodyColor: '#ccc',
+          padding: 10,
+          cornerRadius: 6,
+          displayColors: false,
+          callbacks: {
+            title: function(items) {
+              const i = items[0].dataIndex;
+              const b = betMeta[i];
+              if (!b) return 'Start';
+              return b.match;
+            },
+            label: function(item) {
+              const i = item.dataIndex;
+              const b = betMeta[i];
+              if (!b) return 'P&L: $0';
+              const lines = [];
+              lines.push(b.tournament + ' · ' + b.date + (b.time ? ' · ' + b.time : ''));
+              lines.push('Pick: ' + b.pick + ' @ ' + Math.round(b.price*100) + '¢ · ' + b.stake + 'u');
+              const icon = b.result === 'W' ? 'WIN' : b.result === 'L' ? 'LOSS' : 'VOID';
+              lines.push(icon + ' · ' + (b.pnl > 0 ? '+' : '') + '$' + b.pnl.toFixed(2));
+              lines.push('Running: ' + (item.parsed.y >= 0 ? '+' : '') + '$' + item.parsed.y.toFixed(2));
+              lines.push(b.fw + ' · ' + b.surface);
+              return lines;
+            }
+          }
+        },
+        zoom: {
+          pan: {
+            enabled: true,
+            mode: 'x',
+            modifierKey: null
+          },
+          zoom: {
+            wheel: { enabled: true, speed: 0.1 },
+            pinch: { enabled: true },
+            mode: 'x',
+            onZoomComplete: function({chart}) {
+              chart.update('none');
+            }
+          },
+          limits: {
+            x: { min: 0, max: labels.length - 1 },
+          }
+        }
+      },
+      interaction: {
+        mode: 'nearest',
+        intersect: false,
+        axis: 'x'
+      }
+    },
+    plugins: [{
+      id: 'zeroLine',
+      beforeDraw(chart) {
+        const yScale = chart.scales.y;
+        const ctx = chart.ctx;
+        const zeroY = yScale.getPixelForValue(0);
+        if (zeroY >= chart.chartArea.top && zeroY <= chart.chartArea.bottom) {
+          ctx.save();
+          ctx.strokeStyle = '#444';
+          ctx.lineWidth = 1;
+          ctx.setLineDash([4, 4]);
+          ctx.beginPath();
+          ctx.moveTo(chart.chartArea.left, zeroY);
+          ctx.lineTo(chart.chartArea.right, zeroY);
+          ctx.stroke();
+          ctx.restore();
+        }
+      }
+    }]
+  });
+
+  // Set canvas container height
+  cv.parentElement.style.height = '300px';
+  cv.style.height = '300px';
+}
 
 
+function drawBrierChart() {
+  const cv = document.getElementById('brierChart');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = cv.parentElement.getBoundingClientRect();
+  const isMobile = rect.width < 500;
+  cv.width = rect.width * dpr;
+  const chartH = isMobile ? 160 : 200;
+  cv.height = chartH * dpr;
+  cv.style.height = chartH + 'px';
+  const ctx = cv.getContext('2d');
+  ctx.scale(dpr, dpr);
+  const W = rect.width, H = chartH;
+  const PAD = { t: isMobile ? 10 : 14, r: isMobile ? 14 : 20, b: isMobile ? 36 : 46, l: isMobile ? 36 : 50 };
+  const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
+
+  // Bucket data from resolved bets
+  const buckets = [
+    { label: '<30¢', midP: 0.256, actualWR: 0.000, n: 5 },
+    { label: '30-45¢', midP: 0.368, actualWR: 0.526, n: 19 },
+    { label: '45-60¢', midP: 0.519, actualWR: 0.500, n: 30 },
+    { label: '60-75¢', midP: 0.655, actualWR: 0.769, n: 13 },
+    { label: '>75¢', midP: 0.840, actualWR: 1.000, n: 1 },
+  ];
+
+  ctx.clearRect(0, 0, W, H);
+
+  // Axes
+  ctx.strokeStyle = '#2a2a38'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(PAD.l, PAD.t); ctx.lineTo(PAD.l, H-PAD.b); ctx.lineTo(W-PAD.r, H-PAD.b); ctx.stroke();
+
+  // Perfect calibration line
+  ctx.strokeStyle = '#333'; ctx.lineWidth = 1; ctx.setLineDash([4,4]);
+  ctx.beginPath();
+  ctx.moveTo(PAD.l, H-PAD.b);
+  ctx.lineTo(W-PAD.r, PAD.t);
+  ctx.stroke(); ctx.setLineDash([]);
+
+  // Grid lines
+  [0.25, 0.50, 0.75, 1.0].forEach(v => {
+    const y = H - PAD.b - v * cH;
+    const x = PAD.l + v * cW;
+    ctx.fillStyle = '#333'; ctx.font = (isMobile ? '7px' : '9px') + ' sans-serif';
+    ctx.textAlign = 'right'; ctx.fillText((v*100).toFixed(0)+'%', PAD.l-3, y+3);
+    ctx.textAlign = 'center'; ctx.fillText((v*100).toFixed(0)+'%', x, H-PAD.b+(isMobile?10:14));
+    ctx.strokeStyle = '#191922'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PAD.l, y); ctx.lineTo(W-PAD.r, y); ctx.stroke();
+  });
+
+  // Axis labels
+  ctx.fillStyle = '#555'; ctx.font = (isMobile ? '8px' : '10px') + ' sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(isMobile ? 'Predicted WR' : 'Predicted Win Rate (Market Price)', PAD.l + cW/2, H-(isMobile?2:4));
+  if (!isMobile) {
+    ctx.save(); ctx.translate(12, PAD.t + cH/2); ctx.rotate(-Math.PI/2);
+    ctx.fillText('Actual Win Rate', 0, 0); ctx.restore();
+  }
+
+  // Brier score label (rendered in HTML above canvas)
+  // Update the HTML label dynamically
+  const resolved = BETS.filter(b => b.result === 'W' || b.result === 'L');
+  if (resolved.length > 0) {
+    const wins = resolved.filter(b => b.result === 'W').length;
+    const brier = resolved.reduce((s, b) => s + Math.pow(b.price - (b.result === 'W' ? 1 : 0), 2), 0) / resolved.length;
+    const baseWR = wins / resolved.length;
+    const unc = baseWR * (1 - baseWR);
+    const skill = unc > 0 ? (1 - brier / unc) : 0;
+    const lbl = document.getElementById('brierLabel');
+    if (lbl) lbl.textContent = 'Brier: ' + brier.toFixed(4) + ' | Skill: ' + (skill >= 0 ? '+' : '') + skill.toFixed(3);
+  }
+
+  // Plot buckets
+  buckets.filter(b => !(isMobile && b.n <= 1)).forEach(b => {
+    const x = PAD.l + b.midP * cW;
+    const yActual = H - PAD.b - b.actualWR * cH;
+    const yPerfect = H - PAD.b - b.midP * cH;
+    const over = b.actualWR > b.midP;
+
+    // Bubble size proportional to N
+    const r = Math.max(isMobile ? 4 : 6, Math.sqrt(b.n) * (isMobile ? 3 : 4));
+
+    // Draw circle
+    ctx.beginPath(); ctx.arc(x, yActual, r, 0, Math.PI*2);
+    ctx.fillStyle = over ? 'rgba(34,197,94,0.25)' : 'rgba(239,68,68,0.25)';
+    ctx.fill();
+    ctx.strokeStyle = over ? '#22c55e' : '#ef4444'; ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Gap line to perfect calibration
+    ctx.strokeStyle = over ? 'rgba(34,197,94,0.4)' : 'rgba(239,68,68,0.4)';
+    ctx.lineWidth = 1; ctx.setLineDash([2,3]);
+    ctx.beginPath(); ctx.moveTo(x, yPerfect); ctx.lineTo(x, yActual); ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Label
+    const fs = isMobile ? '8px' : '10px';
+    const fsSmall = isMobile ? '7px' : '9px';
+    ctx.fillStyle = '#aaa'; ctx.font = 'bold ' + fs + ' sans-serif'; ctx.textAlign = 'center';
+    ctx.fillText(b.label, x, yActual - r - 4);
+    ctx.fillStyle = '#555'; ctx.font = fsSmall + ' sans-serif';
+    ctx.fillText('n='+b.n, x, yActual + r + (isMobile ? 10 : 12));
+
+    // Win rate label
+    const diff = b.actualWR - b.midP;
+    ctx.fillStyle = over ? '#22c55e' : '#ef4444';
+    ctx.fillText((diff>=0?'+':'')+(diff*100).toFixed(0)+'%', x, yActual - r - (isMobile ? 13 : 16));
+  });
+}
+
+// Init
+drawChart();
+drawBrierChart();
+window.addEventListener('resize', () => { drawBrierChart(); });
+applyFilters();
+renderDaily();
+['search','filter-result','filter-fw','filter-surface'].forEach(id => {
+  document.getElementById(id).addEventListener('input', applyFilters);
+  document.getElementById(id).addEventListener('change', applyFilters);
+});
+</script>
+</body>
+</html>
