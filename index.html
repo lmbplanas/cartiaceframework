@@ -115,13 +115,13 @@ tr:hover td { background: #16161f; }
 </div>
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">35W-32L</div></div>
-  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">52.2%</div></div>
-  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+$1,003.38</div></div>
-  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+20.07u</div></div>
-  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2335</div></div>
-  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.060</div></div>
-  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">70 bets</div></div>
+  <div class="stat"><div class="stat-label">Record</div><div class="stat-val" style="color:#fff" id="s-record">36W-32L</div></div>
+  <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-val" style="color:#22c55e" id="s-wr">52.9%</div></div>
+  <div class="stat"><div class="stat-label">Net P&amp;L</div><div class="stat-val" style="color:#22c55e" id="s-pnl">+1062.11</div></div>
+  <div class="stat"><div class="stat-label">Units</div><div class="stat-val" style="color:#22c55e" id="s-units">+21.24u</div></div>
+  <div class="stat"><div class="stat-label">Brier Score</div><div class="stat-val" style="color:#eab308" id="s-brier">0.2268</div></div>
+  <div class="stat"><div class="stat-label">Skill Score</div><div class="stat-val" style="color:#22c55e" id="s-skill">+0.090</div></div>
+  <div class="stat"><div class="stat-label">Showing</div><div class="stat-val" style="color:#eab308" id="s-showing">71 bets</div></div>
 </div>
 
 <div class="chart-wrap">
@@ -566,11 +566,11 @@ function drawBrierChart() {
 
   // Bucket data from resolved bets
   const buckets = [
-    { label: '<30¢', midP: 0.250, actualWR: 0.000, n: 4 },
-    { label: '30-45¢', midP: 0.364, actualWR: 0.529, n: 17 },
-    { label: '45-60¢', midP: 0.519, actualWR: 0.536, n: 28 },
-    { label: '60-75¢', midP: 0.657, actualWR: 0.750, n: 12 },
-    { label: '>75¢', midP: 0.805, actualWR: 0.500, n: 2 },
+    { label: '<30¢', midP: 0.256, actualWR: 0.000, n: 5 },
+    { label: '30-45¢', midP: 0.368, actualWR: 0.526, n: 19 },
+    { label: '45-60¢', midP: 0.519, actualWR: 0.500, n: 30 },
+    { label: '60-75¢', midP: 0.655, actualWR: 0.769, n: 13 },
+    { label: '>75¢', midP: 0.840, actualWR: 1.000, n: 1 },
   ];
 
   ctx.clearRect(0, 0, W, H);
@@ -606,7 +606,7 @@ function drawBrierChart() {
 
   // Brier score label
   ctx.fillStyle = '#eab308'; ctx.font = 'bold 11px sans-serif'; ctx.textAlign = 'right';
-  ctx.fillText('Brier: 0.2335  |  Skill: +0.060', W-PAD.r, PAD.t-4);
+  ctx.fillText('Brier: 0.2268  |  Skill: +0.090', W-PAD.r, PAD.t-4);
 
   // Plot buckets
   buckets.forEach(b => {
