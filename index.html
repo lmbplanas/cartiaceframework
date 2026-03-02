@@ -67,6 +67,21 @@ tr:hover td { background: #16161f; }
 
 .summary-footer { font-size: 11px; color: #555; margin-top: 10px; }
 
+
+/* Daily Performance */
+.daily-wrap { margin-bottom: 24px; }
+.daily-toggle { background: #14141c; border: 1px solid #1e1e2a; border-radius: 8px; padding: 10px 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.daily-toggle:hover { border-color: #2a2a38; }
+.daily-toggle h3 { font-size: 11px; color: #444; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
+.daily-toggle span { font-size: 12px; color: #555; }
+.daily-body { display: none; }
+.daily-body.open { display: block; }
+.daily-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.daily-table th { background: #14141c; color: #555; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; padding: 8px 12px; text-align: left; border-bottom: 1px solid #1e1e2a; }
+.daily-table td { padding: 7px 12px; border-bottom: 1px solid #16161f; }
+.daily-table tr:hover td { background: #16161f; }
+.daily-bar { height: 6px; border-radius: 3px; display: inline-block; vertical-align: middle; }
+
 /* Mobile responsive */
 @media (max-width: 640px) {
   body { padding: 12px; }
@@ -178,6 +193,31 @@ tr:hover td { background: #16161f; }
 </div>
 
 
+
+
+<!-- DAILY PERFORMANCE -->
+<div class="daily-wrap">
+  <div class="daily-toggle" onclick="document.getElementById('dailyBody').classList.toggle('open'); this.querySelector('span').textContent = document.getElementById('dailyBody').classList.contains('open') ? '▲ Hide' : '▼ Show'">
+    <h3>📅 Daily Performance</h3>
+    <span>▼ Show</span>
+  </div>
+  <div id="dailyBody" class="daily-body">
+    <table class="daily-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Record</th>
+          <th>Win Rate</th>
+          <th>P&L ($)</th>
+          <th>Units</th>
+          <th>Bets</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="dailyTableBody"></tbody>
+    </table>
+  </div>
+</div>
 
 <!-- BRIER CALIBRATION -->
 <div class="chart-wrap" style="margin-bottom:24px;">
@@ -337,6 +377,7 @@ function resetFilters() {
   document.getElementById('filter-fw').value = '';
   document.getElementById('filter-surface').value = '';
   applyFilters();
+renderDaily();
 }
 
 function applyFilters() {
@@ -442,6 +483,56 @@ function exportCSV() {
 }
 
 // ─── Chart ────────────────────────────────────────────────
+
+function renderDaily() {
+  const days = {};
+  BETS.forEach(b => {
+    if (!days[b.date]) days[b.date] = { wins: 0, losses: 0, refunds: 0, pnl: 0, bets: 0 };
+    const d = days[b.date];
+    d.bets++;
+    d.pnl += b.pnl;
+    if (b.result === 'W') d.wins++;
+    else if (b.result === 'L') d.losses++;
+    else d.refunds++;
+  });
+
+  const dateOrder = Object.keys(days);
+  // Show newest first
+  dateOrder.reverse();
+
+  const tbody = document.getElementById('dailyTableBody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+
+  // Find max absolute PnL for bar scaling
+  const maxPnl = Math.max(...dateOrder.map(d => Math.abs(days[d].pnl)), 1);
+
+  dateOrder.forEach(date => {
+    const d = days[date];
+    const resolved = d.wins + d.losses;
+    const wr = resolved > 0 ? (d.wins / resolved * 100).toFixed(0) : '—';
+    const pnlStr = (d.pnl >= 0 ? '+' : '') + '$' + d.pnl.toFixed(2);
+    const units = (d.pnl / 50);
+    const unitsStr = (units >= 0 ? '+' : '') + units.toFixed(2) + 'u';
+    const pnlColor = d.pnl > 0 ? '#22c55e' : d.pnl < 0 ? '#ef4444' : '#888';
+    const wrColor = parseFloat(wr) >= 55 ? '#22c55e' : parseFloat(wr) < 45 ? '#ef4444' : '#eab308';
+    const barWidth = Math.round(Math.abs(d.pnl) / maxPnl * 80);
+    const barColor = d.pnl >= 0 ? '#22c55e' : '#ef4444';
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td style="color:#ccc;font-weight:600">${date}</td>
+      <td><span style="color:#22c55e">${d.wins}W</span>-<span style="color:#ef4444">${d.losses}L</span>${d.refunds ? '-<span style="color:#888">' + d.refunds + 'R</span>' : ''}</td>
+      <td style="color:${wrColor}">${wr}%</td>
+      <td style="color:${pnlColor};font-weight:700">${pnlStr}</td>
+      <td style="color:${pnlColor}">${unitsStr}</td>
+      <td style="color:#555">${d.bets}</td>
+      <td><span class="daily-bar" style="width:${barWidth}px;background:${barColor}"></span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 let pnlChart = null;
 function resetChartZoom() { if (pnlChart) pnlChart.resetZoom(); }
 
@@ -707,6 +798,7 @@ drawChart();
 drawBrierChart();
 window.addEventListener('resize', () => { drawBrierChart(); });
 applyFilters();
+renderDaily();
 ['search','filter-result','filter-fw','filter-surface'].forEach(id => {
   document.getElementById(id).addEventListener('input', applyFilters);
   document.getElementById(id).addEventListener('change', applyFilters);
