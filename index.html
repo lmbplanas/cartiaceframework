@@ -370,140 +370,97 @@ function drawChart() {
   const PAD = { t: 20, r: 12, b: 40, l: isMobile ? 44 : 68 };
   const cW = W - PAD.l - PAD.r, cH = H - PAD.t - PAD.b;
 
-  // Build cumulative series
-  const series = [];
+  // Build cumulative series: index 0 = origin ($0), index 1..N = bets
+  const series = [{ bet: null, cum: 0 }];
   let cum = 0;
-  BETS.forEach((b, i) => {
+  BETS.forEach(b => {
     cum += b.pnl;
-    series.push({ bet: b, idx: i, cum });
+    series.push({ bet: b, cum });
   });
-  series.unshift({ bet: null, idx: -1, cum: 0 });
 
   const mn = Math.min(...series.map(s => s.cum)) - 50;
   const mx = Math.max(...series.map(s => s.cum)) + 80;
   const rng = mx - mn;
 
-  const xP = i => PAD.l + ((i + 1) / series.length) * cW; // shift for "Start"
-  const xPI = idx => PAD.l + ((idx + 1) / series.length) * cW;
-  const yP = v => PAD.t + cH - ((v - mn) / rng) * cH;
+  // Simple mapping: series index i (0..N) to x position
+  const N = series.length - 1; // number of bets
+  const xAt = i => PAD.l + (i / N) * cW;
+  const yAt = v => PAD.t + cH - ((v - mn) / rng) * cH;
 
   ctx.clearRect(0, 0, W, H);
 
-  // Grid
-  const gridVals = [];
+  // Grid lines
   const step = Math.ceil(rng / 6 / 100) * 100;
-  for (let g = Math.ceil(mn/step)*step; g <= mx; g += step) gridVals.push(g);
-  gridVals.forEach(g => {
+  for (let g = Math.ceil(mn/step)*step; g <= mx; g += step) {
     ctx.strokeStyle = g === 0 ? '#333' : '#191922';
     ctx.lineWidth = g === 0 ? 1.5 : 1;
-    ctx.beginPath(); ctx.moveTo(PAD.l, yP(g)); ctx.lineTo(W-PAD.r, yP(g)); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(PAD.l, yAt(g)); ctx.lineTo(W-PAD.r, yAt(g)); ctx.stroke();
     ctx.fillStyle = '#444'; ctx.font = (isMobile ? '8px' : '10px') + ' sans-serif'; ctx.textAlign = 'right';
-    ctx.fillText((g>=0?'+':'')+'$'+g, PAD.l-(isMobile?3:5), yP(g)+4);
-  });
+    ctx.fillText((g>=0?'+':'')+'$'+g, PAD.l-(isMobile?3:5), yAt(g)+4);
+  }
 
-  // Date labels
-  const dates = [...new Set(BETS.map(b=>b.date))];
+  // Date labels & vertical lines
+  const dates = [...new Set(BETS.map(b => b.date))];
   dates.forEach((d, di) => {
-    if (isMobile && di % 2 !== 0) return; // skip every other label on mobile
-    const firstIdx = BETS.findIndex(b=>b.date===d);
-    const x = xPI(firstIdx);
+    if (isMobile && di % 2 !== 0) return;
+    const firstBetIdx = BETS.findIndex(b => b.date === d);
+    const x = xAt(firstBetIdx + 1); // +1 because series[0] is origin
     ctx.fillStyle = '#2a2a38';
     ctx.fillRect(x, PAD.t, 1, cH);
     ctx.fillStyle = '#333'; ctx.font = (isMobile ? '7px' : '9px') + ' sans-serif'; ctx.textAlign = 'center';
     ctx.fillText(d, x, H - 5);
   });
 
-  // Gradient fill
+  // Gradient fill under the line
   const grad = ctx.createLinearGradient(0, PAD.t, 0, H-PAD.b);
   grad.addColorStop(0, 'rgba(34,197,94,0.15)');
   grad.addColorStop(1, 'rgba(34,197,94,0.01)');
   ctx.beginPath();
-  ctx.moveTo(PAD.l, yP(0));
-  series.forEach((s, i) => ctx.lineTo(xPI(s.idx), yP(s.cum)));
-  ctx.lineTo(xPI(series[series.length-1].idx), yP(mn));
-  ctx.lineTo(PAD.l, yP(mn));
+  ctx.moveTo(xAt(0), yAt(0));
+  for (let i = 1; i < series.length; i++) ctx.lineTo(xAt(i), yAt(series[i].cum));
+  ctx.lineTo(xAt(N), yAt(mn));
+  ctx.lineTo(xAt(0), yAt(mn));
   ctx.closePath(); ctx.fillStyle = grad; ctx.fill();
 
-  // Line
+  // P&L line
   ctx.strokeStyle = '#22c55e'; ctx.lineWidth = 2; ctx.lineJoin = 'round';
   ctx.beginPath();
-  series.forEach((s, i) => {
-    if (i===0) ctx.moveTo(PAD.l, yP(0));
-    else ctx.lineTo(xPI(s.idx), yP(s.cum));
-  });
+  ctx.moveTo(xAt(0), yAt(0));
+  for (let i = 1; i < series.length; i++) ctx.lineTo(xAt(i), yAt(series[i].cum));
   ctx.stroke();
 
   // Bet dots
-  series.slice(1).forEach(s => {
-    const x = xPI(s.idx), y = yP(s.cum);
+  for (let i = 1; i < series.length; i++) {
+    const s = series[i];
+    const x = xAt(i), y = yAt(s.cum);
     ctx.beginPath(); ctx.arc(x, y, 3.5, 0, Math.PI*2);
     ctx.fillStyle = s.bet.result==='W' ? '#22c55e' : s.bet.result==='L' ? '#ef4444' : '#888';
     ctx.fill();
     ctx.strokeStyle = '#0d0d12'; ctx.lineWidth = 1.5; ctx.stroke();
-  });
-
-  // Pending bets — projected dots
-  const pending = [
-  ];
-  const lastCum = series[series.length-1].cum;
-  pending.forEach((p, i) => {
-    const x = xPI(BETS.length + i);
-    const y = yP(lastCum);
-    // pulsing ring
-    ctx.beginPath(); ctx.arc(x, y, 8, 0, Math.PI*2);
-    ctx.strokeStyle = 'rgba(234,179,8,0.3)'; ctx.lineWidth = 2; ctx.stroke();
-    ctx.beginPath(); ctx.arc(x, y, 4, 0, Math.PI*2);
-    ctx.fillStyle = '#eab308'; ctx.fill();
-    ctx.strokeStyle = '#0d0d12'; ctx.lineWidth = 1.5; ctx.stroke();
-    // potential paths
-    const xNext = xPI(BETS.length + i + 0.8);
-    [p.winPnl, p.lossPnl].forEach((delta, di) => {
-      ctx.beginPath(); ctx.setLineDash([3,4]);
-      ctx.moveTo(x, y); ctx.lineTo(xNext, yP(lastCum + delta));
-      ctx.strokeStyle = di===0 ? 'rgba(34,197,94,0.4)' : 'rgba(239,68,68,0.4)';
-      ctx.lineWidth = 1.5; ctx.stroke(); ctx.setLineDash([]);
-    });
-  });
+  }
 
   // Legend
-  const legend = [['W', '#22c55e', 'Win'], ['L', '#ef4444', 'Loss'], ['R', '#888', 'Refund'], ['⏳', '#eab308', 'Pending']];
-  legend.forEach(([sym, col, lbl], i) => {
-    const lx = PAD.l + i * 90, ly = H - 8;
+  const legend = [['W', '#22c55e', 'Win'], ['L', '#ef4444', 'Loss'], ['R', '#888', 'Refund']];
+  legend.forEach(([sym, col, lbl], li) => {
+    const lx = PAD.l + li * 90, ly = H - 8;
     ctx.beginPath(); ctx.arc(lx + 5, ly - 3, 4, 0, Math.PI*2);
     ctx.fillStyle = col; ctx.fill();
     ctx.fillStyle = '#555'; ctx.font = '10px sans-serif'; ctx.textAlign = 'left';
     ctx.fillText(lbl, lx + 12, ly);
   });
 
-  // Hover logic
+  // Hover tooltip
   cv.onmousemove = e => {
-    const rect = cv.getBoundingClientRect();
-    const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-    let best = null, bestDist = 20, bestPending = null;
-    series.slice(1).forEach(s => {
-      const x = xPI(s.idx), y = yP(s.cum);
-      const d = Math.hypot(mx-x, my-y);
-      if (d < bestDist) { bestDist = d; best = s; }
-    });
-    pending.forEach((p, i) => {
-      const x = xPI(BETS.length + i), y = yP(series[series.length-1].cum);
-      const d = Math.hypot(mx-x, my-y);
-      if (d < bestDist) { bestDist = d; best = null; bestPending = p; }
-    });
+    const r = cv.getBoundingClientRect();
+    const mouseX = e.clientX - r.left, mouseY = e.clientY - r.top;
+    let best = null, bestDist = 20;
+    for (let i = 1; i < series.length; i++) {
+      const x = xAt(i), y = yAt(series[i].cum);
+      const d = Math.hypot(mouseX-x, mouseY-y);
+      if (d < bestDist) { bestDist = d; best = series[i]; }
+    }
     const tt = document.getElementById('tooltip');
-    if (bestPending) {
-      const lines = bestPending.label.split('\n');
-      tt.innerHTML = `
-        <div class="tt-match">⏳ PENDING: ${lines[0]}</div>
-        <div>${lines[1]}</div>
-        <div style="color:#888">${lines[2]}</div>
-        <div style="margin-top:4px;color:#22c55e">Win: +$${bestPending.winPnl.toFixed(2)}</div>
-        <div style="color:#ef4444">Loss: -$${Math.abs(bestPending.lossPnl).toFixed(2)}</div>
-      `;
-      tt.style.display = 'block';
-      tt.style.left = (e.clientX + 14) + 'px';
-      tt.style.top = (e.clientY - 10) + 'px';
-    } else if (best) {
+    if (best && best.bet) {
       const b = best.bet;
       const resClass = b.result==='W' ? 'tt-win' : b.result==='L' ? 'tt-loss' : 'tt-void';
       tt.innerHTML = `
@@ -521,7 +478,6 @@ function drawChart() {
       tt.style.display = 'none';
     }
   };
-
   cv.onmouseleave = () => { document.getElementById('tooltip').style.display='none'; };
 }
 
