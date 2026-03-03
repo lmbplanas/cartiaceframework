@@ -613,10 +613,11 @@ function sortBy(key) {
 }
 
 function updateStats() {
-  const wins = filtered.filter(b => b.result === 'W').length;
-  const losses = filtered.filter(b => b.result === 'L').length;
-  const resolved = filtered.filter(b => b.result === 'W' || b.result === 'L');
-  const pnl = filtered.reduce((s, b) => s + b.pnl, 0);
+  const settled = filtered.filter(b => b.result !== 'P');
+  const wins = settled.filter(b => b.result === 'W').length;
+  const losses = settled.filter(b => b.result === 'L').length;
+  const resolved = settled.filter(b => b.result === 'W' || b.result === 'L');
+  const pnl = settled.reduce((s, b) => s + b.pnl, 0);
   const wr = wins + losses > 0 ? (wins / (wins + losses) * 100).toFixed(1) : '—';
   document.getElementById('s-record').textContent = `${wins}W-${losses}L`;
   document.getElementById('s-wr').textContent = `${wr}%`;
@@ -625,7 +626,7 @@ function updateStats() {
   document.getElementById('s-wr').style.color = parseFloat(wr) >= 55 ? '#22c55e' : '#ef4444';
   document.getElementById('s-units').textContent = (pnl / 50 >= 0 ? '+' : '') + (pnl / 50).toFixed(2) + 'u';
   document.getElementById('s-units').style.color = pnl >= 0 ? '#22c55e' : '#ef4444';
-  document.getElementById('s-showing').textContent = filtered.length + ' bets';
+  document.getElementById('s-showing').textContent = settled.length + ' bets';
   // Brier score (dynamic on filtered)
   if (resolved.length > 0) {
     const brier = resolved.reduce((s, b) => s + Math.pow(b.price - (b.result === 'W' ? 1 : 0), 2), 0) / resolved.length;
@@ -646,7 +647,7 @@ function renderTable() {
   filtered.forEach((b, i) => {
     running += b.pnl;
     const tr = document.createElement('tr');
-    const resultClass = b.result === 'W' ? 'badge-w' : b.result === 'L' ? 'badge-l' : 'badge-r';
+    const resultClass = b.result === 'W' ? 'badge-w' : b.result === 'L' ? 'badge-l' : b.result === 'P' ? 'badge-r' : 'badge-r';
     const pnlClass = b.pnl > 0 ? 'col-pnl-pos' : b.pnl < 0 ? 'col-pnl-neg' : 'col-pnl-zero';
     const surfColor = b.surface === 'Clay' ? '#b45309' : b.surface === 'Indoor' ? '#2563eb' : '#374151';
     tr.innerHTML = `
@@ -664,8 +665,9 @@ function renderTable() {
     `;
     tbody.appendChild(tr);
   });
-  const total = filtered.reduce((s,b) => s + b.pnl, 0);
-  document.getElementById('tableFooter').textContent = `Showing ${filtered.length} bets · Total P&L: ${total >= 0 ? '+' : ''}$${total.toFixed(2)} · ${(total/50 >= 0 ? '+' : '')}${(total/50).toFixed(2)}u`;
+  const settledFiltered = filtered.filter(b => b.result !== 'P');
+  const total = settledFiltered.reduce((s,b) => s + b.pnl, 0);
+  document.getElementById('tableFooter').textContent = `Showing ${settledFiltered.length} bets · Total P&L: ${total >= 0 ? '+' : ''}$${total.toFixed(2)} · ${(total/50 >= 0 ? '+' : '')}${(total/50).toFixed(2)}u`;
 }
 
 //  CSV Export 
@@ -689,6 +691,8 @@ function exportCSV() {
 function renderDaily() {
   const days = {};
   BETS.forEach(b => {
+    // Skip pending bets
+    if (b.result === 'P') return;
     if (!days[b.date]) days[b.date] = { wins: 0, losses: 0, refunds: 0, pnl: 0, bets: 0 };
     const d = days[b.date];
     d.bets++;
