@@ -272,15 +272,32 @@ tr:hover td { background: #16161f; }
 
 <script>
 
-// ─── Pending Picks (tennis agent updates this array) ─────
-const PENDING = [
-  { pick:'Prizmic ML', opponent:'Vukic', tournament:'IW Qualifying Q2', time:'~3:30 AM PHT (Mar 4)', price:0.45, stake:1.0, pTrue:0.75, edge:30, mc:99.8, note:'Vukic 1W-9L last 10, serve-based game killed by slow IW courts. Prizmic 8W-2L, clay form transfers directly.' },
-  { pick:'Sweeny ML', opponent:'Merida', tournament:'IW Qualifying Q2', time:'~3:30 AM PHT (Mar 4)', price:0.44, stake:1.0, pTrue:0.604, edge:16.4, mc:86.2, note:'Merida 9W-1L but all indoor hard. IW outdoor hard = different surface. Sweeny 8W-2L outdoor hard.' },
-  { pick:'Galarneau ML', opponent:'Barrios', tournament:'IW Qualifying Q2', time:'~3:00 AM PHT (Mar 4)', price:0.48, stake:0.5, pTrue:0.635, edge:15.5, mc:84.8, note:'Barrios #115 is a clay specialist. Galarneau 8W-2L hard courts. IW slow hard erases rank gap.' },
-  { pick:'Buse ML', opponent:'Hijikata', tournament:'IW Qualifying Q2', time:'~3:00 AM PHT (Mar 4)', price:0.54, stake:0.5, pTrue:0.659, edge:11.9, mc:99.1, note:'#63 vs #117. Clay specialist at slow IW courts. Beat Berrettini & Fonseca in Rio.' },
-  { pick:'Shimabukuro ML', opponent:'Landaluce', tournament:'IW Qualifying Q2', time:'~3:30 AM PHT (Mar 4)', price:0.43, stake:1.0, pTrue:0.671, edge:24, mc:99, note:'Higher ranked (#113 vs #155), 7W-3L hard courts vs Landaluce 4W-6L.' },
-  { pick:'Brunclik ML', opponent:'Mrva', tournament:'Hersonissos CH', time:'9:10 PM PHT (Mar 3)', price:0.51, stake:0.5, pTrue:0.656, edge:14.6, mc:83.4, note:'Career OH hard: Brunclik 74% (18W-5L in 2025) vs Mrva 53%. Market priced 51/51 — profile data reveals clear edge.' },
-];
+// ─── Active picks auto-derived from BETS where result==='P' ─────
+// Do NOT manually maintain PENDING — add picks to BETS with result:'P' and pTrue/edge/mc/note fields
+// BETS entries with result:'P' must have: pTrue, edge, mc, note, match (format "A vs B" — opponent extracted from match)
+const PENDING = BETS.filter(b => b.result === 'P').map(b => {
+  const parts = (b.match || '').split(' vs ');
+  const pickName = (b.pick || '').toLowerCase();
+  // Determine opponent from match field
+  let opponent = '';
+  if (parts.length === 2) {
+    // pick contains one of the player names — opponent is the other
+    const p0 = parts[0].trim(), p1 = parts[1].trim();
+    opponent = pickName.includes(p0.split(',')[0].toLowerCase()) ? p1 : p0;
+  }
+  return {
+    pick: b.pick,
+    opponent: opponent || b.match,
+    tournament: b.tournament,
+    time: b.time || '',
+    price: b.price,
+    stake: b.stake,
+    pTrue: b.pTrue || 0.55,
+    edge: b.edge || 0,
+    mc: b.mc || 0,
+    note: b.note || ''
+  };
+});
 
 function runPortfolioMC(picks, N=100000) {
   if (picks.length === 0) return null;
@@ -543,12 +560,12 @@ const BETS = [
   { date:'Mar 3', tournament:'IW Qualifying Q1', match:'Tseng vs Goffin', pick:'Tseng ML', price:0.40, stake:0.5, result:'W', pnl:37.50, fw:'v1.10', surface:'Hard', time:'5:00 AM' },
   { date:'Mar 3', tournament:'IW Qualifying', match:'Kopriva vs Sakamoto', pick:'Kopriva ML', price:0.49, stake:0.5, result:'W', pnl:26.02, fw:'v2.0', surface:'Hard', time:'8:00 AM' },
   { date:'Mar 3', tournament:'IW Qualifying', match:'Krueger vs Svrcina', pick:'Svrcina -1.5', price:0.48, stake:0.5, result:'W', pnl:27.08, fw:'v2.0', surface:'Hard', time:'9:55 AM' },
-  { date:'Mar 3', tournament:'IW Qualifying', match:'Vukic vs Prizmic', pick:'Prizmic ML', price:0.45, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4' },
-  { date:'Mar 3', tournament:'IW Qualifying', match:'Landaluce vs Shimabukuro', pick:'Shimabukuro ML', price:0.43, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4' },
-  { date:'Mar 3', tournament:'IW Qualifying', match:'Buse vs Hijikata', pick:'Buse ML', price:0.54, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:00 AM Mar 4' },
-  { date:'Mar 3', tournament:'IW Qualifying', match:'Galarneau vs Barrios', pick:'Galarneau ML', price:0.48, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:00 AM Mar 4' },
-  { date:'Mar 3', tournament:'IW Qualifying', match:'Merida vs Sweeny', pick:'Sweeny ML', price:0.44, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4' },
-  { date:'Mar 3', tournament:'Hersonissos CH', match:'Brunclik vs Mrva', pick:'Brunclik ML', price:0.51, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'9:10 PM Mar 3' },
+  { date:'Mar 3', tournament:'IW Qualifying', match:'Vukic vs Prizmic', pick:'Prizmic ML', price:0.45, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4', pTrue:0.75, edge:30, mc:99.8, note:'Vukic 1W-9L last 10, serve-based game killed by slow IW courts. Prizmic 8W-2L, clay form transfers directly.' },
+  { date:'Mar 3', tournament:'IW Qualifying', match:'Landaluce vs Shimabukuro', pick:'Shimabukuro ML', price:0.43, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4', pTrue:0.671, edge:24.1, mc:99, note:'Higher ranked (#113 vs #155), 7W-3L hard courts vs Landaluce 4W-6L. Clay upgrade not enough to bridge gap at IW.' },
+  { date:'Mar 3', tournament:'IW Qualifying', match:'Buse vs Hijikata', pick:'Buse ML', price:0.54, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:00 AM Mar 4', pTrue:0.659, edge:11.9, mc:99.1, note:'#63 vs #117. Clay specialist at slow IW courts. Beat Berrettini & Fonseca in Rio. 0.5u for thin hard-court sample.' },
+  { date:'Mar 3', tournament:'IW Qualifying', match:'Galarneau vs Barrios', pick:'Galarneau ML', price:0.48, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:00 AM Mar 4', pTrue:0.635, edge:15.5, mc:84.8, note:'Barrios #115 is a clay specialist (8/10 clay). Galarneau 8W-2L hard courts. IW slow hard erases rank gap.' },
+  { date:'Mar 3', tournament:'IW Qualifying', match:'Merida vs Sweeny', pick:'Sweeny ML', price:0.44, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4', pTrue:0.604, edge:16.4, mc:86.2, note:'Merida 9W-1L but all indoor hard (Tenerife). IW outdoor hard = different surface. Sweeny 8W-2L outdoor hard.' },
+  { date:'Mar 3', tournament:'Hersonissos CH', match:'Brunclik vs Mrva', pick:'Brunclik ML', price:0.51, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'9:10 PM Mar 3', pTrue:0.656, edge:14.6, mc:83.4, note:'Career OH hard: Brunclik 74% (18W-5L in 2025) vs Mrva 53% (28% in 2024). Market priced 51/51 — profile data reveals edge.' },
 ];
 
 //  Sort & Filter State 
