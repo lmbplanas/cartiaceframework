@@ -272,32 +272,7 @@ tr:hover td { background: #16161f; }
 
 <script>
 
-// ─── Active picks auto-derived from BETS where result==='P' ─────
-// Do NOT manually maintain PENDING — add picks to BETS with result:'P' and pTrue/edge/mc/note fields
-// BETS entries with result:'P' must have: pTrue, edge, mc, note, match (format "A vs B" — opponent extracted from match)
-const PENDING = BETS.filter(b => b.result === 'P').map(b => {
-  const parts = (b.match || '').split(' vs ');
-  const pickName = (b.pick || '').toLowerCase();
-  // Determine opponent from match field
-  let opponent = '';
-  if (parts.length === 2) {
-    // pick contains one of the player names — opponent is the other
-    const p0 = parts[0].trim(), p1 = parts[1].trim();
-    opponent = pickName.includes(p0.split(',')[0].toLowerCase()) ? p1 : p0;
-  }
-  return {
-    pick: b.pick,
-    opponent: opponent || b.match,
-    tournament: b.tournament,
-    time: b.time || '',
-    price: b.price,
-    stake: b.stake,
-    pTrue: b.pTrue || 0.55,
-    edge: b.edge || 0,
-    mc: b.mc || 0,
-    note: b.note || ''
-  };
-});
+// PENDING derived from BETS after BETS is defined — see below
 
 function runPortfolioMC(picks, N=100000) {
   if (picks.length === 0) return null;
@@ -567,6 +542,29 @@ const BETS = [
   { date:'Mar 3', tournament:'IW Qualifying', match:'Merida vs Sweeny', pick:'Sweeny ML', price:0.44, stake:1.0, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'~3:30 AM Mar 4', pTrue:0.604, edge:16.4, mc:86.2, note:'Merida 9W-1L but all indoor hard (Tenerife). IW outdoor hard = different surface. Sweeny 8W-2L outdoor hard.' },
   { date:'Mar 3', tournament:'Hersonissos CH', match:'Brunclik vs Mrva', pick:'Brunclik ML', price:0.51, stake:0.5, result:'P', pnl:0, fw:'v2.0', surface:'Hard', time:'9:10 PM Mar 3', pTrue:0.656, edge:14.6, mc:83.4, note:'Career OH hard: Brunclik 74% (18W-5L in 2025) vs Mrva 53% (28% in 2024). Market priced 51/51 — profile data reveals edge.' },
 ];
+
+// ─── Active picks auto-derived from BETS where result==='P' ─────
+const PENDING = BETS.filter(b => b.result === 'P').map(b => {
+  const parts = (b.match || '').split(' vs ');
+  const pickName = (b.pick || '').toLowerCase();
+  let opponent = '';
+  if (parts.length === 2) {
+    const p0 = parts[0].trim(), p1 = parts[1].trim();
+    opponent = pickName.includes(p0.split(',')[0].toLowerCase()) ? p1 : p0;
+  }
+  return {
+    pick: b.pick,
+    opponent: opponent || b.match,
+    tournament: b.tournament,
+    time: b.time || '',
+    price: b.price,
+    stake: b.stake,
+    pTrue: b.pTrue || 0.55,
+    edge: b.edge || 0,
+    mc: b.mc || 0,
+    note: b.note || ''
+  };
+});
 
 //  Sort & Filter State 
 let sortKey = 'date', sortDir = -1;
