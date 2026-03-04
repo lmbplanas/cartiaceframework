@@ -579,6 +579,7 @@ function resetFilters() {
   document.getElementById('filter-fw').value = '';
   document.getElementById('filter-surface').value = '';
   renderPending();
+startScorePolling();
 applyFilters();
 renderDaily();
 }
@@ -1014,11 +1015,105 @@ function drawBrierChart() {
   });
 }
 
+
+
+// ─── Live Score Polling ───────────────────────────────────
+let scoreInterval = null;
+
+async function fetchLiveScores() {
+  if (PENDING.length === 0) return;
+  
+  // Extract player last names from PENDING picks
+  const players = PENDING.map(p => {
+    // pick is like "Prizmic ML" or "O'Connell -1.5" — extract first word(s) before market type
+    const name = p.pick.replace(/\s+(ML|\-?\d\.\d|O\s+\d|U\s+\d).*$/i, '').trim();
+    return name;
+  });
+
+  try {
+    const resp = await fetch('/api/scores', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ players })
+    });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (!data.matches || !data.matches.length) return;
+
+    // Update pick cards with live scores
+    data.matches.forEach(match => {
+      // Find the card for this player
+      const cards = document.querySelectorAll('.pick-card');
+      cards.forEach(card => {
+        const pickText = card.querySelector('[data-pick]');
+        if (!pickText) return;
+        const pickName = pickText.getAttribute('data-pick');
+        if (!pickName) return;
+        
+        const playerLast = match.player.split(' ').pop().toLowerCase();
+        if (!pickName.toLowerCase().includes(playerLast)) return;
+
+        // Remove old score badge if exists
+        const old = card.querySelector('.live-score');
+        if (old) old.remove();
+
+        // Determine if our pick is p1 or p2
+        const isP1 = match.p1Name.toLowerCase().includes(playerLast);
+
+        // Build score string
+        let scoreHtml = '';
+        if (match.sets.length > 0) {
+          const setStrs = match.sets.map((s, i) => {
+            const ourScore = isP1 ? s.p1 : s.p2;
+            const theirScore = isP1 ? s.p2 : s.p1;
+            const isCurrentSet = i === match.sets.length - 1;
+            const winning = ourScore > theirScore;
+            const color = winning ? '#22c55e' : ourScore < theirScore ? '#ef4444' : '#fff';
+            return `<span style="color:${color};${isCurrentSet ? 'font-weight:700;' : ''}">${ourScore}-${theirScore}${isCurrentSet ? '*' : ''}</span>`;
+          });
+          
+          const ourSets = isP1 ? match.setsWon.p1 : match.setsWon.p2;
+          const theirSets = isP1 ? match.setsWon.p2 : match.setsWon.p1;
+          const setsColor = ourSets > theirSets ? '#22c55e' : ourSets < theirSets ? '#ef4444' : '#eab308';
+          
+          scoreHtml = `
+            <div class="live-score" style="margin-top:8px;padding:6px 8px;background:#0d1117;border:1px solid #1e3a1e;border-radius:4px;">
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">
+                <span style="background:#22c55e;color:#000;font-size:8px;font-weight:700;padding:1px 4px;border-radius:2px;animation:pulse 2s infinite;">LIVE</span>
+                <span style="font-size:10px;color:#888;">Sets: <span style="color:${setsColor};font-weight:600;">${ourSets}-${theirSets}</span></span>
+              </div>
+              <div style="font-size:13px;font-weight:600;color:#fff;letter-spacing:1px;">
+                ${setStrs.join(' <span style="color:#333">|</span> ')}
+              </div>
+            </div>
+          `;
+        }
+
+        card.insertAdjacentHTML('beforeend', scoreHtml);
+      });
+    });
+  } catch (e) {
+    // Silent fail — cards render fine without scores
+  }
+}
+
+function startScorePolling() {
+  if (PENDING.length === 0) return;
+  fetchLiveScores(); // Initial fetch
+  scoreInterval = setInterval(fetchLiveScores, 45000); // Every 45 seconds
+}
+
+// Add CSS animation for the LIVE pulse
+const pulseStyle = document.createElement('style');
+pulseStyle.textContent = `@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }`;
+document.head.appendChild(pulseStyle);
+
 // Init
 drawChart();
 drawBrierChart();
 window.addEventListener('resize', () => { drawBrierChart(); });
 renderPending();
+startScorePolling();
 applyFilters();
 renderDaily();
 ['search','filter-result','filter-fw','filter-surface'].forEach(id => {
