@@ -1274,7 +1274,16 @@ function startScorePolling() {
   if (PENDING.length === 0 && !BETS.some(b => b && b.result === 'P')) return;
   console.log('[LiveScore] Polling started, interval=45s');
   fetchLiveScores();
-  scoreInterval = setInterval(fetchLiveScores, 45000);
+  scoreInterval = setInterval(() => {
+    if (!document.hidden) fetchLiveScores();
+  }, 45000);
+  // Re-fetch immediately when tab becomes visible
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden && (PENDING.length > 0 || BETS.some(b => b && b.result === 'P'))) {
+      console.log('[LiveScore] Tab visible, refreshing scores');
+      fetchLiveScores();
+    }
+  });
 }
 
 // Add CSS animation for the LIVE pulse
