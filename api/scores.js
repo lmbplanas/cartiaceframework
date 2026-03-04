@@ -45,7 +45,7 @@ export default async function handler(req, res) {
       const fixtures = await cached(`fix_${t.tournamentId}`, 30000, () =>
         apiFetch(`/fixtures?tournamentId=${t.tournamentId}`)
       );
-      fixtures.filter(f => f.statusId === 1).forEach(f => {
+      fixtures.filter(f => f.statusId === 1 || f.statusId === 2).forEach(f => {
         f._tournament = t.tournamentName;
         allLiveFixtures.push(f);
       });
@@ -104,7 +104,7 @@ export default async function handler(req, res) {
         tournament: fixture._tournament,
         sets,
         setsWon: { p1: setsWon.participant1Score || 0, p2: setsWon.participant2Score || 0 },
-        status: 'live',
+        status: fixture.statusId === 1 ? 'live' : 'finished',
         fixtureId: fixture.fixtureId,
       });
     }

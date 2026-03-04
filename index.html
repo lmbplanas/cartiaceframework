@@ -1102,14 +1102,55 @@ async function fetchLiveScores() {
         const matchCell = cells[3]?.textContent || '';
         const resultCell = cells[7];
         if (!matchCell.toLowerCase().includes(playerLast)) return;
-        // Check if this row is a pending bet
         const badge = resultCell?.querySelector('.badge');
         if (!badge) return;
         if (badge.textContent.trim() !== 'P') return;
-        // Add live score next to the P badge
-        let existingScore = row.querySelector('.live-score-inline');
-        if (existingScore) existingScore.remove();
-        if (match.sets.length > 0) {
+
+        if (match.status === 'finished' && match.sets.length > 0) {
+          // Determine winner — check who won more sets
+          const ourSets = isP1 ? match.setsWon.p1 : match.setsWon.p2;
+          const theirSets = isP1 ? match.setsWon.p2 : match.setsWon.p1;
+          
+          // Figure out if our pick won
+          // Our pick name is in the match cell, check if pick was ML (moneyline)
+          const won = ourSets > theirSets;
+          const finalScore = match.sets.map(s => {
+            const our = isP1 ? s.p1 : s.p2;
+            const their = isP1 ? s.p2 : s.p1;
+            return our + '-' + their;
+          }).join(' ');
+
+          // Update the badge
+          badge.textContent = won ? 'W' : 'L';
+          badge.className = won ? 'badge badge-w' : 'badge badge-l';
+
+          // Add final score
+          let existingScore = row.querySelector('.live-score-inline');
+          if (existingScore) existingScore.remove();
+          const color = won ? '#22c55e' : '#ef4444';
+          const inlineHtml = '<span class="live-score-inline" style="margin-left:6px;font-size:10px;color:' + color + ';font-weight:600;">' + finalScore + ' (final)</span>';
+          resultCell.insertAdjacentHTML('beforeend', inlineHtml);
+
+          // Also update the BETS array in memory for stats recalc
+          const betIdx = BETS.findIndex(b => b.result === 'P' && b.match.toLowerCase().includes(playerLast));
+          if (betIdx >= 0) {
+            // For ML picks, won = pick player won the match
+            // For spread/totals this is more complex, but we handle ML for now
+            BETS[betIdx].result = won ? 'W' : 'L';
+            const stake = BETS[betIdx].stake * 50;
+            if (won) {
+              BETS[betIdx].pnl = parseFloat((stake * ((1 / BETS[betIdx].price) - 1)).toFixed(2));
+            } else {
+              BETS[betIdx].pnl = -stake;
+            }
+            // Recalculate stats
+            updateStats();
+            renderDaily();
+          }
+        } else if (match.status === 'live' && match.sets.length > 0) {
+          // Live score inline
+          let existingScore = row.querySelector('.live-score-inline');
+          if (existingScore) existingScore.remove();
           const shortScore = match.sets.map(s => {
             const our = isP1 ? s.p1 : s.p2;
             const their = isP1 ? s.p2 : s.p1;
