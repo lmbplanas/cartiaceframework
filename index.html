@@ -1176,8 +1176,6 @@ async function fetchLiveScores() {
         const matchCell = cells[3]?.textContent || '';
         const resultCell = cells[7];
         // Must match BOTH players from API result in the table's match cell
-        const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
-        const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
         if (!(matchCell.toLowerCase().includes(p1Last) && matchCell.toLowerCase().includes(p2Last))) return;
         const badge = resultCell?.querySelector('.badge');
         if (!badge) return;
@@ -1222,8 +1220,6 @@ async function fetchLiveScores() {
           const betIdx = BETS.findIndex(b => {
             if (!b || b.result !== 'P') return false;
             const matchLower = b.match.toLowerCase();
-            const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
-            const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
             return matchLower.includes(p1Last) && matchLower.includes(p2Last);
           });
           if (betIdx >= 0) {
