@@ -1068,7 +1068,7 @@ async function fetchLiveScores() {
   // Only include PENDING players whose match time has passed
   PENDING.forEach(p => {
     // Find matching bet to get date+time
-    const matchingBet = BETS.find(b => b.result === 'P' && b.pick === p.pick);
+    const matchingBet = BETS.find(b => b && b.result === 'P' && b.pick === p.pick);
     if (matchingBet) {
       const mt = parseMatchTime(matchingBet.date, matchingBet.time);
       if (mt && now < new Date(mt.getTime() - 30 * 60 * 1000)) return; // skip future
@@ -1078,6 +1078,7 @@ async function fetchLiveScores() {
     if (p.opponent && !players.includes(p.opponent)) players.push(p.opponent);
   });
   pendingBets.forEach(b => {
+    if (!b) return;
     const mt = parseMatchTime(b.date, b.time);
     if (mt && now < new Date(mt.getTime() - 30 * 60 * 1000)) return; // skip future matches
     b.match.split(' vs ').forEach(name => {
@@ -1200,7 +1201,7 @@ async function fetchLiveScores() {
           // Also update the BETS array in memory for stats recalc
           // Match by BOTH players — both must appear in the bet's match field
           const betIdx = BETS.findIndex(b => {
-            if (b.result !== 'P') return false;
+            if (!b || b.result !== 'P') return false;
             const matchLower = b.match.toLowerCase();
             const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
             const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
