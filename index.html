@@ -1085,7 +1085,8 @@ async function fetchLiveScores() {
       if (ln && !players.includes(ln)) players.push(ln);
     });
   });
-  if (players.length === 0) return;
+  if (players.length === 0) { console.log('[LiveScore] No players to query'); return; }
+  console.log('[LiveScore] Querying players:', players.join(', '));
 
   try {
     const resp = await fetch('/api/scores', {
@@ -1095,6 +1096,7 @@ async function fetchLiveScores() {
     });
     if (!resp.ok) return;
     const data = await resp.json();
+    console.log('[LiveScore] API returned', data.matches?.length || 0, 'matches');
     if (!data.matches || !data.matches.length) return;
 
     // Update pick cards with live scores
@@ -1145,7 +1147,9 @@ async function fetchLiveScores() {
       });
 
       // Update table rows for BETS with result='P' that match this player
+      console.log('[LiveScore] Processing match:', match.p1Name, 'vs', match.p2Name, '| status:', match.status, '| player:', match.player);
       const rows = document.querySelectorAll('#tableBody tr');
+      console.log('[LiveScore] Table rows found:', rows.length);
       rows.forEach(row => {
         const cells = row.querySelectorAll('td');
         if (cells.length < 8) return;
@@ -1158,6 +1162,7 @@ async function fetchLiveScores() {
         const badge = resultCell?.querySelector('.badge');
         if (!badge) return;
         if (badge.textContent.trim() !== 'P') return;
+        console.log('[LiveScore] Found pending row:', matchCell, '| badge:', badge.textContent);
 
         if (match.status === 'finished' && match.sets.length > 0) {
           // Determine winner — check who won more sets
@@ -1174,6 +1179,7 @@ async function fetchLiveScores() {
           }).join(' ');
 
           // Update the badge
+          console.log('[LiveScore] SETTLING:', matchCell, '| won:', won, '| ourSets:', ourSets, '| theirSets:', theirSets);
           badge.textContent = won ? 'W' : 'L';
           badge.className = won ? 'badge badge-w' : 'badge badge-l';
 
@@ -1183,6 +1189,13 @@ async function fetchLiveScores() {
           const color = won ? '#22c55e' : '#ef4444';
           const inlineHtml = '<span class="live-score-inline" style="margin-left:6px;font-size:10px;color:' + color + ';font-weight:600;">' + finalScore + ' (final)</span>';
           resultCell.insertAdjacentHTML('beforeend', inlineHtml);
+          // Also update P&L cell
+          const pnlCell = cells[8];
+          if (pnlCell && betIdx >= 0) {
+            const pnlVal = BETS[betIdx].pnl;
+            pnlCell.textContent = (pnlVal > 0 ? '+' : '') + '$' + pnlVal.toFixed(2);
+            pnlCell.className = pnlVal > 0 ? 'col-pnl-pos' : 'col-pnl-neg';
+          }
 
           // Also update the BETS array in memory for stats recalc
           // Match by BOTH players — both must appear in the bet's match field
@@ -1223,6 +1236,13 @@ async function fetchLiveScores() {
           }).join(' ');
           const inlineHtml = '<span class="live-score-inline" style="margin-left:6px;font-size:10px;color:#22c55e;font-weight:600;">' + shortScore + '</span>';
           resultCell.insertAdjacentHTML('beforeend', inlineHtml);
+          // Also update P&L cell
+          const pnlCell = cells[8];
+          if (pnlCell && betIdx >= 0) {
+            const pnlVal = BETS[betIdx].pnl;
+            pnlCell.textContent = (pnlVal > 0 ? '+' : '') + '$' + pnlVal.toFixed(2);
+            pnlCell.className = pnlVal > 0 ? 'col-pnl-pos' : 'col-pnl-neg';
+          }
         }
       });
     });
