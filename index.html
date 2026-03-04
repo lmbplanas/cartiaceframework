@@ -345,7 +345,7 @@ function renderPending() {
     cardsHtml += `
     <div style="background:#14141c;border:1px solid #1e1e2a;border-radius:8px;padding:12px 16px;" class="pick-card">
       <div style="font-size:10px;color:#555;margin-bottom:4px;">${p.tournament} · ${p.time}</div>
-      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;">${p.pick}</div>
+      <div style="font-size:15px;font-weight:800;color:#fff;margin-bottom:2px;" data-pick="${p.pick}">${p.pick}</div>
       <div style="font-size:12px;color:#888;margin-bottom:6px;">vs ${p.opponent} | ${Math.round(p.price*100)}c | ${stakeStr}</div>
       <div style="display:flex;gap:8px;font-size:11px;">
         <span style="color:#22c55e">P_true ${(p.pTrue*100).toFixed(1)}%</span>
@@ -1024,10 +1024,11 @@ async function fetchLiveScores() {
   if (PENDING.length === 0) return;
   
   // Extract player last names from PENDING picks
-  const players = PENDING.map(p => {
-    // pick is like "Prizmic ML" or "O'Connell -1.5" — extract first word(s) before market type
+  const players = [];
+  PENDING.forEach(p => {
     const name = p.pick.replace(/\s+(ML|\-?\d\.\d|O\s+\d|U\s+\d).*$/i, '').trim();
-    return name;
+    if (!players.includes(name)) players.push(name);
+    if (p.opponent && !players.includes(p.opponent)) players.push(p.opponent);
   });
 
   try {
