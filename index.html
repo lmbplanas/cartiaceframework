@@ -1064,7 +1064,14 @@ async function fetchLiveScores() {
 
   // Only send players whose matches have started
   const players = [];
+  // Only include PENDING players whose match time has passed
   PENDING.forEach(p => {
+    // Find matching bet to get date+time
+    const matchingBet = BETS.find(b => b.result === 'P' && b.pick === p.pick);
+    if (matchingBet) {
+      const mt = parseMatchTime(matchingBet.date, matchingBet.time);
+      if (mt && now < new Date(mt.getTime() - 30 * 60 * 1000)) return; // skip future
+    }
     const name = p.pick.replace(/\s+(ML|\-?\d\.\d|O\s+\d|U\s+\d).*$/i, '').trim();
     if (!players.includes(name)) players.push(name);
     if (p.opponent && !players.includes(p.opponent)) players.push(p.opponent);
