@@ -1132,7 +1132,14 @@ async function fetchLiveScores() {
           resultCell.insertAdjacentHTML('beforeend', inlineHtml);
 
           // Also update the BETS array in memory for stats recalc
-          const betIdx = BETS.findIndex(b => b.result === 'P' && b.match.toLowerCase().includes(playerLast));
+          // Match by both player names in the bet's match field
+          const betIdx = BETS.findIndex(b => {
+            if (b.result !== 'P') return false;
+            const matchLower = b.match.toLowerCase();
+            const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
+            const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
+            return matchLower.includes(p1Last) || matchLower.includes(p2Last);
+          });
           if (betIdx >= 0) {
             // For ML picks, won = pick player won the match
             // For spread/totals this is more complex, but we handle ML for now

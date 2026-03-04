@@ -45,7 +45,14 @@ export default async function handler(req, res) {
       const fixtures = await cached(`fix_${t.tournamentId}`, 30000, () =>
         apiFetch(`/fixtures?tournamentId=${t.tournamentId}`)
       );
-      fixtures.filter(f => f.statusId === 1 || f.statusId === 2).forEach(f => {
+      const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString();
+      fixtures.filter(f => {
+        if (f.statusId !== 1 && f.statusId !== 2) return false;
+        // Only include recent matches (started in last 48h)
+        const start = f.trueStartTime || f.startTime;
+        if (start && start < cutoff) return false;
+        return true;
+      }).forEach(f => {
         f._tournament = t.tournamentName;
         allLiveFixtures.push(f);
       });
