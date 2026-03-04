@@ -1268,8 +1268,10 @@ async function fetchLiveScores() {
 }
 
 function startScorePolling() {
-  if (PENDING.length === 0 && !BETS.some(b => b.result === 'P')) return;
-  fetchLiveScores(); // Initial fetch (will skip if no matches started)
+  console.log('[LiveScore] startScorePolling: PENDING.length=' + PENDING.length + ', P bets=' + BETS.filter(b => b && b.result === 'P').length);
+  if (PENDING.length === 0 && !BETS.some(b => b && b.result === 'P')) return;
+  console.log('[LiveScore] Polling started, interval=45s');
+  fetchLiveScores();
   scoreInterval = setInterval(fetchLiveScores, 45000);
 }
 
