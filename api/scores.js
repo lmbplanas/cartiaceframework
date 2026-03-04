@@ -1,16 +1,22 @@
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = 'bet36528.p.rapidapi.com';
 
-async function apiFetch(path) {
-  const res = await fetch(`https://${API_HOST}${path}`, {
-    headers: {
-      'x-rapidapi-key': RAPIDAPI_KEY,
-      'x-rapidapi-host': API_HOST,
-      'User-Agent': 'Mozilla/5.0',
-    },
-  });
-  if (!res.ok) throw new Error(`API ${path}: ${res.status}`);
-  return res.json();
+async function apiFetch(path, retries = 2) {
+  for (let i = 0; i <= retries; i++) {
+    const res = await fetch(`https://${API_HOST}${path}`, {
+      headers: {
+        'x-rapidapi-key': RAPIDAPI_KEY,
+        'x-rapidapi-host': API_HOST,
+        'User-Agent': 'Mozilla/5.0',
+      },
+    });
+    if (res.ok) return res.json();
+    if (res.status === 429 && i < retries) {
+      await new Promise(r => setTimeout(r, 1000 * (i + 1))); // wait 1s, 2s
+      continue;
+    }
+    throw new Error(`API ${path}: ${res.status}`);
+  }
 }
 
 const cache = {};
