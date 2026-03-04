@@ -1149,15 +1149,18 @@ async function fetchLiveScores() {
         if (!pickText) { return; }
         const pickName = pickText.getAttribute('data-pick');
         if (!pickName) { return; }
-        const pLower = pickName.toLowerCase();
-        console.log('[LiveScore] Card pick:', pickName, '| p1Last:', JSON.stringify(p1Last), '| p2Last:', JSON.stringify(p2Last), '| pLower:', JSON.stringify(pLower), '| inc p1:', pLower.includes(p1Last), '| inc p2:', pLower.includes(p2Last));
-        if (!pLower.includes(p1Last) && !pLower.includes(p2Last)) return;
+        // Normalize: strip apostrophes/quotes for reliable matching
+        const norm = s => s.toLowerCase().replace(/[''`\u2018\u2019]/g, '');
+        const pNorm = norm(pickName);
+        const p1Norm = norm(match.p1Name.split(',')[0].trim());
+        const p2Norm = norm(match.p2Name.split(',')[0].trim());
+        if (!pNorm.includes(p1Norm) && !pNorm.includes(p2Norm)) return;
         console.log('[LiveScore] MATCHED card:', pickName, '| sets:', match.sets.length);
         const old = card.querySelector('.live-score');
         if (old) old.remove();
         
         // Determine if our pick is p1 or p2 based on card's pick name
-        const cardIsP1 = pLower.includes(p1Last);
+        const cardIsP1 = pNorm.includes(p1Norm);
         if (match.sets.length > 0) {
           const setStrs = match.sets.map((s, i) => {
             const ourScore = cardIsP1 ? s.p1 : s.p2;
