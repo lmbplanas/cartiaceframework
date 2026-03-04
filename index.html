@@ -1027,22 +1027,50 @@ function drawBrierChart() {
 // ─── Live Score Polling ───────────────────────────────────
 let scoreInterval = null;
 
+// Parse match time to UTC Date (input is PHT)
+function parseMatchTime(dateStr, timeStr) {
+  if (!timeStr || !dateStr) return null;
+  try {
+    let t = timeStr.replace(/~/g, '').trim();
+    let matchDate = dateStr;
+    const dateInTime = t.match(/((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+)/i);
+    if (dateInTime) { matchDate = dateInTime[1]; t = t.replace(dateInTime[0], '').trim(); }
+    const tp = t.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (!tp) return null;
+    let h = parseInt(tp[1]); const m = parseInt(tp[2]);
+    if (tp[3].toUpperCase() === 'PM' && h !== 12) h += 12;
+    if (tp[3].toUpperCase() === 'AM' && h === 12) h = 0;
+    const mn = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+    const dp = matchDate.match(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d+)/i);
+    if (!dp) return null;
+    return new Date(Date.UTC(new Date().getFullYear(), mn[dp[1]], parseInt(dp[2]), h - 8, m));
+  } catch (e) { return null; }
+}
+
 async function fetchLiveScores() {
-  const hasPending = PENDING.length > 0 || BETS.some(b => b.result === 'P');
-  if (!hasPending) return;
-  
-  // Extract player last names from PENDING picks
+  const pendingBets = BETS.filter(b => b.result === 'P');
+  if (PENDING.length === 0 && pendingBets.length === 0) return;
+
+  // Only call API if at least one match time has been reached (30 min buffer)
+  const now = new Date();
+  const anyStarted = pendingBets.some(b => {
+    const mt = parseMatchTime(b.date, b.time);
+    if (!mt) return true; // can't parse = poll anyway
+    return now >= new Date(mt.getTime() - 30 * 60 * 1000);
+  });
+  if (!anyStarted) return; // No matches started yet — save API calls
+
+  // Only send players whose matches have started
   const players = [];
-  // From PENDING picks
   PENDING.forEach(p => {
     const name = p.pick.replace(/\s+(ML|\-?\d\.\d|O\s+\d|U\s+\d).*$/i, '').trim();
     if (!players.includes(name)) players.push(name);
     if (p.opponent && !players.includes(p.opponent)) players.push(p.opponent);
   });
-  // From BETS with result='P' (pending/unsettled)
-  BETS.filter(b => b.result === 'P').forEach(b => {
-    const parts = b.match.split(' vs ');
-    parts.forEach(name => {
+  pendingBets.forEach(b => {
+    const mt = parseMatchTime(b.date, b.time);
+    if (mt && now < new Date(mt.getTime() - 30 * 60 * 1000)) return; // skip future matches
+    b.match.split(' vs ').forEach(name => {
       const ln = name.trim().split(' ').pop();
       if (ln && !players.includes(ln)) players.push(ln);
     });
@@ -1194,10 +1222,9 @@ async function fetchLiveScores() {
 }
 
 function startScorePolling() {
-  const hasPending = PENDING.length > 0 || BETS.some(b => b.result === 'P');
-  if (!hasPending) return;
-  fetchLiveScores(); // Initial fetch
-  scoreInterval = setInterval(fetchLiveScores, 45000); // Every 45 seconds
+  if (PENDING.length === 0 && !BETS.some(b => b.result === 'P')) return;
+  fetchLiveScores(); // Initial fetch (will skip if no matches started)
+  scoreInterval = setInterval(fetchLiveScores, 45000);
 }
 
 // Add CSS animation for the LIVE pulse
