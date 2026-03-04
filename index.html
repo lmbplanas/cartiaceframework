@@ -1264,13 +1264,6 @@ async function fetchLiveScores() {
           }).join(' ');
           const inlineHtml = '<span class="live-score-inline" style="margin-left:6px;font-size:10px;color:#22c55e;font-weight:600;">' + shortScore + '</span>';
           resultCell.insertAdjacentHTML('beforeend', inlineHtml);
-          // Also update P&L cell
-          const pnlCell = cells[8];
-          if (pnlCell && betIdx >= 0) {
-            const pnlVal = BETS[betIdx].pnl;
-            pnlCell.textContent = (pnlVal > 0 ? '+' : '') + '$' + pnlVal.toFixed(2);
-            pnlCell.className = pnlVal > 0 ? 'col-pnl-pos' : 'col-pnl-neg';
-          }
         }
       });
       } catch(matchErr) { console.error('[LiveScore] Error processing match:', match?.player, matchErr); }
