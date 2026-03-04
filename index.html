@@ -1138,6 +1138,12 @@ async function fetchLiveScores() {
       const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
       const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
       console.log('[LiveScore] Cards found:', cards.length, '| looking for p1Last:', p1Last, 'p2Last:', p2Last);
+      if (cards.length > 0) {
+        cards.forEach((c, i) => {
+          const dp = c.querySelector('[data-pick]');
+          console.log('[LiveScore] Card', i, 'data-pick:', dp ? dp.getAttribute('data-pick') : 'NO DATA-PICK ATTR');
+        });
+      }
       cards.forEach(card => {
         const pickText = card.querySelector('[data-pick]');
         if (!pickText) { return; }
