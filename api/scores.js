@@ -45,7 +45,7 @@ export default async function handler(req, res) {
       const fixtures = await cached(`fix_${t.tournamentId}`, 30000, () =>
         apiFetch(`/fixtures?tournamentId=${t.tournamentId}`)
       );
-      const cutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+      const cutoff = new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString();
       fixtures.filter(f => {
         if (f.statusId !== 1 && f.statusId !== 2) return false;
         // Only include recent matches (started in last 48h)
