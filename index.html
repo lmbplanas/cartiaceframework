@@ -1102,6 +1102,7 @@ async function fetchLiveScores() {
 
     // Update pick cards with live scores
     data.matches.forEach(match => {
+      try {
       const playerLast = match.player.split(' ').pop().toLowerCase();
       const isP1 = match.p1Name.toLowerCase().includes(playerLast);
 
@@ -1272,6 +1273,7 @@ async function fetchLiveScores() {
           }
         }
       });
+      } catch(matchErr) { console.error('[LiveScore] Error processing match:', match?.player, matchErr); }
     });
   } catch (e) {
     // Silent fail — cards render fine without scores
