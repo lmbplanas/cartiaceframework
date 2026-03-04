@@ -1144,7 +1144,7 @@ async function fetchLiveScores() {
         const pickName = pickText.getAttribute('data-pick');
         if (!pickName) { return; }
         const pLower = pickName.toLowerCase();
-        console.log('[LiveScore] Card pick:', pickName, '| includes p1?', pLower.includes(p1Last), '| includes p2?', pLower.includes(p2Last));
+        console.log('[LiveScore] Card pick:', pickName, '| p1Last:', JSON.stringify(p1Last), '| p2Last:', JSON.stringify(p2Last), '| pLower:', JSON.stringify(pLower), '| inc p1:', pLower.includes(p1Last), '| inc p2:', pLower.includes(p2Last));
         if (!pLower.includes(p1Last) && !pLower.includes(p2Last)) return;
         console.log('[LiveScore] MATCHED card:', pickName, '| sets:', match.sets.length);
         const old = card.querySelector('.live-score');
