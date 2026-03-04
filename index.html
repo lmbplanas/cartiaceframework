@@ -1135,16 +1135,35 @@ async function fetchLiveScores() {
 
       // Update PENDING pick cards
       const cards = document.querySelectorAll('.pick-card');
+      const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
+      const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
       cards.forEach(card => {
         const pickText = card.querySelector('[data-pick]');
         if (!pickText) return;
         const pickName = pickText.getAttribute('data-pick');
         if (!pickName) return;
-        // Match by pick player name
-        if (!pickName.toLowerCase().includes(playerLast)) return;
+        // Match by either player name from the API result
+        const pLower = pickName.toLowerCase();
+        if (!pLower.includes(p1Last) && !pLower.includes(p2Last)) return;
         const old = card.querySelector('.live-score');
         if (old) old.remove();
-        if (scoreHtml) card.insertAdjacentHTML('beforeend', scoreHtml);
+        
+        // Determine if our pick is p1 or p2 based on card's pick name
+        const cardIsP1 = pLower.includes(p1Last);
+        if (match.sets.length > 0) {
+          const setStrs = match.sets.map((s, i) => {
+            const ourScore = cardIsP1 ? s.p1 : s.p2;
+            const theirScore = cardIsP1 ? s.p2 : s.p1;
+            const isCurrentSet = i === match.sets.length - 1;
+            const color = ourScore > theirScore ? '#22c55e' : ourScore < theirScore ? '#ef4444' : '#fff';
+            return '<span style="color:' + color + ';' + (isCurrentSet ? 'font-weight:700;' : '') + '">' + ourScore + '-' + theirScore + (isCurrentSet ? '*' : '') + '</span>';
+          });
+          const ourSets = cardIsP1 ? match.setsWon.p1 : match.setsWon.p2;
+          const theirSets = cardIsP1 ? match.setsWon.p2 : match.setsWon.p1;
+          const setsColor = ourSets > theirSets ? '#22c55e' : ourSets < theirSets ? '#ef4444' : '#eab308';
+          const cardScore = '<div class="live-score" style="margin-top:8px;padding:6px 8px;background:#0d1117;border:1px solid #1e3a1e;border-radius:4px;"><div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;"><span style="background:#22c55e;color:#000;font-size:8px;font-weight:700;padding:1px 4px;border-radius:2px;animation:pulse 2s infinite;">LIVE</span><span style="font-size:10px;color:#888;">Sets: <span style="color:' + setsColor + ';font-weight:600;">' + ourSets + '-' + theirSets + '</span></span></div><div style="font-size:13px;font-weight:600;color:#fff;letter-spacing:1px;">' + setStrs.join(' <span style="color:#333">|</span> ') + '</div></div>';
+          card.insertAdjacentHTML('beforeend', cardScore);
+        }
       });
 
       // Update table rows for BETS with result='P' that match this player
