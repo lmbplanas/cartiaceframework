@@ -328,6 +328,7 @@ function runPortfolioMC(picks, N=100000) {
 }
 
 function renderPending() {
+  PENDING = getPending(); // Always refresh from current BETS state
   const container = document.getElementById('pendingSection');
   if (!container) return;
   if (PENDING.length === 0) {
@@ -547,27 +548,30 @@ const BETS = [
 ];
 
 // ─── Active picks auto-derived from BETS where result==='P' ─────
-const PENDING = BETS.filter(b => b.result === 'P').map(b => {
-  const parts = (b.match || '').split(' vs ');
-  const pickName = (b.pick || '').toLowerCase();
-  let opponent = '';
-  if (parts.length === 2) {
-    const p0 = parts[0].trim(), p1 = parts[1].trim();
-    opponent = pickName.includes(p0.split(',')[0].toLowerCase()) ? p1 : p0;
-  }
-  return {
-    pick: b.pick,
-    opponent: opponent || b.match,
-    tournament: b.tournament,
-    time: b.time || '',
-    price: b.price,
-    stake: b.stake,
-    pTrue: b.pTrue || 0.55,
-    edge: b.edge || 0,
-    mc: b.mc || 0,
-    note: b.note || ''
-  };
-});
+function getPending() {
+  return BETS.filter(b => b.result === 'P').map(b => {
+    const parts = (b.match || '').split(' vs ');
+    const pickName = (b.pick || '').toLowerCase();
+    let opponent = '';
+    if (parts.length === 2) {
+      const p0 = parts[0].trim(), p1 = parts[1].trim();
+      opponent = pickName.includes(p0.split(',')[0].toLowerCase()) ? p1 : p0;
+    }
+    return {
+      pick: b.pick,
+      opponent: opponent || b.match,
+      tournament: b.tournament,
+      time: b.time || '',
+      price: b.price,
+      stake: b.stake,
+      pTrue: b.pTrue || 0.55,
+      edge: b.edge || 0,
+      mc: b.mc || 0,
+      note: b.note || ''
+    };
+  });
+}
+let PENDING = getPending();
 
 //  Sort & Filter State 
 let sortKey = 'date', sortDir = -1;
@@ -1155,9 +1159,14 @@ async function fetchLiveScores() {
             } else {
               BETS[betIdx].pnl = -stake;
             }
-            // Recalculate stats
+            // Full dashboard refresh — regenerate everything
+            PENDING = getPending(); // Regenerate from updated BETS
             updateStats();
             renderDaily();
+            drawChart();
+            drawBrierChart();
+            renderPending();
+            applyFilters();
           }
         } else if (match.status === 'live' && match.sets.length > 0) {
           // Live score inline
