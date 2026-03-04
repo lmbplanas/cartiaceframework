@@ -1088,7 +1088,9 @@ async function fetchLiveScores() {
         const pickText = card.querySelector('[data-pick]');
         if (!pickText) return;
         const pickName = pickText.getAttribute('data-pick');
-        if (!pickName || !pickName.toLowerCase().includes(playerLast)) return;
+        if (!pickName) return;
+        // Match by pick player name
+        if (!pickName.toLowerCase().includes(playerLast)) return;
         const old = card.querySelector('.live-score');
         if (old) old.remove();
         if (scoreHtml) card.insertAdjacentHTML('beforeend', scoreHtml);
@@ -1101,7 +1103,10 @@ async function fetchLiveScores() {
         if (cells.length < 8) return;
         const matchCell = cells[3]?.textContent || '';
         const resultCell = cells[7];
-        if (!matchCell.toLowerCase().includes(playerLast)) return;
+        // Must match BOTH players from API result in the table's match cell
+        const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
+        const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
+        if (!(matchCell.toLowerCase().includes(p1Last) && matchCell.toLowerCase().includes(p2Last))) return;
         const badge = resultCell?.querySelector('.badge');
         if (!badge) return;
         if (badge.textContent.trim() !== 'P') return;
@@ -1132,13 +1137,13 @@ async function fetchLiveScores() {
           resultCell.insertAdjacentHTML('beforeend', inlineHtml);
 
           // Also update the BETS array in memory for stats recalc
-          // Match by both player names in the bet's match field
+          // Match by BOTH players — both must appear in the bet's match field
           const betIdx = BETS.findIndex(b => {
             if (b.result !== 'P') return false;
             const matchLower = b.match.toLowerCase();
             const p1Last = match.p1Name.split(',')[0].trim().toLowerCase();
             const p2Last = match.p2Name.split(',')[0].trim().toLowerCase();
-            return matchLower.includes(p1Last) || matchLower.includes(p2Last);
+            return matchLower.includes(p1Last) && matchLower.includes(p2Last);
           });
           if (betIdx >= 0) {
             // For ML picks, won = pick player won the match
