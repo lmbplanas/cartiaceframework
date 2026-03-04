@@ -578,10 +578,7 @@ function resetFilters() {
   document.getElementById('filter-result').value = '';
   document.getElementById('filter-fw').value = '';
   document.getElementById('filter-surface').value = '';
-  renderPending();
-startScorePolling();
-applyFilters();
-renderDaily();
+  applyFilters();
 }
 
 function applyFilters() {
