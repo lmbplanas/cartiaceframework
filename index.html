@@ -764,14 +764,33 @@ function drawChart() {
   const cv = document.getElementById('chart');
   if (pnlChart) { pnlChart.destroy(); pnlChart = null; }
 
-  // Build cumulative series
+  // Sort bets by date + time for chronological chart
+  const monthOrder = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+  function betSortKey(b) {
+    const dp = (b.date || '').match(/(\w+)\s+(\d+)/);
+    const month = dp ? (monthOrder[dp[1]] || 0) : 0;
+    const day = dp ? parseInt(dp[2]) : 0;
+    let t = (b.time || '').replace(/~/g, '').replace(/\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+/i, '').trim();
+    const tp = t.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    let mins = 0;
+    if (tp) {
+      let h = parseInt(tp[1]);
+      if (tp[3].toUpperCase() === 'PM' && h !== 12) h += 12;
+      if (tp[3].toUpperCase() === 'AM' && h === 12) h = 0;
+      mins = h * 60 + parseInt(tp[2]);
+    }
+    return month * 100000 + day * 1440 + mins;
+  }
+  const sortedBets = [...BETS].filter(b => b.result !== 'P').sort((a, b) => betSortKey(a) - betSortKey(b));
+
+  // Build cumulative series from sorted bets
   const labels = ['Start'];
   const cumData = [0];
   const dotColors = ['#555'];
   const dotBorders = ['#0d0d12'];
   const betMeta = [null];
   let cum = 0;
-  BETS.forEach((b, i) => {
+  sortedBets.forEach((b, i) => {
     cum += b.pnl;
     const label = b.date + (b.time ? ' ' + b.time : '') + ' #' + (i+1);
     labels.push(label);
