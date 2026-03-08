@@ -1820,5 +1820,22 @@
     "edge": 25.6,
     "mc": 72.6,
     "note": "Scout + Sim converge. Diallo hold rate 81.2% > FAA 78.2% at IW slow. FAA 2ndW=50.1% liability \u2014 serve dependent (24.8pp 1st-2nd drop). Diallo beat Rublev #7 yesterday 6-7 7-6 6-3. Market anchored on FAA #9 ranking, ignores serve mechanics. 72.6% sim probability at 47c implied."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R4",
+    "match": "Paul vs Fonseca",
+    "pick": "Paul ML",
+    "price": 0.66,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard",
+    "time": "TBD Mar 9",
+    "pTrue": 0.708,
+    "edge": 3.8,
+    "mc": 65,
+    "note": "SCOUT+SIM: Paul 70.8% true vs 67c implied. Edge only +3.8% \u2014 below 8% minimum threshold. Framework rec was PASS. Player override at 66c. Paul rested (6-1 6-2 vs Bergs), Fonseca 3-set fatigue flag. IW clay specialist bonus applies."
   }
 ]
