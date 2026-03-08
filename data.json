@@ -1769,22 +1769,5 @@
     "edge": 22.1,
     "mc": 80,
     "note": "SCOUT: Clay specialist at IW slow CPI 37 \u2014 +8% adjustment. P(win a set)=69.1% from sim. BPWon% identical (43% each) \u2014 no break edge for Medvedev. Medvedev 2ndSrvWon 50.8% exploitable at IW (x1.5 weight). High tiebreak probability 76% reduces favorite dominance. Market 47c implies 47% vs true 69% \u2014 massive edge."
-  },
-  {
-    "date": "Mar 8",
-    "tournament": "IW R3",
-    "match": "Tabilo vs Medvedev",
-    "pick": "Tabilo ML",
-    "price": 0.22,
-    "stake": 0.25,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.2",
-    "surface": "Hard",
-    "time": "TBD Mar 8",
-    "pTrue": 0.412,
-    "edge": 19.2,
-    "mc": 75,
-    "note": "SCOUT: Tabilo ML @ 22c \u2014 edge +19.2%. Market overpricing Medvedev at 80%. Clay specialist transfer at IW slow court. First meeting \u2014 no H2H for market to anchor on. 0.25u sizing for high-volatility underdog ML."
   }
 ]
