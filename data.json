@@ -1786,5 +1786,22 @@
     "edge": -37.5,
     "mc": 30,
     "note": "Scout: Zverev dominant. Override \u2014 Sim said hard pass (16-19.5% straight sets probability, -35% EV). Player override at 57c."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R4",
+    "match": "Fokina vs Mensik",
+    "pick": "Fokina ML",
+    "price": 0.42,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard",
+    "time": "TBD Mar 9",
+    "pTrue": 0.501,
+    "edge": 6.1,
+    "mc": 55,
+    "note": "QUANT+SCOUT: Fokina ML 50.1% true vs 44c implied. Mensik 2ndSrv below IW loser benchmark, Fokina movement advantage on slow court. Sim: 50/50 match. Framework rec 1u. Got 42c."
   }
 ]
