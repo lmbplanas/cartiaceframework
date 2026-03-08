@@ -1803,5 +1803,22 @@
     "edge": 6.1,
     "mc": 55,
     "note": "QUANT+SCOUT: Fokina ML 50.1% true vs 44c implied. Mensik 2ndSrv below IW loser benchmark, Fokina movement advantage on slow court. Sim: 50/50 match. Framework rec 1u. Got 42c."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3",
+    "match": "FAA vs Diallo",
+    "pick": "Diallo +1.5 (Win a Set)",
+    "price": 0.47,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard",
+    "time": "7:35 AM Mar 9",
+    "pTrue": 0.726,
+    "edge": 25.6,
+    "mc": 72.6,
+    "note": "Scout + Sim converge. Diallo hold rate 81.2% > FAA 78.2% at IW slow. FAA 2ndW=50.1% liability \u2014 serve dependent (24.8pp 1st-2nd drop). Diallo beat Rublev #7 yesterday 6-7 7-6 6-3. Market anchored on FAA #9 ranking, ignores serve mechanics. 72.6% sim probability at 47c implied."
   }
 ]
