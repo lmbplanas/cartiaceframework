@@ -1769,5 +1769,22 @@
     "edge": 22.1,
     "mc": 80,
     "note": "SCOUT: Clay specialist at IW slow CPI 37 \u2014 +8% adjustment. P(win a set)=69.1% from sim. BPWon% identical (43% each) \u2014 no break edge for Medvedev. Medvedev 2ndSrvWon 50.8% exploitable at IW (x1.5 weight). High tiebreak probability 76% reduces favorite dominance. Market 47c implies 47% vs true 69% \u2014 massive edge."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R4",
+    "match": "Nakashima vs Zverev",
+    "pick": "Zverev -1.5 (Straights)",
+    "price": 0.57,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard",
+    "time": "TBD Mar 9",
+    "pTrue": 0.195,
+    "edge": -37.5,
+    "mc": 30,
+    "note": "Scout: Zverev dominant. Override \u2014 Sim said hard pass (16-19.5% straight sets probability, -35% EV). Player override at 57c."
   }
 ]
