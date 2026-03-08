@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -f data.json ]; then
+  node -e "JSON.parse(require('fs').readFileSync('data.json','utf8')); console.log('data.json: valid')" || {
+    echo "ERROR: data.json is invalid JSON!"
+    exit 1
+  }
+fi
