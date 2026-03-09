@@ -1837,5 +1837,44 @@
     "edge": 3.8,
     "mc": 65,
     "note": "SCOUT+SIM: Paul 70.8% true vs 67c implied. Edge only +3.8% \u2014 below 8% minimum threshold. Framework rec was PASS. Player override at 66c. Paul rested (6-1 6-2 vs Bergs), Fonseca 3-set fatigue flag. IW clay specialist bonus applies."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3",
+    "match": "Norrie vs De Minaur",
+    "pick": "Norrie +1.5 (Win a Set)",
+    "price": 0.45,
+    "stake": 1,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "Mar 9"
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3",
+    "match": "Cerundolo vs Draper",
+    "pick": "Cerundolo ML",
+    "price": 0.4,
+    "stake": 1,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "Mar 9"
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3",
+    "match": "Vacherot vs Ruud",
+    "pick": "Vacherot ML",
+    "price": 0.4,
+    "stake": 1,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "Mar 9"
   }
 ]
