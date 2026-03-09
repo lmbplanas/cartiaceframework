@@ -1849,7 +1849,11 @@
     "pnl": 0,
     "fw": "v2.2",
     "surface": "Hard (Slow)",
-    "time": "Mar 9"
+    "time": "Mar 9",
+    "pTrue": 0.806,
+    "edge": 35.6,
+    "mc": 80.6,
+    "note": "SCOUT+SIM: Norrie +1.5 80.6% true vs 45c implied. IW 2022 champion, clay specialist bonus applies at slow CPI 37. Demolished McDonald 6-2 6-3 in R2. Hold rates near-identical (83.4% vs 83.5%). Market overpricing DeMin -1.5. B-respect gate clears (edge 35.6% >> 12% min). DeMin MOV:10 edge factored in \u2014 true prob ~70-72% conservative case, still +25-27% edge."
   },
   {
     "date": "Mar 9",
@@ -1862,7 +1866,11 @@
     "pnl": 0,
     "fw": "v2.2",
     "surface": "Hard (Slow)",
-    "time": "Mar 9"
+    "time": "Mar 9",
+    "pTrue": 0.566,
+    "edge": 16.6,
+    "mc": 65,
+    "note": "SCOUT+SIM: Cerundolo ML 56.6% true vs 40c implied. Clay specialist at IW slow court (+8% bonus). Draper FIT:6 \u2014 very limited 2026 matches, physical rust. Cerundolo SRC:8 MOV:8 dominate slow-court attrition. Draper 1stW elite but CPI 37 forces rallies he isn't prepared for. Market severely misprices Draper's raw hard WR without slow-court correction."
   },
   {
     "date": "Mar 9",
@@ -1875,6 +1883,10 @@
     "pnl": 0,
     "fw": "v2.2",
     "surface": "Hard (Slow)",
-    "time": "Mar 9"
+    "time": "Mar 9",
+    "pTrue": 0.642,
+    "edge": 24.2,
+    "mc": 64,
+    "note": "SCOUT+SIM: Vacherot ML 64.2% true vs 40c implied. Both clay specialists at IW slow (+8% bonus each). Vacherot 86.4% hard WR in 2024, 5W streak entering IW. Ruud hard court 2026 only 54.5% \u2014 identical to Vacherot. Market anchored on Ruud name/ranking, ignores form divergence. Vacherot peaked; Ruud dropped sets vs Wu 7-6 7-6 and lost to Korda 6-2 6-2."
   }
 ]
