@@ -1990,5 +1990,39 @@
     "edge": 27.8,
     "mc": 50,
     "note": "SCOUT+SIM (playstyle model): 49.8% true vs 22c. +27.8% edge. Near coin-flip. 0.5u spec paired with +1.5."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R3",
+    "match": "Michelsen vs Fritz",
+    "pick": "Fritz ML",
+    "price": 0.71,
+    "stake": 2.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Afternoon)",
+    "time": "Afternoon Mar 10",
+    "pTrue": 0.831,
+    "edge": 12.1,
+    "mc": 83,
+    "note": "SCOUT+SIM (playstyle): Fritz ML 83.1% true vs 71c. +12.1% edge (afternoon CPI~37). Fritz 2x IW champion, serve gap 24.5pp vs Michelsen 18.3pp. Scout HIGH conviction. Full Scout+Sim convergence. Michelsen 3-set fatigue flag."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R3",
+    "match": "Michelsen vs Fritz",
+    "pick": "Fritz -1.5",
+    "price": 0.51,
+    "stake": 0.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Afternoon)",
+    "time": "Afternoon Mar 10",
+    "pTrue": 0.542,
+    "edge": 3.2,
+    "mc": 54,
+    "note": "SCOUT+SIM: Fritz -1.5 54.2% true vs 51c. +3.2% edge (afternoon CPI \u2014 below gate, user override). Michelsen 3-set fatigue from Humbert match supports straight sets. 0.5u spec."
   }
 ]
