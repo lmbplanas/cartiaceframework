@@ -1888,5 +1888,39 @@
     "edge": 24.2,
     "mc": 64,
     "note": "SCOUT+SIM: Vacherot ML 64.2% true vs 40c implied. Both clay specialists at IW slow (+8% bonus each). Vacherot 86.4% hard WR in 2024, 5W streak entering IW. Ruud hard court 2026 only 54.5% \u2014 identical to Vacherot. Market anchored on Ruud name/ranking, ignores form divergence. Vacherot peaked; Ruud dropped sets vs Wu 7-6 7-6 and lost to Korda 6-2 6-2."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3 WTA",
+    "match": "Ruzic vs Pegula",
+    "pick": "Ruzic +1.5 (Win a Set)",
+    "price": 0.37,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "TBD Mar 9",
+    "pTrue": 0.702,
+    "edge": 33.2,
+    "mc": 70,
+    "note": "SCOUT+SIM converge. Ruzic +1.5 70.2% true vs 37c implied. Scout fully agrees \u2014 Ruzic wins a set. Edge +33.2% \u2014 cleanest bet on the card. IW slow court, form backs it. Scout and Sim alignment = high confidence."
+  },
+  {
+    "date": "Mar 9",
+    "tournament": "IW R3 WTA",
+    "match": "Ruzic vs Pegula",
+    "pick": "Ruzic ML",
+    "price": 0.17,
+    "stake": 0.25,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "TBD Mar 9",
+    "pTrue": 0.435,
+    "edge": 26.5,
+    "mc": 43,
+    "note": "SCOUT+SIM: Ruzic ML 43.5% true vs 17c implied. Scout leans yes (prefers +1.5). +26.5% edge per sim. 0.25u micro-play given high variance (needs the full win). Paired with +1.5 as the main bet."
   }
 ]
