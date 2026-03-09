@@ -1990,5 +1990,39 @@
     "edge": 19.9,
     "mc": 84,
     "note": "SCOUT+SIM: Vacherot +1.5 84.9% true vs 65c implied. Edge +19.9%. No Ruud clay bonus on hard, -5% form discount applied. Gates cleared. Sized 1.5u given existing 1u ML exposure."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R3",
+    "match": "Bublik vs Hijikata",
+    "pick": "Hijikata +1.5",
+    "price": 0.42,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "TBD Mar 10",
+    "pTrue": 0.744,
+    "edge": 32.4,
+    "mc": 74,
+    "note": "SCOUT+SIM (playstyle model): 74.4% true vs 42c. +32.4% edge. Bublik 30.2pp serve gap (highest IW dataset). Hijikata grinder gains +4.9pp hold on slow hard. Full Scout+Sim convergence."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R3",
+    "match": "Bublik vs Hijikata",
+    "pick": "Hijikata ML",
+    "price": 0.22,
+    "stake": 0.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Slow)",
+    "time": "TBD Mar 10",
+    "pTrue": 0.498,
+    "edge": 27.8,
+    "mc": 50,
+    "note": "SCOUT+SIM (playstyle model): 49.8% true vs 22c. +27.8% edge. Near coin-flip. 0.5u spec paired with +1.5."
   }
 ]
