@@ -2109,5 +2109,39 @@
     "edge": 10.9,
     "mc": 82,
     "note": "SIM: Fokina +1.5 81.9% true vs 71c. Tien 0 comfortable wins at IW 2026 \u2014 every win is TBs or 3 sets. Back-to-back stress matches (Walton double-TB, Shelton 3-setter). Fokina beat Michelsen 6-4 6-4 Feb. Morning CPI ~38-39 suits grinder style. H2H 1-0 hard."
+  },
+  {
+    "date": "Mar 11",
+    "tournament": "Cherbourg CH75",
+    "match": "Ghibaudo vs Bailly",
+    "pick": "Ghibaudo ML",
+    "price": 0.5,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Indoor)",
+    "time": "10:10 PM PHT Mar 10",
+    "pTrue": 0.71,
+    "edge": 21.0,
+    "mc": 84,
+    "note": "SIM: Ghibaudo 84% true, Scout-adj 71% vs 50c market. Bailly gap=30.5pp, 2ndW=43% \u2014 structural serve liability. Ghibaudo home (French, Cherbourg), qualified through 3 rounds, timing grooved. Live confirmed S1 6-3. Market near 50/50 \u2014 mispriced. SofaScore data."
+  },
+  {
+    "date": "Mar 11",
+    "tournament": "Hersonissos 2 CH",
+    "match": "Rincon vs Gadamauri",
+    "pick": "Gadamauri ML",
+    "price": 0.41,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Outdoor)",
+    "time": "10:30 PM PHT Mar 10",
+    "pTrue": 0.6,
+    "edge": 19.0,
+    "mc": 70,
+    "note": "SIM: Gadamauri 69.7% true, Scout-adj 60% vs 41c market. Gadamauri gap=13.2pp, 2ndW=57% vs Rincon gap=31.8pp, 2ndW=41% \u2014 Rincon 2nd serve exploitable. Scout -7pp fatigue (played today vs Ovcharenko) -8pp rank (Rincon #303 vs Gadamauri #382). Residual edge +19pp. SofaScore data."
   }
 ]
