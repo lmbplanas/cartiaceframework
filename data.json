@@ -1448,7 +1448,7 @@
     "note": "60% OH (70m across 2024-2025). 2W dominant IW Q (6-4 6-2, 6-2 6-1). Arnaldi 44% OH 2025. Hard-court specialist at IW slow."
   },
   {
-    "date": "Mar 6",
+    "date": "Mar 5",
     "tournament": "IW R1",
     "match": "Atmane vs Dimitrov",
     "pick": "Atmane ML",
@@ -1465,7 +1465,7 @@
     "note": "H2H 1-1 but Atmane W 6-3 6-3 last week (Acapulco). Corrected ranks #52 vs #42. Dimitrov 1W-3L OH 2026. Atmane BPWon 42.5% > Dimitrov 38.6%. Talent floor applied (Dimitrov CH#3)."
   },
   {
-    "date": "Mar 6",
+    "date": "Mar 5",
     "tournament": "IW R1",
     "match": "Fearnley vs Dzumhur",
     "pick": "Dzumhur ML",
@@ -1839,7 +1839,7 @@
     "note": "SCOUT+SIM: Paul 70.8% true vs 67c implied. Edge only +3.8% \u2014 below 8% minimum threshold. Framework rec was PASS. Player override at 66c. Paul rested (6-1 6-2 vs Bergs), Fonseca 3-set fatigue flag. IW clay specialist bonus applies."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3",
     "match": "Norrie vs De Minaur",
     "pick": "Norrie +1.5 (Win a Set)",
@@ -1856,7 +1856,7 @@
     "note": "SCOUT+SIM: Norrie +1.5 80.6% true vs 45c implied. IW 2022 champion, clay specialist bonus applies at slow CPI 37. Demolished McDonald 6-2 6-3 in R2. Hold rates near-identical (83.4% vs 83.5%). Market overpricing DeMin -1.5. B-respect gate clears (edge 35.6% >> 12% min). DeMin MOV:10 edge factored in \u2014 true prob ~70-72% conservative case, still +25-27% edge."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3",
     "match": "Cerundolo vs Draper",
     "pick": "Cerundolo ML",
@@ -1873,7 +1873,7 @@
     "note": "SCOUT+SIM: Cerundolo ML 56.6% true vs 40c implied. Clay specialist at IW slow court (+8% bonus). Draper FIT:6 \u2014 very limited 2026 matches, physical rust. Cerundolo SRC:8 MOV:8 dominate slow-court attrition. Draper 1stW elite but CPI 37 forces rallies he isn't prepared for. Market severely misprices Draper's raw hard WR without slow-court correction."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3",
     "match": "Vacherot vs Ruud",
     "pick": "Vacherot ML",
@@ -1890,7 +1890,7 @@
     "note": "SCOUT+SIM: Vacherot ML 64.2% true vs 40c implied. Both clay specialists at IW slow (+8% bonus each). Vacherot 86.4% hard WR in 2024, 5W streak entering IW. Ruud hard court 2026 only 54.5% \u2014 identical to Vacherot. Market anchored on Ruud name/ranking, ignores form divergence. Vacherot peaked; Ruud dropped sets vs Wu 7-6 7-6 and lost to Korda 6-2 6-2."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3 WTA",
     "match": "Ruzic vs Muchova",
     "pick": "Ruzic +1.5 (Win a Set)",
@@ -1907,7 +1907,7 @@
     "note": "SCOUT+SIM converge. Ruzic +1.5 70.2% true vs 37c implied. Scout fully agrees \u2014 Ruzic wins a set. Edge +33.2% \u2014 cleanest bet on the card. IW slow court, form backs it. Scout and Sim alignment = high confidence."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3 WTA",
     "match": "Ruzic vs Muchova",
     "pick": "Ruzic ML",
@@ -1924,7 +1924,7 @@
     "note": "SCOUT+SIM: Ruzic ML 43.5% true vs 17c implied. Scout leans yes (prefers +1.5). +26.5% edge per sim. 0.25u micro-play given high variance (needs the full win). Paired with +1.5 as the main bet."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3",
     "match": "Cerundolo vs Draper",
     "pick": "Cerundolo +1.5 (Win a Set)",
@@ -1941,7 +1941,7 @@
     "note": "SCOUT+SIM: Cerundolo +1.5 82.7% true vs 62c implied. +20.7% edge. All 7 3u gates cleared (downgraded to 1.5u \u2014 existing 1u ML position). Draper FIT:6 penalty applied (-10% hold). Scout+Sim full convergence."
   },
   {
-    "date": "Mar 9",
+    "date": "Mar 10",
     "tournament": "IW R3",
     "match": "Vacherot vs Ruud",
     "pick": "Vacherot +1.5 (Win a Set)",
