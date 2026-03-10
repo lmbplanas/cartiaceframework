@@ -2058,5 +2058,39 @@
     "edge": 14.0,
     "mc": 40,
     "note": "SCOUT+SIM: Kostyuk ML 39-41% true vs 26c. +13-15% edge. Rybakina injury discount applied. 0.5u paired with +1.5 as main."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R4",
+    "match": "Fils vs FAA",
+    "pick": "Fils ML",
+    "price": 0.44,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Night)",
+    "time": "2AM PT Mar 11",
+    "pTrue": 0.564,
+    "edge": 12.4,
+    "mc": 56,
+    "note": "SCOUT+SIM (playstyle): Fils ML 56.4% true vs 44c. +12.4% edge. FAA 2 consecutive 3-setters fatigue flag. Fils dropped zero sets at IW. Night CPI~43 favors bigger serve but fatigue offsets FAA. Full convergence."
+  },
+  {
+    "date": "Mar 10",
+    "tournament": "IW R4",
+    "match": "Fils vs FAA",
+    "pick": "Fils +1.5",
+    "price": 0.68,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Night)",
+    "time": "2AM PT Mar 11",
+    "pTrue": 0.791,
+    "edge": 11.1,
+    "mc": 79,
+    "note": "SCOUT+SIM: Fils +1.5 79.1% true vs 68c. +11.1% edge. FAA fatigue from back-to-back 3-setters. Fils needs to win OR take 1 set \u2014 high probability regardless of winner."
   }
 ]
