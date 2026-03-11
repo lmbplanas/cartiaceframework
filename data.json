@@ -2143,5 +2143,22 @@
     "edge": 34.8,
     "mc": 75.8,
     "note": "SofaScore 5-match agg (IW x2 weighted). Mboko p_srv=0.666 vs Anisimova p_srv=0.605. Gap +6.1pp Mboko. Sim 75.8% vs 41c market. Scout incomplete (timeout). B=0.04 gate=8.6%, edge clears by +26pp. ZEP: SofaScore only, no web-search corrections."
+  },
+  {
+    "date": "Mar 11",
+    "tournament": "IW WTA R4",
+    "match": "Eala vs Noskova",
+    "pick": "Noskova ML",
+    "price": 0.62,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Outdoor)",
+    "time": "11:00 AM PT Mar 11",
+    "pTrue": 0.631,
+    "edge": 1.1,
+    "mc": 63.1,
+    "note": "DISCRETIONARY \u2014 playstyle-driven. Sim +1.1pp below 8.8% gate. Noskova BH is weapon (not weakness), IW suits her aggression, Eala lefty angle goes into Noskova's stronger side. Eala 2nd serve ~47.5% career floor. Scout playstyle confirms Noskova structural edge. SofaScore data 5 matches each."
   }
 ]
