@@ -2162,54 +2162,20 @@
     "note": "Playstyle-driven. Entered @ 57c (moved from 62c). Sim +6.1pp, gate 8.8% \u2014 below gate but playstyle confirms structural edge. Noskova BH is weapon (not weakness), IW suits her aggression, Eala lefty angle goes into Noskova's stronger side. Eala 2nd serve ~47.5% career floor. Scout playstyle confirms Noskova structural edge. SofaScore data 5 matches each."
   },
   {
-    "date": "Mar 11",
+    "date": "Mar 12",
     "tournament": "IW ATP R4",
     "match": "Hijikata vs Norrie",
-    "pick": "Hijikata +1.5",
+    "pick": "Hijikata +1.5 (Win a Set)",
     "price": 0.55,
     "stake": 1.5,
     "result": "P",
     "pnl": 0,
     "fw": "v2.3",
     "surface": "Hard (Outdoor)",
-    "time": "2:00 AM ET Mar 12",
+    "time": "3:00 AM PHT Mar 12",
     "pTrue": 0.73,
     "edge": 18.0,
     "mc": 73.0,
-    "note": "SIM: p_srv HIJ=0.694 vs NOR=0.672 (all IW data, 3 vs 2 matches). Hijikata 2ndW=60% vs Norrie 2ndW=51% \u2014 9pp gap. Sim raw: +1.5 at 80.8%, scout-adj -8pp (lefty -3, fatigue -3, venue -2) = 73% true. +18pp edge, gate 15.5% (B=0.469). Norrie 2ndW also below his career baseline (53.4%). Hijikata elite returner (49% 2ndSrvReturn pts career). Market pricing ranking (#27 vs #117), not IW form."
-  },
-  {
-    "date": "Mar 12",
-    "tournament": "IW WTA R4",
-    "match": "Pegula vs Bencic",
-    "pick": "Bencic +1.5",
-    "price": 0.63,
-    "stake": 1.0,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.3",
-    "surface": "Hard (Outdoor)",
-    "time": "3:30 AM PHT Mar 12",
-    "pTrue": 0.82,
-    "edge": 19.0,
-    "mc": 82.0,
-    "note": "SCOUT+SIM: Bencic +1.5 ~82% true vs 63c. H2H 4-0 Bencic, Pegula dropped 1st set in BOTH IW matches. Bencic zero sets dropped at IW (2-0 straight sets vs Hunter/Mertens). Structural play: Bencic aggressive early ball-striking disrupts Pegula rhythm. IW night conditions (slower, higher bounce) favor Bencic pace-through-ball style. Only losing scenario: Bencic loses in straights — lowest probability outcome."
-  },
-  {
-    "date": "Mar 12",
-    "tournament": "IW WTA R4",
-    "match": "Pegula vs Bencic",
-    "pick": "Bencic ML",
-    "price": 0.39,
-    "stake": 0.5,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.3",
-    "surface": "Hard (Outdoor)",
-    "time": "3:30 AM PHT Mar 12",
-    "pTrue": 0.54,
-    "edge": 15.0,
-    "mc": 54.0,
-    "note": "SCOUT+SIM: Bencic ML ~54% true vs 39c. H2H 4-0 Bencic (all wins). Serve data near-identical (p_srv 0.647 vs 0.656). Scout: +4pp H2H dominance, +3pp Bencic form (9-2, Swiatek/Paolini wins), +2pp Pegula first-set issues, -2pp H2H stale (2023), -1pp Bencic 1stIn=56% vs Pegula return. Net +6pp over sim. Gate 14.2% — clears by ~1pp. Thin but valid."
+    "note": "SCOUT+SIM: Hijikata +1.5 73% true vs 55c (+18pp edge). PLAYSTYLE: Hijikata is an elite returner (49% career 2ndSrv return pts won) \u2014 directly exploits Norrie's IW 2ndW=51% (below his own 53.4% baseline). Norrie's lefty serve creates disruption risk, but Hijikata's cross-court BH pattern neutralizes the wide deuce kick \u2014 he attacks lefty serves structurally better than most. Grinder vs grinder on slow IW hard: Hijikata's lateral speed and rally tolerance means he won't be aced off court. Market at 73c Norrie is pure #27 vs #117 ranking anchor \u2014 form says coin flip. Scout adj: -8pp (lefty -3, fatigue -3, venue pedigree -2). Gate 15.5% cleared by +2.5pp. Sized 1.5u: wins even if Norrie wins the match."
   }
 ]
