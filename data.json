@@ -2143,22 +2143,5 @@
     "edge": 34.8,
     "mc": 75.8,
     "note": "SofaScore 5-match agg (IW x2 weighted). Mboko p_srv=0.666 vs Anisimova p_srv=0.605. Gap +6.1pp Mboko. Sim 75.8% vs 41c market. Scout incomplete (timeout). B=0.04 gate=8.6%, edge clears by +26pp. ZEP: SofaScore only, no web-search corrections."
-  },
-  {
-    "date": "Mar 11",
-    "tournament": "IW R4 WTA",
-    "match": "Mboko vs Anisimova",
-    "pick": "Mboko ML",
-    "price": 0.41,
-    "stake": 1.0,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.2",
-    "surface": "Hard (Slow)",
-    "time": "TBD Mar 11",
-    "pTrue": 0.758,
-    "edge": 34.8,
-    "mc": 76,
-    "note": "SIM (IW-weighted x2): Mboko ML 75.8% true vs 41c. p_srv gap: Mboko 0.666 vs Anisimova 0.605 (+6.1pp). Gate cleared by +26pp. Sized 1u (conservative \u2014 Scout not fully completed at entry)."
   }
 ]
