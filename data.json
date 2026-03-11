@@ -2177,5 +2177,39 @@
     "edge": 18.0,
     "mc": 73.0,
     "note": "SCOUT+SIM: Hijikata +1.5 73% true vs 55c (+18pp edge). PLAYSTYLE: Hijikata is an elite returner (49% career 2ndSrv return pts won) \u2014 directly exploits Norrie's IW 2ndW=51% (below his own 53.4% baseline). Norrie's lefty serve creates disruption risk, but Hijikata's cross-court BH pattern neutralizes the wide deuce kick \u2014 he attacks lefty serves structurally better than most. Grinder vs grinder on slow IW hard: Hijikata's lateral speed and rally tolerance means he won't be aced off court. Market at 73c Norrie is pure #27 vs #117 ranking anchor \u2014 form says coin flip. Scout adj: -8pp (lefty -3, fatigue -3, venue pedigree -2). Gate 15.5% cleared by +2.5pp. Sized 1.5u: wins even if Norrie wins the match."
+  },
+  {
+    "date": "Mar 12",
+    "tournament": "IW WTA R4",
+    "match": "Pegula vs Bencic",
+    "pick": "Bencic +1.5 (Win a Set)",
+    "price": 0.63,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "3:30 AM PHT Mar 12",
+    "pTrue": 0.82,
+    "edge": 19.0,
+    "mc": 82.0,
+    "note": "SCOUT+SIM: Bencic +1.5 ~82% true vs 63c (+19pp). H2H 4-0 Bencic (all wins). Pegula dropped 1st set in BOTH IW matches (vs Vekic, vs Ostapenko). Bencic zero sets dropped at IW (beat Hunter 6-3 6-2, Mertens 6-2 6-3). PLAYSTYLE: Bencic hits early, flat, deep \u2014 strips time from Pegula before she can reset. Pegula needs rallying rhythm to thrive; Bencic denies it. Slow-bounce IW Laykold at night suits Bencic's pace-through-ball game. Only losing scenario for +1.5: Bencic loses in straights = lowest probability outcome given her form."
+  },
+  {
+    "date": "Mar 12",
+    "tournament": "IW WTA R4",
+    "match": "Pegula vs Bencic",
+    "pick": "Bencic ML",
+    "price": 0.39,
+    "stake": 0.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "3:30 AM PHT Mar 12",
+    "pTrue": 0.54,
+    "edge": 15.0,
+    "mc": 54.0,
+    "note": "SCOUT+SIM: Bencic ML ~54% true vs 39c (+15pp, gate 14.2% \u2014 clears by ~1pp). Serve profiles near-identical (p_srv 0.647 vs 0.656). Scout: +4pp H2H structural dominance, +3pp Bencic 2026 form (9-2, beats Swiatek/Paolini), +2pp Pegula first-set pattern, -2pp H2H stale (2023), -1pp Bencic 1stIn=56% vs Pegula return. Net +6pp over sim. Thin gate cross but valid. Companion to +1.5 main play."
   }
 ]
