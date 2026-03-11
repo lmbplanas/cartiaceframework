@@ -2160,5 +2160,22 @@
     "edge": 6.1,
     "mc": 63.1,
     "note": "Playstyle-driven. Entered @ 57c (moved from 62c). Sim +6.1pp, gate 8.8% \u2014 below gate but playstyle confirms structural edge. Noskova BH is weapon (not weakness), IW suits her aggression, Eala lefty angle goes into Noskova's stronger side. Eala 2nd serve ~47.5% career floor. Scout playstyle confirms Noskova structural edge. SofaScore data 5 matches each."
+  },
+  {
+    "date": "Mar 11",
+    "tournament": "IW ATP R4",
+    "match": "Hijikata vs Norrie",
+    "pick": "Hijikata +1.5",
+    "price": 0.55,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "2:00 AM ET Mar 12",
+    "pTrue": 0.73,
+    "edge": 18.0,
+    "mc": 73.0,
+    "note": "SIM: p_srv HIJ=0.694 vs NOR=0.672 (all IW data, 3 vs 2 matches). Hijikata 2ndW=60% vs Norrie 2ndW=51% \u2014 9pp gap. Sim raw: +1.5 at 80.8%, scout-adj -8pp (lefty -3, fatigue -3, venue -2) = 73% true. +18pp edge, gate 15.5% (B=0.469). Norrie 2ndW also below his career baseline (53.4%). Hijikata elite returner (49% 2ndSrvReturn pts career). Market pricing ranking (#27 vs #117), not IW form."
   }
 ]
