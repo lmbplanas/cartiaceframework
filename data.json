@@ -2149,7 +2149,7 @@
     "tournament": "IW WTA R4",
     "match": "Eala vs Noskova",
     "pick": "Noskova ML",
-    "price": 0.62,
+    "price": 0.57,
     "stake": 1.0,
     "result": "P",
     "pnl": 0,
@@ -2157,8 +2157,8 @@
     "surface": "Hard (Outdoor)",
     "time": "11:00 AM PT Mar 11",
     "pTrue": 0.631,
-    "edge": 1.1,
+    "edge": 6.1,
     "mc": 63.1,
-    "note": "DISCRETIONARY \u2014 playstyle-driven. Sim +1.1pp below 8.8% gate. Noskova BH is weapon (not weakness), IW suits her aggression, Eala lefty angle goes into Noskova's stronger side. Eala 2nd serve ~47.5% career floor. Scout playstyle confirms Noskova structural edge. SofaScore data 5 matches each."
+    "note": "Playstyle-driven. Entered @ 57c (moved from 62c). Sim +6.1pp, gate 8.8% \u2014 below gate but playstyle confirms structural edge. Noskova BH is weapon (not weakness), IW suits her aggression, Eala lefty angle goes into Noskova's stronger side. Eala 2nd serve ~47.5% career floor. Scout playstyle confirms Noskova structural edge. SofaScore data 5 matches each."
   }
 ]
