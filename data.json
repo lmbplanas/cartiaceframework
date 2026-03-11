@@ -2126,5 +2126,22 @@
     "edge": 19.0,
     "mc": 70,
     "note": "SIM: Gadamauri 69.7% true, Scout-adj 60% vs 41c market. Gadamauri gap=13.2pp, 2ndW=57% vs Rincon gap=31.8pp, 2ndW=41% \u2014 Rincon 2nd serve exploitable. Scout -7pp fatigue (played today vs Ovcharenko) -8pp rank (Rincon #303 vs Gadamauri #382). Residual edge +19pp. SofaScore data."
+  },
+  {
+    "date": "Mar 11",
+    "tournament": "IW WTA R4",
+    "match": "Mboko vs Anisimova",
+    "pick": "Mboko ML",
+    "price": 0.41,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.2",
+    "surface": "Hard (Outdoor)",
+    "time": "9:00 AM PT Mar 11",
+    "pTrue": 0.758,
+    "edge": 34.8,
+    "mc": 75.8,
+    "note": "SofaScore 5-match agg (IW x2 weighted). Mboko p_srv=0.666 vs Anisimova p_srv=0.605. Gap +6.1pp Mboko. Sim 75.8% vs 41c market. Scout incomplete (timeout). B=0.04 gate=8.6%, edge clears by +26pp. ZEP: SofaScore only, no web-search corrections."
   }
 ]
