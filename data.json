@@ -2180,6 +2180,23 @@
   },
   {
     "date": "Mar 12",
+    "tournament": "Cap Cana CH175",
+    "match": "Burruchaga vs Wong",
+    "pick": "Wong ML",
+    "price": 0.61,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "4:30 AM PHT Mar 12",
+    "pTrue": 0.79,
+    "edge": 18.0,
+    "mc": 82.8,
+    "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay — ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
+  },
+  {
+    "date": "Mar 12",
     "tournament": "IW WTA R4",
     "match": "Pegula vs Bencic",
     "pick": "Bencic +1.5 (Win a Set)",
