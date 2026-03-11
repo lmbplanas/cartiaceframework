@@ -2180,24 +2180,7 @@
   },
   {
     "date": "Mar 12",
-    "tournament": "Cap Cana CH175",
-    "match": "Burruchaga vs Wong",
-    "pick": "Wong ML",
-    "price": 0.61,
-    "stake": 1.5,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.3",
-    "surface": "Hard (Outdoor)",
-    "time": "4:30 AM PHT Mar 12",
-    "pTrue": 0.79,
-    "edge": 18.0,
-    "mc": 82.8,
-    "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay — ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
-  },
-  {
-    "date": "Mar 12",
-    "tournament": "IW WTA R4",
+    "tournament": "IW R16 WTA",
     "match": "Pegula vs Bencic",
     "pick": "Bencic +1.5 (Win a Set)",
     "price": 0.63,
@@ -2205,16 +2188,16 @@
     "result": "P",
     "pnl": 0,
     "fw": "v2.3",
-    "surface": "Hard (Outdoor)",
-    "time": "3:30 AM PHT Mar 12",
+    "surface": "Hard (Slow, Night)",
+    "time": "TBD Mar 12",
     "pTrue": 0.82,
     "edge": 19.0,
-    "mc": 82.0,
-    "note": "SCOUT+SIM: Bencic +1.5 ~82% true vs 63c (+19pp). H2H 4-0 Bencic (all wins). Pegula dropped 1st set in BOTH IW matches (vs Vekic, vs Ostapenko). Bencic zero sets dropped at IW (beat Hunter 6-3 6-2, Mertens 6-2 6-3). PLAYSTYLE: Bencic hits early, flat, deep \u2014 strips time from Pegula before she can reset. Pegula needs rallying rhythm to thrive; Bencic denies it. Slow-bounce IW Laykold at night suits Bencic's pace-through-ball game. Only losing scenario for +1.5: Bencic loses in straights = lowest probability outcome given her form."
+    "mc": 82,
+    "note": "SCOUT+SIM: Bencic +1.5 82% true vs 63c (+19pp edge). PLAYSTYLE: Bencic hits early, flat, and deep \u2014 she takes pace off Pegula's baseline drives before Pegula can reset position. Pegula's game depends on rallying rhythm and court-position defense; Bencic strips both. H2H 4-0 Bencic \u2014 2021 USO 6-2 6-4, Tokyo 6-3 6-3 scorelines are the structural baseline, not flukes. Pegula's slow-start pattern documented: dropped R1 vs Vekic, dropped R1 vs Ostapenko at IW. Bencic 9-2, dropped ZERO sets at IW 2026. Night session (cooler, denser air, high-bounce Laykold) slows the court \u2014 favors Bencic's pace-through-the-ball game over Pegula's redirecting style. Only losing scenario: Bencic loses in straights \u2014 lowest-probability outcome given all data."
   },
   {
     "date": "Mar 12",
-    "tournament": "IW WTA R4",
+    "tournament": "IW R16 WTA",
     "match": "Pegula vs Bencic",
     "pick": "Bencic ML",
     "price": 0.39,
@@ -2222,11 +2205,11 @@
     "result": "P",
     "pnl": 0,
     "fw": "v2.3",
-    "surface": "Hard (Outdoor)",
-    "time": "3:30 AM PHT Mar 12",
-    "pTrue": 0.54,
-    "edge": 15.0,
-    "mc": 54.0,
-    "note": "SCOUT+SIM: Bencic ML ~54% true vs 39c (+15pp, gate 14.2% \u2014 clears by ~1pp). Serve profiles near-identical (p_srv 0.647 vs 0.656). Scout: +4pp H2H structural dominance, +3pp Bencic 2026 form (9-2, beats Swiatek/Paolini), +2pp Pegula first-set pattern, -2pp H2H stale (2023), -1pp Bencic 1stIn=56% vs Pegula return. Net +6pp over sim. Thin gate cross but valid. Companion to +1.5 main play."
+    "surface": "Hard (Slow, Night)",
+    "time": "TBD Mar 12",
+    "pTrue": 0.545,
+    "edge": 15.5,
+    "mc": 55,
+    "note": "SCOUT+SIM: Bencic ML 54.5% true vs 39c (+15.5pp, clears gate by ~1pp). Thin but valid. H2H 4-0, Pegula slow-start pattern, IW night conditions favor Bencic's flat ball. 0.5u companion to +1.5 primary. Gate: 14.2%."
   }
 ]
