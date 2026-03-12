@@ -2228,5 +2228,22 @@
     "edge": 18.0,
     "mc": 82.8,
     "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay \u2014 ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
+  },
+  {
+    "date": "Mar 12",
+    "tournament": "Phoenix CH175",
+    "match": "Quinn vs Shevchenko",
+    "pick": "Shevchenko ML",
+    "price": 0.37,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "10:00 AM PHT Mar 12",
+    "pTrue": 0.55,
+    "edge": 18.0,
+    "mc": 67.4,
+    "note": "SCOUT+SIM: Shevchenko ~55% true vs 37c (+18pp). Quinn at 64c is a ranking/seeding mirage \u2014 4-6 in 2026, 8-17 career ATP hard record (32%), straight-set losses to Opelka/Cilic/Jodar. Shevchenko 9-8 in 2026, beat Shimabukuro at IW, hits MORE aces (8.33 vs 7.71). H2H is clay best-of-5 RG \u2014 irrelevant. Quinn flat game needs perfect timing; out of form. Scout+Sim convergence. Gate 12% cleared by +6pp."
   }
 ]
