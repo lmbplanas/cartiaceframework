@@ -2228,5 +2228,22 @@
     "edge": 18.0,
     "mc": 82.8,
     "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay \u2014 ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
+  },
+  {
+    "id": 151,
+    "date": "Mar 12",
+    "time": "TBD Mar 12",
+    "tournament": "IW R16 ATP",
+    "surface": "Hard (Slow, Night)",
+    "match": "Djokovic vs Draper",
+    "pick": "Djokovic ML",
+    "stake": 1.5,
+    "price": 0.59,
+    "pTrue": 0.68,
+    "edge": 9.0,
+    "mc": 68,
+    "result": "P",
+    "pnl": 0,
+    "note": "SCOUT+SIM: Djokovic ML 68% true vs 59c (+9pp, gate ~8% B=0.34, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 1.5u. PLAYSTYLE: IW slow court (CPI 37) is Djokovic's weapon \u2014 night conditions blunt Draper's flat pace, spin sits up into Djokovic's strike zone. Critical Scout finding: Draper posted 2ndW=41% vs Cerundolo at IW. That is fatal against the best returner on tour. Platform stance almost certainly load management on recovering arm \u2014 less kinetic chain from legs means sitting-duck pace on 2nd serves. Djokovic will target this relentlessly. Draper can hit heavy, but hitting through Djokovic on slow IW requires 3-4 more high-impact shots per rally \u2014 third match back from 8 months off, arm takes cumulative punishment. Big sim/Scout divergence: base sim 40.3% Djokovic (Draper p_srv=0.704 > 0.682), Scout overrides to 68% on 2nd serve vulnerability + injury fatigue. Market priced Draper's raw first-serve without platform-stance discount."
   }
 ]
