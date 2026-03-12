@@ -2236,8 +2236,8 @@
     "pick": "Shevchenko ML",
     "price": 0.37,
     "stake": 1.0,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.3",
     "surface": "Hard (Outdoor)",
     "time": "10:00 AM PHT Mar 12",
@@ -2258,8 +2258,40 @@
     "pTrue": 0.68,
     "edge": 9.0,
     "mc": 68,
+    "result": "L",
+    "pnl": -75.0,
+    "note": "SCOUT+SIM: Djokovic ML 68% true vs 59c (+9pp, gate ~8% B=0.34, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 1.5u. PLAYSTYLE: IW slow court (CPI 37) is Djokovic's weapon \u2014 night conditions blunt Draper's flat pace, spin sits up into Djokovic's strike zone. Critical Scout finding: Draper posted 2ndW=41% vs Cerundolo at IW \u2014 fatal against the best returner on tour. Platform stance almost certainly load management on recovering arm, generates less kinetic chain from legs, second serve becomes sitting-duck pace. Djokovic targets this relentlessly. Draper can hit heavy, but hitting through Djokovic on slow IW requires 3-4 more shots per rally \u2014 third match back from 8 months off, arm takes cumulative punishment. Big sim/Scout divergence: base sim 40.3% Djokovic (Draper p_srv=0.704 > 0.682), Scout overrides to 68% on 2nd serve vulnerability + injury fatigue. Market priced Draper's raw first-serve without platform-stance discount."
+  },
+  {
+    "date": "Mar 13",
+    "time": "TBD Mar 13",
+    "tournament": "IW QF ATP",
+    "surface": "Hard (Outdoor)",
+    "match": "Draper vs Medvedev",
+    "pick": "Medvedev ML",
+    "stake": 2.5,
+    "price": 0.62,
+    "pTrue": 0.68,
+    "edge": 6.0,
+    "mc": 68,
     "result": "P",
     "pnl": 0,
-    "note": "SCOUT+SIM: Djokovic ML 68% true vs 59c (+9pp, gate ~8% B=0.34, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 1.5u. PLAYSTYLE: IW slow court (CPI 37) is Djokovic's weapon \u2014 night conditions blunt Draper's flat pace, spin sits up into Djokovic's strike zone. Critical Scout finding: Draper posted 2ndW=41% vs Cerundolo at IW \u2014 fatal against the best returner on tour. Platform stance almost certainly load management on recovering arm, generates less kinetic chain from legs, second serve becomes sitting-duck pace. Djokovic targets this relentlessly. Draper can hit heavy, but hitting through Djokovic on slow IW requires 3-4 more shots per rally \u2014 third match back from 8 months off, arm takes cumulative punishment. Big sim/Scout divergence: base sim 40.3% Djokovic (Draper p_srv=0.704 > 0.682), Scout overrides to 68% on 2nd serve vulnerability + injury fatigue. Market priced Draper's raw first-serve without platform-stance discount."
+    "note": "SCOUT+SIM: Medvedev ML 68% true vs 62c (+6pp, gate ~8% B=0.37, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 2.5u. PLAYSTYLE: Draper's Djokovic win is a trap \u2014 Djokovic at IW 2026 is not peak Djokovic, historically struggles with motivation in the desert. That win inflates Draper's market price artificially. The crux is Medvedev's return vs Draper's 2nd serve: Draper's platform stance (arm load management) posted 41% 2ndW vs Cerundolo at IW \u2014 a structural weakness. Medvedev stands deep in the parking lot and grinds 2nd serves with laser positioning, deliberately hunting it and forcing Draper into long baseline rallies on a vulnerable shoulder. Morning IW courts (CPI 38-39): Draper gets slightly more pace, but still high-bounce and gritty \u2014 exactly where Medvedev's defensive wall thrives. Base sim 51.6% Medvedev (raw serve profiles nearly identical); Scout override to 68% on 2nd serve vulnerability + market overreaction to Draper's Djokovic scalp. Market fair value 68-70c per Scout."
+  },
+  {
+    "date": "Mar 13",
+    "time": "TBD Mar 13",
+    "tournament": "Cap Cana CH175",
+    "surface": "Hard (Outdoor)",
+    "match": "Navone vs Mochizuki",
+    "pick": "Mochizuki ML",
+    "stake": 1.0,
+    "price": 0.4,
+    "pTrue": 0.55,
+    "edge": 15.0,
+    "mc": 55,
+    "result": "P",
+    "pnl": 0,
+    "note": "SCOUT+SIM: Mochizuki ML 55% true vs 40c (+15pp, gate 12% B=0.22, clears by +3pp). Same surface-mispricing thesis as Wong vs Burruchaga. PLAYSTYLE: Navone (#79 ATP) is another South American clay specialist \u2014 7-24 ATP hard record (22.6%). His heavy topspin serve sits in the strike zone on hard courts. Caribbean heat at Cap Cana makes the ball fly faster, rewarding early aggressive striking \u2014 exactly Navone's weakness as a deep-returning grinder. Mochizuki is IMG Academy-developed, entire game built for hard courts, takes the ball early and aggressively. H2H played once on clay at Cagliari 2024, Mochizuki took a set off Navone on his BEST surface \u2014 flipping to hard court swings the structural advantage entirely. Caveat: Mochizuki's serve inconsistent (44-56% 1stIn variance), so Navone's defensive baseline grinding will force long rallies even when outclassed."
   }
 ]
