@@ -2168,8 +2168,8 @@
     "pick": "Hijikata +1.5 (Win a Set)",
     "price": 0.55,
     "stake": 1.5,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.3",
     "surface": "Hard (Outdoor)",
     "time": "3:00 AM PHT Mar 12",
@@ -2185,8 +2185,8 @@
     "pick": "Bencic +1.5 (Win a Set)",
     "price": 0.63,
     "stake": 1.0,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.3",
     "surface": "Hard (Slow, Night)",
     "time": "TBD Mar 12",
@@ -2202,8 +2202,8 @@
     "pick": "Bencic ML",
     "price": 0.39,
     "stake": 0.5,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -25.0,
     "fw": "v2.3",
     "surface": "Hard (Slow, Night)",
     "time": "TBD Mar 12",
@@ -2227,6 +2227,6 @@
     "pTrue": 0.79,
     "edge": 18.0,
     "mc": 82.8,
-    "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay — ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
+    "note": "SCOUT+SIM: Wong ML ~78-80% true vs 61c (+17-19pp). Burruchaga is #98 ATP built entirely on South American clay \u2014 ATP hard court record 0-3. Wong hard-court operator (11-7 in 2026, p_srv=0.641), already won at Cap Cana vs Zhang. Burruchaga p_srv=0.567 (1 hard match, ZEP flag). Surface-context mispricing: market anchored on ranking, ignores hard court record. Full Scout+Sim convergence."
   }
 ]
