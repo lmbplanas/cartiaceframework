@@ -2293,5 +2293,39 @@
     "result": "L",
     "pnl": -50.0,
     "note": "SCOUT+SIM: Mochizuki ML 55% true vs 40c (+15pp, gate 12% B=0.22, clears by +3pp). Same surface-mispricing thesis as Wong vs Burruchaga. PLAYSTYLE: Navone (#79 ATP) is another South American clay specialist \u2014 7-24 ATP hard record (22.6%). His heavy topspin serve sits in the strike zone on hard courts. Caribbean heat at Cap Cana makes the ball fly faster, rewarding early aggressive striking \u2014 exactly Navone's weakness as a deep-returning grinder. Mochizuki is IMG Academy-developed, entire game built for hard courts, takes the ball early and aggressively. H2H played once on clay at Cagliari 2024, Mochizuki took a set off Navone on his BEST surface \u2014 flipping to hard court swings the structural advantage entirely. Caveat: Mochizuki's serve inconsistent (44-56% 1stIn variance), so Navone's defensive baseline grinding will force long rallies even when outclassed."
+  },
+  {
+    "date": "Mar 14",
+    "tournament": "Cap Cana CH175",
+    "match": "Navone vs Royer",
+    "pick": "Royer ML",
+    "price": 0.59,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "4:00 AM PHT Mar 14",
+    "pTrue": 0.63,
+    "edge": 4.0,
+    "mc": 74.9,
+    "note": "SCOUT+SIM: Royer ~63% true vs 59c (+4pp). Pure surface mispricing \u2014 Navone 22.6% ATP hard, Royer 70-40 career hard. Royer 11 aces 79% 1stW vs RBA = elite serve form. H2H: Royer beat Navone on hard at Shanghai. Navone dropped set to Mochizuki = hard court struggle. Caribbean outdoor hard suits Royer flat-serve game."
+  },
+  {
+    "date": "Mar 14",
+    "tournament": "Cap Cana CH175",
+    "match": "Bellucci vs Collignon",
+    "pick": "Bellucci ML",
+    "price": 0.42,
+    "stake": 1.5,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.3",
+    "surface": "Hard (Outdoor)",
+    "time": "4:30 AM PHT Mar 14",
+    "pTrue": 0.62,
+    "edge": 20.0,
+    "mc": 72.8,
+    "note": "SCOUT+SIM: Bellucci ~62% true vs 42c (+20pp). Beat Hurkacz 6-2 6-4 in R16 \u2014 reading serve, executing under pressure. LH serve structural weapon on outdoor hard (wide deuce angle, kick to BH). Market anchored on Collignon CH stats (83-51), dismissing Bellucci momentum. Gate 12% cleared by +8pp. Best value on board."
   }
 ]
