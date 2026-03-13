@@ -2296,7 +2296,7 @@
   },
   {
     "date": "Mar 14",
-    "tournament": "Cap Cana CH175",
+    "tournament": "Cap Cana CH175 QF",
     "match": "Navone vs Royer",
     "pick": "Royer ML",
     "price": 0.59,
@@ -2308,12 +2308,12 @@
     "time": "4:00 AM PHT Mar 14",
     "pTrue": 0.63,
     "edge": 4.0,
-    "mc": 74.9,
-    "note": "SCOUT+SIM: Royer ~63% true vs 59c (+4pp). Pure surface mispricing \u2014 Navone 22.6% ATP hard, Royer 70-40 career hard. Royer 11 aces 79% 1stW vs RBA = elite serve form. H2H: Royer beat Navone on hard at Shanghai. Navone dropped set to Mochizuki = hard court struggle. Caribbean outdoor hard suits Royer flat-serve game."
+    "mc": 63,
+    "note": "SCOUT+SIM: Royer ML 63% true vs 59c (+4pp Scout anchor, sim 74.9%, gate ~8% cleared). PLAYSTYLE: Pure surface pricing. Navone (#79) is 22.6% ATP hard court \u2014 same clay-specialist trap as Burruchaga/Wong. His heavy topspin serve sits in the strike zone on hard, and his return-deep-and-grind style gets outpaced when opponents can dictate tempo. Royer is 70-40 career hard court, his flat-serve game is built for outdoor Caribbean hard where the ball flies. Royer served 11 aces at 79% 1stW vs a solid returner (RBA) \u2014 that's real current form. H2H: Royer beat Navone on hard at Shanghai \u2014 the surface result already exists. Navone dropped a set to Mochizuki in R16 despite winning \u2014 not resilience, just hard-court struggle. Market anchored on Navone's seeding (#6 in this draw), not his surface record."
   },
   {
     "date": "Mar 14",
-    "tournament": "Cap Cana CH175",
+    "tournament": "Cap Cana CH175 QF",
     "match": "Bellucci vs Collignon",
     "pick": "Bellucci ML",
     "price": 0.42,
@@ -2325,7 +2325,7 @@
     "time": "4:30 AM PHT Mar 14",
     "pTrue": 0.62,
     "edge": 20.0,
-    "mc": 72.8,
-    "note": "SCOUT+SIM: Bellucci ~62% true vs 42c (+20pp). Beat Hurkacz 6-2 6-4 in R16 \u2014 reading serve, executing under pressure. LH serve structural weapon on outdoor hard (wide deuce angle, kick to BH). Market anchored on Collignon CH stats (83-51), dismissing Bellucci momentum. Gate 12% cleared by +8pp. Best value on board."
+    "mc": 62,
+    "note": "SCOUT+SIM: Bellucci ML 62% true vs 42c (+20pp blended Scout/sim, gate 12% cleared decisively). PLAYSTYLE: LH serve is a structural weapon on outdoor hard \u2014 wide angle to deuce court, kick to backhand \u2014 guarantees free points that Collignon cannot pattern-read away. Bellucci beat Hurkacz 6-2 6-4 in the previous round: even accounting for Hurkacz playing a 175 for fitness, those numbers don't happen by accident. He was reading the serve perfectly and executing with clean ball-striking. Market is anchoring to Collignon's long-term Challenger stats (83-51 hard) and treating the Hurkacz scalp as an anomaly \u2014 it's not. Sim 72.8% vs 42c market (+30.8pp); Scout qual conservatively 52% (+10pp). Split at 62% = +20pp, both anchors clear the 12% gate. Best value on the Challenger boards today."
   }
 ]
