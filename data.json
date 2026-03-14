@@ -2478,5 +2478,22 @@
     "edge": 19.3,
     "mc": 58,
     "note": "SCOUT+SIM: Medvedev +1.5 58.3% true vs 39c (+19.3pp, gate cleared on edge). PLAYSTYLE: Medvedev coming in on peak form \u2014 dismantled Draper 6-1 7-5, serving at 75.9% service points won, hit 10 aces. His return game is the best on tour after Sinner, and IW slow courts (CPI 37) favor his deep baseline counter-punching system. Alcaraz's tendency toward 3-set matches (even in wins) is well documented \u2014 he absorbs early pressure then shifts gears. But Medvedev won't be blown off court: his defensive wall and serve quality mean he competes for every set. Sim 58.3% wins a set, +19.3pp edge at 39c. Even if Alcaraz wins the match, Medvedev winning a set in a 3-setter covers."
+  },
+  {
+    "date": "Mar 15",
+    "tournament": "IW ATP SF",
+    "match": "Sinner vs Zverev",
+    "pick": "Zverev +1.5 (Win a Set)",
+    "price": 0.4,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.4",
+    "surface": "Hard (Outdoor)",
+    "time": "5:30 AM PHT Mar 15",
+    "pTrue": 0.854,
+    "edge": 45.4,
+    "mc": 85.4,
+    "note": "v2.4 QUANT+SIM: Zverev +1.5 ~85.4% (wins a set) vs 40c (+45pp). P_quant Sinner 81.5% (QUANT anchor \u2014 divergence 48pp, sim bias flagged). Sinner str8 sets only 14.6% \u2014 Zverev serve too good to get blanked even on slow IW courts. Scout: IW CPI 37 blunts Zverev but doesn't eliminate his set-stealing ability via tiebreak. First v2.4 bet with full QUANT+p_ret pipeline."
   }
 ]
