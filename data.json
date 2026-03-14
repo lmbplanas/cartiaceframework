@@ -2361,5 +2361,37 @@
     "edge": 24.0,
     "mc": 78,
     "note": "SCOUT+SIM: Svitolina +1.5 78% true vs 54c (+24pp, gate ~12% cleared decisively). PLAYSTYLE: Even in a losing scenario, Svitolina winning a set is near-structural. Her defensive baseline game forces 3-set outcomes \u2014 she doesn't blow off the court. IW slow courts (CPI 37) blunt Rybakina's flat serve, meaning Svitolina gets time to set up her counterpunching patterns on every ball. Rybakina's serve is her primary weapon; when it underperforms (as it has at IW 2026, p_srv=0.620 below career), tiebreak variance alone hands Svitolina a set. She beat Swiatek in 3 sets last round \u2014 same pattern: extend, absorb, strike in the third. Sim says 82% true for set-win. Scout anchors more conservatively at 78%. Either way, 54c for 78%+ is the best risk-adjusted play on the board."
+  },
+  {
+    "date": "Mar 14",
+    "time": "8:15 AM PHT Mar 14",
+    "tournament": "Phoenix CH175 QF",
+    "surface": "Hard (Outdoor)",
+    "match": "Moutet vs Basilashvili",
+    "pick": "Under 21.5",
+    "stake": 1.0,
+    "price": 0.52,
+    "pTrue": 0.62,
+    "edge": 10.0,
+    "mc": 62,
+    "result": "P",
+    "pnl": 0,
+    "note": "SCOUT+SIM: Under 21.5 62% true vs 52c (+10pp, gate cleared). PLAYSTYLE: When Moutet wins this match \u2014 Scout says 84% probability \u2014 he wins it fast. H2H 2-0 Moutet including 6-3 6-2 at this exact Phoenix venue last year. Basilashvili 1-8 on hard in 2026, got here via a walkover, his 49% 1stIn collapses further when a lefty returner like Moutet jumps on every second ball. Moutet's left-handed return game targets the backhand on both ad and deuce \u2014 Basilashvili's serve mechanics fall apart under that pressure (double fault rate spikes, short rally errors). Sim avg game count inflated by unlikely Basilashvili win scenarios; Scout conviction is Under: when Moutet dominates, it's 6-3 6-2 type (17-18 games), well inside 21.5."
+  },
+  {
+    "date": "Mar 14",
+    "time": "10:00 AM PHT Mar 14",
+    "tournament": "Phoenix CH175 QF",
+    "surface": "Hard (Outdoor)",
+    "match": "Borges vs Giron",
+    "pick": "Over 23.5",
+    "stake": 1.0,
+    "price": 0.51,
+    "pTrue": 0.67,
+    "edge": 16.0,
+    "mc": 67,
+    "result": "P",
+    "pnl": 0,
+    "note": "SCOUT+SIM: Over 23.5 65-70% true vs 51c (+14-19pp, gate cleared comfortably). PLAYSTYLE: Two strong servers meeting in a QF = tiebreaks = long match. Borges p_srv=0.699 and Giron p_srv=0.664 (fatigue-adjusted -2pp \u2014 Giron saved 4 match points in a 7-6(9) third set yesterday, a brutal physical and emotional drain for a next-day QF). Both players posted 83%+ 1stW in Phoenix this week. When two servers hold at that rate, games are short but numerous \u2014 tiebreaks force a third set or extend sets deep. Sim avg 26.4 games, well over the 23.5 line. Scout agrees: serve-dominated coin flip between near-equal players on outdoor Phoenix hard (ball flies, rewards big serving, extends sets) \u2192 Over is the structural play. Giron fatigue is a secondary edge for Borges on ML, but not enough margin \u2014 the Over is the clean entry."
   }
 ]
