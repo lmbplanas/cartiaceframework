@@ -2335,8 +2335,8 @@
     "pick": "Svitolina ML",
     "price": 0.29,
     "stake": 0.5,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -25.0,
     "fw": "v2.3",
     "surface": "Hard (Slow, Outdoor)",
     "time": "9:00 AM PHT Mar 14",
@@ -2352,8 +2352,8 @@
     "pick": "Svitolina +1.5 (Win a Set)",
     "price": 0.54,
     "stake": 1.5,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.3",
     "surface": "Hard (Slow, Outdoor)",
     "time": "9:00 AM PHT Mar 14",
@@ -2374,8 +2374,8 @@
     "pTrue": 0.62,
     "edge": 10.0,
     "mc": 62,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "note": "SCOUT+SIM: Under 21.5 62% true vs 52c (+10pp, gate cleared). PLAYSTYLE: When Moutet wins this match \u2014 Scout says 84% probability \u2014 he wins it fast. H2H 2-0 Moutet including 6-3 6-2 at this exact Phoenix venue last year. Basilashvili 1-8 on hard in 2026, got here via a walkover, his 49% 1stIn collapses further when a lefty returner like Moutet jumps on every second ball. Moutet's left-handed return game targets the backhand on both ad and deuce \u2014 Basilashvili's serve mechanics fall apart under that pressure (double fault rate spikes, short rally errors). Sim avg game count inflated by unlikely Basilashvili win scenarios; Scout conviction is Under: when Moutet dominates, it's 6-3 6-2 type (17-18 games), well inside 21.5."
   },
   {
@@ -2390,8 +2390,8 @@
     "pTrue": 0.67,
     "edge": 16.0,
     "mc": 67,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "note": "SCOUT+SIM: Over 23.5 65-70% true vs 51c (+14-19pp, gate cleared comfortably). PLAYSTYLE: Two strong servers meeting in a QF = tiebreaks = long match. Borges p_srv=0.699 and Giron p_srv=0.664 (fatigue-adjusted -2pp \u2014 Giron saved 4 match points in a 7-6(9) third set yesterday, a brutal physical and emotional drain for a next-day QF). Both players posted 83%+ 1stW in Phoenix this week. When two servers hold at that rate, games are short but numerous \u2014 tiebreaks force a third set or extend sets deep. Sim avg 26.4 games, well over the 23.5 line. Scout agrees: serve-dominated coin flip between near-equal players on outdoor Phoenix hard (ball flies, rewards big serving, extends sets) \u2192 Over is the structural play. Giron fatigue is a secondary edge for Borges on ML, but not enough margin \u2014 the Over is the clean entry."
   }
 ]
