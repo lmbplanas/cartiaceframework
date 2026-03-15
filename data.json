@@ -2562,5 +2562,22 @@
     "edge": 17.4,
     "mc": 71,
     "note": "v2.5 SCOUT+QUANT+SIM: Over 21.5 71.4% P(Over) vs 54c (+17.4pp). Scout+Sim fully aligned (div 7.4pp clean). Sim avg 25.9 games. PLAYSTYLE: CPI 37 slow courts are the structural driver \u2014 pace is stripped from every ball, rallies extend beyond what fast-court stats predict. Medvedev's return game (p_ret=0.43, elite) suppresses Sinner's effective hold rate by 2.9pp per game, generating genuine break tension rather than routine holds. Sinner solved the Medvedev puzzle (8 of last 9 H2H) but doesn't blow him out \u2014 Medvedev's defensive wall forces 6-4/7-5 type sets, not bagels. Freshness gap: Sinner 6.5h total court time vs Medvedev 8.5h after the Alcaraz SF war. Scout hard PASS on Sinner -1.5 (sim says 76.8% straights but Scout overrides on spread markets \u2014 too volatile). Over 21.5 is the Scout primary: slow courts + elite defender + Sinner's serve partially neutralized by CPI = long sets guaranteed."
+  },
+  {
+    "date": "Mar 16",
+    "tournament": "Miami Open Q1 WTA",
+    "match": "Seidel vs Stakusic",
+    "pick": "Seidel ML",
+    "price": 0.41,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "TBD Mar 16",
+    "pTrue": 0.612,
+    "edge": 20.2,
+    "mc": 61.2,
+    "note": "v2.5 API-verified (SofaScore mid=15688413 Seidel, mid=15654911 Stakusic). Seidel 1stIn=60.5% 1stW=67.4% 2ndW=60.0% p_ret=44.8%. Stakusic 1stIn=68.4% 1stW=51.3% 2ndW=44.4% p_ret=32.3%. Seidel p_srv_adj=0.642 vs Stakusic p_srv_adj=0.469. Sim 98.8% Seidel (serve gap extreme). Scout 55%, QUANT 53.8%, P_final 61.2%. Market pricing old Stakusic (62c) \u2014 ranking inversion (#83 vs #130). Miami ITF-4 slow courts + 70% humidity punish Stakusic's weak 2ndW harder. Scout: Seidel's 44.8% p_ret is verified elite; Stakusic p_srv=0.491 is below survival threshold on these courts."
   }
 ]
