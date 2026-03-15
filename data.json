@@ -2513,8 +2513,8 @@
     "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets."
   },
   {
-    "date": "Mar 15",
-    "tournament": "Miami Open Q1 Qualifying",
+    "date": "Mar 16",
+    "tournament": "Miami Open Q1 WTA",
     "match": "Sun vs Timofeeva",
     "pick": "Timofeeva ML",
     "price": 0.38,
@@ -2523,15 +2523,15 @@
     "pnl": 0,
     "fw": "v2.5",
     "surface": "Hard (Outdoor)",
-    "time": "Mar 15 PM PHT",
+    "time": "TBD Mar 16",
     "pTrue": 0.651,
-    "edge": 27.1,
-    "mc": 60.3,
-    "note": "v2.5 ACE-SCOUT PRIMARY: Scout 44% (Sun), QUANT 11% (Sun), Sim 60% (Sun) \u2192 P_final Timofeeva 65.1% (+27pp). Classic ranking-over-form mispricing. Sun 2-6 in 2026 (25% WR), 4.5 DFs/match, 57-ranking-spot drop, MEN score 4/10 (mental spiral). Market pricing 2025 Sun. Timofeeva IW QF form, 55% BP conversion. Scout/QUANT divergence flagged 32.9pp but both agree on direction."
+    "edge": 27.0,
+    "mc": 65,
+    "note": "v2.5 SCOUT+QUANT+SIM: Timofeeva ML 65.1% P_final vs 38c (+27pp). Classic ranking-over-form mispricing. PLAYSTYLE: Sun is 2-6 in 2026 (25% WR) \u2014 market is pricing the 2025 version of Sun who reached the top 30. She's averaging 4.5 DFs/match, down 57 ranking spots, and Scout rates her MEN (Mental Edge Number) at 4/10 \u2014 active spiral. Her serve rhythm is broken; on outdoor Miami hard (faster surface than tour average), that double fault rate becomes structural break pressure on every service game. Timofeeva came off an Indian Wells QF run \u2014 55% break point conversion, clean match record. Aggressive, confident, and physically fresh. Miami is her surface profile. The 38c market reflects Sun's nameplate, not her 2026 hard court body."
   },
   {
-    "date": "Mar 15",
-    "tournament": "Miami Open Q1 Qualifying",
+    "date": "Mar 16",
+    "tournament": "Miami Open Q1 WTA",
     "match": "Parry vs Stefanini",
     "pick": "Parry ML",
     "price": 0.67,
@@ -2540,10 +2540,10 @@
     "pnl": 0,
     "fw": "v2.5",
     "surface": "Hard (Outdoor)",
-    "time": "Mar 15 PM PHT",
+    "time": "TBD Mar 16",
     "pTrue": 0.754,
     "edge": 8.4,
-    "mc": 64.8,
-    "note": "v2.5 ACE-SCOUT PRIMARY: Scout 73.5%, QUANT 82.7%, Sim 64.8% \u2192 P_final Parry 75.4% (+8.4pp). Scout: market at 67c undervalues Parry \u2014 H2H 3-1 overall, 2-0 on hard, Stefanini has known structural struggles on hard courts. Parry 8-6 in 2026 (SF Ostrava), surface dominance thesis. Full pipeline convergence (Scout/QUANT div 9.2pp). 2u: P_final \u226570% + Scout HIGH + full alignment."
+    "mc": 75,
+    "note": "v2.5 SCOUT+QUANT+SIM: Parry ML 75.4% P_final vs 67c (+8.4pp, Scout 73.5%, all three signals aligned, div 9.2pp). PLAYSTYLE: H2H 3-1 overall, 2-0 specifically on hard courts \u2014 Parry has the blueprint on Stefanini's game and executes it on the surface where it matters. Stefanini's game is built for clay: heavy topspin, high-bounce approach, defensive retrieval \u2014 on faster Miami hard, the ball stays lower and her groundstroke window closes. Parry's flat aggressive ball-striking from the baseline dictates tempo before Stefanini can find her rhythm. Parry 8-6 in 2026 with a SF run at Ostrava \u2014 form is real, not a blip. Market correctly identifying Parry as favorite but 67c is still undervaluing the H2H structure and surface advantage. Sized 2u: three-signal convergence on a high-confidence direction."
   }
 ]
