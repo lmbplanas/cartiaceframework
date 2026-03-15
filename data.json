@@ -2547,8 +2547,8 @@
     "note": "v2.5 SCOUT+QUANT+SIM: Parry ML 75.4% P_final vs 67c (+8.4pp, Scout 73.5%, all three signals aligned, div 9.2pp). PLAYSTYLE: H2H 3-1 overall, 2-0 specifically on hard courts \u2014 Parry has the blueprint on Stefanini's game and executes it on the surface where it matters. Stefanini's game is built for clay: heavy topspin, high-bounce approach, defensive retrieval \u2014 on faster Miami hard, the ball stays lower and her groundstroke window closes. Parry's flat aggressive ball-striking from the baseline dictates tempo before Stefanini can find her rhythm. Parry 8-6 in 2026 with a SF run at Ostrava \u2014 form is real, not a blip. Market correctly identifying Parry as favorite but 67c is still undervaluing the H2H structure and surface advantage. Sized 2u: three-signal convergence on a high-confidence direction."
   },
   {
-    "date": "Mar 15",
-    "tournament": "IW Masters 1000 Final",
+    "date": "Mar 16",
+    "tournament": "IW Masters Final ATP",
     "match": "Medvedev vs Sinner",
     "pick": "Over 21.5 Games",
     "price": 0.54,
@@ -2556,11 +2556,11 @@
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "surface": "Hard (Outdoor)",
-    "time": "6:00 AM PHT Mar 16",
+    "surface": "Hard (Slow, Outdoor)",
+    "time": "TBD Mar 16",
     "pTrue": 0.714,
     "edge": 17.4,
-    "mc": 71.4,
-    "note": "v2.5 Scout+Sim convergence: P(Over 21.5)=71.4%, +17.4pp. Scout primary: CPI 37 slow courts + Medvedev elite return (p_ret=0.43) = long rallies, extended sets. Avg sim 25.9 games. Scout hard PASS on Sinner -1.5 (Medvedev returns too well to get blown out). P_final Sinner 74.5% (Scout 71%, QUANT 78.4%, Sim 76.8% \u2014 all aligned, div 7.4pp clean)."
+    "mc": 71,
+    "note": "v2.5 SCOUT+QUANT+SIM: Over 21.5 71.4% P(Over) vs 54c (+17.4pp). Scout+Sim fully aligned (div 7.4pp clean). Sim avg 25.9 games. PLAYSTYLE: CPI 37 slow courts are the structural driver \u2014 pace is stripped from every ball, rallies extend beyond what fast-court stats predict. Medvedev's return game (p_ret=0.43, elite) suppresses Sinner's effective hold rate by 2.9pp per game, generating genuine break tension rather than routine holds. Sinner solved the Medvedev puzzle (8 of last 9 H2H) but doesn't blow him out \u2014 Medvedev's defensive wall forces 6-4/7-5 type sets, not bagels. Freshness gap: Sinner 6.5h total court time vs Medvedev 8.5h after the Alcaraz SF war. Scout hard PASS on Sinner -1.5 (sim says 76.8% straights but Scout overrides on spread markets \u2014 too volatile). Over 21.5 is the Scout primary: slow courts + elite defender + Sinner's serve partially neutralized by CPI = long sets guaranteed."
   }
 ]
