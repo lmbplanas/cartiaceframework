@@ -2511,5 +2511,39 @@
     "result": "P",
     "pnl": 0,
     "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets."
+  },
+  {
+    "date": "Mar 15",
+    "tournament": "Miami Open Q1 Qualifying",
+    "match": "Sun vs Timofeeva",
+    "pick": "Timofeeva ML",
+    "price": 0.38,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "Mar 15 PM PHT",
+    "pTrue": 0.651,
+    "edge": 27.1,
+    "mc": 60.3,
+    "note": "v2.5 ACE-SCOUT PRIMARY: Scout 44% (Sun), QUANT 11% (Sun), Sim 60% (Sun) \u2192 P_final Timofeeva 65.1% (+27pp). Classic ranking-over-form mispricing. Sun 2-6 in 2026 (25% WR), 4.5 DFs/match, 57-ranking-spot drop, MEN score 4/10 (mental spiral). Market pricing 2025 Sun. Timofeeva IW QF form, 55% BP conversion. Scout/QUANT divergence flagged 32.9pp but both agree on direction."
+  },
+  {
+    "date": "Mar 15",
+    "tournament": "Miami Open Q1 Qualifying",
+    "match": "Parry vs Stefanini",
+    "pick": "Parry ML",
+    "price": 0.67,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "Mar 15 PM PHT",
+    "pTrue": 0.754,
+    "edge": 8.4,
+    "mc": 64.8,
+    "note": "v2.5 ACE-SCOUT PRIMARY: Scout 73.5%, QUANT 82.7%, Sim 64.8% \u2192 P_final Parry 75.4% (+8.4pp). Scout: market at 67c undervalues Parry \u2014 H2H 3-1 overall, 2-0 on hard, Stefanini has known structural struggles on hard courts. Parry 8-6 in 2026 (SF Ostrava), surface dominance thesis. Full pipeline convergence (Scout/QUANT div 9.2pp). 2u: P_final \u226570% + Scout HIGH + full alignment."
   }
 ]
