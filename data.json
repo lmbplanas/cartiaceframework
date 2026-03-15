@@ -2495,5 +2495,21 @@
     "edge": 45.4,
     "mc": 85.4,
     "note": "v2.4 QUANT+SIM: Zverev +1.5 ~85.4% (wins a set) vs 40c (+45pp). P_quant Sinner 81.5% (QUANT anchor \u2014 divergence 48pp, sim bias flagged). Sinner str8 sets only 14.6% \u2014 Zverev serve too good to get blanked even on slow IW courts. Scout: IW CPI 37 blunts Zverev but doesn't eliminate his set-stealing ability via tiebreak. First v2.4 bet with full QUANT+p_ret pipeline."
+  },
+  {
+    "date": "Mar 15",
+    "time": "TBD Mar 15",
+    "tournament": "Cap Cana CH175 Final",
+    "surface": "Hard (Outdoor)",
+    "match": "Bellucci vs Navone",
+    "pick": "Bellucci ML",
+    "stake": 2.0,
+    "price": 0.65,
+    "pTrue": 0.772,
+    "edge": 12.2,
+    "mc": 77,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets."
   }
 ]
