@@ -2596,5 +2596,39 @@
     "edge": 16.9,
     "mc": 64.0,
     "note": "v2.5 career stats (ATP API, ZEP Tier 2). McDonald #44 vs Landaluce #134. Direct rematch Mar 11 \u2014 McDonald W 3-6 6-2 7-5. McDonald: 1stIn=63.4% 1stW=69.8% 2ndW=51.5%. Landaluce: 1stIn=62.7% 1stW=69.1% 2ndW=48.9%. B=+0.200, S=+0.046, H=+0.08 (H2H 1-0), M=+0.06. QUANT=82.2% shrunk, Scout=73.0% (HIGH), Sim=64.0%. Landaluce 2026H main draw 2-4. Full pipeline aligned."
+  },
+  {
+    "date": "Mar 17",
+    "tournament": "Miami Open Q1 ATP",
+    "match": "Hanfmann vs Riedi",
+    "pick": "Hanfmann ML",
+    "price": 0.63,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "12:40 AM Mar 17",
+    "pTrue": 0.755,
+    "edge": 12.5,
+    "mc": 72.0,
+    "note": "v2.5 SofaScore verified. Hanfmann CLEAN\u00d72: 1stIn=61.9% 1stW=75.6% 2ndW=59.5% ret=31.9% p_srv=0.695. Riedi DEGRAD\u00d71: 1stIn=62.0% 1stW=61.3% 2ndW=42.1% ret=26.4% p_srv=0.540. Serve gap 15.5pp. QUANT=77.6% Scout=75.0%(HIGH) Sim=72.0%. Riedi 4L last 5, Hanfmann 4W streak. Miami ITF-4 punishes Riedi weak 2nd serve."
+  },
+  {
+    "date": "Mar 17",
+    "tournament": "Miami Open Q1 ATP",
+    "match": "Pinnington Jones vs Coleman Wong",
+    "pick": "Coleman Wong ML",
+    "price": 0.63,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "12:40 AM Mar 17",
+    "pTrue": 0.737,
+    "edge": 10.7,
+    "mc": 68.0,
+    "note": "v2.5 SofaScore verified. CW CLEAN\u00d72: 1stIn=64.1% 1stW=71.2% 2ndW=43.9% ret=43.3% p_srv=0.614. PJ CLEAN\u00d71: 1stIn=52.5% 1stW=71.0% 2ndW=25%(CAPPED 30%) ret=28.0% p_srv=0.515. CW return=43.3% elite. QUANT=78.5% Scout=72.0%(HIGH) Sim=68.0%. Miami ITF-4 punishes PJ weak 2nd serve."
   }
 ]
