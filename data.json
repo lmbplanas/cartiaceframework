@@ -2579,5 +2579,22 @@
     "edge": 20.2,
     "mc": 61.2,
     "note": "v2.5 API-verified (SofaScore mid=15688413 Seidel, mid=15654911 Stakusic). Seidel 1stIn=60.5% 1stW=67.4% 2ndW=60.0% p_ret=44.8%. Stakusic 1stIn=68.4% 1stW=51.3% 2ndW=44.4% p_ret=32.3%. Seidel p_srv_adj=0.642 vs Stakusic p_srv_adj=0.469. Sim 98.8% Seidel (serve gap extreme). Scout 55%, QUANT 53.8%, P_final 61.2%. Market pricing old Stakusic (62c) \u2014 ranking inversion (#83 vs #130). Miami ITF-4 slow courts + 70% humidity punish Stakusic's weak 2ndW harder. Scout: Seidel's 44.8% p_ret is verified elite; Stakusic p_srv=0.491 is below survival threshold on these courts."
+  },
+  {
+    "date": "Mar 16",
+    "tournament": "Miami Open Q1 ATP",
+    "match": "Landaluce vs McDonald",
+    "pick": "McDonald ML",
+    "price": 0.58,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "5:00 AM Mar 17",
+    "pTrue": 0.749,
+    "edge": 16.9,
+    "mc": 64.0,
+    "note": "v2.5 career stats (ATP API, ZEP Tier 2). McDonald #44 vs Landaluce #134. Direct rematch Mar 11 \u2014 McDonald W 3-6 6-2 7-5. McDonald career: 1stIn=63.4% 1stW=69.8% 2ndW=51.5%. Landaluce career: 1stIn=62.7% 1stW=69.1% 2ndW=48.9%. McDonald B=+0.200, S=+0.046, H=+0.08 (H2H 1-0), M=+0.06. QUANT=82.2% shrunk, Scout=73.0% (HIGH), Sim=64.0%. Landaluce 2026H main draw 2-4. Full pipeline aligned."
   }
 ]
