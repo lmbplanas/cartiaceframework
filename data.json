@@ -2508,8 +2508,8 @@
     "pTrue": 0.772,
     "edge": 12.2,
     "mc": 77,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -100.0,
     "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets."
   },
   {
@@ -2553,8 +2553,8 @@
     "pick": "Over 21.5 Games",
     "price": 0.54,
     "stake": 2.0,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 85.19,
     "fw": "v2.5",
     "surface": "Hard (Slow, Outdoor)",
     "time": "5:00 AM PHT Mar 16",
@@ -2573,12 +2573,12 @@
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "surface": "Hard (Outdoor)",
-    "time": "TBD Mar 16",
+    "surface": "Hard (Outdoor, Laykold ITF-4)",
+    "time": "8:10 AM PHT Mar 16",
     "pTrue": 0.612,
     "edge": 20.2,
-    "mc": 61.2,
-    "note": "v2.5 API-verified (SofaScore mid=15688413 Seidel, mid=15654911 Stakusic). Seidel 1stIn=60.5% 1stW=67.4% 2ndW=60.0% p_ret=44.8%. Stakusic 1stIn=68.4% 1stW=51.3% 2ndW=44.4% p_ret=32.3%. Seidel p_srv_adj=0.642 vs Stakusic p_srv_adj=0.469. Sim 98.8% Seidel (serve gap extreme). Scout 55%, QUANT 53.8%, P_final 61.2%. Market pricing old Stakusic (62c) \u2014 ranking inversion (#83 vs #130). Miami ITF-4 slow courts + 70% humidity punish Stakusic's weak 2ndW harder. Scout: Seidel's 44.8% p_ret is verified elite; Stakusic p_srv=0.491 is below survival threshold on these courts."
+    "mc": 61,
+    "note": "v2.5 SCOUT+QUANT+SIM: Seidel ML 61.2% P_final vs 41c (+20.2pp). SCOUT PRIMARY: Market has Stakusic at 62c \u2014 a ranking inversion (Seidel #83 WTA vs Stakusic #130). Scout says 55%: Seidel is ranked 47 spots better AND has the superior serve/return data. PLAYSTYLE: Stakusic's p_srv=0.491 is the structural kill shot \u2014 she's posting 44% 2ndW (vs Seidel's 60%), with 1stW=51.3% even when the first serve lands. That's an exploitable second serve on every single game. Seidel's return rate (44.8% return pts won) is elite \u2014 she positions deep, absorbs pace, and attacks the second ball. Miami Laykold ITF-4 surface (slower than most hard courts, upgraded from ITF-3) combined with 70% humidity makes balls sit up and slow down further. This conditions punishes weak second serves even harder: the ball doesn't skid through the court, it hangs in Seidel's strike zone. Pipeline: Scout 55% / QUANT 53.8% / Sim 98.8% (extreme serve gap). P_final 61.2% blended. Market anchored on Stakusic's higher recent exposure, not serve quality. SofaScore-verified serve data."
   },
   {
     "date": "Mar 16",
@@ -2595,6 +2595,6 @@
     "pTrue": 0.749,
     "edge": 16.9,
     "mc": 64.0,
-    "note": "v2.5 career stats (ATP API, ZEP Tier 2). McDonald #44 vs Landaluce #134. Direct rematch Mar 11 \u2014 McDonald W 3-6 6-2 7-5. McDonald career: 1stIn=63.4% 1stW=69.8% 2ndW=51.5%. Landaluce career: 1stIn=62.7% 1stW=69.1% 2ndW=48.9%. McDonald B=+0.200, S=+0.046, H=+0.08 (H2H 1-0), M=+0.06. QUANT=82.2% shrunk, Scout=73.0% (HIGH), Sim=64.0%. Landaluce 2026H main draw 2-4. Full pipeline aligned."
+    "note": "v2.5 career stats (ATP API, ZEP Tier 2). McDonald #44 vs Landaluce #134. Direct rematch Mar 11 \u2014 McDonald W 3-6 6-2 7-5. McDonald: 1stIn=63.4% 1stW=69.8% 2ndW=51.5%. Landaluce: 1stIn=62.7% 1stW=69.1% 2ndW=48.9%. B=+0.200, S=+0.046, H=+0.08 (H2H 1-0), M=+0.06. QUANT=82.2% shrunk, Scout=73.0% (HIGH), Sim=64.0%. Landaluce 2026H main draw 2-4. Full pipeline aligned."
   }
 ]
