@@ -2680,5 +2680,39 @@
     "result": "W",
     "pnl": 75.44,
     "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann ML 73.5% P_final vs 57c (+16.5pp, 2u: P_final \u226570%, full pipeline convergence, div 5.7pp). PLAYSTYLE: Serve dominance on Miami humid courts is the structural thesis. Hanfmann 2ndW=59.5% is elite \u2014 a heavy kick/topspin second serve that sits up on ITF-4 slow humid courts. Van Assche 2ndW=43.5% is below average and will get punished every service game. The p_srv gap is 11.8pp (capped). Lefty nuance: Van Assche's slice backhand creates angle and his ad-side serve kicks naturally into righties' backhand \u2014 but his p_srv=0.576 is too weak to capitalize on the lefty structural advantages. Hanfmann wins the hold battle, forces tiebreaks, grinds out sets. Form trajectory: Hanfmann on 4+ win streak including Cerundolo (top-50) \u2014 quality opposition, real data (2 CLEAN matches). Van Assche has 1 CLEAN match (vs Collignon, journeyman). Pipeline: Scout 0.76 (HIGH), QUANT 0.703, Sim 0.73. Ranking: HF #64 vs VA #106 \u2014 42-place gap confirmed by serve data, not contradicted. Full alignment."
+  },
+  {
+    "date": "Mar 18",
+    "tournament": "Miami Open Q1 ATP",
+    "match": "Tirante vs Landaluce",
+    "pick": "Tirante ML",
+    "price": 0.46,
+    "stake": 1.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "6:25 AM Mar 18",
+    "pTrue": 0.623,
+    "edge": 16.3,
+    "mc": 62.0,
+    "note": "v2.5 SofaScore. Tirante CLEAN\u00d71: p_srv=0.720 ret=47.6% 2ndW=62.5% #81. Landaluce DEGRAD\u00d72: p_srv=0.671 ret=43.3% 2ndW=52.2% #151. Tirante wins all: serve+4.9pp, return+4.3pp, rank+70. Landaluce beat McDonald #125 6-3 6-4. Miami humid afternoon: compact returner profile advantaged. Scout=0.62 QUANT=0.681 Sim=0.60."
+  },
+  {
+    "date": "Mar 18",
+    "tournament": "Miami Open Q1 ATP",
+    "match": "Tirante vs Landaluce",
+    "pick": "Tirante +1.5",
+    "price": 0.69,
+    "stake": 2.0,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "surface": "Hard (Outdoor)",
+    "time": "6:25 AM Mar 18",
+    "pTrue": 0.835,
+    "edge": 14.5,
+    "mc": 83.0,
+    "note": "v2.5 spread. P(Landaluce str8)=16.5%. Correlated with ML. Tirante return+rank edge. Miami venue profile applied."
   }
 ]
