@@ -2714,5 +2714,21 @@
     "edge": 14.5,
     "mc": 84,
     "note": "v2.5 SCOUT+SIM: Tirante +1.5 83.5% pTrue vs 69c (+14.5pp). PLAYSTYLE: Structurally improbable for Landaluce to straight-set Tirante \u2014 P(Landaluce straights) = 16.5% only. Tirante's compact return game (ret=47.6%) and solid 2ndW=62.5% means he competes deep in every set. Miami humid afternoon conditions (less pace, longer rallies) favor a grinder over a serve-dominant player. Landaluce's serve inconsistency (0.554\u21920.789 variance) means at least one service game per set breaks down, giving Tirante break-point opportunities that his elite return game capitalizes on. Same thesis as ML \u2014 correlated play. Primary sizing: 2u on spread (safer floor), 1u on ML."
+  },
+  {
+    "date": "Mar 18",
+    "time": "6:15 AM PHT Mar 18",
+    "tournament": "Miami Open Q1 WTA",
+    "surface": "Hard (Outdoor, ITF-4, Night)",
+    "match": "Kenin vs Blinkova",
+    "pick": "Kenin ML",
+    "stake": 1.0,
+    "price": 0.6,
+    "pTrue": 0.685,
+    "edge": 8.5,
+    "mc": 69,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5 SCOUT+QUANT+SIM: Kenin ML 68.5% P_final vs 60c (+8.5pp, 1u: gate cleared). PLAYSTYLE: Blinkova's 2ndW=22.1% (raw, capped at 30%) is structural collapse territory \u2014 she genuinely cannot hold on second serve. On Miami's humid night session courts, second serves sit up heavier and slower, directly amplifying Blinkova's weakness. Kenin exploits this through aggressive return positioning \u2014 her ret=38.4% gives her a consistent strike rate on those vulnerable second balls. Kenin #46 vs Blinkova #92: 46-place ranking gap reflects real quality difference. Kenin's serve is solid (p_srv=0.585, 2ndW=43.5%) vs Blinkova p_srv=0.482. The hold delta is +10.4pp \u2014 Kenin holds, Blinkova breaks. Pipeline: Scout 0.68, QUANT 0.698, Sim 0.67. All three arms aligned (2.8pp max divergence). Gate cleared with +0.5pp margin \u2014 sized 1u (not 2u)."
   }
 ]
