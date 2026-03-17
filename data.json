@@ -2683,7 +2683,7 @@
   },
   {
     "date": "Mar 18",
-    "tournament": "Miami Open Q1 ATP",
+    "tournament": "Miami Open Q2 ATP",
     "match": "Tirante vs Landaluce",
     "pick": "Tirante ML",
     "price": 0.46,
@@ -2691,28 +2691,28 @@
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "surface": "Hard (Outdoor)",
-    "time": "6:25 AM Mar 18",
+    "surface": "Hard (Outdoor, ITF-4)",
+    "time": "6:25 PM PHT Mar 18",
     "pTrue": 0.623,
     "edge": 16.3,
-    "mc": 62.0,
-    "note": "v2.5 SofaScore. Tirante CLEAN\u00d71: p_srv=0.720 ret=47.6% 2ndW=62.5% #81. Landaluce DEGRAD\u00d72: p_srv=0.671 ret=43.3% 2ndW=52.2% #151. Tirante wins all: serve+4.9pp, return+4.3pp, rank+70. Landaluce beat McDonald #125 6-3 6-4. Miami humid afternoon: compact returner profile advantaged. Scout=0.62 QUANT=0.681 Sim=0.60."
+    "mc": 62,
+    "note": "v2.5 SCOUT+QUANT+SIM: Tirante ML 62.3% P_final vs 46c (+16.3pp). MARKET INVERSION: Tirante #81 priced as dog vs Landaluce #151 \u2014 70-place ranking gap completely ignored. PLAYSTYLE: Tirante is a compact, high-intensity returner (ret=47.6%) \u2014 exactly the profile that thrives on Miami humid afternoon courts (ITF-4, 55/45 serve/return default). His serve is solid at 2ndW=62.5%, above tour average. Landaluce just beat McDonald 6-3 6-4 but his serve profile is wildly inconsistent (p_srv variance 0.554\u21920.789 across 2 matches) \u2014 that variance itself signals fragility. When Landaluce's first serve fails, Tirante's elite return game (47.6% return pts won) punishes the second ball relentlessly. Afternoon Miami heat amplifies the humidity effect on heavy second serves. Pipeline: Scout 0.62 (HIGH), QUANT 0.681, Sim 0.60. All three arms aligned, 5.7pp max divergence."
   },
   {
     "date": "Mar 18",
-    "tournament": "Miami Open Q1 ATP",
+    "tournament": "Miami Open Q2 ATP",
     "match": "Tirante vs Landaluce",
-    "pick": "Tirante +1.5",
+    "pick": "Tirante +1.5 (Win a Set)",
     "price": 0.69,
     "stake": 2.0,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "surface": "Hard (Outdoor)",
-    "time": "6:25 AM Mar 18",
+    "surface": "Hard (Outdoor, ITF-4)",
+    "time": "6:25 PM PHT Mar 18",
     "pTrue": 0.835,
     "edge": 14.5,
-    "mc": 83.0,
-    "note": "v2.5 spread. P(Landaluce str8)=16.5%. Correlated with ML. Tirante return+rank edge. Miami venue profile applied."
+    "mc": 84,
+    "note": "v2.5 SCOUT+SIM: Tirante +1.5 83.5% pTrue vs 69c (+14.5pp). PLAYSTYLE: Structurally improbable for Landaluce to straight-set Tirante \u2014 P(Landaluce straights) = 16.5% only. Tirante's compact return game (ret=47.6%) and solid 2ndW=62.5% means he competes deep in every set. Miami humid afternoon conditions (less pace, longer rallies) favor a grinder over a serve-dominant player. Landaluce's serve inconsistency (0.554\u21920.789 variance) means at least one service game per set breaks down, giving Tirante break-point opportunities that his elite return game capitalizes on. Same thesis as ML \u2014 correlated play. Primary sizing: 2u on spread (safer floor), 1u on ML."
   }
 ]
