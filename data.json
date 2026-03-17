@@ -2730,5 +2730,21 @@
     "result": "P",
     "pnl": 0,
     "note": "v2.5 SCOUT+QUANT+SIM: Kenin ML 68.5% P_final vs 60c (+8.5pp, 1u: gate cleared). PLAYSTYLE: Blinkova's 2ndW=22.1% (raw, capped at 30%) is structural collapse territory \u2014 she genuinely cannot hold on second serve. On Miami's humid night session courts, second serves sit up heavier and slower, directly amplifying Blinkova's weakness. Kenin exploits this through aggressive return positioning \u2014 her ret=38.4% gives her a consistent strike rate on those vulnerable second balls. Kenin #46 vs Blinkova #92: 46-place ranking gap reflects real quality difference. Kenin's serve is solid (p_srv=0.585, 2ndW=43.5%) vs Blinkova p_srv=0.482. The hold delta is +10.4pp \u2014 Kenin holds, Blinkova breaks. Pipeline: Scout 0.68, QUANT 0.698, Sim 0.67. All three arms aligned (2.8pp max divergence). Gate cleared with +0.5pp margin \u2014 sized 1u (not 2u)."
+  },
+  {
+    "date": "Mar 18",
+    "time": "6:45 AM PHT Mar 18",
+    "tournament": "Miami Open Q1 WTA",
+    "surface": "Hard (Outdoor, ITF-4)",
+    "match": "Zhang vs Cirstea",
+    "pick": "Zhang +1.5 (Win a Set)",
+    "stake": 1.0,
+    "price": 0.5,
+    "pTrue": 0.63,
+    "edge": 13.0,
+    "mc": 63,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 63% pTrue vs 50c (+13pp, 1u: ZEP Tier 3 flag on Zhang data). PLAYSTYLE: Cirstea #35 is a real favorite \u2014 ranked 26 places above Zhang #61, CLEAN\u00d72 data (p_srv=0.643, 2ndW=56.2%, beat Noskova top-30 at IW). Market at 76c ML is actually OVERPRICED for Cirstea (+10pp overvalue). The spread is where the edge lives: P(Cirstea straight sets) = only 37%. Zhang is a veteran 34yo who has been competing at this level for 12+ years \u2014 she does not get bageled out of sets by a #35 opponent. Her ZEP Tier 3 flag means limited serve data from one rejected match (n1=49 < 50, n2=14 < 15 vs Yastremska IW), but her veteran status and baseline consistency mean she competes deep even with compromised data. Pipeline: Scout 0.70 (Cirstea), QUANT 0.585 blended \u2192 P_final Zhang wins a set = 63%. Sized 1u, not 2u, due to data flag."
   }
 ]
