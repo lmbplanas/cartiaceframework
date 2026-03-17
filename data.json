@@ -2664,5 +2664,21 @@
     "edge": 13.0,
     "mc": 62,
     "note": "v2.5 SCOUT+SIM: Over 23.5 62% pTrue vs 49c (+13pp). Independent thesis from the spread bet \u2014 not a hedge, same directional exposure on 'competitive match'. PLAYSTYLE: Both players hold at ~66% service games, serve profiles nearly identical (0.656 vs 0.664). When two equally-matched servers play, sets go to tiebreaks. H2H last week went 7-6 7-6 = exactly 26 games. The 23.5 line is set conservatively \u2014 a single tiebreak in one set already clears it. Miami ITF-4 courts (slower than tour average) + 70% humidity extends rally length and suppresses break frequency. Sim avg 25.9 games. Two positively-correlated bets on one match \u2014 both profit from Harris winning, most scenarios profit from long game count."
+  },
+  {
+    "date": "Mar 18",
+    "time": "7:00 AM PHT Mar 18",
+    "tournament": "Miami Open Q2 ATP",
+    "surface": "Hard (Outdoor, ITF-4)",
+    "match": "Hanfmann vs Van Assche",
+    "pick": "Hanfmann ML",
+    "stake": 2.0,
+    "price": 0.57,
+    "pTrue": 0.735,
+    "edge": 16.5,
+    "mc": 74,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann ML 73.5% P_final vs 57c (+16.5pp, 2u: P_final \u226570%, full pipeline convergence, div 5.7pp). PLAYSTYLE: Serve dominance on Miami humid courts is the structural thesis. Hanfmann 2ndW=59.5% is elite \u2014 a heavy kick/topspin second serve that sits up on ITF-4 slow humid courts. Van Assche 2ndW=43.5% is below average and will get punished every service game. The p_srv gap is 11.8pp (capped). Lefty nuance: Van Assche's slice backhand creates angle and his ad-side serve kicks naturally into righties' backhand \u2014 but his p_srv=0.576 is too weak to capitalize on the lefty structural advantages. Hanfmann wins the hold battle, forces tiebreaks, grinds out sets. Form trajectory: Hanfmann on 4+ win streak including Cerundolo (top-50) \u2014 quality opposition, real data (2 CLEAN matches). Van Assche has 1 CLEAN match (vs Collignon, journeyman). Pipeline: Scout 0.76 (HIGH), QUANT 0.703, Sim 0.73. Ranking: HF #64 vs VA #106 \u2014 42-place gap confirmed by serve data, not contradicted. Full alignment."
   }
 ]
