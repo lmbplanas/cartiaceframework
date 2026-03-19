@@ -2748,8 +2748,8 @@
     "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 63% pTrue vs 50c (+13pp, 1u: ZEP Tier 3 flag on Zhang data). PLAYSTYLE: Cirstea #35 is a real favorite \u2014 ranked 26 places above Zhang #61, CLEAN\u00d72 data (p_srv=0.643, 2ndW=56.2%, beat Noskova top-30 at IW). Market at 76c ML is actually OVERPRICED for Cirstea (+10pp overvalue). The spread is where the edge lives: P(Cirstea straight sets) = only 37%. Zhang is a veteran 34yo who has been competing at this level for 12+ years \u2014 she does not get bageled out of sets by a #35 opponent. Her ZEP Tier 3 flag means limited serve data from one rejected match (n1=49 < 50, n2=14 < 15 vs Yastremska IW), but her veteran status and baseline consistency mean she competes deep even with compromised data. Pipeline: Scout 0.70 (Cirstea), QUANT 0.585 blended \u2192 P_final Zhang wins a set = 63%. Sized 1u, not 2u, due to data flag."
   },
   {
-    "date": "Mar 19",
-    "time": "1:40 AM PHT Mar 19",
+    "date": "Mar 20",
+    "time": "1:20 AM PHT Mar 20",
     "tournament": "Miami Open R1 ATP",
     "surface": "Hard (Outdoor, Laykold)",
     "match": "Collignon vs Dimitrov",
@@ -2764,8 +2764,8 @@
     "note": "v2.5 SCOUT+QUANT+SIM: Dimitrov ML 62% pTrue vs 56c (+6pp, 1.5u). MIAMI VENUE EDGE: Dimitrov is 23-15 at Miami \u2014 Finals 2024, Semis 2025. Elite venue record on Laykold surface that plays right into his game. Backhand slice is tailor-made for Miami's low-bounce, heavy Dunlop ball. MARKET MISPRICING: Collignon beat Dimitrov in Brisbane (7-6 6-3) and market is over-indexing on that result \u2014 Brisbane is a fast high-bouncing court where Collignon's big serve thrives. Miami is the opposite: heavy ball, low bounce, humid air eats serve-dominant games. Collignon's Brisbane serve advantage (82% 1st serve pts) evaporates here. FORM: Collignon 13-5 in 2026 but surface-mixed. Dimitrov returning from 6-month injury layoff \u2014 Miami is his tournament and the venue record says so. Brisbane H2H is misleading context; market pricing the wrong match."
   },
   {
-    "date": "Mar 19",
-    "time": "2:50 AM PHT Mar 19",
+    "date": "Mar 20",
+    "time": "12:10 AM PHT Mar 20",
     "tournament": "Miami Open R1 ATP",
     "surface": "Hard (Outdoor, Laykold)",
     "match": "Quinn vs Hurkacz",
@@ -2778,5 +2778,37 @@
     "result": "P",
     "pnl": 0,
     "note": "v2.5 SCOUT+QUANT+SIM: Quinn ML 54% pTrue vs 46c (+8pp, 1.5u). FORM INVERSION: Market pricing on reputation, not form. Hurkacz on 6-match losing streak, 5-7 in 2026. Quinn won Phoenix Challenger, 9-6 on hard in 2026 \u2014 in-form player at underdog odds. H2H PROOF: Quinn straight-setted Hurkacz at Australian Open 2 months ago \u2014 market hasn't adjusted. PLAYSTYLE: Two massive servers on Miami Laykold; lower bounce means Quinn's return game and current form become the differentiator. Hurkacz's backhand breakdown is the common thread in his 2026 losses \u2014 on Miami's lower bounce Quinn finds that wing repeatedly. Sized 1.5u (Ace rec was 2u) \u2014 adjusted for Quinn's Miami R1 debut uncertainty."
+  },
+  {
+    "date": "Mar 20",
+    "time": "12:10 AM PHT Mar 20",
+    "tournament": "Miami Open R1 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Giron vs Landaluce",
+    "pick": "Landaluce +1.5 (Win a Set)",
+    "stake": 2.0,
+    "price": 0.64,
+    "pTrue": 0.7,
+    "edge": 6.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5 SCOUT+QUANT+SIM: Landaluce +1.5 70% pTrue vs 64c (+6pp, 2u). MIAMI CURSE \u2014 GIRON 1-6: Giron has lost R1 at Miami in 2022, 2023, 2024, and 2025 \u2014 four consecutive R1 exits. Stylistic 'fit' for Miami conditions is completely overridden by the venue track record. This is not variance. FATIGUE FLAG: Giron ran deep at Phoenix Challenger (grueling 3-set final) and arrived in humid Miami on short rest. Landaluce fully adjusted \u2014 came through qualifying beating McDonald and Tirante, already acclimated to the exact courts and conditions. FORM: Giron 12-7 in 2026 but surface-mixed; Landaluce 8-8 but those 8 wins came on hard including a 3-set comeback vs Tirante in qualifying here. SPREAD THESIS: Market pricing Giron at 63% implied \u2014 pTrue only 53% after Miami adjustment. P(Landaluce wins a set) = 70%. Even if Giron ultimately wins, his Miami history says it won't be clean."
+  },
+  {
+    "date": "Mar 20",
+    "time": "12:10 AM PHT Mar 20",
+    "tournament": "Miami Open R1 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Giron vs Landaluce",
+    "pick": "Landaluce ML",
+    "stake": 0.5,
+    "price": 0.39,
+    "pTrue": 0.47,
+    "edge": 8.0,
+    "mc": 47,
+    "result": "P",
+    "pnl": 0,
+    "note": "v2.5: Landaluce ML 47% pTrue vs 39c (+8pp, 0.5u speculative). Same thesis as +1.5 but ML is the upset upside. Giron's 1-6 Miami record + Phoenix fatigue + Landaluce's qualifying form creates a real upset window. Market overvaluing Giron on rank and Phoenix Challenger run \u2014 neither factor translates to Miami hard. Sized 0.5u: the data is there but pTrue is below 50%, so small speculative unit. Primary play is the +1.5 spread."
   }
 ]
