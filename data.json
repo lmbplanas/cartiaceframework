@@ -2260,7 +2260,8 @@
     "mc": 68,
     "result": "L",
     "pnl": -75.0,
-    "note": "SCOUT+SIM: Djokovic ML 68% true vs 59c (+9pp, gate ~8% B=0.34, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 1.5u. PLAYSTYLE: IW slow court (CPI 37) is Djokovic's weapon \u2014 night conditions blunt Draper's flat pace, spin sits up into Djokovic's strike zone. Critical Scout finding: Draper posted 2ndW=41% vs Cerundolo at IW \u2014 fatal against the best returner on tour. Platform stance almost certainly load management on recovering arm, generates less kinetic chain from legs, second serve becomes sitting-duck pace. Djokovic targets this relentlessly. Draper can hit heavy, but hitting through Djokovic on slow IW requires 3-4 more shots per rally \u2014 third match back from 8 months off, arm takes cumulative punishment. Big sim/Scout divergence: base sim 40.3% Djokovic (Draper p_srv=0.704 > 0.682), Scout overrides to 68% on 2nd serve vulnerability + injury fatigue. Market priced Draper's raw first-serve without platform-stance discount."
+    "note": "SCOUT+SIM: Djokovic ML 68% true vs 59c (+9pp, gate ~8% B=0.34, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 1.5u. PLAYSTYLE: IW slow court (CPI 37) is Djokovic's weapon \u2014 night conditions blunt Draper's flat pace, spin sits up into Djokovic's strike zone. Critical Scout finding: Draper posted 2ndW=41% vs Cerundolo at IW \u2014 fatal against the best returner on tour. Platform stance almost certainly load management on recovering arm, generates less kinetic chain from legs, second serve becomes sitting-duck pace. Djokovic targets this relentlessly. Draper can hit heavy, but hitting through Djokovic on slow IW requires 3-4 more shots per rally \u2014 third match back from 8 months off, arm takes cumulative punishment. Big sim/Scout divergence: base sim 40.3% Djokovic (Draper p_srv=0.704 > 0.682), Scout overrides to 68% on 2nd serve vulnerability + injury fatigue. Market priced Draper's raw first-serve without platform-stance discount.",
+    "fw": "v2.4"
   },
   {
     "date": "Mar 13",
@@ -2276,7 +2277,8 @@
     "mc": 68,
     "result": "W",
     "pnl": 76.61,
-    "note": "SCOUT+SIM: Medvedev ML 68% true vs 62c (+6pp, gate ~8% B=0.37, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 2.5u. PLAYSTYLE: Draper's Djokovic win is a trap \u2014 Djokovic at IW 2026 is not peak Djokovic, historically struggles with motivation in the desert. That win inflates Draper's market price artificially. The crux is Medvedev's return vs Draper's 2nd serve: Draper's platform stance (arm load management) posted 41% 2ndW vs Cerundolo at IW \u2014 a structural weakness. Medvedev stands deep in the parking lot and grinds 2nd serves with laser positioning, deliberately hunting it and forcing Draper into long baseline rallies on a vulnerable shoulder. Morning IW courts (CPI 38-39): Draper gets slightly more pace, but still high-bounce and gritty \u2014 exactly where Medvedev's defensive wall thrives. Base sim 51.6% Medvedev (raw serve profiles nearly identical); Scout override to 68% on 2nd serve vulnerability + market overreaction to Draper's Djokovic scalp. Market fair value 68-70c per Scout."
+    "note": "SCOUT+SIM: Medvedev ML 68% true vs 62c (+6pp, gate ~8% B=0.37, clears by +1pp). OVERRIDE: Scout rec 1u, player sized 2.5u. PLAYSTYLE: Draper's Djokovic win is a trap \u2014 Djokovic at IW 2026 is not peak Djokovic, historically struggles with motivation in the desert. That win inflates Draper's market price artificially. The crux is Medvedev's return vs Draper's 2nd serve: Draper's platform stance (arm load management) posted 41% 2ndW vs Cerundolo at IW \u2014 a structural weakness. Medvedev stands deep in the parking lot and grinds 2nd serves with laser positioning, deliberately hunting it and forcing Draper into long baseline rallies on a vulnerable shoulder. Morning IW courts (CPI 38-39): Draper gets slightly more pace, but still high-bounce and gritty \u2014 exactly where Medvedev's defensive wall thrives. Base sim 51.6% Medvedev (raw serve profiles nearly identical); Scout override to 68% on 2nd serve vulnerability + market overreaction to Draper's Djokovic scalp. Market fair value 68-70c per Scout.",
+    "fw": "v2.4"
   },
   {
     "date": "Mar 13",
@@ -2292,7 +2294,8 @@
     "mc": 55,
     "result": "L",
     "pnl": -50.0,
-    "note": "SCOUT+SIM: Mochizuki ML 55% true vs 40c (+15pp, gate 12% B=0.22, clears by +3pp). Same surface-mispricing thesis as Wong vs Burruchaga. PLAYSTYLE: Navone (#79 ATP) is another South American clay specialist \u2014 7-24 ATP hard record (22.6%). His heavy topspin serve sits in the strike zone on hard courts. Caribbean heat at Cap Cana makes the ball fly faster, rewarding early aggressive striking \u2014 exactly Navone's weakness as a deep-returning grinder. Mochizuki is IMG Academy-developed, entire game built for hard courts, takes the ball early and aggressively. H2H played once on clay at Cagliari 2024, Mochizuki took a set off Navone on his BEST surface \u2014 flipping to hard court swings the structural advantage entirely. Caveat: Mochizuki's serve inconsistent (44-56% 1stIn variance), so Navone's defensive baseline grinding will force long rallies even when outclassed."
+    "note": "SCOUT+SIM: Mochizuki ML 55% true vs 40c (+15pp, gate 12% B=0.22, clears by +3pp). Same surface-mispricing thesis as Wong vs Burruchaga. PLAYSTYLE: Navone (#79 ATP) is another South American clay specialist \u2014 7-24 ATP hard record (22.6%). His heavy topspin serve sits in the strike zone on hard courts. Caribbean heat at Cap Cana makes the ball fly faster, rewarding early aggressive striking \u2014 exactly Navone's weakness as a deep-returning grinder. Mochizuki is IMG Academy-developed, entire game built for hard courts, takes the ball early and aggressively. H2H played once on clay at Cagliari 2024, Mochizuki took a set off Navone on his BEST surface \u2014 flipping to hard court swings the structural advantage entirely. Caveat: Mochizuki's serve inconsistent (44-56% 1stIn variance), so Navone's defensive baseline grinding will force long rallies even when outclassed.",
+    "fw": "v2.4"
   },
   {
     "date": "Mar 14",
@@ -2376,7 +2379,8 @@
     "mc": 62,
     "result": "L",
     "pnl": -50.0,
-    "note": "SCOUT+SIM: Under 21.5 62% true vs 52c (+10pp, gate cleared). PLAYSTYLE: When Moutet wins this match \u2014 Scout says 84% probability \u2014 he wins it fast. H2H 2-0 Moutet including 6-3 6-2 at this exact Phoenix venue last year. Basilashvili 1-8 on hard in 2026, got here via a walkover, his 49% 1stIn collapses further when a lefty returner like Moutet jumps on every second ball. Moutet's left-handed return game targets the backhand on both ad and deuce \u2014 Basilashvili's serve mechanics fall apart under that pressure (double fault rate spikes, short rally errors). Sim avg game count inflated by unlikely Basilashvili win scenarios; Scout conviction is Under: when Moutet dominates, it's 6-3 6-2 type (17-18 games), well inside 21.5."
+    "note": "SCOUT+SIM: Under 21.5 62% true vs 52c (+10pp, gate cleared). PLAYSTYLE: When Moutet wins this match \u2014 Scout says 84% probability \u2014 he wins it fast. H2H 2-0 Moutet including 6-3 6-2 at this exact Phoenix venue last year. Basilashvili 1-8 on hard in 2026, got here via a walkover, his 49% 1stIn collapses further when a lefty returner like Moutet jumps on every second ball. Moutet's left-handed return game targets the backhand on both ad and deuce \u2014 Basilashvili's serve mechanics fall apart under that pressure (double fault rate spikes, short rally errors). Sim avg game count inflated by unlikely Basilashvili win scenarios; Scout conviction is Under: when Moutet dominates, it's 6-3 6-2 type (17-18 games), well inside 21.5.",
+    "fw": "v2.4"
   },
   {
     "date": "Mar 14",
@@ -2392,7 +2396,8 @@
     "mc": 67,
     "result": "L",
     "pnl": -50.0,
-    "note": "SCOUT+SIM: Over 23.5 65-70% true vs 51c (+14-19pp, gate cleared comfortably). PLAYSTYLE: Two strong servers meeting in a QF = tiebreaks = long match. Borges p_srv=0.699 and Giron p_srv=0.664 (fatigue-adjusted -2pp \u2014 Giron saved 4 match points in a 7-6(9) third set yesterday, a brutal physical and emotional drain for a next-day QF). Both players posted 83%+ 1stW in Phoenix this week. When two servers hold at that rate, games are short but numerous \u2014 tiebreaks force a third set or extend sets deep. Sim avg 26.4 games, well over the 23.5 line. Scout agrees: serve-dominated coin flip between near-equal players on outdoor Phoenix hard (ball flies, rewards big serving, extends sets) \u2192 Over is the structural play. Giron fatigue is a secondary edge for Borges on ML, but not enough margin \u2014 the Over is the clean entry."
+    "note": "SCOUT+SIM: Over 23.5 65-70% true vs 51c (+14-19pp, gate cleared comfortably). PLAYSTYLE: Two strong servers meeting in a QF = tiebreaks = long match. Borges p_srv=0.699 and Giron p_srv=0.664 (fatigue-adjusted -2pp \u2014 Giron saved 4 match points in a 7-6(9) third set yesterday, a brutal physical and emotional drain for a next-day QF). Both players posted 83%+ 1stW in Phoenix this week. When two servers hold at that rate, games are short but numerous \u2014 tiebreaks force a third set or extend sets deep. Sim avg 26.4 games, well over the 23.5 line. Scout agrees: serve-dominated coin flip between near-equal players on outdoor Phoenix hard (ball flies, rewards big serving, extends sets) \u2192 Over is the structural play. Giron fatigue is a secondary edge for Borges on ML, but not enough margin \u2014 the Over is the clean entry.",
+    "fw": "v2.4"
   },
   {
     "date": "Mar 15",
@@ -2510,7 +2515,8 @@
     "mc": 77,
     "result": "L",
     "pnl": -100.0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets."
+    "note": "v2.5 SCOUT+QUANT+SIM: Bellucci ML 77.2% P_final (Scout 71%, QUANT 84.8%, Sim 80%) vs 65c (+12.2pp, 2u criteria cleared: P_final \u226570%, full pipeline convergence, B=0.031). PLAYSTYLE: Same surface-mispricing thesis that printed 6-2 6-4 on Bellucci vs Collignon QF. Navone is a clay-court grinder playing a Laykold hard final \u2014 3-10 at ATP hard level in 2026. His heavy topspin game gets completely neutralized when pace rewards flat early ball-striking. Bellucci's LH serve creates wide angles to deuce court and kick to the backhand that Navone simply has no answer for \u2014 Navone averages ~60% 1stW on hard, Bellucci runs 72%+ 1stW. That serve delta means Navone faces break pressure every service game. Fatigue edge: Bellucci dismantled Hurkacz (top-30) in straight sets. Navone survived two brutal 3-setters (Hardt, Blockx SF) \u2014 ~1.5h more court time on his legs. Scout flags avoid Overs (6-2/6-3 scorelines likely) and Navone handicap markets.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 16",
@@ -2679,7 +2685,8 @@
     "mc": 74,
     "result": "W",
     "pnl": 75.44,
-    "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann ML 73.5% P_final vs 57c (+16.5pp, 2u: P_final \u226570%, full pipeline convergence, div 5.7pp). PLAYSTYLE: Serve dominance on Miami humid courts is the structural thesis. Hanfmann 2ndW=59.5% is elite \u2014 a heavy kick/topspin second serve that sits up on ITF-4 slow humid courts. Van Assche 2ndW=43.5% is below average and will get punished every service game. The p_srv gap is 11.8pp (capped). Lefty nuance: Van Assche's slice backhand creates angle and his ad-side serve kicks naturally into righties' backhand \u2014 but his p_srv=0.576 is too weak to capitalize on the lefty structural advantages. Hanfmann wins the hold battle, forces tiebreaks, grinds out sets. Form trajectory: Hanfmann on 4+ win streak including Cerundolo (top-50) \u2014 quality opposition, real data (2 CLEAN matches). Van Assche has 1 CLEAN match (vs Collignon, journeyman). Pipeline: Scout 0.76 (HIGH), QUANT 0.703, Sim 0.73. Ranking: HF #64 vs VA #106 \u2014 42-place gap confirmed by serve data, not contradicted. Full alignment."
+    "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann ML 73.5% P_final vs 57c (+16.5pp, 2u: P_final \u226570%, full pipeline convergence, div 5.7pp). PLAYSTYLE: Serve dominance on Miami humid courts is the structural thesis. Hanfmann 2ndW=59.5% is elite \u2014 a heavy kick/topspin second serve that sits up on ITF-4 slow humid courts. Van Assche 2ndW=43.5% is below average and will get punished every service game. The p_srv gap is 11.8pp (capped). Lefty nuance: Van Assche's slice backhand creates angle and his ad-side serve kicks naturally into righties' backhand \u2014 but his p_srv=0.576 is too weak to capitalize on the lefty structural advantages. Hanfmann wins the hold battle, forces tiebreaks, grinds out sets. Form trajectory: Hanfmann on 4+ win streak including Cerundolo (top-50) \u2014 quality opposition, real data (2 CLEAN matches). Van Assche has 1 CLEAN match (vs Collignon, journeyman). Pipeline: Scout 0.76 (HIGH), QUANT 0.703, Sim 0.73. Ranking: HF #64 vs VA #106 \u2014 42-place gap confirmed by serve data, not contradicted. Full alignment.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 18",
@@ -2729,7 +2736,8 @@
     "mc": 69,
     "result": "L",
     "pnl": -50.0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Kenin ML 68.5% P_final vs 60c (+8.5pp, 1u: gate cleared). PLAYSTYLE: Blinkova's 2ndW=22.1% (raw, capped at 30%) is structural collapse territory \u2014 she genuinely cannot hold on second serve. On Miami's humid night session courts, second serves sit up heavier and slower, directly amplifying Blinkova's weakness. Kenin exploits this through aggressive return positioning \u2014 her ret=38.4% gives her a consistent strike rate on those vulnerable second balls. Kenin #46 vs Blinkova #92: 46-place ranking gap reflects real quality difference. Kenin's serve is solid (p_srv=0.585, 2ndW=43.5%) vs Blinkova p_srv=0.482. The hold delta is +10.4pp \u2014 Kenin holds, Blinkova breaks. Pipeline: Scout 0.68, QUANT 0.698, Sim 0.67. All three arms aligned (2.8pp max divergence). Gate cleared with +0.5pp margin \u2014 sized 1u (not 2u)."
+    "note": "v2.5 SCOUT+QUANT+SIM: Kenin ML 68.5% P_final vs 60c (+8.5pp, 1u: gate cleared). PLAYSTYLE: Blinkova's 2ndW=22.1% (raw, capped at 30%) is structural collapse territory \u2014 she genuinely cannot hold on second serve. On Miami's humid night session courts, second serves sit up heavier and slower, directly amplifying Blinkova's weakness. Kenin exploits this through aggressive return positioning \u2014 her ret=38.4% gives her a consistent strike rate on those vulnerable second balls. Kenin #46 vs Blinkova #92: 46-place ranking gap reflects real quality difference. Kenin's serve is solid (p_srv=0.585, 2ndW=43.5%) vs Blinkova p_srv=0.482. The hold delta is +10.4pp \u2014 Kenin holds, Blinkova breaks. Pipeline: Scout 0.68, QUANT 0.698, Sim 0.67. All three arms aligned (2.8pp max divergence). Gate cleared with +0.5pp margin \u2014 sized 1u (not 2u).",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 18",
@@ -2745,7 +2753,8 @@
     "mc": 63,
     "result": "L",
     "pnl": -50.0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 63% pTrue vs 50c (+13pp, 1u: ZEP Tier 3 flag on Zhang data). PLAYSTYLE: Cirstea #35 is a real favorite \u2014 ranked 26 places above Zhang #61, CLEAN\u00d72 data (p_srv=0.643, 2ndW=56.2%, beat Noskova top-30 at IW). Market at 76c ML is actually OVERPRICED for Cirstea (+10pp overvalue). The spread is where the edge lives: P(Cirstea straight sets) = only 37%. Zhang is a veteran 34yo who has been competing at this level for 12+ years \u2014 she does not get bageled out of sets by a #35 opponent. Her ZEP Tier 3 flag means limited serve data from one rejected match (n1=49 < 50, n2=14 < 15 vs Yastremska IW), but her veteran status and baseline consistency mean she competes deep even with compromised data. Pipeline: Scout 0.70 (Cirstea), QUANT 0.585 blended \u2192 P_final Zhang wins a set = 63%. Sized 1u, not 2u, due to data flag."
+    "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 63% pTrue vs 50c (+13pp, 1u: ZEP Tier 3 flag on Zhang data). PLAYSTYLE: Cirstea #35 is a real favorite \u2014 ranked 26 places above Zhang #61, CLEAN\u00d72 data (p_srv=0.643, 2ndW=56.2%, beat Noskova top-30 at IW). Market at 76c ML is actually OVERPRICED for Cirstea (+10pp overvalue). The spread is where the edge lives: P(Cirstea straight sets) = only 37%. Zhang is a veteran 34yo who has been competing at this level for 12+ years \u2014 she does not get bageled out of sets by a #35 opponent. Her ZEP Tier 3 flag means limited serve data from one rejected match (n1=49 < 50, n2=14 < 15 vs Yastremska IW), but her veteran status and baseline consistency mean she competes deep even with compromised data. Pipeline: Scout 0.70 (Cirstea), QUANT 0.585 blended \u2192 P_final Zhang wins a set = 63%. Sized 1u, not 2u, due to data flag.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2761,7 +2770,8 @@
     "mc": 62,
     "result": "L",
     "pnl": -75.0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Dimitrov ML 62% pTrue vs 56c (+6pp, 1.5u). MIAMI VENUE EDGE: Dimitrov is 23-15 at Miami \u2014 Finals 2024, Semis 2025. Elite venue record on Laykold surface that plays right into his game. Backhand slice is tailor-made for Miami's low-bounce, heavy Dunlop ball. MARKET MISPRICING: Collignon beat Dimitrov in Brisbane (7-6 6-3) and market is over-indexing on that result \u2014 Brisbane is a fast high-bouncing court where Collignon's big serve thrives. Miami is the opposite: heavy ball, low bounce, humid air eats serve-dominant games. Collignon's Brisbane serve advantage (82% 1st serve pts) evaporates here. FORM: Collignon 13-5 in 2026 but surface-mixed. Dimitrov returning from 6-month injury layoff \u2014 Miami is his tournament and the venue record says so. Brisbane H2H is misleading context; market pricing the wrong match."
+    "note": "v2.5 SCOUT+QUANT+SIM: Dimitrov ML 62% pTrue vs 56c (+6pp, 1.5u). MIAMI VENUE EDGE: Dimitrov is 23-15 at Miami \u2014 Finals 2024, Semis 2025. Elite venue record on Laykold surface that plays right into his game. Backhand slice is tailor-made for Miami's low-bounce, heavy Dunlop ball. MARKET MISPRICING: Collignon beat Dimitrov in Brisbane (7-6 6-3) and market is over-indexing on that result \u2014 Brisbane is a fast high-bouncing court where Collignon's big serve thrives. Miami is the opposite: heavy ball, low bounce, humid air eats serve-dominant games. Collignon's Brisbane serve advantage (82% 1st serve pts) evaporates here. FORM: Collignon 13-5 in 2026 but surface-mixed. Dimitrov returning from 6-month injury layoff \u2014 Miami is his tournament and the venue record says so. Brisbane H2H is misleading context; market pricing the wrong match.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2777,7 +2787,8 @@
     "mc": 54,
     "result": "W",
     "pnl": 88.04,
-    "note": "v2.5 SCOUT+QUANT+SIM: Quinn ML 54% pTrue vs 46c (+8pp, 1.5u). FORM INVERSION: Market pricing on reputation, not form. Hurkacz on 6-match losing streak, 5-7 in 2026. Quinn won Phoenix Challenger, 9-6 on hard in 2026 \u2014 in-form player at underdog odds. H2H PROOF: Quinn straight-setted Hurkacz at Australian Open 2 months ago \u2014 market hasn't adjusted. PLAYSTYLE: Two massive servers on Miami Laykold; lower bounce means Quinn's return game and current form become the differentiator. Hurkacz's backhand breakdown is the common thread in his 2026 losses \u2014 on Miami's lower bounce Quinn finds that wing repeatedly. Sized 1.5u (Ace rec was 2u) \u2014 adjusted for Quinn's Miami R1 debut uncertainty."
+    "note": "v2.5 SCOUT+QUANT+SIM: Quinn ML 54% pTrue vs 46c (+8pp, 1.5u). FORM INVERSION: Market pricing on reputation, not form. Hurkacz on 6-match losing streak, 5-7 in 2026. Quinn won Phoenix Challenger, 9-6 on hard in 2026 \u2014 in-form player at underdog odds. H2H PROOF: Quinn straight-setted Hurkacz at Australian Open 2 months ago \u2014 market hasn't adjusted. PLAYSTYLE: Two massive servers on Miami Laykold; lower bounce means Quinn's return game and current form become the differentiator. Hurkacz's backhand breakdown is the common thread in his 2026 losses \u2014 on Miami's lower bounce Quinn finds that wing repeatedly. Sized 1.5u (Ace rec was 2u) \u2014 adjusted for Quinn's Miami R1 debut uncertainty.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2793,7 +2804,8 @@
     "mc": 70,
     "result": "W",
     "pnl": 56.25,
-    "note": "v2.5 SCOUT+QUANT+SIM: Landaluce +1.5 70% pTrue vs 64c (+6pp, 2u). MIAMI CURSE \u2014 GIRON 1-6: Giron has lost R1 at Miami in 2022, 2023, 2024, and 2025 \u2014 four consecutive R1 exits. Stylistic 'fit' for Miami conditions is completely overridden by the venue track record. This is not variance. FATIGUE FLAG: Giron ran deep at Phoenix Challenger (grueling 3-set final) and arrived in humid Miami on short rest. Landaluce fully adjusted \u2014 came through qualifying beating McDonald and Tirante, already acclimated to the exact courts and conditions. FORM: Giron 12-7 in 2026 but surface-mixed; Landaluce 8-8 but those 8 wins came on hard including a 3-set comeback vs Tirante in qualifying here. SPREAD THESIS: Market pricing Giron at 63% implied \u2014 pTrue only 53% after Miami adjustment. P(Landaluce wins a set) = 70%. Even if Giron ultimately wins, his Miami history says it won't be clean."
+    "note": "v2.5 SCOUT+QUANT+SIM: Landaluce +1.5 70% pTrue vs 64c (+6pp, 2u). MIAMI CURSE \u2014 GIRON 1-6: Giron has lost R1 at Miami in 2022, 2023, 2024, and 2025 \u2014 four consecutive R1 exits. Stylistic 'fit' for Miami conditions is completely overridden by the venue track record. This is not variance. FATIGUE FLAG: Giron ran deep at Phoenix Challenger (grueling 3-set final) and arrived in humid Miami on short rest. Landaluce fully adjusted \u2014 came through qualifying beating McDonald and Tirante, already acclimated to the exact courts and conditions. FORM: Giron 12-7 in 2026 but surface-mixed; Landaluce 8-8 but those 8 wins came on hard including a 3-set comeback vs Tirante in qualifying here. SPREAD THESIS: Market pricing Giron at 63% implied \u2014 pTrue only 53% after Miami adjustment. P(Landaluce wins a set) = 70%. Even if Giron ultimately wins, his Miami history says it won't be clean.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2809,7 +2821,8 @@
     "mc": 47,
     "result": "W",
     "pnl": 39.1,
-    "note": "v2.5: Landaluce ML 47% pTrue vs 39c (+8pp, 0.5u speculative). Same thesis as +1.5 but ML is the upset upside. Giron's 1-6 Miami record + Phoenix fatigue + Landaluce's qualifying form creates a real upset window. Market overvaluing Giron on rank and Phoenix Challenger run \u2014 neither factor translates to Miami hard. Sized 0.5u: the data is there but pTrue is below 50%, so small speculative unit. Primary play is the +1.5 spread."
+    "note": "v2.5: Landaluce ML 47% pTrue vs 39c (+8pp, 0.5u speculative). Same thesis as +1.5 but ML is the upset upside. Giron's 1-6 Miami record + Phoenix fatigue + Landaluce's qualifying form creates a real upset window. Market overvaluing Giron on rank and Phoenix Challenger run \u2014 neither factor translates to Miami hard. Sized 0.5u: the data is there but pTrue is below 50%, so small speculative unit. Primary play is the +1.5 spread.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2825,7 +2838,8 @@
     "mc": 54,
     "result": "P",
     "pnl": 0,
-    "note": "v2.5 SCOUT: Over 22.5 54% pTrue vs ~52c (+2pp, 1u). Draxl's Q matches both went 3 sets (27 and 22 games) \u2014 he's a grinder who extends matches. Halys inconsistency means service games will be contested. Two all-court players on humid Miami Laykold, neither an overwhelming straight-sets dominant player. Expected match length: 2-3 sets, majority probability crosses 22.5. Thin edge but consistent with the spread thesis \u2014 if Draxl competes in sets, total games climbs."
+    "note": "v2.5 SCOUT: Over 22.5 54% pTrue vs ~52c (+2pp, 1u). Draxl's Q matches both went 3 sets (27 and 22 games) \u2014 he's a grinder who extends matches. Halys inconsistency means service games will be contested. Two all-court players on humid Miami Laykold, neither an overwhelming straight-sets dominant player. Expected match length: 2-3 sets, majority probability crosses 22.5. Thin edge but consistent with the spread thesis \u2014 if Draxl competes in sets, total games climbs.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2841,7 +2855,8 @@
     "mc": 70,
     "result": "P",
     "pnl": 0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Draxl +1.5 pTrue ~70%+ (1u). PLAYSTYLE: Draxl is an all-court competitor who battled through 3-set qualifying matches. Players who grind through Q rarely get bageled out of sets at R1. Halys's 31.5% ATP hard court WR means he's inconsistent \u2014 can't dominate in straights reliably. QUALITY: Beat Garin in Q (former top-20), showing he can compete against real ATP-level opponents. Winning a set against Halys is a high-floor outcome. Same venue acclimation advantage \u2014 fully adjusted to Miami's Laykold courts after two Q matches."
+    "note": "v2.5 SCOUT+QUANT+SIM: Draxl +1.5 pTrue ~70%+ (1u). PLAYSTYLE: Draxl is an all-court competitor who battled through 3-set qualifying matches. Players who grind through Q rarely get bageled out of sets at R1. Halys's 31.5% ATP hard court WR means he's inconsistent \u2014 can't dominate in straights reliably. QUALITY: Beat Garin in Q (former top-20), showing he can compete against real ATP-level opponents. Winning a set against Halys is a high-floor outcome. Same venue acclimation advantage \u2014 fully adjusted to Miami's Laykold courts after two Q matches.",
+    "fw": "v2.5"
   },
   {
     "date": "Mar 20",
@@ -2857,6 +2872,7 @@
     "mc": 41,
     "result": "P",
     "pnl": 0,
-    "note": "v2.5 SCOUT+QUANT+SIM: Draxl ML 41% pTrue vs 35c (+6pp, 0.5u speculative). FADE HALYS: Halys at 67c is drastically overpriced \u2014 his ATP hard court WR is only 31.5%. He is not a reliable hard court performer at the ATP level despite his ranking (~#55). DRAXL QUALITY: #147 ATP, career-high #113. Q run beat Garin (4-6 6-4 6-2) \u2014 Garin is a former top-20 player, that's a legitimate quality win, not a tomato can. Then beat Clarke (6-3 3-6 6-4). Full Q acclimation to Miami courts. 9-6 on hard in 2026 (60% WR). All-court Canadian style, not a servebot. ATP main draw hard debut but Challenger hard record is 69%. Sized 0.5u \u2014 primary play is spread/over, ML is the upset upside spec."
+    "note": "v2.5 SCOUT+QUANT+SIM: Draxl ML 41% pTrue vs 35c (+6pp, 0.5u speculative). FADE HALYS: Halys at 67c is drastically overpriced \u2014 his ATP hard court WR is only 31.5%. He is not a reliable hard court performer at the ATP level despite his ranking (~#55). DRAXL QUALITY: #147 ATP, career-high #113. Q run beat Garin (4-6 6-4 6-2) \u2014 Garin is a former top-20 player, that's a legitimate quality win, not a tomato can. Then beat Clarke (6-3 3-6 6-4). Full Q acclimation to Miami courts. 9-6 on hard in 2026 (60% WR). All-court Canadian style, not a servebot. ATP main draw hard debut but Challenger hard record is 69%. Sized 0.5u \u2014 primary play is spread/over, ML is the upset upside spec.",
+    "fw": "v2.5"
   }
 ]
