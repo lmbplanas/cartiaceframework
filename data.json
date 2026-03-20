@@ -2942,5 +2942,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Wu ML 60% pTrue vs 54c (+6pp, 1.5u). RANKING INVERSION: Diallo #37 vs Wu #118 \u2014 classic Miami mispricing where rankings create a false discount. FADE DIALLO: 4-7 in 2026, 36% WR overall. Diallo's 2nd serve at 48.3% won \u2014 below the Miami danger threshold. Heavy Dunlop ball in humid day conditions eats serve-dependent games. WU FORM: 11-5 overall, 10-5 on hard in 2026. Made Acapulco QF beating Ruud. Aggressive baseliner who takes the ball early and hits heavy \u2014 exactly the Miami-rewarded profile. His compact return game and heavy forehand exploit Diallo's weak second ball. Pipeline: Scout 62%, QUANT 59%, Sim 58%, pTrue 60%. Sized 1.5u."
+  },
+  {
+    "date": "Mar 21",
+    "time": "2:40 AM PHT Mar 21",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Bergs vs Etcheverry",
+    "pick": "Bergs ML",
+    "stake": 1.5,
+    "price": 0.54,
+    "pTrue": 0.6,
+    "edge": 6.0,
+    "mc": 60,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Bergs ML 60% pTrue vs 54c (+6pp, 1.5u). CLAY INFLATION \u2014 FADE ETCHEVERRY: Etcheverry 11-5 in 2026 but 8-1 of that is on clay (won Rio ATP 500). Hard courts in 2026: 3-4, lost early at IW. 1-3 Miami record (25% hard win rate at this venue). His heavy kick topspin game is built for clay \u2014 Miami's low-bounce Laykold actively kills his strike zone on every groundstroke. BERGS VENUE EDGE: 3-3 at Miami with best result R3 in 2025 \u2014 beat Rublev here last year. Loves this venue. Just beat Brooksby 7-5 6-2 in R1, in form. Serve-plus-baseline flat striker profiles well on low bounce. H2H: Bergs leads 1-0 on hard (Winston-Salem 2024, 4-6 7-5 6-3). Pipeline: Scout 62%, QUANT 56%, Sim 59%, pTrue 60%."
   }
 ]
