@@ -2836,8 +2836,8 @@
     "pTrue": 0.54,
     "edge": 2.0,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 46.15,
     "note": "v2.5 SCOUT: Over 22.5 54% pTrue vs ~52c (+2pp, 1u). Draxl's Q matches both went 3 sets (27 and 22 games) \u2014 he's a grinder who extends matches. Halys inconsistency means service games will be contested. Two all-court players on humid Miami Laykold, neither an overwhelming straight-sets dominant player. Expected match length: 2-3 sets, majority probability crosses 22.5. Thin edge but consistent with the spread thesis \u2014 if Draxl competes in sets, total games climbs.",
     "fw": "v2.5"
   },
@@ -2853,8 +2853,8 @@
     "pTrue": 0.7,
     "edge": 5.0,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 26.92,
     "note": "v2.5 SCOUT+QUANT+SIM: Draxl +1.5 pTrue ~70%+ (1u). PLAYSTYLE: Draxl is an all-court competitor who battled through 3-set qualifying matches. Players who grind through Q rarely get bageled out of sets at R1. Halys's 31.5% ATP hard court WR means he's inconsistent \u2014 can't dominate in straights reliably. QUALITY: Beat Garin in Q (former top-20), showing he can compete against real ATP-level opponents. Winning a set against Halys is a high-floor outcome. Same venue acclimation advantage \u2014 fully adjusted to Miami's Laykold courts after two Q matches.",
     "fw": "v2.5"
   },
@@ -2870,8 +2870,8 @@
     "pTrue": 0.41,
     "edge": 6.0,
     "mc": 41,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -25.0,
     "note": "v2.5 SCOUT+QUANT+SIM: Draxl ML 41% pTrue vs 35c (+6pp, 0.5u speculative). FADE HALYS: Halys at 67c is drastically overpriced \u2014 his ATP hard court WR is only 31.5%. He is not a reliable hard court performer at the ATP level despite his ranking (~#55). DRAXL QUALITY: #147 ATP, career-high #113. Q run beat Garin (4-6 6-4 6-2) \u2014 Garin is a former top-20 player, that's a legitimate quality win, not a tomato can. Then beat Clarke (6-3 3-6 6-4). Full Q acclimation to Miami courts. 9-6 on hard in 2026 (60% WR). All-court Canadian style, not a servebot. ATP main draw hard debut but Challenger hard record is 69%. Sized 0.5u \u2014 primary play is spread/over, ML is the upset upside spec.",
     "fw": "v2.5"
   }
