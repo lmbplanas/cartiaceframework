@@ -2959,5 +2959,39 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Bergs ML 60% pTrue vs 54c (+6pp, 1.5u). CLAY INFLATION \u2014 FADE ETCHEVERRY: Etcheverry 11-5 in 2026 but 8-1 of that is on clay (won Rio ATP 500). Hard courts in 2026: 3-4, lost early at IW. 1-3 Miami record (25% hard win rate at this venue). His heavy kick topspin game is built for clay \u2014 Miami's low-bounce Laykold actively kills his strike zone on every groundstroke. BERGS VENUE EDGE: 3-3 at Miami with best result R3 in 2025 \u2014 beat Rublev here last year. Loves this venue. Just beat Brooksby 7-5 6-2 in R1, in form. Serve-plus-baseline flat striker profiles well on low bounce. H2H: Bergs leads 1-0 on hard (Winston-Salem 2024, 4-6 7-5 6-3). Pipeline: Scout 62%, QUANT 56%, Sim 59%, pTrue 60%."
+  },
+  {
+    "date": "Mar 21",
+    "time": "4:00 AM PHT Mar 21",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Tsitsipas vs De Minaur",
+    "pick": "Tsitsipas +1.5 (Win a Set)",
+    "stake": 1.5,
+    "price": 0.59,
+    "pTrue": 0.65,
+    "edge": 6.0,
+    "mc": 65,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Tsitsipas +1.5 65% pTrue vs 59c (+6pp, 1.5u). H2H FLOOR: Tsitsipas leads De Minaur 13-2 overall, 11-1 on hard. In 15 career meetings only 3 went to 3 sets \u2014 Tsitsipas takes at least a set in 80% of all H2H matches. Even in De Minaur's sole ATP win (Acapulco 2024), Tsitsipas took set 2 (1-6 6-3 6-3). VENUE: Low bounce Laykold actually protects Tsitsipas's one-handed backhand \u2014 no high kick, ball stays in his strike zone. De Minaur needs pace to work with; heavy Miami ball gives him less to feed off. FORM: De Minaur #6 in peak 2026 form (12-4, won Rotterdam) is the ML fav, but the spread at 59c prices in a clean straight-set win that the H2H pattern says is unlikely. Pipeline: Scout 67%, QUANT 62%, Sim 65%. Primary play \u2014 better EV than the ML."
+  },
+  {
+    "date": "Mar 21",
+    "time": "4:00 AM PHT Mar 21",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Tsitsipas vs De Minaur",
+    "pick": "Tsitsipas ML",
+    "stake": 0.5,
+    "price": 0.34,
+    "pTrue": 0.42,
+    "edge": 8.0,
+    "mc": 42,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Tsitsipas ML 42% pTrue vs 34c (+8pp, 0.5u speculative). Market overreacting to 2026 form decline, ignoring dominant 13-2 H2H. At +194, genuine structural value \u2014 Tsitsipas's head-to-head dominance is not a small sample. PLAYSTYLE: Low bounce Miami Laykold protects his one-hander from high kick, while heavy ball limits De Minaur's aggressive flat baseline game. Tsitsipas #45 vs De Minaur #6 ranking gap is real but H2H says he knows how to solve De Minaur specifically. Sized 0.5u \u2014 don't oversize given current ranking/form delta. Primary play is the +1.5 spread."
   }
 ]
