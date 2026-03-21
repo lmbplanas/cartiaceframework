@@ -2887,8 +2887,8 @@
     "pTrue": 0.533,
     "edge": 5.3,
     "mc": 53,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 40.63,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Tirante ML 53.3% pTrue vs 48c (+5.3pp, 0.75u). LUCKY LOSER CONTEXT: Tirante enters as Lucky Loser replacing Cerundolo \u2014 lost to Landaluce in Q (3-6 7-5 6-4) but his hard court form is real: 6-4 on hard in 2026, 84% hold rate, solid first serve metrics. FADE ROYER: Royer is 1-8 in 2026, lost 10 of last 11 tour-level matches \u2014 historically bad form across all surfaces. Not a matchup issue; he's simply cooked. PLAYSTYLE: Miami day conditions (low bounce, heavy Dunlop ball) suit Tirante's grinding baseline style. He competed hard vs Landaluce in Q including winning set 1 \u2014 his level is real. Pipeline: Scout 55%, QUANT 52%, Sim 53%. Thin edge, sized 0.75u due to $911 Polymarket volume (slippage risk noted)."
   },
@@ -2921,8 +2921,8 @@
     "pTrue": 0.454,
     "edge": 7.4,
     "mc": 45,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 61.18,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Sakamoto ML 45.4% pTrue vs 38c (+7.4pp, 0.75u speculative). RANKING INVERSION: Kovacevic #92 vs Sakamoto #164 \u2014 market prices 64/38. Framework says 54/46. FORM: Sakamoto 12-7 in 2026, 12-7 on hard (60% WR). 19 years old, three recent Challenger titles, heavy topspin forehand \u2014 compact technique perfectly suited to Miami's heavy ball and low bounce. Kovacevic 9-9 overall, 6-6 hard. IW R3 was impressive (pushed Djokovic) but his return metrics are poor: 26.7% 1st return points won. Flat ball striker disadvantaged on heavy Miami Dunlop. Pipeline: Scout 46%, QUANT 42%, Sim 48%. Sized 0.75u \u2014 pTrue below 50% so speculative unit, but +7.4pp edge is real."
   },
@@ -2938,8 +2938,8 @@
     "pTrue": 0.6,
     "edge": 6.0,
     "mc": 60,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Wu ML 60% pTrue vs 54c (+6pp, 1.5u). RANKING INVERSION: Diallo #37 vs Wu #118 \u2014 classic Miami mispricing where rankings create a false discount. FADE DIALLO: 4-7 in 2026, 36% WR overall. Diallo's 2nd serve at 48.3% won \u2014 below the Miami danger threshold. Heavy Dunlop ball in humid day conditions eats serve-dependent games. WU FORM: 11-5 overall, 10-5 on hard in 2026. Made Acapulco QF beating Ruud. Aggressive baseliner who takes the ball early and hits heavy \u2014 exactly the Miami-rewarded profile. His compact return game and heavy forehand exploit Diallo's weak second ball. Pipeline: Scout 62%, QUANT 59%, Sim 58%, pTrue 60%. Sized 1.5u."
   },
@@ -3006,9 +3006,26 @@
     "pTrue": 0.67,
     "edge": 13.0,
     "mc": 67,
+    "result": "L",
+    "pnl": -75.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: RBA +1.5 67% pTrue vs 54c (+13pp, 1.5u). MIAMI SPECIALIST: RBA 15-13 at Miami, SF in 2022, QF in 2019. Quintessential Miami archetype \u2014 compact returner, durable grinder, flat/compact strokes handle low bounce perfectly. MOV \u00d71.05 venue boost for his profile. H2H: RBA leads Khachanov 6-5. On hard courts specifically, RBA has historically matched up well. FADE KHACHANOV: Big server, heavy forehand \u2014 Miami's heavy Dunlop ball blunts both weapons. 2ndSrvWon% multiplier penalizes big servers who miss firsts. Khachanov 9-9 at Miami, peaked with SF 2023 but generally average here. FORM: Both 6-6 in 2026. RBA just beat Duckworth in R1 with a 2-tiebreak win \u2014 still fighting. Pipeline: pScout 67% (Scout), QUANT 62%, Sim 65%, pTrue 67%. +1.5 is cleaner play than ML \u2014 even in losses RBA competes set by set."
+  },
+  {
+    "date": "Mar 21",
+    "time": "9:20 AM PHT Mar 21",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold, Night)",
+    "match": "Darderi vs Landaluce",
+    "pick": "Landaluce ML",
+    "stake": 1.0,
+    "price": 0.46,
+    "pTrue": 0.51,
+    "edge": 5.0,
+    "mc": 51,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: RBA +1.5 67% pTrue vs 54c (+13pp, 1.5u). MIAMI SPECIALIST: RBA 15-13 at Miami, SF in 2022, QF in 2019. Quintessential Miami archetype \u2014 compact returner, durable grinder, flat/compact strokes handle low bounce perfectly. MOV \u00d71.05 venue boost for his profile. H2H: RBA leads Khachanov 6-5. On hard courts specifically, RBA has historically matched up well. FADE KHACHANOV: Big server, heavy forehand \u2014 Miami's heavy Dunlop ball blunts both weapons. 2ndSrvWon% multiplier penalizes big servers who miss firsts. Khachanov 9-9 at Miami, peaked with SF 2023 but generally average here. FORM: Both 6-6 in 2026. RBA just beat Duckworth in R1 with a 2-tiebreak win \u2014 still fighting. Pipeline: pScout 67% (Scout), QUANT 62%, Sim 65%, pTrue 67%. +1.5 is cleaner play than ML \u2014 even in losses RBA competes set by set."
+    "note": "v2.5 SCOUT+QUANT+SIM: Landaluce ML 51% pTrue vs 46c (+5pp, 1u). TOURNAMENT MOMENTUM: Landaluce has 3 wins at Miami this week \u2014 beat McDonald, Tirante, and Giron (main draw). That's real match rhythm vs Darderi entering cold (first match). RANKING INVERSION: Darderi #18 vs Landaluce #151 but framework flags this exact pattern. Darderi 1-2 lifetime at Miami (lost to Shapovalov '24, Walton '25). SURFACE MISMATCH \u2014 DARDERI: Clay grinder at heart (5 ATP clay titles). Extreme topspin needs height on the ball \u2014 Miami Laykold low bounce doesn't give it. Night conditions (SRV \u00d70.95, RET \u00d71.05) further equalize, killing Darderi's serve advantage. LANDALUCE PROFILE: 6'4\" aggressive hard-court player from Rafa Nadal Academy, but atypically flat for a Spaniard. Won 2022 US Open Juniors. Hard courts translate better than clay for him. Pipeline: Scout 53%, QUANT 42% (raw Elo dragged by ranking), Sim 54%, pTrue 51%. Sized 1u \u2014 thin edge but momentum + venue pattern is real."
   }
 ]
