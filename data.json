@@ -3027,5 +3027,39 @@
     "pnl": 58.7,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Landaluce ML 51% pTrue vs 46c (+5pp, 1u). TOURNAMENT MOMENTUM: Landaluce has 3 wins at Miami this week \u2014 beat McDonald, Tirante, and Giron (main draw). That's real match rhythm vs Darderi entering cold (first match). RANKING INVERSION: Darderi #18 vs Landaluce #151 but framework flags this exact pattern. Darderi 1-2 lifetime at Miami (lost to Shapovalov '24, Walton '25). SURFACE MISMATCH \u2014 DARDERI: Clay grinder at heart (5 ATP clay titles). Extreme topspin needs height on the ball \u2014 Miami Laykold low bounce doesn't give it. Night conditions (SRV \u00d70.95, RET \u00d71.05) further equalize, killing Darderi's serve advantage. LANDALUCE PROFILE: 6'4\" aggressive hard-court player from Rafa Nadal Academy, but atypically flat for a Spaniard. Won 2022 US Open Juniors. Hard courts translate better than clay for him. Pipeline: Scout 53%, QUANT 42% (raw Elo dragged by ranking), Sim 54%, pTrue 51%. Sized 1u \u2014 thin edge but momentum + venue pattern is real."
+  },
+  {
+    "date": "Mar 22",
+    "time": "1:20 AM PHT Mar 22",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Rublev vs Tabilo",
+    "pick": "Tabilo +1.5 (Win a Set)",
+    "stake": 1.5,
+    "price": 0.63,
+    "pTrue": 0.7,
+    "edge": 7.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Tabilo +1.5 ~70% pTrue (1.5u). FADE RUBLEV FLAT GAME: Rublev's power flat forehand gets neutralized by Miami's heavy Dunlop ball + low-bounce Laykold \u2014 he needs pace to work with and these conditions drain his primary weapon. 2026 form: lost to Diallo, Griekspoor, Alcaraz in recent weeks, often in close 3-setters with mental spirals. 50/50 Miami record (10-10) \u2014 not a venue where he dominates. TABILO PROFILE: Crafty lefty with compact strokes and strong rally tolerance \u2014 excellent Miami profile. 5-4 at Miami (56%), R3 in 2025. Just beat Comesana 6-4 6-2 in R1, fully acclimated. Lefty geometry creates angle problems. H2H: Rublev leads 1-0 but indoor hard Oct 2024 \u2014 different spec entirely. Pipeline: QUANT 39%, Sim 42%, pTrue ~42.5% ML; spread floor ~70%. Sized 1.5u on spread as anchor play \u2014 Rublev drops sets consistently vs grinders in 2026."
+  },
+  {
+    "date": "Mar 22",
+    "time": "1:20 AM PHT Mar 22",
+    "tournament": "Miami Open R2 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Michelsen vs Norrie",
+    "pick": "Norrie ML",
+    "stake": 0.75,
+    "price": 0.42,
+    "pTrue": 0.53,
+    "edge": 11.0,
+    "mc": 53,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 53% pTrue vs 42c (+11pp, 0.75u). MICHELSEN NEUTRALIZED: Michelsen is a flat hard-hitter whose game exploded at IW (high-bounce, dry desert air \u2014 ball sits up in his strike zone). Miami is the opposite: low-bounce Laykold, heavy humid Dunlop ball \u2014 he has to generate his own lift and hit 3-4 extra shots per rally to do the same damage. His IW Dimitrov/Khachanov wins don't transfer. NORRIE VENUE FIT: Elite compact returner (MOV \u00d71.05, BPWon% \u00d71.5 Miami modifier), physically durable grinder built for humid draining conditions. 7-7 at Miami with deep runs. H2H: Norrie leads Michelsen 1-0. Won Delray Beach recently, in form. Lefty angles create unique problems on low-bounce courts. NOTE: Norrie's 2ndSrvWon% (~48-50%) is a weak-serve flag \u2014 mixed profile, not a clean Miami fit. Sized 0.75u (down from rec 2u) given serve vulnerability and IW champion nuance. Pipeline: Scout 58% (initial, pulled back after venue nuance discussion), pTrue ~53%."
   }
 ]
