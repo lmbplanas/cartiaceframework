@@ -2945,7 +2945,7 @@
   },
   {
     "date": "Mar 21",
-    "time": "2:40 AM PHT Mar 21",
+    "time": "11:00 PM PHT Mar 21",
     "tournament": "Miami Open R2 ATP",
     "surface": "Hard (Outdoor, Laykold)",
     "match": "Bergs vs Etcheverry",
@@ -2972,8 +2972,8 @@
     "pTrue": 0.65,
     "edge": 6.0,
     "mc": 65,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.12,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Tsitsipas +1.5 65% pTrue vs 59c (+6pp, 1.5u). H2H FLOOR: Tsitsipas leads De Minaur 13-2 overall, 11-1 on hard. In 15 career meetings only 3 went to 3 sets \u2014 Tsitsipas takes at least a set in 80% of all H2H matches. Even in De Minaur's sole ATP win (Acapulco 2024), Tsitsipas took set 2 (1-6 6-3 6-3). VENUE: Low bounce Laykold actually protects Tsitsipas's one-handed backhand \u2014 no high kick, ball stays in his strike zone. De Minaur needs pace to work with; heavy Miami ball gives him less to feed off. FORM: De Minaur #6 in peak 2026 form (12-4, won Rotterdam) is the ML fav, but the spread at 59c prices in a clean straight-set win that the H2H pattern says is unlikely. Pipeline: Scout 67%, QUANT 62%, Sim 65%. Primary play \u2014 better EV than the ML."
   },
@@ -2989,8 +2989,8 @@
     "pTrue": 0.42,
     "edge": 8.0,
     "mc": 42,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 48.53,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Tsitsipas ML 42% pTrue vs 34c (+8pp, 0.5u speculative). Market overreacting to 2026 form decline, ignoring dominant 13-2 H2H. At +194, genuine structural value \u2014 Tsitsipas's head-to-head dominance is not a small sample. PLAYSTYLE: Low bounce Miami Laykold protects his one-hander from high kick, while heavy ball limits De Minaur's aggressive flat baseline game. Tsitsipas #45 vs De Minaur #6 ranking gap is real but H2H says he knows how to solve De Minaur specifically. Sized 0.5u \u2014 don't oversize given current ranking/form delta. Primary play is the +1.5 spread."
   },
@@ -3023,8 +3023,8 @@
     "pTrue": 0.51,
     "edge": 5.0,
     "mc": 51,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 58.7,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Landaluce ML 51% pTrue vs 46c (+5pp, 1u). TOURNAMENT MOMENTUM: Landaluce has 3 wins at Miami this week \u2014 beat McDonald, Tirante, and Giron (main draw). That's real match rhythm vs Darderi entering cold (first match). RANKING INVERSION: Darderi #18 vs Landaluce #151 but framework flags this exact pattern. Darderi 1-2 lifetime at Miami (lost to Shapovalov '24, Walton '25). SURFACE MISMATCH \u2014 DARDERI: Clay grinder at heart (5 ATP clay titles). Extreme topspin needs height on the ball \u2014 Miami Laykold low bounce doesn't give it. Night conditions (SRV \u00d70.95, RET \u00d71.05) further equalize, killing Darderi's serve advantage. LANDALUCE PROFILE: 6'4\" aggressive hard-court player from Rafa Nadal Academy, but atypically flat for a Spaniard. Won 2022 US Open Juniors. Hard courts translate better than clay for him. Pipeline: Scout 53%, QUANT 42% (raw Elo dragged by ranking), Sim 54%, pTrue 51%. Sized 1u \u2014 thin edge but momentum + venue pattern is real."
   }
