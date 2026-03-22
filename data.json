@@ -3125,8 +3125,8 @@
     "pTrue": 0.51,
     "edge": 6.0,
     "mc": 51,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Quinn ML 51% pTrue vs 45c (+6pp, 1.5u). MOMENTUM MISPRICING: Quinn beat Hurkacz 6-2 6-4 (R1) and Ruud 6-4 7-6 (R2) \u2014 two straight-set wins over top-10/15 players at Miami this week. Market still has him at 45c, anchored on ranking (#56ish) instead of actual form. FADE LEHECKA: Flat Czech power hitter \u2014 exactly the profile penalized by Miami's low-bounce Laykold + heavy humid Dunlop ball. 2-3 career Miami record. Lehecka needs pace and high bounce to generate his weapon; this venue strips both. QUINN PROFILE: Compact grinder, rally-tolerant \u2014 advantaged in Miami day conditions. His game is built for grinding out returns and extending points until flat hitters lose steam. Not running on serve luck this week; outplaying opponents from the baseline. Pipeline: Scout 51%, QUANT confirms, Sim aligned. Sized 1.5u (capped \u2014 pTrue sub-60% per sizing rules)."
   },
@@ -3142,8 +3142,8 @@
     "pTrue": 0.85,
     "edge": 16.0,
     "mc": 85,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 56.16,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Fritz ML 85% pTrue vs 69c (+16pp, 2.5u). CLEANEST CALL OF THE TOURNAMENT: Opelka is the textbook serve-only merchant walking into the worst venue for his game. H2H: Fritz leads 7-1 overall, 4-1 on hard \u2014 dominant record, knows exactly how to neutralize Opelka. OPELKA STRUCTURAL COLLAPSE: 1stSrvWon% 79% (serve-reliant), 2ndSrvWon% ~50% \u2014 right at Miami's danger threshold with the \u00d71.5 penalty applied. Miami's heavy humid Dunlop ball + low-bounce Laykold deadens serve velocity. When Fritz neutralizes the serve, Opelka has no baseline game to fall back on \u2014 returning from extended injury absence (missed most 2023-2024), not battle-hardened. FRITZ PROFILE: #7, serve-plus-baseline all-court game maps cleanly to Miami. 7-6 on hard in 2026. Pipeline: Scout 88%, QUANT 82%, Sim 84%, pTrue 85%. High conviction, sized 2.5u (down from Scout 3u rec)."
   },
@@ -3159,8 +3159,8 @@
     "pTrue": 0.535,
     "edge": 7.5,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 29.35,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+SIM: Fritz -1.5 ~53.5% pTrue (0.5u speculative). Same thesis as ML \u2014 Fritz consistently breaks Opelka's second serve on these conditions. Expected score type 6-4 6-4 or similar. Scout expects straight-set win: when Fritz neutralizes serve and Opelka has no baseline fallback, the gap is large enough for a bagel in sets. H2H backs it (7-1). Sized 0.5u \u2014 straight-sets prob sub-60% so speculative unit only. Primary play is the 2.5u ML."
   }
