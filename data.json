@@ -3057,8 +3057,8 @@
     "pTrue": 0.53,
     "edge": 11.0,
     "mc": 53,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -37.5,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 53% pTrue vs 42c (+11pp, 0.75u). MICHELSEN NEUTRALIZED: Michelsen is a flat hard-hitter whose game exploded at IW (high-bounce, dry desert air \u2014 ball sits up in his strike zone). Miami is the opposite: low-bounce Laykold, heavy humid Dunlop ball \u2014 he has to generate his own lift and hit 3-4 extra shots per rally to do the same damage. His IW Dimitrov/Khachanov wins don't transfer. NORRIE VENUE FIT: Elite compact returner (MOV \u00d71.05, BPWon% \u00d71.5 Miami modifier), physically durable grinder built for humid draining conditions. 7-7 at Miami with deep runs. H2H: Norrie leads Michelsen 1-0. Won Delray Beach recently, in form. Lefty angles create unique problems on low-bounce courts. NOTE: Norrie's 2ndSrvWon% (~48-50%) is a weak-serve flag \u2014 mixed profile, not a clean Miami fit. Sized 0.75u (down from rec 2u) given serve vulnerability and IW champion nuance. Pipeline: Scout 58% (initial, pulled back after venue nuance discussion), pTrue ~53%."
   },
@@ -3074,8 +3074,8 @@
     "pTrue": 0.665,
     "edge": 10.7,
     "mc": 67,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 56.58,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Humbert ML 66.5% pTrue vs 57c (+10.7pp, 1.5u). DIALLO STRUCTURAL COLLAPSE: 2ndSrvWon% 48.3% \u2014 confirmed below Miami's 50% danger floor. Heavy Dunlop ball in day session Miami conditions destroys serve-dependent games. Diallo 5-7 in 2026, 1-3 vs quality opponents. H2H: Diallo leads 1-0 but that was on GRASS (6-3 7-6 's-Hertogenbosch) \u2014 grass rewards Diallo's big serve. Miami does the opposite. Fade the H2H entirely. HUMBERT PROFILE: Lefty, serve-plus-baseline, compact returns, high rally tolerance. Handles low-bounce hard courts fluently \u2014 doesn't need winners, just puts ball back deep until Diallo's 2nd serve breaks down. 5-6 Miami record (45%) \u2014 not a venue monster but not penalized here. Pipeline: Scout +15.5% adj, QUANT +11% adj, pTrue 66.5%. Sized 1.5u (trimmed from 2.5u rec after venue record audit)."
   },
@@ -3091,8 +3091,8 @@
     "pTrue": 0.73,
     "edge": 24.0,
     "mc": 73,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Tirante +1.5 73% pTrue vs 49c (+24pp, 1.5u). COUNTRYMEN THESIS: Two Argentine clay specialists on Miami hard \u2014 Cerundolo knows Tirante's game and vice versa. Countrymen who've trained and competed on the same circuit rarely bagel each other. Cerundolo drops sets vs familiar opponents who know his patterns. MARKET BREAKDOWN: Cerundolo -1.5 at 56c is a structurally broken line \u2014 two clay Argentines on hard courts don't produce straight-set blowouts. At 49c for the spread (coinflip price), 73% pTrue is +24pp edge \u2014 the biggest edge on this slate. TIRANTE FORM: Already 3W at Miami this week (Q + R1 over Giron). Fully match-tough and acclimated. Cerundolo cold entry. Pipeline: Scout/QUANT blended pTrue 73% on spread, 45% on ML. Anchor play."
   },
@@ -3108,8 +3108,8 @@
     "pTrue": 0.54,
     "edge": 5.0,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.04,
     "fw": "v2.5",
     "note": "v2.5 SCOUT: Under 22.5 54% pTrue vs 49c (+5pp, 1u). NIGHT SESSION MECHANICS: Heavy ball + humid night air \u2192 breaks of serve \u2192 fewer games per set. Tiafoe's 2ndSrvWon% 51.8% means he's not a serve merchant but his solid serve still gets neutered slightly in night conditions. Cazaux's flat hitting gets penalized by heavy ball. Both players will generate returns. TIAFOE PROFILE: 11-5 hard in 2026, local crowd favorite, fits Miami conditions \u2014 priced correctly at 71c ML (chalk trap), no ML value. Under 22.5 is the only edge: night session breaks of serve compress total games. $56K volume confirms sharp market \u2014 small lean only, 1u. Scout: ~54%, no QUANT breakdown available (liquid market prices correctly)."
   }
