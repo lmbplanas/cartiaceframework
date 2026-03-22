@@ -3112,5 +3112,22 @@
     "pnl": 52.04,
     "fw": "v2.5",
     "note": "v2.5 SCOUT: Under 22.5 54% pTrue vs 49c (+5pp, 1u). NIGHT SESSION MECHANICS: Heavy ball + humid night air \u2192 breaks of serve \u2192 fewer games per set. Tiafoe's 2ndSrvWon% 51.8% means he's not a serve merchant but his solid serve still gets neutered slightly in night conditions. Cazaux's flat hitting gets penalized by heavy ball. Both players will generate returns. TIAFOE PROFILE: 11-5 hard in 2026, local crowd favorite, fits Miami conditions \u2014 priced correctly at 71c ML (chalk trap), no ML value. Under 22.5 is the only edge: night session breaks of serve compress total games. $56K volume confirms sharp market \u2014 small lean only, 1u. Scout: ~54%, no QUANT breakdown available (liquid market prices correctly)."
+  },
+  {
+    "date": "Mar 22",
+    "time": "11:00 PM PHT Mar 22",
+    "tournament": "Miami Open R3 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Quinn vs Lehecka",
+    "pick": "Quinn ML",
+    "stake": 1.5,
+    "price": 0.45,
+    "pTrue": 0.51,
+    "edge": 6.0,
+    "mc": 51,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Quinn ML 51% pTrue vs 45c (+6pp, 1.5u). MOMENTUM MISPRICING: Quinn beat Hurkacz 6-2 6-4 (R1) and Ruud 6-4 7-6 (R2) \u2014 two straight-set wins over top-10/15 players at Miami this week. Market still has him at 45c, anchored on ranking (#56ish) instead of actual form. FADE LEHECKA: Flat Czech power hitter \u2014 exactly the profile penalized by Miami's low-bounce Laykold + heavy humid Dunlop ball. 2-3 career Miami record. Lehecka needs pace and high bounce to generate his weapon; this venue strips both. QUINN PROFILE: Compact grinder, rally-tolerant \u2014 advantaged in Miami day conditions. His game is built for grinding out returns and extending points until flat hitters lose steam. Not running on serve luck this week; outplaying opponents from the baseline. Pipeline: Scout 51%, QUANT confirms, Sim aligned. Sized 1.5u (capped \u2014 pTrue sub-60% per sizing rules)."
   }
 ]
