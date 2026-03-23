@@ -3197,5 +3197,22 @@
     "pnl": 47.95,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Fils ML 69.6% pTrue vs 61c (+8.6pp, 1.5u). H2H DOMINANCE: Fils leads Tsitsipas 4-0 on hard \u2014 owns this matchup stylistically. Rankings: Fils #31, Tsitsipas #51 (fallen out of top 50). TSITSIPAS STRUCTURAL PENALTY: Heavy topspin + extreme grip gets penalized by Miami's low bounce \u2014 one-handed backhand gets rushed on low balls. Night session (SRV \u00d70.95, 50/50 S weights) further compresses any Tsitsipas serve advantage. His topspin needs height on the ball; Miami night conditions strip it. FILS PROFILE: Flatter hitter, penetrates the heavy night air better. 8-2 on hard in 2026, rising form. Re-run pTrue: Scout 72%, QUANT 68%, Sim 65%, blended pTrue 69.6%. Clears 8% M1000 threshold. Sized 1.5u."
+  },
+  {
+    "date": "Mar 24",
+    "time": "1:20 AM PHT Mar 24",
+    "tournament": "Miami Open R3 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Tiafoe vs Mensik",
+    "pick": "Mensik ML",
+    "stake": 1.5,
+    "price": 0.6,
+    "pTrue": 0.696,
+    "edge": 9.6,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Mensik ML 69.6% pTrue vs 60c (+9.6pp, 1.5u). DEFENDING CHAMPION: Mensik 6-0 at Miami 2025 \u2014 won the title beating Djokovic 7-6 7-6 in the final. Won every tiebreak en route. 6-0 venue record is the dominant signal, deserves maximum pScout weight. H2H: Mensik leads 1-0 on hard (6-1 6-4 Davis Cup 2025). MENSIK FORM: #13 seed, 14-5 in 2026. 84.4% service games held. Beat Walton 3-6 6-2 6-4 in R2 \u2014 showed he can come back from a set down. TIAFOE: #19 seed, 11-5 on hard in 2026, beat Cazaux in R2. 2ndSrvWon% ~51.8% \u2014 above danger threshold but day session (SRV \u00d70.95 already factored). 13-11 Miami career record \u2014 decent, but no champion pedigree. Market at 40c on Tiafoe gives no edge. Pipeline: Scout 72%, QUANT 68%, Sim 65%, pTrue 69.6%. Clears 8% M1000 threshold. Sized 1.5u."
   }
 ]
