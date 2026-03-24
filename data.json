@@ -3248,5 +3248,39 @@
     "pnl": -100.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Under 21.5 59.1% pTrue vs 44c (+15.1pp, 2u). ZVEREV DOMINANCE: H2H 7-1 overall, 4-1 on hard \u2014 7 consecutive wins against Cilic. Zverev #4 seed, 19-10 Miami record (SF 2024, Final 2018). Beat Damm 6-2 6-4 in R2 \u2014 clean, energy-efficient. CILIC FATIGUE STACK: 37 years old, played two matches this week including a 3-setter vs Nakashima (2-6 6-4 7-6). Legs are heavy entering R4 against a top-5 player. SURFACE PENALTY \u2014 CILIC: Big flat server, exactly the profile Miami's heavy Dunlop ball and low-bounce Laykold neutralizes. 2ndSrvWon% dampened further by day session humid conditions. When Cilic's serve gets neutralized, he has limited fallback \u2014 Zverev's heavy topspin forehand dominates the rally. SCORE PROJECTION: H2H pattern + fatigue + serve neutralization points to clean 6-3 6-3 or 6-4 6-2 type win. Market at 44c treats this as a competitive match \u2014 severe mispricing of straight-sets blowout probability. Pipeline: Scout 58%, QUANT 62%, Sim 57%, pTrue 59.1%. +15.1pp crushes the 8% M1000 threshold. Sized 2u."
+  },
+  {
+    "date": "Mar 25",
+    "time": "2:00 AM PHT Mar 25",
+    "tournament": "Miami Open R4 ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Etcheverry vs Paul",
+    "pick": "Under 22.5 Games",
+    "stake": 2.0,
+    "price": 0.47,
+    "pTrue": 0.552,
+    "edge": 8.2,
+    "mc": 55,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Paul U22.5 55.2% pTrue vs 47c (+8.2pp, 2u). PAUL FATIGUE: Beat Collignon 6-2 3-6 7-6(5) in R3 \u2014 played a grinding 3-setter against a player who had upset Dimitrov and Cobolli. Fatigued players either win efficiently or lose, not grinding out 7-5 sets. ETCHEVERRY EFFICIENT: Beat Bergs 7-6 7-6 and Jodar 7-5 6-4 \u2014 two tight straight-set wins, fully rested. Stylistically, his clay topspin is penalized ~4% on Miami low bounce but not enough to extend matches. MIAMI GAME LENGTH PATTERNS: Day session SRV \u00d70.95 modifier means more breaks, fewer games per set. Both players have been winning in tight straights \u2014 22.5 is the natural ceiling. Paul's overpriced ML (65.4% pTrue vs 72c) confirms market inefficiency. Pipeline: Scout 54%, QUANT 58%, Sim 53%, pTrue 55.2%. Clears 8% threshold. 2u."
+  },
+  {
+    "date": "Mar 25",
+    "time": "7:00 AM PHT Mar 25",
+    "tournament": "Miami Open R4 ATP",
+    "surface": "Hard (Outdoor, Laykold, Night)",
+    "match": "Humbert vs Cerundolo",
+    "pick": "Under 22.5 Games",
+    "stake": 2.0,
+    "price": 0.46,
+    "pTrue": 0.571,
+    "edge": 11.1,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Humbert U22.5 57.1% pTrue vs 46c (+11.1pp, 2u). NIGHT SESSION MECHANICS: SRV \u00d70.95 \u2192 heavier ball \u2192 more breaks \u2192 fewer games. CERUNDOLO FATIGUE: Spent 3h41 on court in R3 vs Medvedev. Fatigued players leak 2ndSrvWon% \u2014 Humbert's compact lefty return game attacks second balls directly. ACTUAL MIAMI GAME LENGTHS: Humbert 6-1 6-4 vs Diallo (21g), 6-4 7-6 vs Shevchenko (23g). Cerundolo 6-4 6-2 vs Tirante (18g), 6-0 4-6 7-5 vs Medvedev (22g). Average: 21 games \u2014 well under 22.5. PLAYSTYLE: Humbert's lefty serve creates wide angle in deuce court, compact returns exploit Cerundolo's heavy ball from non-standard angles. Night conditions dampen Cerundolo's topspin further. QUANT: At 75% hold rate (night-adjusted), expected games per set ~19-20. Under 22.5 probability 60% from pure hold-rate math. Pipeline: Scout 56%, QUANT 60%, Sim 55%, pTrue 57.1%."
   }
 ]
