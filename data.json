@@ -3333,5 +3333,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Landaluce +1.5 60.5% pTrue vs 55c (+5.5pp, 1u). LANDALUCE PROFILE: Rafa Nadal Academy grinder \u2014 compact returner, break-point conversion specialist, rally tolerance. Beat Korda 2-6 7-6 6-4 saving a match point in R4. 6 matches in 8 days but his game is built for durability. Miami-advantaged profile: compact returns exploit low bounce, patience wins points. LEHECKA CONTEXT: Miami QF is his deepest run ever (3 straight R32 exits 2023-25). Heavy topspin forehand (~3% penalty on Miami low bounce). Beat Fritz 6-4 6-7 6-2 but was exposed in Doha QF (42% 2ndSrvWon% vs Fils). Landaluce's compact returns will attack second balls similarly. 3-SETTER PATTERN: Landaluce has taken sets off Darderi, Korda, Giron \u2014 not a push-over in sets. Market gives him 60.5% chance to win a set. LEHECKA -1.5 is actively bad value (-8.5pp) per Scout. Pipeline: Scout 62%, QUANT 57%, Sim 63%, pTrue 60.5%. Below 8% threshold but value play."
+  },
+  {
+    "date": "Mar 26",
+    "time": "8:30 AM PHT Mar 26",
+    "tournament": "Miami Open QF ATP",
+    "surface": "Hard (Outdoor, Laykold, Night)",
+    "match": "Fils vs Paul",
+    "pick": "Fils U23.5",
+    "stake": 1.0,
+    "price": 0.5,
+    "pTrue": 0.57,
+    "edge": 7.0,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Fils U23.5 57% pTrue vs 50c (+7pp, 1u). NIGHT SESSION (8:30 PM Miami EDT): SRV x0.95 additional, heavy Dunlop ball, lean Under. FILS EFFICIENCY: Averaging ~21 games/match at Miami 2026. Zero breaks conceded entire tournament (84% 1stSrvWon%) \u2014 serve so dominant that even night conditions barely affect it. Flat mechanics cut through heavy night air better than topspin. PAUL EFFICIENCY: Demolished Etcheverry 6-1 6-3 in 12 games in QF \u2014 showed he can win decisive and short when he is on. STYLE COLLISION: Fils wants short explosive rallies, Paul wants extended baseline. Night heavy ball extends rallies Paul-side BUT Fils hold patterns so clean he still finishes sets fast. Both players Miami runs efficient: under 22 games average. Under 23.5 natural ceiling. ML essentially coin flip (+0.3% Fils lean = noise). Pipeline: Scout 56%, QUANT 60%, Sim 54%, pTrue 57%. Just below 8% threshold \u2014 1u not 2u."
   }
 ]
