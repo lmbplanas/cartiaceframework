@@ -3295,8 +3295,8 @@
     "pTrue": 0.636,
     "edge": 8.1,
     "mc": 64,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Zverev U22.5 63.6% pTrue vs 55c (+8.1pp, 1.5u). ZVEREV DOMINANCE: 8-match win streak entering QF. Beat Cilic 6-2 6-4 (clean 16 games, well under 22.5). Heavy topspin forehand and elite return game generates breaks systematically. HALYS FATIGUE: 4 matches played at Miami \u2014 cumulative fatigue is real. His flat serve gets neutralized by Miami night conditions (SRV \u00d70.95, heavy Dunlop ball) and Zverev's elite return game attacks it directly. Flat hitters who lose their first-serve % edge have nothing left to sustain long games. NIGHT SESSION: SRV \u00d70.95 \u2192 more breaks \u2192 fewer games per set. Zverev's game is optimized for this \u2014 his heavy topspin off both wings forces short points on Miami's low-bounce courts. Expected scoreline: 6-3 6-2 or 6-4 6-3. Pipeline: Scout 62%, QUANT 66%, Sim 63%, pTrue 63.6%. Clears 8% threshold. 1.5u."
   },
