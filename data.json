@@ -3278,8 +3278,8 @@
     "pTrue": 0.571,
     "edge": 11.1,
     "mc": 57,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 117.39,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Humbert U22.5 57.1% pTrue vs 46c (+11.1pp, 2u). NIGHT SESSION MECHANICS: SRV \u00d70.95 \u2192 heavier ball \u2192 more breaks \u2192 fewer games. CERUNDOLO FATIGUE: Spent 3h41 on court in R3 vs Medvedev. Fatigued players leak 2ndSrvWon% \u2014 Humbert's compact lefty return game attacks second balls directly. ACTUAL MIAMI GAME LENGTHS: Humbert 6-1 6-4 vs Diallo (21g), 6-4 7-6 vs Shevchenko (23g). Cerundolo 6-4 6-2 vs Tirante (18g), 6-0 4-6 7-5 vs Medvedev (22g). Average: 21 games \u2014 well under 22.5. PLAYSTYLE: Humbert's lefty serve creates wide angle in deuce court, compact returns exploit Cerundolo's heavy ball from non-standard angles. Night conditions dampen Cerundolo's topspin further. QUANT: At 75% hold rate (night-adjusted), expected games per set ~19-20. Under 22.5 probability 60% from pure hold-rate math. Pipeline: Scout 56%, QUANT 60%, Sim 55%, pTrue 57.1%."
   },
