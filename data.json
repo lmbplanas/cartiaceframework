@@ -3319,23 +3319,6 @@
   },
   {
     "date": "Mar 26",
-    "time": "3:00 AM PHT Mar 26",
-    "tournament": "Miami Open QF ATP",
-    "surface": "Hard (Outdoor, Laykold)",
-    "match": "Landaluce vs Lehecka",
-    "pick": "+1.5 (Win a Set)",
-    "stake": 1.0,
-    "price": 0.55,
-    "pTrue": 0.605,
-    "edge": 5.5,
-    "mc": 63,
-    "result": "P",
-    "pnl": 0,
-    "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Landaluce +1.5 60.5% pTrue vs 55c (+5.5pp, 1u). LANDALUCE PROFILE: Rafa Nadal Academy grinder \u2014 compact returner, break-point conversion specialist, rally tolerance. Beat Korda 2-6 7-6 6-4 saving a match point in R4. 6 matches in 8 days but his game is built for durability. Miami-advantaged profile: compact returns exploit low bounce, patience wins points. LEHECKA CONTEXT: Miami QF is his deepest run ever (3 straight R32 exits 2023-25). Heavy topspin forehand (~3% penalty on Miami low bounce). Beat Fritz 6-4 6-7 6-2 but was exposed in Doha QF (42% 2ndSrvWon% vs Fils). Landaluce's compact returns will attack second balls similarly. 3-SETTER PATTERN: Landaluce has taken sets off Darderi, Korda, Giron \u2014 not a push-over in sets. Market gives him 60.5% chance to win a set. LEHECKA -1.5 is actively bad value (-8.5pp) per Scout. Pipeline: Scout 62%, QUANT 57%, Sim 63%, pTrue 60.5%. Below 8% threshold but value play."
-  },
-  {
-    "date": "Mar 26",
     "time": "8:30 AM PHT Mar 26",
     "tournament": "Miami Open QF ATP",
     "surface": "Hard (Outdoor, Laykold, Night)",
