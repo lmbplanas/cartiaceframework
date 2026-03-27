@@ -3333,5 +3333,39 @@
     "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Fils U23.5 57% pTrue vs 50c (+7pp, 1u). NIGHT SESSION (8:30 PM Miami EDT): SRV x0.95 additional, heavy Dunlop ball, lean Under. FILS EFFICIENCY: Averaging ~21 games/match at Miami 2026. Zero breaks conceded entire tournament (84% 1stSrvWon%) \u2014 serve so dominant that even night conditions barely affect it. Flat mechanics cut through heavy night air better than topspin. PAUL EFFICIENCY: Demolished Etcheverry 6-1 6-3 in 12 games in QF \u2014 showed he can win decisive and short when he is on. STYLE COLLISION: Fils wants short explosive rallies, Paul wants extended baseline. Night heavy ball extends rallies Paul-side BUT Fils hold patterns so clean he still finishes sets fast. Both players Miami runs efficient: under 22 games average. Under 23.5 natural ceiling. ML essentially coin flip (+0.3% Fils lean = noise). Pipeline: Scout 56%, QUANT 60%, Sim 54%, pTrue 57%. Just below 8% threshold \u2014 1u not 2u."
+  },
+  {
+    "date": "Mar 27",
+    "time": "11:38 PM PHT Mar 27",
+    "tournament": "Miami Open SF ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Lehecka vs Fils",
+    "pick": "Fils ML",
+    "stake": 2.0,
+    "price": 0.59,
+    "pTrue": 0.645,
+    "edge": 5.5,
+    "mc": 64,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Fils ML 64.5% pTrue vs 59c (+5.5pp, 2u). H2H DOMINANCE: Fils beat Lehecka 6-3, 6-3 in Doha QF 2026 \u2014 Lehecka had 42% 2ndSrvWon% and 32 unforced errors. Fils compact lefty returns sit in the strike zone on second balls, he generates his own pace and doesnt need to absorb Leheckas topspin. LEHECKA PROFILE: Heavy topspin forehand gets penalized ~3% on Miami low-bounce Laykold. His biggest weapon loses effectiveness when the ball stays low. Beat Landaluce and Fritz but Fils is a completely different matchup \u2014 faster, flatter, returns better. FILS EFFICIENCY: Flat mechanics cut through the court before Lehecka can set up his forehand. The Tsitsipas 6-0 6-1 win happened exactly this way. DAY SESSION: 55/45 S weights, conditions neutral to slightly Fils-positive (flat hitter vs topspin-heavy opponent). Pipeline: Scout 64%, QUANT 67%, Sim 62%, pTrue 64.5%."
+  },
+  {
+    "date": "Mar 27",
+    "time": "11:38 PM PHT Mar 27",
+    "tournament": "Miami Open SF ATP",
+    "surface": "Hard (Outdoor, Laykold)",
+    "match": "Lehecka vs Fils",
+    "pick": "Fils U23.5",
+    "stake": 1.5,
+    "price": 0.52,
+    "pTrue": 0.545,
+    "edge": 2.5,
+    "mc": 54,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Fils U23.5 54.5% pTrue vs 52c (+2.5pp, 1.5u). FILS DOMINANCE STYLE: When Fils is on, he wins short \u2014 Tsitsipas 6-0 6-1 (13 games), Blanch R1 clean straights. Zero breaks conceded until the Paul QF. If the Doha blueprint holds (Lehecka 42% 2ndSrvWon%), Fils breaks him early and sets are short. LEHECKA COLLAPSE PATTERN: 32 UEs vs Fils in Doha \u2014 when Fils dictates from the baseline with flat pace, Lehecka overhits trying to match it. Short sets follow. DAY SESSION lean Under: SRV x0.95, conditions favor clean hold patterns when both serving well, but Leheckas second serve being attacked breaks that rhythm. Pipeline: Scout 54%, QUANT 57%, Sim 52%, pTrue 54.5%."
   }
 ]
