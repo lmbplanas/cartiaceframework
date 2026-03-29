@@ -3380,8 +3380,8 @@
     "pTrue": 0.553,
     "edge": 5.3,
     "mc": 55,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Herbert ML 55.3% pTrue vs 50c (+5.3pp, 1.5u). SURFACE MISMATCH: Harris is a hard court specialist \u2014 flat power game, flat serve. On red clay the serve does not bounce up, flat groundstrokes cannot generate the topspin needed to construct points. His best weapon is neutralized by the surface. Herbert is a French all-rounder, clay-capable, more comfortable constructing clay points with variety. MARKET ERROR: Harris priced at 52c as slight favorite on clay \u2014 structural mispricing. Clay surface is the worst environment for his game style. Pipeline: Scout 54%, QUANT 57%, Sim 55%, pTrue 55.3%. +5.3% edge."
   },
