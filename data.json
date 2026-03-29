@@ -3367,5 +3367,39 @@
     "pnl": 69.23,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Fils U23.5 54.5% pTrue vs 52c (+2.5pp, 1.5u). FILS DOMINANCE STYLE: When Fils is on, he wins short \u2014 Tsitsipas 6-0 6-1 (13 games), Blanch R1 clean straights. Zero breaks conceded until the Paul QF. If the Doha blueprint holds (Lehecka 42% 2ndSrvWon%), Fils breaks him early and sets are short. LEHECKA COLLAPSE PATTERN: 32 UEs vs Fils in Doha \u2014 when Fils dictates from the baseline with flat pace, Lehecka overhits trying to match it. Short sets follow. DAY SESSION lean Under: SRV x0.95, conditions favor clean hold patterns when both serving well, but Leheckas second serve being attacked breaks that rhythm. Pipeline: Scout 54%, QUANT 57%, Sim 52%, pTrue 54.5%."
+  },
+  {
+    "date": "Mar 29",
+    "time": "Mar 29 2026",
+    "tournament": "ATP Marrakech (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Harris vs Herbert",
+    "pick": "Herbert ML",
+    "stake": 1.5,
+    "price": 0.5,
+    "pTrue": 0.553,
+    "edge": 5.3,
+    "mc": 55,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Herbert ML 55.3% pTrue vs 50c (+5.3pp, 1.5u). SURFACE MISMATCH: Harris is a hard court specialist \u2014 flat power game, flat serve. On red clay the serve does not bounce up, flat groundstrokes cannot generate the topspin needed to construct points. His best weapon is neutralized by the surface. Herbert is a French all-rounder, clay-capable, more comfortable constructing clay points with variety. MARKET ERROR: Harris priced at 52c as slight favorite on clay \u2014 structural mispricing. Clay surface is the worst environment for his game style. Pipeline: Scout 54%, QUANT 57%, Sim 55%, pTrue 55.3%. +5.3% edge."
+  },
+  {
+    "date": "Mar 29",
+    "time": "Mar 29 2026",
+    "tournament": "ATP Bucharest (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Tseng vs Sakellaridis",
+    "pick": "Sakellaridis +1.5",
+    "stake": 1.5,
+    "price": 0.63,
+    "pTrue": 0.72,
+    "edge": 9.0,
+    "mc": 72,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Sakellaridis +1.5 72% pTrue vs 63c (+9pp, 1.5u). SURFACE SPECIALIST: Sakellaridis is a clay specialist, Tseng is a hard court player. On clay, even a lower-ranked specialist takes sets \u2014 the surface equalizes rallies and makes it nearly impossible to win in straight sets against a clay fighter. Tseng wins the match (60.6% pTrue) but Sakellaridis winning at least one set on his preferred surface is priced at only 63c when pTrue is 72%. RANKING GAP OVERCORRECTION: Market anchors on ranking gap (~85 vs ~160) and ignores surface penalty for Tseng. On hard he wins straight sets comfortably; on clay Sakellaridis fights him to a third set. Pipeline: Scout ~72%, pTrue 72%. Clears 8% threshold at +9pp."
   }
 ]
