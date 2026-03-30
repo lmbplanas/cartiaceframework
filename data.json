@@ -3397,8 +3397,8 @@
     "pTrue": 0.72,
     "edge": 9.0,
     "mc": 72,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 44.05,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Sakellaridis +1.5 72% pTrue vs 63c (+9pp, 1.5u). SURFACE SPECIALIST: Sakellaridis is a clay specialist, Tseng is a hard court player. On clay, even a lower-ranked specialist takes sets \u2014 the surface equalizes rallies and makes it nearly impossible to win in straight sets against a clay fighter. Tseng wins the match (60.6% pTrue) but Sakellaridis winning at least one set on his preferred surface is priced at only 63c when pTrue is 72%. RANKING GAP OVERCORRECTION: Market anchors on ranking gap (~85 vs ~160) and ignores surface penalty for Tseng. On hard he wins straight sets comfortably; on clay Sakellaridis fights him to a third set. Pipeline: Scout ~72%, pTrue 72%. Clears 8% threshold at +9pp."
   }
