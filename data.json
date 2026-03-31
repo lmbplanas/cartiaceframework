@@ -3414,8 +3414,8 @@
     "pTrue": 0.564,
     "edge": 17.4,
     "mc": 56,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -100.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Echargui ML 56.4% pTrue vs 39c (+17.4pp, 2u). RANKING MISMATCH: Echargui is #141, Skatov is #195 \u2014 higher-ranked player priced as a 39c underdog is a clear market error. QUALITY OF WIN: Skatov advanced Q1 via opponent retirement (Pellegrino retired 4-1 in Set 2) \u2014 he has not been tested. Echargui beat Lalami 6-4 7-6, a legitimate straight-set win showing match fitness. SURFACE: Echargui is Tunisian, clay is his primary surface. Skatov has a hard court background. PIPELINE: Scout 56%, QUANT 58%, Sim 55%, pTrue 56.4%. +17.4% edge \u2014 one of the largest edges of the season. 2u."
   },
@@ -3431,9 +3431,43 @@
     "pTrue": 0.6,
     "edge": 5.0,
     "mc": 60,
+    "result": "L",
+    "pnl": -25.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Lajovic/Harris O22.5 60% pTrue vs 55c (+5pp, 0.5u). CLAY GRINDER: Lajovic is a Serbian clay specialist (337-237 career clay, 59% WR) \u2014 his game is built on grinding long baseline rallies. Harris is a flat power player adapting to clay, which means he cannot serve his way out of trouble and has to construct longer points. On red clay, flat serves do not bounce up, forcing Harris into extended exchanges he is not built for. Both players fighting for a main draw spot = maximum effort, no tanking. Long rallies guaranteed. Pipeline: Scout 58%, QUANT 55%, Sim 60%, pTrue 60%. +5% edge."
+  },
+  {
+    "date": "Mar 31",
+    "time": "Mar 31 2026",
+    "tournament": "ATP Marrakech R1 (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Buse vs Berrettini",
+    "pick": "Buse +1.5",
+    "stake": 2.0,
+    "price": 0.65,
+    "pTrue": 0.77,
+    "edge": 12.0,
+    "mc": 77,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Lajovic/Harris O22.5 60% pTrue vs 55c (+5pp, 0.5u). CLAY GRINDER: Lajovic is a Serbian clay specialist (337-237 career clay, 59% WR) \u2014 his game is built on grinding long baseline rallies. Harris is a flat power player adapting to clay, which means he cannot serve his way out of trouble and has to construct longer points. On red clay, flat serves do not bounce up, forcing Harris into extended exchanges he is not built for. Both players fighting for a main draw spot = maximum effort, no tanking. Long rallies guaranteed. Pipeline: Scout 58%, QUANT 55%, Sim 60%, pTrue 60%. +5% edge."
+    "note": "v2.5 SCOUT+QUANT+SIM: Buse +1.5 77% pTrue vs 65c (+12pp, 2u). RANKING: Buse #59 vs Berrettini #91 \u2014 Buse is higher ranked yet priced as an underdog. H2H: Buse beat Berrettini 6-3 2-6 6-3 in Rio QF 2026 on clay \u2014 same surface, 3 months ago, convincing. Berrettini winning in straight sets against a player who beat him on clay = only 23% likely. POST-INJURY BERRETTINI: Mobility and fitness on slow clay are question marks. His game relies on power and serve which are dampened on red clay high bounce. Buse is a heavy topspin clay specialist \u2014 exactly the profile that neutralizes big servers. PIPELINE: Scout 76%, QUANT 78%, Sim 77%, pTrue 77%. +12% edge."
+  },
+  {
+    "date": "Mar 31",
+    "time": "Mar 31 2026",
+    "tournament": "ATP Marrakech R1 (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Buse vs Berrettini",
+    "pick": "Buse ML",
+    "stake": 1.0,
+    "price": 0.36,
+    "pTrue": 0.606,
+    "edge": 24.6,
+    "mc": 61,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Buse ML 60.6% pTrue vs 36c (+24.6pp, 1u). MASSIVE MISPRICING: Market anchored on Berrettini name/pedigree, ignoring current ranking (Buse #59 vs Berrettini #91) and recent H2H (Buse won Rio 2026 clay QF 6-3 2-6 6-3). Same pattern as Vacherot beating Berrettini earlier in the season. Clay specialist vs power player post-injury. BUSE CLAY PROFILE: Heavy topspin, exceptional mover, built for red clay. His forehand generates the exact high bounce that neutralizes Berrettinis flat pace. PIPELINE: Scout 60%, QUANT 63%, Sim 58%, pTrue 60.6%. +24.6% edge \u2014 largest of the season."
   }
 ]
