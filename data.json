@@ -3482,8 +3482,8 @@
     "pTrue": 0.565,
     "edge": 5.5,
     "mc": 57,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Draxl ML 56.5% pTrue vs 51c (+5.5pp, 1u). GREEN CLAY: Houston plays on Har-Tru, not red clay. Lower bounce, closer to slow hard court. Flat hitters less penalized than on red clay, serve more effective. CLAY RECORDS: Draxl 50-26 (66% WR) on clay, Basavareddy 31% career clay WR \u2014 mostly struggles on European red clay. Green clay narrows the gap vs red clay (Basavareddy is American, grew up on Har-Tru). COURT CALIBRATION: Draxl already won 2 matches at Houston this week in qualifying \u2014 calibrated to these exact courts. H2H on hard court is irrelevant on clay. Pipeline: Scout 56%, QUANT 58%, Sim 55%, pTrue 56.5%. Downgraded from 2u to 1u given green clay correction."
   },
@@ -3499,8 +3499,8 @@
     "pTrue": 0.515,
     "edge": 8.5,
     "mc": 52,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Lajovic ML 51.5% pTrue vs 43c (+8.5pp, 1u). COURT CALIBRATION: Lajovic just beat Jakub Paul 6-1 6-4 AND Lloyd Harris 6-4 6-4 on these exact Marrakech courts this week. Fully calibrated. CLAY SPECIALIST: 337-237 career clay (58.7% WR), veteran grinder. Jodar is Spanish 19-year-old with 0 ATP clay matches in 2026 \u2014 his ranking (#89) is almost entirely from Miami hard courts. RANKING ADJUSTED: Ranking gravity reduced on clay per corrected framework \u2014 clay WR + court calibration + recent form outweighs ATP ranking on this surface. Jodar will need to generate topspin from defensive positions against Lajovics patience. Pipeline: Scout 52%, QUANT 50%, Sim 53%, pTrue 51.5%. +8.5% edge clears threshold."
   }
