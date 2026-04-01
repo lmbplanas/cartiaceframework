@@ -3520,5 +3520,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 57.3% pTrue vs 53c (+4.3pp, 1u). H2H CLAY: Zhang leads 1-0 on clay \u2014 beat Shelton 6-2, 6-4 at Rome 2024 on red clay. Shelton has never beaten Zhang on clay. COURT CALIBRATION: Shelton had a bye in R1, zero matches on Houston courts. Zhang beat Pinnington Jones 6-1, 6-3 already calibrated to these specific courts. SHELTON CLAY COLD START: 0 clay matches in 2026 entering this match. Big lefty serve is his primary weapon but green clay absorbs pace. Flat forehand loses penetration on lower bounce. ZHANG PROFILE: 57.6% career clay WR, patient baseliner, built for point construction on slow courts. Shelton winning in straight sets on clay vs a player who beat him before = only 42.7% likely. PIPELINE: Scout 58%, QUANT 54%, Sim 60%, pTrue 57.3%. +4.3% edge."
+  },
+  {
+    "date": "Apr 02",
+    "time": "Apr 2 2026",
+    "tournament": "ATP Houston R2 (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Paul vs Vallejo",
+    "pick": "Vallejo +1.5",
+    "stake": 1.5,
+    "price": 0.48,
+    "pTrue": 0.629,
+    "edge": 14.9,
+    "mc": 63,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Vallejo +1.5 62.9% pTrue vs 48c (+14.9pp, 1.5u). CLAY SPECIALIST: Vallejo #101 Paraguayan with 5 Challenger clay titles all in 2026. 3-1 ATP clay record in 2026, beat Tabilo on clay this year. Pure clay DNA, heavy topspin, patient rallier built for green clay. PAUL COLD START: 0 clay matches in 2026, coming off Miami hard court. Paul -1.5 at 55c is pTrue 37% \u2014 market massively overpricing Paul winning in straight sets. RANKING OVERCORRECTION: Market pricing Vallejo at 22c as if he is a nobody \u2014 he is a legitimate hot clay specialist with ATP 250 clay pedigree. Buse/Berrettini pattern: name vs current form on surface. Paul wins the match (~64.5% pTrue) but Vallejo takes a set with 62.9% probability. PIPELINE: Scout 64%, QUANT 60%, Sim 65%, pTrue 62.9%. +14.9% edge."
   }
 ]
