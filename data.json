@@ -3503,5 +3503,22 @@
     "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Lajovic ML 51.5% pTrue vs 43c (+8.5pp, 1u). COURT CALIBRATION: Lajovic just beat Jakub Paul 6-1 6-4 AND Lloyd Harris 6-4 6-4 on these exact Marrakech courts this week. Fully calibrated. CLAY SPECIALIST: 337-237 career clay (58.7% WR), veteran grinder. Jodar is Spanish 19-year-old with 0 ATP clay matches in 2026 \u2014 his ranking (#89) is almost entirely from Miami hard courts. RANKING ADJUSTED: Ranking gravity reduced on clay per corrected framework \u2014 clay WR + court calibration + recent form outweighs ATP ranking on this surface. Jodar will need to generate topspin from defensive positions against Lajovics patience. Pipeline: Scout 52%, QUANT 50%, Sim 53%, pTrue 51.5%. +8.5% edge clears threshold."
+  },
+  {
+    "date": "Apr 01",
+    "time": "Apr 1 2026",
+    "tournament": "ATP Houston R2 (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Shelton vs Zhang",
+    "pick": "Zhang +1.5",
+    "stake": 1.0,
+    "price": 0.53,
+    "pTrue": 0.573,
+    "edge": 4.3,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Zhang +1.5 57.3% pTrue vs 53c (+4.3pp, 1u). H2H CLAY: Zhang leads 1-0 on clay \u2014 beat Shelton 6-2, 6-4 at Rome 2024 on red clay. Shelton has never beaten Zhang on clay. COURT CALIBRATION: Shelton had a bye in R1, zero matches on Houston courts. Zhang beat Pinnington Jones 6-1, 6-3 already calibrated to these specific courts. SHELTON CLAY COLD START: 0 clay matches in 2026 entering this match. Big lefty serve is his primary weapon but green clay absorbs pace. Flat forehand loses penetration on lower bounce. ZHANG PROFILE: 57.6% career clay WR, patient baseliner, built for point construction on slow courts. Shelton winning in straight sets on clay vs a player who beat him before = only 42.7% likely. PIPELINE: Scout 58%, QUANT 54%, Sim 60%, pTrue 57.3%. +4.3% edge."
   }
 ]
