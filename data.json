@@ -3584,8 +3584,8 @@
     "pTrue": 0.536,
     "edge": 21.6,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 106.25,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Trungelliti ML 53.6% pTrue vs 32c (+21.6pp, 1u). COURT CALIBRATION: Trungelliti played 4 matches on these exact Marrakech courts (Q wins + beat Rocha + Majchrzak). Moutet had a bye + beat Baadi 6-0 6-2 \u2014 only 1 real match, very low quality opposition. CLAY FORM: Trungelliti 13-4 in 2026 (76.5% WR), Argentine clay specialist. Moutet 41.7% ATP clay WR over last 52 weeks \u2014 poor. MARKET ERROR: 32c for the higher-form, better-calibrated clay player. Moutet ranking inflated by hard court results. Classic mispricing. Pipeline: Scout 54%, QUANT 52%, Sim 55%, pTrue 53.6%."
   },
@@ -3601,8 +3601,8 @@
     "pTrue": 0.72,
     "edge": 13.0,
     "mc": 72,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.12,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Trungelliti +1.5 72% pTrue vs 59c (+13pp, 1.5u). Moutet winning in straight sets with 41% clay WR, vs calibrated clay specialist with 4 matches on these courts = only 28% pTrue. Market at 59c is massive overpay for Moutet -1.5 side. Trungelliti will take a set."
   },
@@ -3652,9 +3652,43 @@
     "pTrue": 0.572,
     "edge": -4.8,
     "mc": 57,
+    "result": "L",
+    "pnl": -50.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Prizmic ML 57.2% pTrue vs 62c (-4.8pp, 1u). HOW PRIZMIC WINS: (1) TOPSPIN OVERLOAD \u2014 Prizmic heavy topspin forehand targets Altmaiers one-handed backhand. On red clay the high bounce forces the one-hander into defensive positions. Altmaier has to slice or lift \u2014 both are weak responses to Prizmics pattern. (2) BASELINE ATTRITION \u2014 84% Challenger clay WR over last 52 weeks. 75% ATP clay in 2026. He simply outlasts Altmaier in long rallies. Altmaier 1-2 ATP clay in 2026 \u2014 hasnt found rhythm on clay this season. (3) BREAK POINT CONVERSION \u2014 Prizmics 21-4 Challenger clay record is built on attacking second serves and converting. Altmaier 2ndSrvWon% drops under pressure. NOTE: Market has Prizmic at 62c \u2014 slightly overpriced (-4.8% edge per model). Directional play below threshold. $267K sharp market."
+  },
+  {
+    "date": "Apr 03",
+    "time": "Apr 3 2026",
+    "tournament": "ATP Bucharest QF (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Navone vs Molcan",
+    "pick": "Molcan +1.5",
+    "stake": 2.0,
+    "price": 0.55,
+    "pTrue": 0.7,
+    "edge": 15.0,
+    "mc": 70,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Prizmic ML 57.2% pTrue vs 62c (-4.8pp, 1u). HOW PRIZMIC WINS: (1) TOPSPIN OVERLOAD \u2014 Prizmic heavy topspin forehand targets Altmaiers one-handed backhand. On red clay the high bounce forces the one-hander into defensive positions. Altmaier has to slice or lift \u2014 both are weak responses to Prizmics pattern. (2) BASELINE ATTRITION \u2014 84% Challenger clay WR over last 52 weeks. 75% ATP clay in 2026. He simply outlasts Altmaier in long rallies. Altmaier 1-2 ATP clay in 2026 \u2014 hasnt found rhythm on clay this season. (3) BREAK POINT CONVERSION \u2014 Prizmics 21-4 Challenger clay record is built on attacking second serves and converting. Altmaier 2ndSrvWon% drops under pressure. NOTE: Market has Prizmic at 62c \u2014 slightly overpriced (-4.8% edge per model). Directional play below threshold. $267K sharp market."
+    "note": "v2.5 SCOUT+QUANT+SIM: Molcan +1.5 70% pTrue vs 55c (+15pp, 2u). FORM: Molcan 6-1 clay in 2026 (86% WR), lefty Slovakian clay specialist. Just destroyed top seed Diallo 6-2 6-2 on these exact courts. NAVONE: 4-3 clay in 2026, Argentine baseliner \u2014 experienced but not dominant. Winning in straight sets against hot calibrated lefty = only 30% likely. COURT CALIBRATION: Molcan 3+ matches on Bucharest courts from qualifying + MD. Navone had a bye then 1 match. 10% ranking weight applies \u2014 Molcan pTrue 47.6% vs Navone 52.4% despite 189 vs 60 ranking gap. Pipeline: Scout 70%, QUANT 70%, pTrue 70%. +15% edge."
+  },
+  {
+    "date": "Apr 03",
+    "time": "Apr 3 2026",
+    "tournament": "ATP Bucharest QF (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Navone vs Molcan",
+    "pick": "Molcan ML",
+    "stake": 1.0,
+    "price": 0.31,
+    "pTrue": 0.476,
+    "edge": 16.6,
+    "mc": 48,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Molcan ML 47.6% pTrue vs 31c (+16.6pp, 1u). RANKING INVERSION: Market at 31c based entirely on 189 vs 60 ranking gap. At 10% ranking weight on clay, Molcan is near coin-flip: 6-1 clay 2026, demolished top seed, fully court-calibrated. Navone 4-3 clay and had easy draw (Moller). LEFTY ADVANTAGE: Molcan lefty kick serve goes to righties backhand on clay \u2014 Navone is a righty baseliner. Classic clay lefty edge. Pipeline: Scout 48%, QUANT 46%, Sim 49%, pTrue 47.6%. +16.6% edge."
   }
 ]
