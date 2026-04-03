@@ -3669,8 +3669,8 @@
     "pTrue": 0.7,
     "edge": 15.0,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 81.82,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Molcan +1.5 70% pTrue vs 55c (+15pp, 2u). FORM: Molcan 6-1 clay in 2026 (86% WR), lefty Slovakian clay specialist. Just destroyed top seed Diallo 6-2 6-2 on these exact courts. NAVONE: 4-3 clay in 2026, Argentine baseliner \u2014 experienced but not dominant. Winning in straight sets against hot calibrated lefty = only 30% likely. COURT CALIBRATION: Molcan 3+ matches on Bucharest courts from qualifying + MD. Navone had a bye then 1 match. 10% ranking weight applies \u2014 Molcan pTrue 47.6% vs Navone 52.4% despite 189 vs 60 ranking gap. Pipeline: Scout 70%, QUANT 70%, pTrue 70%. +15% edge."
   },
@@ -3686,9 +3686,43 @@
     "pTrue": 0.476,
     "edge": 16.6,
     "mc": 48,
+    "result": "L",
+    "pnl": -50.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Molcan ML 47.6% pTrue vs 31c (+16.6pp, 1u). RANKING INVERSION: Market at 31c based entirely on 189 vs 60 ranking gap. At 10% ranking weight on clay, Molcan is near coin-flip: 6-1 clay 2026, demolished top seed, fully court-calibrated. Navone 4-3 clay and had easy draw (Moller). LEFTY ADVANTAGE: Molcan lefty kick serve goes to righties backhand on clay \u2014 Navone is a righty baseliner. Classic clay lefty edge. Pipeline: Scout 48%, QUANT 46%, Sim 49%, pTrue 47.6%. +16.6% edge."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "ATP Houston SF (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Paul vs Etcheverry",
+    "pick": "Etcheverry +1.5",
+    "stake": 1.5,
+    "price": 0.58,
+    "pTrue": 0.74,
+    "edge": 16.0,
+    "mc": 74,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Molcan ML 47.6% pTrue vs 31c (+16.6pp, 1u). RANKING INVERSION: Market at 31c based entirely on 189 vs 60 ranking gap. At 10% ranking weight on clay, Molcan is near coin-flip: 6-1 clay 2026, demolished top seed, fully court-calibrated. Navone 4-3 clay and had easy draw (Moller). LEFTY ADVANTAGE: Molcan lefty kick serve goes to righties backhand on clay \u2014 Navone is a righty baseliner. Classic clay lefty edge. Pipeline: Scout 48%, QUANT 46%, Sim 49%, pTrue 47.6%. +16.6% edge."
+    "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry +1.5 74% pTrue vs 58c (+16pp, 1.5u). HOUSTON VENUE: Etcheverry was 2023 Houston finalist on this exact green clay. Paul H2H is 2-0 but entirely on hard courts \u2014 completely irrelevant surface. CLAY FORM: Etcheverry 9-1 on clay in 2026. Paul 0 clay wins in 2026 entering this tournament. Paul winning straight sets on clay vs former Houston finalist with 9-1 clay form = only 26% probability. PIPELINE: pTrue 74%. +16% edge."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "ATP Houston SF (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Paul vs Etcheverry",
+    "pick": "Etcheverry ML",
+    "stake": 1.0,
+    "price": 0.36,
+    "pTrue": 0.556,
+    "edge": 19.6,
+    "mc": 56,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry ML 55.6% pTrue vs 36c (+19.6pp, 1u). MARKET ERROR: Paul H2H 2-0 is hard court only. On clay Etcheverry is the clearly superior player: 9-1 clay 2026, 2023 Houston finalist. Paul 0 clay wins in 2026 entering this tournament. Market importing hard court advantage directly to clay \u2014 same Molcan/Navone and Buse/Berrettini pattern. Etcheverry near coin-flip at 10% ranking weight, priced at 36c. PIPELINE: Scout 56%, QUANT 54%, Sim 57%, pTrue 55.6%. +19.6% edge."
   }
 ]
