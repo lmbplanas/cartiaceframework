@@ -3537,5 +3537,22 @@
     "pnl": 81.25,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Vallejo +1.5 62.9% pTrue vs 48c (+14.9pp, 1.5u). CLAY SPECIALIST: Vallejo #101 Paraguayan with 5 Challenger clay titles all in 2026. 3-1 ATP clay record in 2026, beat Tabilo on clay this year. Pure clay DNA, heavy topspin, patient rallier built for green clay. PAUL COLD START: 0 clay matches in 2026, coming off Miami hard court. Paul -1.5 at 55c is pTrue 37% \u2014 market massively overpricing Paul winning in straight sets. RANKING OVERCORRECTION: Market pricing Vallejo at 22c as if he is a nobody \u2014 he is a legitimate hot clay specialist with ATP 250 clay pedigree. Buse/Berrettini pattern: name vs current form on surface. Paul wins the match (~64.5% pTrue) but Vallejo takes a set with 62.9% probability. PIPELINE: Scout 64%, QUANT 60%, Sim 65%, pTrue 62.9%. +14.9% edge."
+  },
+  {
+    "date": "Apr 03",
+    "time": "Apr 3 2026",
+    "tournament": "ATP Houston QF (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Michelsen vs Popyrin",
+    "pick": "Popyrin ML",
+    "stake": 1.5,
+    "price": 0.42,
+    "pTrue": 0.515,
+    "edge": 9.5,
+    "mc": 52,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Popyrin ML 51.5% pTrue vs 42c (+9.5pp, 1.5u). CLAY PROFILE: Popyrin 64% career clay WR vs Michelsen 28.6% ATP clay WR \u2014 clay specialist vs clay liability. Popyrin Monte-Carlo QF 2025, strong ATP clay pedigree. GREEN CLAY ADJUSTMENT: Popyrins topspin is built for red clay high bounce \u2014 green clay partially neutralizes his advantage. Adjusted to 55% effective clay premium. Michelsen is American with Har-Tru familiarity \u2014 gap narrows vs red clay but Popyrin still the better clay operator. MARKET ERROR: Michelsen favored at 59c despite Popyrin being higher-ranked clay player. Same ranking range, surface clearly advantages Popyrin. PIPELINE: Scout 52%, QUANT 50%, Sim 53%, pTrue 51.5%. +9.5% edge clears threshold. Downgraded from 2u to 1.5u given green clay correction."
   }
 ]
