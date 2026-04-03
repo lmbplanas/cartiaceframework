@@ -3639,5 +3639,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Carabelli ML 57.8% pTrue vs 53c (+4.8pp, 1u). CLAY FORM: Carabelli 9-3 clay in 2026 including beat Buse (7th seed) in R2. Argentine clay specialist. FATIGUE: Both players went 5 sets to get here. But Carabelli is more clay-conditioned. Van Assche had two 3-setters back to back. MICRO-LEAN below 8% threshold \u2014 play based on clay edge and conditioning. Pipeline: Scout 57%, QUANT 60%, Sim 56%, pTrue 57.8%."
+  },
+  {
+    "date": "Apr 03",
+    "time": "Apr 3 2026",
+    "tournament": "ATP Bucharest QF (Clay)",
+    "surface": "Clay (Red)",
+    "match": "Altmaier vs Prizmic",
+    "pick": "Prizmic ML",
+    "stake": 1.0,
+    "price": 0.62,
+    "pTrue": 0.572,
+    "edge": -4.8,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Prizmic ML 57.2% pTrue vs 62c (-4.8pp, 1u). HOW PRIZMIC WINS: (1) TOPSPIN OVERLOAD \u2014 Prizmic heavy topspin forehand targets Altmaiers one-handed backhand. On red clay the high bounce forces the one-hander into defensive positions. Altmaier has to slice or lift \u2014 both are weak responses to Prizmics pattern. (2) BASELINE ATTRITION \u2014 84% Challenger clay WR over last 52 weeks. 75% ATP clay in 2026. He simply outlasts Altmaier in long rallies. Altmaier 1-2 ATP clay in 2026 \u2014 hasnt found rhythm on clay this season. (3) BREAK POINT CONVERSION \u2014 Prizmics 21-4 Challenger clay record is built on attacking second serves and converting. Altmaier 2ndSrvWon% drops under pressure. NOTE: Market has Prizmic at 62c \u2014 slightly overpriced (-4.8% edge per model). Directional play below threshold. $267K sharp market."
   }
 ]
