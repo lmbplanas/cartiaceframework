@@ -3554,5 +3554,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Popyrin ML 51.5% pTrue vs 42c (+9.5pp, 1.5u). CLAY PROFILE: Popyrin 64% career clay WR vs Michelsen 28.6% ATP clay WR \u2014 clay specialist vs clay liability. Popyrin Monte-Carlo QF 2025, strong ATP clay pedigree. GREEN CLAY ADJUSTMENT: Popyrins topspin is built for red clay high bounce \u2014 green clay partially neutralizes his advantage. Adjusted to 55% effective clay premium. Michelsen is American with Har-Tru familiarity \u2014 gap narrows vs red clay but Popyrin still the better clay operator. MARKET ERROR: Michelsen favored at 59c despite Popyrin being higher-ranked clay player. Same ranking range, surface clearly advantages Popyrin. PIPELINE: Scout 52%, QUANT 50%, Sim 53%, pTrue 51.5%. +9.5% edge clears threshold. Downgraded from 2u to 1.5u given green clay correction."
+  },
+  {
+    "date": "Apr 03",
+    "time": "Apr 3 2026",
+    "tournament": "ATP Houston QF (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Michelsen vs Popyrin",
+    "pick": "Popyrin +1.5",
+    "stake": 1.5,
+    "price": 0.65,
+    "pTrue": 0.68,
+    "edge": 3.0,
+    "mc": 68,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Popyrin +1.5 68% pTrue vs 65c (+3pp, 1.5u). GREEN CLAY ADJUSTED: Original red clay analysis had +10.2% edge (pTrue 75% vs 65c). After green clay correction \u2014 Michelsens American Har-Tru familiarity narrows the surface gap, Popyrins topspin advantage reduced on lower bounce. Adjusted pTrue drops to 68%, edge narrows to +3%. Below 8% threshold per framework. Michelsen winning in straight sets on green clay (~32% pTrue) is still unlikely given Popyrins overall clay pedigree. Below threshold \u2014 speculative."
   }
 ]
