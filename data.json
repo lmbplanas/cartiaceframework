@@ -3724,5 +3724,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry ML 55.6% pTrue vs 36c (+19.6pp, 1u). MARKET ERROR: Paul H2H 2-0 is hard court only. On clay Etcheverry is the clearly superior player: 9-1 clay 2026, 2023 Houston finalist. Paul 0 clay wins in 2026 entering this tournament. Market importing hard court advantage directly to clay \u2014 same Molcan/Navone and Buse/Berrettini pattern. Etcheverry near coin-flip at 10% ranking weight, priced at 36c. PIPELINE: Scout 56%, QUANT 54%, Sim 57%, pTrue 55.6%. +19.6% edge."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "ATP Houston QF (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Tien vs Burruchaga",
+    "pick": "Burruchaga ML",
+    "stake": 1.5,
+    "price": 0.41,
+    "pTrue": 0.496,
+    "edge": 8.6,
+    "mc": 50,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Burruchaga ML 49.6% pTrue vs 41c (+8.6pp, 1.5u). CLAY FORM: Burruchaga 49-22 on clay in 2025 (69% WR) \u2014 legitimate clay grinder. Beat Walton + Nakashima (top-30) to get here. 2 matches calibrated on Houston courts. TIEN: 1-0 ATP clay in 2026, American \u2014 green clay familiarity from juniors but minimal clay track record at ATP level. Market anchored on his #22 ranking. NEAR COIN FLIP: pTrue 49.6% vs market 41c \u2014 market treating this as if Tien is a clear favorite when clay data says roughly even. +8.6% edge clears threshold. Pipeline: Scout 50%, QUANT 48%, Sim 51%, pTrue 49.6%."
   }
 ]
