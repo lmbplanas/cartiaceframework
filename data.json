@@ -3775,5 +3775,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Garin ML 54% pTrue vs 45c (+9pp, 1.5u). CLAY DNA: Chilean clay specialist, 5 ATP clay titles, heavy topspin forehand generates extreme kick on Monte Carlo slow high-bounce courts (CPI ~29 \u2014 one of slowest on tour). MONTE CARLO CONDITIONS: Outdoor red clay, sea-level coastal humidity, cool damp air \u2014 ball sits up higher, topspin amplified, flat hard court games face maximum resistance. DE JONG: Dutch hard court player, 55% career ATP clay. His flat shots lose pace and sit up for Garin to attack. Cannot end points before Garin slide-retrieves and resets. FORM CAVEAT: Both in poor 2026 form but Garin clay fundamentals are structurally superior on this surface. De Jong ranking-based market price of 56c ignores clay surface advantage. Pipeline: pTrue 54%. +9% edge clears threshold."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "Monte Carlo Q (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Kopriva vs Arnaldi",
+    "pick": "Over 2.5 sets",
+    "stake": 1.0,
+    "price": 0.44,
+    "pTrue": 0.58,
+    "edge": 14.0,
+    "mc": 58,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 58% pTrue vs 44c (+14pp, 1u). UNDER MASSIVELY OVERPRICED: Under 2.5 at 63c implies Kopriva wins straight sets 63% of the time \u2014 pTrue is only 42%. Monte Carlo slowest clay on tour. ARNALDI HOLDS SETS: Top-107 player with big serve, can compete in individual sets via hold patterns even when outclassed on clay. Arnaldi early ball striking can win a set before Kopriva clay grinding takes over. KOPRIVA PROFILE: 6-5 clay in 2026, Czech baseliner, solid but not dominant. He will win the match but Arnaldi takes one set via serve + aggressive early ball striking. Pipeline: pTrue 58%. +14% edge."
   }
 ]
