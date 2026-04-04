@@ -3635,8 +3635,8 @@
     "pTrue": 0.578,
     "edge": 4.8,
     "mc": 58,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 44.34,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Carabelli ML 57.8% pTrue vs 53c (+4.8pp, 1u). CLAY FORM: Carabelli 9-3 clay in 2026 including beat Buse (7th seed) in R2. Argentine clay specialist. FATIGUE: Both players went 5 sets to get here. But Carabelli is more clay-conditioned. Van Assche had two 3-setters back to back. MICRO-LEAN below 8% threshold \u2014 play based on clay edge and conditioning. Pipeline: Scout 57%, QUANT 60%, Sim 56%, pTrue 57.8%."
   },
@@ -3703,8 +3703,8 @@
     "pTrue": 0.74,
     "edge": 16.0,
     "mc": 74,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry +1.5 74% pTrue vs 58c (+16pp, 1.5u). HOUSTON VENUE: Etcheverry was 2023 Houston finalist on this exact green clay. Paul H2H is 2-0 but entirely on hard courts \u2014 completely irrelevant surface. CLAY FORM: Etcheverry 9-1 on clay in 2026. Paul 0 clay wins in 2026 entering this tournament. Paul winning straight sets on clay vs former Houston finalist with 9-1 clay form = only 26% probability. PIPELINE: pTrue 74%. +16% edge."
   },
@@ -3720,8 +3720,8 @@
     "pTrue": 0.556,
     "edge": 19.6,
     "mc": 56,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry ML 55.6% pTrue vs 36c (+19.6pp, 1u). MARKET ERROR: Paul H2H 2-0 is hard court only. On clay Etcheverry is the clearly superior player: 9-1 clay 2026, 2023 Houston finalist. Paul 0 clay wins in 2026 entering this tournament. Market importing hard court advantage directly to clay \u2014 same Molcan/Navone and Buse/Berrettini pattern. Etcheverry near coin-flip at 10% ranking weight, priced at 36c. PIPELINE: Scout 56%, QUANT 54%, Sim 57%, pTrue 55.6%. +19.6% edge."
   },
@@ -3737,8 +3737,8 @@
     "pTrue": 0.496,
     "edge": 8.6,
     "mc": 50,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 107.93,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Burruchaga ML 49.6% pTrue vs 41c (+8.6pp, 1.5u). CLAY FORM: Burruchaga 49-22 on clay in 2025 (69% WR) \u2014 legitimate clay grinder. Beat Walton + Nakashima (top-30) to get here. 2 matches calibrated on Houston courts. TIEN: 1-0 ATP clay in 2026, American \u2014 green clay familiarity from juniors but minimal clay track record at ATP level. Market anchored on his #22 ranking. NEAR COIN FLIP: pTrue 49.6% vs market 41c \u2014 market treating this as if Tien is a clear favorite when clay data says roughly even. +8.6% edge clears threshold. Pipeline: Scout 50%, QUANT 48%, Sim 51%, pTrue 49.6%."
   }
