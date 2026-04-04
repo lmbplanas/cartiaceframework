@@ -3741,5 +3741,22 @@
     "pnl": 107.93,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Burruchaga ML 49.6% pTrue vs 41c (+8.6pp, 1.5u). CLAY FORM: Burruchaga 49-22 on clay in 2025 (69% WR) \u2014 legitimate clay grinder. Beat Walton + Nakashima (top-30) to get here. 2 matches calibrated on Houston courts. TIEN: 1-0 ATP clay in 2026, American \u2014 green clay familiarity from juniors but minimal clay track record at ATP level. Market anchored on his #22 ranking. NEAR COIN FLIP: pTrue 49.6% vs market 41c \u2014 market treating this as if Tien is a clear favorite when clay data says roughly even. +8.6% edge clears threshold. Pipeline: Scout 50%, QUANT 48%, Sim 51%, pTrue 49.6%."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "Monte Carlo Q1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Nava vs Halys",
+    "pick": "Nava ML",
+    "stake": 1.5,
+    "price": 0.53,
+    "pTrue": 0.628,
+    "edge": 9.8,
+    "mc": 63,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Nava ML 62.8% pTrue vs 53c (+9.8pp, 1.5u). CLAY FORM: Nava 101-46 career clay at Challenger/ITF (68.7% WR), 7 clay titles, 3 straight 2025 clay Challenger titles. Clay is genuinely his best surface. HALYS: 40% career ATP clay WR, just lost Marrakech R2 to qualifier Bennani. Big flat server \u2014 serve effectiveness reduced on red clay, second serve gets attacked, game breaks down in extended rallies. RANKINGS: Nearly identical (~89-104 range) \u2014 no ranking advantage to either side. Surface edge overwhelmingly to Nava. PIPELINE: Scout 62%, QUANT 65%, Sim 61%, pTrue 62.8%. +9.8% edge clears threshold."
   }
 ]
