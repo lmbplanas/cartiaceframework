@@ -3758,5 +3758,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Nava ML 62.8% pTrue vs 53c (+9.8pp, 1.5u). CLAY FORM: Nava 101-46 career clay at Challenger/ITF (68.7% WR), 7 clay titles, 3 straight 2025 clay Challenger titles. Clay is genuinely his best surface. HALYS: 40% career ATP clay WR, just lost Marrakech R2 to qualifier Bennani. Big flat server \u2014 serve effectiveness reduced on red clay, second serve gets attacked, game breaks down in extended rallies. RANKINGS: Nearly identical (~89-104 range) \u2014 no ranking advantage to either side. Surface edge overwhelmingly to Nava. PIPELINE: Scout 62%, QUANT 65%, Sim 61%, pTrue 62.8%. +9.8% edge clears threshold."
+  },
+  {
+    "date": "Apr 04",
+    "time": "Apr 4 2026",
+    "tournament": "Monte Carlo Q1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Garin vs De Jong",
+    "pick": "Garin ML",
+    "stake": 1.5,
+    "price": 0.45,
+    "pTrue": 0.54,
+    "edge": 9.0,
+    "mc": 54,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Garin ML 54% pTrue vs 45c (+9pp, 1.5u). CLAY DNA: Chilean clay specialist, 5 ATP clay titles, heavy topspin forehand generates extreme kick on Monte Carlo slow high-bounce courts (CPI ~29 \u2014 one of slowest on tour). MONTE CARLO CONDITIONS: Outdoor red clay, sea-level coastal humidity, cool damp air \u2014 ball sits up higher, topspin amplified, flat hard court games face maximum resistance. DE JONG: Dutch hard court player, 55% career ATP clay. His flat shots lose pace and sit up for Garin to attack. Cannot end points before Garin slide-retrieves and resets. FORM CAVEAT: Both in poor 2026 form but Garin clay fundamentals are structurally superior on this surface. De Jong ranking-based market price of 56c ignores clay surface advantage. Pipeline: pTrue 54%. +9% edge clears threshold."
   }
 ]
