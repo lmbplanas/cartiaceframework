@@ -3877,5 +3877,39 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Monfils ML 48.4% pTrue vs 40c (+8.4pp, 1u). CLAY SUPERIORITY: Monfils 58.3% career clay WR vs Griekspoor 48.1% \u2014 the higher-ranked player is actually the weaker clay operator. Griekspoor 0-1 clay in 2026, lost Marrakech. MONTE CARLO CONDITIONS: Slowest clay on tour (CPI ~29), high bounce, serve dampened. Griekspoor serve-heavy Dutch hard court game is specifically penalized here. HOME WILDCARD: Monfils playing his home tournament in Monte Carlo \u2014 French crowd fully behind him, emotional fuel. Still extremely athletic at 40 despite #153 ranking. H2H: Griekspoor 1-0 but on hard court (Washington 2023) \u2014 irrelevant on clay. PIPELINE: Scout 48%, QUANT 50%, Sim 47%, pTrue 48.4%. +8.4% edge clears threshold."
+  },
+  {
+    "date": "Apr 06",
+    "time": "Apr 6 2026",
+    "tournament": "ATP Houston Final (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Paul vs Burruchaga",
+    "pick": "Burruchaga +1.5",
+    "stake": 2.5,
+    "price": 0.61,
+    "pTrue": 0.73,
+    "edge": 12.0,
+    "mc": 73,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Burruchaga +1.5 73% pTrue vs 61c (+12pp, 2.5u). FATIGUE: Paul played 2h45m yesterday vs Tiafoe, saved match points. Burruchaga dominated Tirante 6-1 6-1 \u2014 fresh legs. Paul winning straight sets with exhausted body in an ATP final = only 27% pTrue. CLAY DOMINANCE: Burruchaga 49-22 clay in 2025 (69% WR). Paul 0 clay wins entering Houston. FINAL NERVES: Burruchaga in first ATP final \u2014 adds variance, but Paul physically drained heading into it. Pipeline: pTrue 73%. +12% edge."
+  },
+  {
+    "date": "Apr 06",
+    "time": "Apr 6 2026",
+    "tournament": "ATP Houston Final (Green Clay / Har-Tru)",
+    "surface": "Clay (Green / Har-Tru)",
+    "match": "Paul vs Burruchaga",
+    "pick": "Burruchaga ML",
+    "stake": 1.0,
+    "price": 0.34,
+    "pTrue": 0.548,
+    "edge": 20.8,
+    "mc": 55,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Burruchaga ML 54.8% pTrue vs 34c (+20.8pp, 1u). RANKING INVERSION ON CLAY: Market 34c based on Paul #23 vs Burruchaga #77-102. At 10% ranking weight on green clay: Burruchaga 69% clay WR, dominant SF, fresh. Paul exhausted after 2h45m marathon 3-setter yesterday saving match points. PATTERN: Buse/Berrettini, Molcan/Navone \u2014 hard court ranking advantage imported to clay. Burruchaga is the better clay player at this tournament. PIPELINE: Scout 54%, QUANT 57%, Sim 53%, pTrue 54.8%. +20.8% edge."
   }
 ]
