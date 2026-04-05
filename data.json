@@ -3860,5 +3860,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 70.4% pTrue vs 59c (+11.4pp, 2u). CLAY PROFILE: Norrie 9-5 clay last 52 weeks (64.3%), career 61.5%, 2 ATP clay titles. Compact lefty game \u2014 consistent returns, high defensive range, rally tolerance. Monte Carlo extreme slow conditions (CPI ~29) maximize his game. KECMANOVIC FREEFALL: 2-6 clay last 52 weeks (25% WR). 4 straight losses, 3-7 last 10 matches. Flat Serbian power game loses structure on slow clay \u2014 ball absorbed, rallies extend, Norrie counterpunches. MARKET: 59c for 70.4% pTrue player = clear mispricing. H2H: Norrie leads 3-1 overall, no clay meetings but clay data says Norrie dominant. Pipeline: Scout 70%, QUANT 72%, Sim 69%, pTrue 70.4%. +11.4% edge."
+  },
+  {
+    "date": "Apr 05",
+    "time": "Apr 5 2026",
+    "tournament": "Monte Carlo R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Griekspoor vs Monfils",
+    "pick": "Monfils ML",
+    "stake": 1.0,
+    "price": 0.4,
+    "pTrue": 0.484,
+    "edge": 8.4,
+    "mc": 48,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Monfils ML 48.4% pTrue vs 40c (+8.4pp, 1u). CLAY SUPERIORITY: Monfils 58.3% career clay WR vs Griekspoor 48.1% \u2014 the higher-ranked player is actually the weaker clay operator. Griekspoor 0-1 clay in 2026, lost Marrakech. MONTE CARLO CONDITIONS: Slowest clay on tour (CPI ~29), high bounce, serve dampened. Griekspoor serve-heavy Dutch hard court game is specifically penalized here. HOME WILDCARD: Monfils playing his home tournament in Monte Carlo \u2014 French crowd fully behind him, emotional fuel. Still extremely athletic at 40 despite #153 ranking. H2H: Griekspoor 1-0 but on hard court (Washington 2023) \u2014 irrelevant on clay. PIPELINE: Scout 48%, QUANT 50%, Sim 47%, pTrue 48.4%. +8.4% edge clears threshold."
   }
 ]
