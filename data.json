@@ -3792,5 +3792,39 @@
     "pnl": 63.64,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 58% pTrue vs 44c (+14pp, 1u). UNDER MASSIVELY OVERPRICED: Under 2.5 at 63c implies Kopriva wins straight sets 63% of the time \u2014 pTrue is only 42%. Monte Carlo slowest clay on tour. ARNALDI HOLDS SETS: Top-107 player with big serve, can compete in individual sets via hold patterns even when outclassed on clay. Arnaldi early ball striking can win a set before Kopriva clay grinding takes over. KOPRIVA PROFILE: 6-5 clay in 2026, Czech baseliner, solid but not dominant. He will win the match but Arnaldi takes one set via serve + aggressive early ball striking. Pipeline: pTrue 58%. +14% edge."
+  },
+  {
+    "date": "Apr 05",
+    "time": "Apr 5 2026",
+    "tournament": "Monte Carlo Q Final (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Basilashvili vs Garin",
+    "pick": "Garin ML",
+    "stake": 1.5,
+    "price": 0.45,
+    "pTrue": 0.608,
+    "edge": 15.8,
+    "mc": 61,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Garin ML 60.8% pTrue vs 45c (+15.8pp, 1.5u). TOPSPIN VS FLAT: Garin heavy western grip topspin kicks ball well above shoulder height on Monte Carlo ultra-slow clay (CPI ~29). Basilashvili eastern grip flat striker \u2014 his pace is absorbed by the slow surface, ball sits up for Garin to attack. Monte Carlo rallies average longer than any other clay event. GARIN BATTLEGROUND: Slide retrieval, rally extension, topspin construction \u2014 all amplified maximally here. BASILASHVILI ISSUES: 2-7 clay in 2025, flat power penalized structurally. Came back from set down vs Struff = fatigue in legs. GARIN CALIBRATED: Won De Jong 7-6 6-1 on these exact courts yesterday. PIPELINE: Scout 60%, QUANT 63%, Sim 59%, pTrue 60.8%. +15.8% edge."
+  },
+  {
+    "date": "Apr 05",
+    "time": "Apr 5 2026",
+    "tournament": "Monte Carlo Q Final (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Cerundolo JM vs Martinez",
+    "pick": "Martinez ML",
+    "stake": 1.0,
+    "price": 0.47,
+    "pTrue": 0.57,
+    "edge": 10.0,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Martinez ML 57% pTrue vs ~47c (~+10pp, 1u). H2H CLAY: Martinez leads 2-0 on clay vs JM Cerundolo \u2014 both matches in Buenos Aires (2020 and Feb 2026). He has solved the tactical pattern against this opponent. TACTICAL MASTERY: Martinez plays to Cerundolo JM backhand wing, forcing him to run around it and hit inside-out forehands from wide positions. On Monte Carlo slow courts, that positioning error is amplified. Martinez absorbs pace and redirects \u2014 slow conditions reward exactly his game. COURT CALIBRATION: Martinez beat Vukic here in Q1 yesterday, calibrated on these specific courts. Cerundolo JM beat Nys (doubles specialist) \u2014 lower quality opposition. RANKING NOTE: JM Cerundolo (#69) is not Francisco Cerundolo (#19) \u2014 different player, weaker. Pipeline: pTrue 57%. ~+10% edge."
   }
 ]
