@@ -3805,8 +3805,8 @@
     "pTrue": 0.608,
     "edge": 15.8,
     "mc": 61,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 91.67,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Garin ML 60.8% pTrue vs 45c (+15.8pp, 1.5u). TOPSPIN VS FLAT: Garin heavy western grip topspin kicks ball well above shoulder height on Monte Carlo ultra-slow clay (CPI ~29). Basilashvili eastern grip flat striker \u2014 his pace is absorbed by the slow surface, ball sits up for Garin to attack. Monte Carlo rallies average longer than any other clay event. GARIN BATTLEGROUND: Slide retrieval, rally extension, topspin construction \u2014 all amplified maximally here. BASILASHVILI ISSUES: 2-7 clay in 2025, flat power penalized structurally. Came back from set down vs Struff = fatigue in legs. GARIN CALIBRATED: Won De Jong 7-6 6-1 on these exact courts yesterday. PIPELINE: Scout 60%, QUANT 63%, Sim 59%, pTrue 60.8%. +15.8% edge."
   },
@@ -3822,8 +3822,8 @@
     "pTrue": 0.57,
     "edge": 10.0,
     "mc": 57,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Martinez ML 57% pTrue vs ~47c (~+10pp, 1u). H2H CLAY: Martinez leads 2-0 on clay vs JM Cerundolo \u2014 both matches in Buenos Aires (2020 and Feb 2026). He has solved the tactical pattern against this opponent. TACTICAL MASTERY: Martinez plays to Cerundolo JM backhand wing, forcing him to run around it and hit inside-out forehands from wide positions. On Monte Carlo slow courts, that positioning error is amplified. Martinez absorbs pace and redirects \u2014 slow conditions reward exactly his game. COURT CALIBRATION: Martinez beat Vukic here in Q1 yesterday, calibrated on these specific courts. Cerundolo JM beat Nys (doubles specialist) \u2014 lower quality opposition. RANKING NOTE: JM Cerundolo (#69) is not Francisco Cerundolo (#19) \u2014 different player, weaker. Pipeline: pTrue 57%. ~+10% edge."
   },
@@ -3856,8 +3856,8 @@
     "pTrue": 0.704,
     "edge": 11.4,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 69.49,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 70.4% pTrue vs 59c (+11.4pp, 2u). CLAY PROFILE: Norrie 9-5 clay last 52 weeks (64.3%), career 61.5%, 2 ATP clay titles. Compact lefty game \u2014 consistent returns, high defensive range, rally tolerance. Monte Carlo extreme slow conditions (CPI ~29) maximize his game. KECMANOVIC FREEFALL: 2-6 clay last 52 weeks (25% WR). 4 straight losses, 3-7 last 10 matches. Flat Serbian power game loses structure on slow clay \u2014 ball absorbed, rallies extend, Norrie counterpunches. MARKET: 59c for 70.4% pTrue player = clear mispricing. H2H: Norrie leads 3-1 overall, no clay meetings but clay data says Norrie dominant. Pipeline: Scout 70%, QUANT 72%, Sim 69%, pTrue 70.4%. +11.4% edge."
   },
