@@ -3941,8 +3941,8 @@
     "pTrue": 0.585,
     "edge": 10.5,
     "mc": 59,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Tsitsipas ML 58.5% pTrue vs 48c (+10.5pp, 1.5u). MONTE CARLO RECORD: 22-3 all-time, 3-time champion (2021, 2022, 2024). This is literally his home venue \u2014 institutional knowledge, court feel, crowd support. Market pricing his #51 ranking and ignoring that his clay game is intact (decline is hard court specific). CLAY DNA: 75% career clay WR, one-handed backhand + heavy topspin maximally amplified on Monte Carlo slowest clay. CERUNDOLO: 14-6 clay 2026, Buenos Aires champion \u2014 legitimately dangerous, hence 1.5u not 2u. But Tsitsipas at Monte Carlo is a different proposition. Pipeline: Scout 58%, QUANT 60%, Sim 57%, pTrue 58.5%. +10.5% edge."
   },
@@ -3958,8 +3958,8 @@
     "pTrue": 0.58,
     "edge": 5.0,
     "mc": 58,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 44.34,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Garin U22.5 ~58% pTrue vs 53c (~+5pp, 1u). GARIN EFFICIENCY: Won De Jong 7-6 6-1 on these exact courts \u2014 second set dominated. Clay specialist on Monte Carlo slowest courts vs flat hard court player. ARNALDI LIMITATIONS: Returning from ankle injury, 1-3 clay 2026, 3-setter yesterday. His flat game is specifically penalized on high-bounce slow clay. Garin patient baseline + topspin should grind to efficient win. Below strict 8% threshold but directional: two closely-matched players where Garin has structural clay advantage suggests tight/efficient match without extended set battles. pTrue ~58%."
   }
