@@ -3962,5 +3962,39 @@
     "pnl": 44.34,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Garin U22.5 ~58% pTrue vs 53c (~+5pp, 1u). GARIN EFFICIENCY: Won De Jong 7-6 6-1 on these exact courts \u2014 second set dominated. Clay specialist on Monte Carlo slowest courts vs flat hard court player. ARNALDI LIMITATIONS: Returning from ankle injury, 1-3 clay 2026, 3-setter yesterday. His flat game is specifically penalized on high-bounce slow clay. Garin patient baseline + topspin should grind to efficient win. Below strict 8% threshold but directional: two closely-matched players where Garin has structural clay advantage suggests tight/efficient match without extended set battles. pTrue ~58%."
+  },
+  {
+    "date": "Apr 07",
+    "time": "Apr 7 2026",
+    "tournament": "Monte Carlo R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "RBA vs Berrettini",
+    "pick": "Under 22.5",
+    "stake": 1.0,
+    "price": 0.53,
+    "pTrue": 0.57,
+    "edge": 4.0,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: U22.5 ~57% pTrue vs 53c (~+4pp, 1u). Both players in terrible clay form \u2014 RBA 0-1 clay 2026, 42 years old, declining. Berrettini form disasters but big serve terminates rallies on Monte Carlo courts. Berrettini won previous clay meetings efficiently. Short holds from Berrettini serve, RBA cannot manufacture long rallies at his age. Scout called U21.5 @ 46c (+9% EV) \u2014 taking U22.5 @ 53c, lower edge but same directional thesis. Below strict 8% threshold."
+  },
+  {
+    "date": "Apr 07",
+    "time": "Apr 7 2026",
+    "tournament": "Monte Carlo R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Cilic vs Shevchenko",
+    "pick": "Shevchenko ML",
+    "stake": 1.5,
+    "price": 0.48,
+    "pTrue": 0.565,
+    "edge": 8.5,
+    "mc": 57,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Shevchenko ML 56.5% pTrue vs 48c (+8.5pp, 1.5u). COURT CALIBRATION: Shevchenko 2 match wins on these exact Monte Carlo courts this week (beat Pellegrino 6-0 6-0, beat RBA 6-4 6-3). Cilic 0 matches, cold entry. CILIC PROFILE: 37 years old, flat serve-heavy Croatian game. Monte Carlo dead slow clay dampens serve, flat baseline game lacks topspin. 0 clay matches in 2026. MARKET ERROR: 53c for Cilic when he is the cold, declining veteran vs calibrated baseline player. Same Norrie pattern (Norrie won). Pipeline: Scout 56%, QUANT 58%, Sim 55%, pTrue 56.5%. +8.5% edge clears threshold."
   }
 ]
