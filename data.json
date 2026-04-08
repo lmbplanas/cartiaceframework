@@ -4009,8 +4009,8 @@
     "pTrue": 0.62,
     "edge": 11.0,
     "mc": 62,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 72.06,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Rinderknech +1.5 62% pTrue vs 51c (+11pp, 1.5u). MARKET MISPRICING: Fonseca at 75c implies ~75% win probability \u2014 model puts him at 62.5%. At $95.7K sharp market, the hype/age premium on Fonseca is visible in the price. Fonseca winning straight sets against higher-ranked player who just beat Khachanov 7-5 6-2 = only 38% probability. RINDERKNECH: Just beat seeded Khachanov convincingly. Flat serve cuts through Monte Carlo conditions. H2H Rinderknech 2-0 overall. FONSECA: 19-year-old still learning clay patience. His own admission. Pipeline: pTrue 62%. +11% edge."
   },
@@ -4026,8 +4026,8 @@
     "pTrue": 0.54,
     "edge": 6.0,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 54.17,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Marozsan U22.5 ~54% pTrue vs 48c (+6pp, 1u). MAROZSAN EFFICIENCY: Won 6-1 6-2 in 65 minutes vs Dzumhur \u2014 zero break points faced. His topspin baseline game wins cleanly on Monte Carlo clay. HURKACZ: Just played a 3-setter vs Darderi \u2014 tired legs entering this match. Even if Hurkacz wins quickly via serve, Monte Carlo dampens that. Most likely outcome: Marozsan straight sets efficiently. Below 8% threshold but directional \u2014 clean Marozsan win is the base case."
   }
