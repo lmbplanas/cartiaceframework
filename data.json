@@ -4030,5 +4030,39 @@
     "pnl": 54.17,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Marozsan U22.5 ~54% pTrue vs 48c (+6pp, 1u). MAROZSAN EFFICIENCY: Won 6-1 6-2 in 65 minutes vs Dzumhur \u2014 zero break points faced. His topspin baseline game wins cleanly on Monte Carlo clay. HURKACZ: Just played a 3-setter vs Darderi \u2014 tired legs entering this match. Even if Hurkacz wins quickly via serve, Monte Carlo dampens that. Most likely outcome: Marozsan straight sets efficiently. Below 8% threshold but directional \u2014 clean Marozsan win is the base case."
+  },
+  {
+    "date": "Apr 09",
+    "time": "Apr 9 2026",
+    "tournament": "Monte Carlo R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Fonseca vs Berrettini",
+    "pick": "Berrettini ML",
+    "stake": 1.0,
+    "price": 0.42,
+    "pTrue": 0.475,
+    "edge": 5.5,
+    "mc": 48,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Berrettini ML 47.5% pTrue vs 42c (+5.5pp, 1u). PEAK FORM SIGNAL: Berrettini beat Medvedev 6-0 6-0 \u2014 bageled a top-5 player on clay. That is an extraordinary live tournament signal. MARKET LAG: Fonseca at 59c based on hype/age (same pattern as R2). Market hasnt fully adjusted to peak Berrettini clay form. Fonseca needed 3 sets in both matches (vs Diallo, vs Rinderknech). Berrettini is fresher AND in better current form. Below strict 8% threshold (+5.5%) but the live form signal argues pTrue is higher than model captures."
+  },
+  {
+    "date": "Apr 09",
+    "time": "Apr 9 2026",
+    "tournament": "Monte Carlo R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "FAA vs Ruud",
+    "pick": "FAA ML",
+    "stake": 1.0,
+    "price": 0.4,
+    "pTrue": 0.465,
+    "edge": 6.5,
+    "mc": 47,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: FAA ML 46.5% pTrue vs 40c (+6.5pp, 1u). H2H MOMENTUM: FAA leads 9-8 overall with 4 STRAIGHT wins over Ruud including a UTS Nimes clay exhibition just before Monte Carlo. Market prices Ruuds career 73.6% clay WR without adjusting for recent H2H pattern. FAA has solved the tactical puzzle vs Ruud. PATHS: FAA fresh (1 match vs Cilic 7-6 6-3). Ruud played 2 matches. Below strict 8% threshold but 4-straight H2H wins is a real signal."
   }
 ]
