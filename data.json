@@ -4077,8 +4077,8 @@
     "pTrue": 0.62,
     "edge": 11.0,
     "mc": 62,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Blockx +1.5 62% pTrue vs 51c (+11pp, 1.5u). BLOCKX CLAY RUN: 4-0 on clay in 2026, all at Monte Carlo. Beat Q opponents + Shapovalov + Cobolli (10th seed) 6-3 6-3. 4 matches on these exact courts = maximum calibration. DE MINAUR: Australian hard court speed specialist. Career 52% clay WR \u2014 barely above average. Game relies on speed and counter-punching which works on fast hard courts, not on slow Monte Carlo clay where pace disappears. Played a 3-setter vs Norrie already. De Minaur winning straight sets vs in-form player with 4 MC matches = only 38% pTrue. Pipeline: pTrue 62%. +11% edge."
   }
