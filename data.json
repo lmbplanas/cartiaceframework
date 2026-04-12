@@ -4098,5 +4098,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Prizmic ML 49.5% pTrue vs 41c (+8.5pp, 1.5u). CLAY FORM: Prizmic 10-3 clay in 2026 (77% WR), 84% Challenger clay WR last 52 weeks. Collignon 4-0 clay 2026 but lower pedigree wins (Choinski, Svrcina). H2H: Collignon leads 1-0 on hard court \u2014 fade on clay. PLAYSTYLE: Collignon flat power game loses penetration on Italian red clay. Prizmic heavy topspin amplified on slow clay \u2014 high bounce, extended rallies favor his game. Collignon wants short points, Prizmic wants rally 8+. Prizmic two-handed backhand handles Collignon forehand aggression cleanly. MARKET ERROR: Collignon at 60c based on ranking (#68 vs #106) while ignoring that Prizmic is the superior clay operator. Classic ranking anchor on clay. +8.5% edge clears threshold."
+  },
+  {
+    "date": "Apr 12",
+    "time": "Apr 12 2026",
+    "tournament": "Monte Carlo Final (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Alcaraz vs Sinner",
+    "pick": "Alcaraz ML",
+    "stake": 1.0,
+    "price": 0.49,
+    "pTrue": 0.525,
+    "edge": 3.5,
+    "mc": 53,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Alcaraz ML 52.5% pTrue vs 49c (+3.5pp, 1u). H2H: Alcaraz leads 10-6 overall, 3-1 on clay, 6-1 in finals. Clay dominance is real. DEFENDING CHAMPION: 17-match clay winning streak, 10 clay titles, Monte Carlo 2023+2024 champion. SINNER: First Monte Carlo final, 21 Masters wins but hard court dominant. His clay game is climbing but Alcaraz is the superior clay operator historically. MARKET NOTE: $192K sharp market \u2014 only +3.5% edge, below threshold. Directional lean based on clay H2H and venue mastery."
   }
 ]
