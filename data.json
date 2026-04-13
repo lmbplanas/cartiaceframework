@@ -4149,5 +4149,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Etcheverry ML 66.5% pTrue vs 45c (+21.5pp, 2u). CLAY FORM: Etcheverry 12-3 clay in 2026 (80% WR), Rio ATP 500 champion, took a set off Alcaraz in Monte Carlo R3. Elite current form. H2H: Etcheverry leads 2-0 overall, 1-0 on clay (French Open 2023). DRAPER: 0-0 clay in 2026 \u2014 first clay match of the year. British lefty, hard court specialist (US Open 2025 finalist). Career clay below 50% ATP WR. MARKET ERROR: Draper at 56c based on ranking (#25) while ignoring Etcheverry 12-3 clay form and H2H dominance. Classic ranking anchor. +21.5% edge."
+  },
+  {
+    "date": "Apr 13",
+    "time": "Apr 13 2026",
+    "tournament": "Munich R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Blockx vs Hanfmann",
+    "pick": "Hanfmann ML",
+    "stake": 1.0,
+    "price": 0.48,
+    "pTrue": 0.555,
+    "edge": 7.5,
+    "mc": 56,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann ML 55.5% pTrue vs 48c (+7.5pp, 1u). CLAY FORM: Hanfmann 7-2 clay in 2026 (78% WR), Santiago final, Marrakech QF. German clay specialist. Blockx 4-1 clay but Monte Carlo run was peak on slow slow courts \u2014 Munich is different. RANKING: Hanfmann #55 vs Blockx #91. Market bizarrely has Blockx as 53c favorite despite 36-spot ranking gap. Priced purely on Monte Carlo momentum. +7.5% edge, just below 8% threshold."
   }
 ]
