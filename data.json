@@ -4094,8 +4094,8 @@
     "pTrue": 0.495,
     "edge": 8.5,
     "mc": 50,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Prizmic ML 49.5% pTrue vs 41c (+8.5pp, 1.5u). CLAY FORM: Prizmic 10-3 clay in 2026 (77% WR), 84% Challenger clay WR last 52 weeks. Collignon 4-0 clay 2026 but lower pedigree wins (Choinski, Svrcina). H2H: Collignon leads 1-0 on hard court \u2014 fade on clay. PLAYSTYLE: Collignon flat power game loses penetration on Italian red clay. Prizmic heavy topspin amplified on slow clay \u2014 high bounce, extended rallies favor his game. Collignon wants short points, Prizmic wants rally 8+. Prizmic two-handed backhand handles Collignon forehand aggression cleanly. MARKET ERROR: Collignon at 60c based on ranking (#68 vs #106) while ignoring that Prizmic is the superior clay operator. Classic ranking anchor on clay. +8.5% edge clears threshold."
   },
@@ -4111,9 +4111,26 @@
     "pTrue": 0.525,
     "edge": 3.5,
     "mc": 53,
+    "result": "L",
+    "pnl": -50.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Alcaraz ML 52.5% pTrue vs 49c (+3.5pp, 1u). H2H: Alcaraz leads 10-6 overall, 3-1 on clay, 6-1 in finals. Clay dominance is real. DEFENDING CHAMPION: 17-match clay winning streak, 10 clay titles, Monte Carlo 2023+2024 champion. SINNER: First Monte Carlo final, 21 Masters wins but hard court dominant. His clay game is climbing but Alcaraz is the superior clay operator historically. MARKET NOTE: $192K sharp market \u2014 only +3.5% edge, below threshold. Directional lean based on clay H2H and venue mastery."
+  },
+  {
+    "date": "Apr 13",
+    "time": "Apr 13 2026",
+    "tournament": "Barcelona R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Moutet vs Buse",
+    "pick": "Over 2.5 sets",
+    "stake": 2.0,
+    "price": 0.43,
+    "pTrue": 0.57,
+    "edge": 14.0,
+    "mc": 57,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Alcaraz ML 52.5% pTrue vs 49c (+3.5pp, 1u). H2H: Alcaraz leads 10-6 overall, 3-1 on clay, 6-1 in finals. Clay dominance is real. DEFENDING CHAMPION: 17-match clay winning streak, 10 clay titles, Monte Carlo 2023+2024 champion. SINNER: First Monte Carlo final, 21 Masters wins but hard court dominant. His clay game is climbing but Alcaraz is the superior clay operator historically. MARKET NOTE: $192K sharp market \u2014 only +3.5% edge, below threshold. Directional lean based on clay H2H and venue mastery."
+    "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 57% pTrue vs 43c (+14pp, 2u). Under 2.5 at 62c implies Moutet wins straight sets 62% of the time \u2014 massively overpriced. Two clay specialists of similar caliber with different styles (Moutet slice/angles vs Buse heavy topspin). Stylistic contrast + similar clay quality = 3 sets most likely outcome. Buse 72% career clay WR, Moutet 63.7%. ATP 500 Barcelona red clay. Market systematically underprices 3-setter between evenly-matched clay players."
   }
 ]
