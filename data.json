@@ -4230,9 +4230,26 @@
     "pTrue": 0.65,
     "edge": 15.0,
     "mc": 65,
+    "result": "L",
+    "pnl": -75.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Nakashima +1.5 65% pTrue vs 50c (+15pp, 1.5u). FATIGUE: Fils saved 2 match points vs Atmane in a 4-6 6-4 7-6(7) 3-setter \u2014 max exertion. Nakashima beat JM Cerundolo 6-3 7-5, fresh. MARKET ERROR: Fils at 77c for a fatigued player vs fresh Nakashima who is essentially equal ranked (#33 vs #30). Fils -1.5 at 51c implies he wins straight sets 35% pTrue. Nakashima takes at least one set. +15% edge."
+  },
+  {
+    "date": "Apr 17",
+    "time": "Apr 17 2026",
+    "tournament": "Barcelona QF (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Fils vs Musetti",
+    "pick": "Over 2.5 sets",
+    "stake": 1.5,
+    "price": 0.48,
+    "pTrue": 0.58,
+    "edge": 10.0,
+    "mc": 58,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Nakashima +1.5 65% pTrue vs 50c (+15pp, 1.5u). FATIGUE: Fils saved 2 match points vs Atmane in a 4-6 6-4 7-6(7) 3-setter \u2014 max exertion. Nakashima beat JM Cerundolo 6-3 7-5, fresh. MARKET ERROR: Fils at 77c for a fatigued player vs fresh Nakashima who is essentially equal ranked (#33 vs #30). Fils -1.5 at 51c implies he wins straight sets 35% pTrue. Nakashima takes at least one set. +15% edge."
+    "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 58% pTrue vs 48c (+10pp, 1.5u). Under 2.5 at 57c implies straight-sets 57% probability for first-ever clay meeting between two elite clay players (Fils 62.5% WR, Musetti 66% WR). Sharp $136K ML market has them at 52/49 = true coin flip. Two equally-matched clay natives at QF level \u2014 these go 3 sets. Same systematic mispricing found all clay swing."
   }
 ]
