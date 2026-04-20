@@ -4302,5 +4302,39 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Dedura ML 44.5% pTrue vs 30c (+14.5pp, 0.5u \u2014 downsized from 2u scout rec). Market overweighting Van Assche ranking #94 vs Dedura #258 when Dedura is 16-4 clay in 2026 (80% WR) and beat Cobolli at Munich R2 last week. 30c for a teenager operating at clay ATP 250 level is a gift. MIGUI SIZING: took smaller ML position + full handicap stake instead of 2u ML."
+  },
+  {
+    "date": "Apr 20",
+    "time": "Apr 20 2026",
+    "tournament": "Madrid Masters Q1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Kovacevic vs Echargui",
+    "pick": "Echargui ML",
+    "stake": 0.75,
+    "price": 0.38,
+    "pTrue": 0.545,
+    "edge": 16.5,
+    "mc": 56,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Echargui ML 54.5% pTrue vs 38c (+16.5pp, 0.75u \u2014 downsized from 2.5u scout rec). CLAY DISASTER: Kovacevic 0-5 ATP clay last 52 weeks, career 3-13 clay (18.8% WR) \u2014 one of worst clay records on tour. Hard court specialist (6 Challenger titles all on hard). ECHARGUI: 51.6% career clay, 53-27 last 52w overall, active grinder. MARKET ERROR: 63c/38c anchored purely on ranking (#97 vs #144) while ignoring Kovacevics catastrophic clay record. MIGUI SIZING: took 0.75u instead of 2.5u scout rec."
+  },
+  {
+    "date": "Apr 20",
+    "time": "Apr 20 2026",
+    "tournament": "Madrid Masters Q1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Kovacevic vs Echargui",
+    "pick": "Echargui +1.5",
+    "stake": 1.5,
+    "price": 0.59,
+    "pTrue": 0.78,
+    "edge": 19.0,
+    "mc": 78,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Echargui +1.5 78% pTrue vs 59c (+19pp, 1.5u). Kovacevic -1.5 at 43c implies 43% straight sets probability \u2014 insane for a player 0-5 ATP clay this year. pTrue only 22% for Kovacevic winning straight sets. Madrid altitude helps his big serve but not enough to overcome 18.8% career clay WR. +19% edge \u2014 one of the biggest mispricings of the clay swing."
   }
 ]
