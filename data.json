@@ -4247,8 +4247,8 @@
     "pTrue": 0.58,
     "edge": 10.0,
     "mc": 58,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 58% pTrue vs 48c (+10pp, 1.5u). Under 2.5 at 57c implies straight-sets 57% probability for first-ever clay meeting between two elite clay players (Fils 62.5% WR, Musetti 66% WR). Sharp $136K ML market has them at 52/49 = true coin flip. Two equally-matched clay natives at QF level \u2014 these go 3 sets. Same systematic mispricing found all clay swing."
   }
