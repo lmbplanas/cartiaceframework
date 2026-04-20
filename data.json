@@ -4281,8 +4281,8 @@
     "pTrue": 0.72,
     "edge": 16.0,
     "mc": 72,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 58.93,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Dedura +1.5 72% pTrue vs 56c (+16pp, 1.5u). SURFACE FIT: Dedura 16-4 clay 2026 (80% WR) vs Van Assche 5-3. MUNICH VALIDATION: Dedura beat Cobolli (top 30) at ATP 250 Munich R1 last week \u2014 proven at main tour clay level. 18yo rising clay specialist. MARKET ERROR: Van Assche -1.5 at 51c implies 49% straight sets = -23% edge, catastrophically wrong. pTrue only 28% for Van Assche in straights vs a player who just beat Cobolli on clay."
   },
@@ -4298,8 +4298,8 @@
     "pTrue": 0.445,
     "edge": 14.5,
     "mc": 46,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 58.33,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Dedura ML 44.5% pTrue vs 30c (+14.5pp, 0.5u \u2014 downsized from 2u scout rec). Market overweighting Van Assche ranking #94 vs Dedura #258 when Dedura is 16-4 clay in 2026 (80% WR) and beat Cobolli at Munich R2 last week. 30c for a teenager operating at clay ATP 250 level is a gift. MIGUI SIZING: took smaller ML position + full handicap stake instead of 2u ML."
   },
