@@ -4404,5 +4404,39 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Dedura ML 58.5% pTrue vs 43c (+15.5pp, 1.5u \u2014 downsized from 2u scout rec). CONTINUATION: Dedura just beat Van Assche in Q1 (our 2u + 1.5u W). 80% clay WR in 2026, beat Cobolli at Munich ATP 250. BONZI: career 7-14 ATP clay (33%), hard court specialist, 4 of last 5 losses. Bonzi at 59c is ranking-anchored pricing on his worst surface. MARKET ERROR: Same structural mispricing as Van Assche \u2014 Dedura at 43c for a teenager on a live clay run vs a hard court player on clay. +15.5% edge."
+  },
+  {
+    "date": "Apr 21",
+    "time": "Apr 21 2026",
+    "tournament": "Madrid Masters Q2 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Echargui vs Kjaer",
+    "pick": "Echargui ML",
+    "stake": 0.5,
+    "price": 0.25,
+    "pTrue": 0.365,
+    "edge": 11.5,
+    "mc": 38,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Echargui ML 36.5% pTrue vs 25c (+11.5pp, 0.5u \u2014 downsized from 2u scout rec). TWO #140 PLAYERS: Kjaer ~#140 vs Echargui #144 \u2014 near identical ranking but market at 76c/25c implies massive gap. Kjaer IS better clay player (69.4% vs 51.6% Challenger clay) but 76c for a #140 vs another #140 is extreme. Echargui just beat Kovacevic (our 2.5u call). MIGUI SIZING: small ML spec, full handicap stake."
+  },
+  {
+    "date": "Apr 21",
+    "time": "Apr 21 2026",
+    "tournament": "Madrid Masters Q2 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Echargui vs Kjaer",
+    "pick": "Echargui +1.5",
+    "stake": 1.5,
+    "price": 0.5,
+    "pTrue": 0.62,
+    "edge": 12.0,
+    "mc": 62,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Echargui +1.5 62% pTrue vs 50c (+12pp, 1.5u). Kjaer -1.5 at 54c implies 54% probability of straight sets \u2014 badly overpriced at -16% edge. pTrue only 38% for Kjaer winning in straights vs Echargui who is a career clay grinder (takes sets even in losses). +12% edge."
   }
 ]
