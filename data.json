@@ -4315,8 +4315,8 @@
     "pTrue": 0.545,
     "edge": 16.5,
     "mc": 56,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 61.18,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Echargui ML 54.5% pTrue vs 38c (+16.5pp, 0.75u \u2014 downsized from 2.5u scout rec). CLAY DISASTER: Kovacevic 0-5 ATP clay last 52 weeks, career 3-13 clay (18.8% WR) \u2014 one of worst clay records on tour. Hard court specialist (6 Challenger titles all on hard). ECHARGUI: 51.6% career clay, 53-27 last 52w overall, active grinder. MARKET ERROR: 63c/38c anchored purely on ranking (#97 vs #144) while ignoring Kovacevics catastrophic clay record. MIGUI SIZING: took 0.75u instead of 2.5u scout rec."
   },
@@ -4332,8 +4332,8 @@
     "pTrue": 0.78,
     "edge": 19.0,
     "mc": 78,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.12,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Echargui +1.5 78% pTrue vs 59c (+19pp, 1.5u). Kovacevic -1.5 at 43c implies 43% straight sets probability \u2014 insane for a player 0-5 ATP clay this year. pTrue only 22% for Kovacevic winning straight sets. Madrid altitude helps his big serve but not enough to overcome 18.8% career clay WR. +19% edge \u2014 one of the biggest mispricings of the clay swing."
   },
@@ -4349,8 +4349,8 @@
     "pTrue": 0.625,
     "edge": 14.5,
     "mc": 62,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Travaglia ML 62.5% pTrue vs 48c (+14.5pp, 1.5u \u2014 downsized from 2.5u scout rec). CLAY SPECIALIST: ALL 16 Challenger titles on clay. 264-137 Challenger clay career (65.8%). 7-3 last 10. BASILASHVILI: 1-4 ATP clay last 52w (20%), former top-16 now declining. H2H 1-0 to Basil but on hard court only (2019 AO \u2014 irrelevant). MARKET ERROR: Basilashvili at 53c as favorite anchored on ranking (#120 vs #141) \u2014 ignoring Travagliass dominance on his career best surface. Third straight Madrid Q play exploiting same pattern: market prices ranking, ignores clay-specific form."
   }
