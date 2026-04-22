@@ -4455,5 +4455,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Kopriva ML 56.5% pTrue vs 48c (+8.5pp, 1u). RANKING COLLAPSE: Zhang career-high #31, now #245 \u2014 severe decline. 2-8 last 10, lost 3 straight. KOPRIVA: #66, 9 clay Challenger titles, 13-10 ATP clay, 56.5% ATP clay last 52w. Also poor form (4-6 last 10) but significantly better ranking. MARKET: Zhang at 53c priced on career reputation (former top-30), not current form (#245, 2-8). +8.5% edge, cautious 1u sizing post-framework-failure day. K liquid market."
+  },
+  {
+    "date": "Apr 22",
+    "time": "Apr 22 2026",
+    "tournament": "Madrid Masters R1 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Brooksby vs Nava",
+    "pick": "Brooksby +1.5",
+    "stake": 1.0,
+    "price": 0.58,
+    "pTrue": 0.68,
+    "edge": 10.0,
+    "mc": 68,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Brooksby +1.5 68% pTrue vs 58c (+10pp, 1u). NAVA -1.5: 44c implies 44% straight sets probability \u2014 -12% overpriced. Nava is elite clay specialist (7 titles all clay, 68.7% Challenger clay) but even against a #61 returning player, straight-sets in 44% cases is wrong. Brooksby 53.3% career ATP clay, 3-7 last 10 + 3 weeks rust \u2014 ML value below threshold. Handicap is the clean play. Post-Madrid-disaster cautious sizing."
   }
 ]
