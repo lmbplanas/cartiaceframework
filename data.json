@@ -4489,5 +4489,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Atmane ML 54.5% pTrue vs 47c (+7.5pp, 1.5u). RANKING REVERSAL: Atmane #47 priced as underdog vs Kecmanovic #65 \u2014 market backwards on ranking. CLAY: Both terrible \u2014 Kecmanovic 1-6 ATP clay (14.3%), Atmane 2-5 (28.6%). Neither is clay specialist. LEFTY SERVE: Atmane left-hander, 7.9 aces/match \u2014 Madrid altitude amplifies lefty serve. H2H: Kecmanovic leads 1-0 on hard (Acapulco 2026). FORM: Kecmanovic lost last 4, both 4-6 last 10. Borderline threshold (7.5% vs 8%) but migui sizing 1.5u."
+  },
+  {
+    "date": "Apr 23",
+    "time": "Apr 23 2026",
+    "tournament": "Madrid Masters R2 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Trungelliti vs Merida",
+    "pick": "Trungelliti ML",
+    "stake": 1.0,
+    "price": 0.44,
+    "pTrue": 0.515,
+    "edge": 7.5,
+    "mc": 52,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Trungelliti ML 51.5% pTrue vs 44c (+7.5pp, 1u \u2014 oversized vs 0.5u scout rec). REMATCH: Lost Apr 21 ML 1.5u here \u2014 market overcorrected Merida to 57c. Trungelliti still #77 vs #102, still 81.1% vs 66.7% Challenger clay last 52w. H2H recency-adjusted: 5-1 all-time but Merida just broke the streak on this exact court. Spanish home soil factor real. BORDERLINE: 7.5% below 8% threshold. Scout flagged 0.5u micro only. Migui sized 1u."
   }
 ]
