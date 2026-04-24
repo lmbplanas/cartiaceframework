@@ -4523,5 +4523,39 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 48% pTrue vs 41c (+7pp, 1.5u). MARKET ERROR: Under 2.5 at 63c implies Shelton wins straight sets 63% \u2014 too high. Prizmic is 8-2 last 10, 88% Challenger clay (22-3 last 52w), 5-4 ATP clay. First Masters R3 but genuinely competitive. Shelton elite (69.2% ATP clay, 10.9 aces at altitude) but 63% straight-sets vs a player on this run is wrong. pTrue 48% Over = 7% edge on the 41c line. Same pattern as Hurkacz/Musetti 43c and Fils/Musetti 48c. $108K sharp market priced ML perfectly but mispriced set totals."
+  },
+  {
+    "date": "Apr 24",
+    "time": "Apr 24 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Lehecka vs Tabilo",
+    "pick": "Lehecka ML",
+    "stake": 1.0,
+    "price": 0.57,
+    "pTrue": 0.625,
+    "edge": 5.5,
+    "mc": 62,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Lehecka ML 62.5% pTrue vs 57c (+5.5pp). H2H DOMINANCE: Lehecka 3-0 vs Tabilo including clay win at Monte Carlo April 2026 (4-6 7-6 6-3). Tabilo has never beaten Lehecka. RANKING: Lehecka #14 vs Tabilo #43. CLAY: Tabilo 64.7% ATP clay last 52w, Lehecka 54.5% \u2014 Tabilo better clay form but 0-3 H2H overrides. Madrid altitude helps Lehecka hard court DNA. $45.5K market."
+  },
+  {
+    "date": "Apr 24",
+    "time": "Apr 24 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Rinderknech vs Lajovic",
+    "pick": "Over 2.5 sets",
+    "stake": 1.5,
+    "price": 0.42,
+    "pTrue": 0.54,
+    "edge": 12.0,
+    "mc": 54,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 54% pTrue vs 42c (+12pp). Under 2.5 at ~60c implies Rinderknech wins straight sets \u2014 wrong. Lajovic is a clay grinder (17-11 Challenger clay) who takes sets from everyone. Rinderknech lost to Fonseca in both Monte Carlo and Munich going 3 sets. 9.9 aces at altitude helps Rinderknech but not enough to deny Lajovic a set. Same systematic Under mispricing pattern across Madrid clay week."
   }
 ]
