@@ -4506,5 +4506,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Trungelliti ML 51.5% pTrue vs 44c (+7.5pp, 1u \u2014 oversized vs 0.5u scout rec). REMATCH: Lost Apr 21 ML 1.5u here \u2014 market overcorrected Merida to 57c. Trungelliti still #77 vs #102, still 81.1% vs 66.7% Challenger clay last 52w. H2H recency-adjusted: 5-1 all-time but Merida just broke the streak on this exact court. Spanish home soil factor real. BORDERLINE: 7.5% below 8% threshold. Scout flagged 0.5u micro only. Migui sized 1u."
+  },
+  {
+    "date": "Apr 24",
+    "time": "Apr 24 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Shelton vs Prizmic",
+    "pick": "Over 2.5 sets",
+    "stake": 1.5,
+    "price": 0.41,
+    "pTrue": 0.48,
+    "edge": 7.0,
+    "mc": 48,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 48% pTrue vs 41c (+7pp, 1.5u). MARKET ERROR: Under 2.5 at 63c implies Shelton wins straight sets 63% \u2014 too high. Prizmic is 8-2 last 10, 88% Challenger clay (22-3 last 52w), 5-4 ATP clay. First Masters R3 but genuinely competitive. Shelton elite (69.2% ATP clay, 10.9 aces at altitude) but 63% straight-sets vs a player on this run is wrong. pTrue 48% Over = 7% edge on the 41c line. Same pattern as Hurkacz/Musetti 43c and Fils/Musetti 48c. $108K sharp market priced ML perfectly but mispriced set totals."
   }
 ]
