@@ -4557,5 +4557,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O2.5 sets 54% pTrue vs 42c (+12pp). Under 2.5 at ~60c implies Rinderknech wins straight sets \u2014 wrong. Lajovic is a clay grinder (17-11 Challenger clay) who takes sets from everyone. Rinderknech lost to Fonseca in both Monte Carlo and Munich going 3 sets. 9.9 aces at altitude helps Rinderknech but not enough to deny Lajovic a set. Same systematic Under mispricing pattern across Madrid clay week."
+  },
+  {
+    "date": "Apr 24",
+    "time": "Apr 24 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Machac vs Norrie",
+    "pick": "Norrie ML",
+    "stake": 2.0,
+    "price": 0.44,
+    "pTrue": 0.625,
+    "edge": 18.5,
+    "mc": 62,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 62.5% pTrue vs 44c (+18.5pp). MARKET BACKWARDS: Norrie #23 priced as underdog vs Machac #41 \u2014 Norrie is higher ranked. CLAY: Norrie 12-6 ATP clay last 52w (66.7%), 2 clay titles. Machac 5-7 ATP clay (41.7%), 9 Challenger titles all on hard. H2H: Norrie leads 2-0 including clay. Form: Norrie 6-4 last 10, Machac 5-5. $7.26K market \u2014 thin volume but every factor points to Norrie. +18.5% edge \u2014 highest conviction play of the day."
   }
 ]
