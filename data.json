@@ -4574,5 +4574,39 @@
     "pnl": 127.27,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Norrie ML 62.5% pTrue vs 44c (+18.5pp). MARKET BACKWARDS: Norrie #23 priced as underdog vs Machac #41 \u2014 Norrie is higher ranked. CLAY: Norrie 12-6 ATP clay last 52w (66.7%), 2 clay titles. Machac 5-7 ATP clay (41.7%), 9 Challenger titles all on hard. H2H: Norrie leads 2-0 including clay. Form: Norrie 6-4 last 10, Machac 5-5. $7.26K market \u2014 thin volume but every factor points to Norrie. +18.5% edge \u2014 highest conviction play of the day."
+  },
+  {
+    "date": "Apr 25",
+    "time": "Apr 25 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Cerundolo vs Hanfmann",
+    "pick": "Hanfmann +1.5",
+    "stake": 1.5,
+    "price": 0.53,
+    "pTrue": 0.64,
+    "edge": 11.0,
+    "mc": 64,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann +1.5 64% pTrue vs 53c (+11pp). Cerundolo -1.5 at 43c implies 43% straight-sets \u2014 wrong. Hanfmann won their last clay meeting Santiago Feb 2026 (6-3 6-4). Cerundolo is a grinder not a straight-set machine. 66.7% ATP clay last 52w, 7.0 aces at altitude, 10 clay Challenger titles. +11% \u2014 cleaner play than the ML."
+  },
+  {
+    "date": "Apr 25",
+    "time": "Apr 25 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Damm vs Mensik",
+    "pick": "Damm +1.5",
+    "stake": 1.0,
+    "price": 0.5,
+    "pTrue": 0.58,
+    "edge": 8.0,
+    "mc": 58,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Damm +1.5 58% pTrue vs 50c (+8pp). Mensik -1.5 at 52c implies 52% straight-sets probability \u2014 impossible when Damm serves 13.3 aces at Madrid altitude. Elite serve wins free games even against top-30 players. Mensik wins the match (~70%) but does not bagel Damm. $7.01K market."
   }
 ]
