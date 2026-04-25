@@ -4625,5 +4625,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Vallejo ML 62.5% pTrue vs 60c (+2.5pp). VALLEJO MOMENTUM: Just stunned Dimitrov (#18) in R1. 72.4% Challenger clay last 52w, 3-2 ATP clay, won last 3. TIEN: 2-5 ATP clay last 52w (28.6%), career 22.2% ATP clay, 10 titles all hard, 3 weeks inactive. $6.98K market already absorbed Dimitrov result \u2014 Vallejo correctly favored at 60c. Below 8% threshold but structural case is clear: clay specialist in form vs hard court player out of form on clay."
+  },
+  {
+    "date": "Apr 25",
+    "time": "Apr 25 2026",
+    "tournament": "Madrid Masters R3 (Red Clay)",
+    "surface": "Clay (Red)",
+    "match": "Kjaer vs Shapovalov",
+    "pick": "Under 22.5",
+    "stake": 1.0,
+    "price": 0.52,
+    "pTrue": 0.52,
+    "edge": 0.0,
+    "mc": 52,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Under 22.5 @ 52c (1u). Shapovalov #35 (former top-10, 7.8 aces at Madrid altitude) vs Kjaer #140 (19yo, 0-4 vs top-50 all-time). Ranking and serve power differential points to efficient Shapovalov win. Over 21.5 had +8% edge at 44c \u2014 taking U22.5 @ 52c as higher-line buffer. $1.73K thin market."
   }
 ]
