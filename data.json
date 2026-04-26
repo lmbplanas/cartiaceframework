@@ -4587,8 +4587,8 @@
     "pTrue": 0.64,
     "edge": 11.0,
     "mc": 64,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Hanfmann +1.5 64% pTrue vs 53c (+11pp). Cerundolo -1.5 at 43c implies 43% straight-sets \u2014 wrong. Hanfmann won their last clay meeting Santiago Feb 2026 (6-3 6-4). Cerundolo is a grinder not a straight-set machine. 66.7% ATP clay last 52w, 7.0 aces at altitude, 10 clay Challenger titles. +11% \u2014 cleaner play than the ML."
   },
@@ -4621,8 +4621,8 @@
     "pTrue": 0.625,
     "edge": 2.5,
     "mc": 62,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -75.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Vallejo ML 62.5% pTrue vs 60c (+2.5pp). VALLEJO MOMENTUM: Just stunned Dimitrov (#18) in R1. 72.4% Challenger clay last 52w, 3-2 ATP clay, won last 3. TIEN: 2-5 ATP clay last 52w (28.6%), career 22.2% ATP clay, 10 titles all hard, 3 weeks inactive. $6.98K market already absorbed Dimitrov result \u2014 Vallejo correctly favored at 60c. Below 8% threshold but structural case is clear: clay specialist in form vs hard court player out of form on clay."
   },
@@ -4638,8 +4638,8 @@
     "pTrue": 0.52,
     "edge": 0.0,
     "mc": 52,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 46.15,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Under 22.5 @ 52c (1u). Shapovalov #35 (former top-10, 7.8 aces at Madrid altitude) vs Kjaer #140 (19yo, 0-4 vs top-50 all-time). Ranking and serve power differential points to efficient Shapovalov win. Over 21.5 had +8% edge at 44c \u2014 taking U22.5 @ 52c as higher-line buffer. $1.73K thin market."
   }
