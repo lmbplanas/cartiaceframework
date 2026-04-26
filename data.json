@@ -4604,8 +4604,8 @@
     "pTrue": 0.58,
     "edge": 8.0,
     "mc": 58,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Damm +1.5 58% pTrue vs 50c (+8pp). Mensik -1.5 at 52c implies 52% straight-sets probability \u2014 impossible when Damm serves 13.3 aces at Madrid altitude. Elite serve wins free games even against top-30 players. Mensik wins the match (~70%) but does not bagel Damm. $7.01K market."
   },
@@ -4621,8 +4621,8 @@
     "pTrue": 0.625,
     "edge": 2.5,
     "mc": 62,
-    "result": "L",
-    "pnl": -75.0,
+    "result": "W",
+    "pnl": 50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Vallejo ML 62.5% pTrue vs 60c (+2.5pp). VALLEJO MOMENTUM: Just stunned Dimitrov (#18) in R1. 72.4% Challenger clay last 52w, 3-2 ATP clay, won last 3. TIEN: 2-5 ATP clay last 52w (28.6%), career 22.2% ATP clay, 10 titles all hard, 3 weeks inactive. $6.98K market already absorbed Dimitrov result \u2014 Vallejo correctly favored at 60c. Below 8% threshold but structural case is clear: clay specialist in form vs hard court player out of form on clay."
   },
