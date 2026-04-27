@@ -4689,8 +4689,8 @@
     "pTrue": 0.555,
     "edge": 10.5,
     "mc": 56,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -100.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Fonseca ML 55.5% pTrue vs 45c (+10.5pp). MARKET ERROR: Jodar at 56c as home-soil favorite despite Fonseca being #31 vs Jodar #40+. Fonseca 56.2% ATP clay last 52w, Munich QF, 63% win rate vs top-50. Jodar 90.9% ATP clay (10-1) but sample is home-soil heavy \u2014 Challenger clay record 60%. At Masters 1000 QF level, Fonseca has the edge. 6.0 vs 3.7 aces at altitude further tips the serve balance. +10.5% edge clears threshold."
   }
