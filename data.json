@@ -4706,8 +4706,8 @@
     "pTrue": 0.565,
     "edge": 22.5,
     "mc": 56,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Darderi ML 56.5% pTrue vs 34c (+22.5pp). H2H DOMINANCE: Darderi 6-3 career vs Cerundolo \u2014 including 6-1 6-3 WIN at this very tournament days ago on clay. CLAY FORM: Darderi 73.3% ATP clay last 52w (22-8), 5 clay titles. Cerundolo 64.3% (18-10). RANKING: #22 vs #20 \u2014 near identical. Market at 34c/67c anchored on Cerundolo name and ranking while ignoring in-tournament clay result 2 weeks ago. +22.5% \u2014 biggest mispricing of the Madrid swing."
   },
@@ -4723,8 +4723,8 @@
     "pTrue": 0.76,
     "edge": 16.0,
     "mc": 76,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -100.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Darderi +1.5 76% pTrue vs 60c (+16pp). Cerundolo -1.5 at 41c implies 41% straight-sets probability \u2014 only 24% pTrue. Cerundolo already lost 1-6 3-6 to Darderi at this tournament. He is not bagelizing Darderi. +16% edge on the handicap."
   },
@@ -4740,8 +4740,8 @@
     "pTrue": 0.545,
     "edge": 18.5,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -25.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Merida ML 54.5% pTrue vs 36c (+18.5pp). REPUTATION PRICING: Tsitsipas at 65c is based on former top-3 status and 5 clay titles \u2014 2026 reality: #80, 19-19 last 52w, 4-5 ATP clay (44.4%). MERIDA: #102, 6-1 ATP clay (85.7%), 8-2 last 10, won last 4, Spanish home soil Madrid. We lost Trungelliti twice to Merida \u2014 he has been beating everyone. $77K sharp market. +18.5% edge."
   },
@@ -4757,8 +4757,8 @@
     "pTrue": 0.77,
     "edge": 18.0,
     "mc": 77,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Merida +1.5 77% pTrue vs 59c (+18pp). Tsitsipas -1.5 at 42c implies 42% straight-sets for a player who is 44.4% ATP clay last 52w on home soil vs a rising 21yo. Only 23% pTrue for Tsitsipas in straights. +18% edge on handicap."
   }
