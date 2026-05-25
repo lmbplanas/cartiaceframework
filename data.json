@@ -4778,5 +4778,22 @@
     "pnl": 0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: PCB +2.5 67% pTrue vs 61c (+6pp). RG SURFACE: Sea-level slow clay \u2014 Lehecka loses Madrid altitude serve boost (8.4 aces meaningless at RG). Best-of-5 favors clay grinder PCB. Lehecka -2.5 at 41c implies 41% straight-sets probability vs 19-title clay Challenger specialist \u2014 only 33% pTrue. PCB 17-5 Challenger clay (77.3%), 0-5 vs top-20 but best-of-5 grinding format helps. $53.5K sharp market. +6% below threshold but cleanest value line."
+  },
+  {
+    "date": "May 25",
+    "time": "May 25 2026",
+    "tournament": "Roland Garros R1 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Hurkacz vs Munar",
+    "pick": "Munar ML",
+    "stake": 1.5,
+    "price": 0.44,
+    "pTrue": 0.52,
+    "edge": 8.0,
+    "mc": 52,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Munar ML 52% pTrue vs 44c (+8pp). HURKACZ DECLINE: #99, 13-13 last 52w, 3-4 ATP clay last 52w, peak was top-3 but now in freefall. RG SURFACE: Sea-level slow clay \u2014 Hurkacz serve (12.2 aces) maximally neutralized. Best-of-5 best format for Munar clay grinding. MUNAR: #41, 15 Challenger clay titles, 4-5 ATP clay last 52w but fits RG style. H2H: Hurkacz 1-0 (hard 2018 Next Gen \u2014 ancient, irrelevant). $76.3K sharp market."
   }
 ]
