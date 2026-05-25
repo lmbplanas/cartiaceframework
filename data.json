@@ -4761,5 +4761,22 @@
     "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Merida +1.5 77% pTrue vs 59c (+18pp). Tsitsipas -1.5 at 42c implies 42% straight-sets for a player who is 44.4% ATP clay last 52w on home soil vs a rising 21yo. Only 23% pTrue for Tsitsipas in straights. +18% edge on handicap."
+  },
+  {
+    "date": "May 25",
+    "time": "May 25 2026",
+    "tournament": "Roland Garros R1 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Lehecka vs PCB",
+    "pick": "PCB +2.5",
+    "stake": 1.0,
+    "price": 0.61,
+    "pTrue": 0.67,
+    "edge": 6.0,
+    "mc": 67,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: PCB +2.5 67% pTrue vs 61c (+6pp). RG SURFACE: Sea-level slow clay \u2014 Lehecka loses Madrid altitude serve boost (8.4 aces meaningless at RG). Best-of-5 favors clay grinder PCB. Lehecka -2.5 at 41c implies 41% straight-sets probability vs 19-title clay Challenger specialist \u2014 only 33% pTrue. PCB 17-5 Challenger clay (77.3%), 0-5 vs top-20 but best-of-5 grinding format helps. $53.5K sharp market. +6% below threshold but cleanest value line."
   }
 ]
