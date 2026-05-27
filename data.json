@@ -4829,5 +4829,22 @@
     "pnl": 99.42,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Kopriva ML 52% pTrue vs 43c (+9pp). MOUTET FORM COLLAPSE: #34, 4-7 ATP clay last 52w (36.4%), lost last 4 matches. RG home advantage partially offsets but cannot override 4-match losing streak on surface. KOPRIVA: #66, 14-11 ATP clay (56%) last 52w, 9 Challenger clay titles, 6-4 last 10. Ranking premium for Moutet completely unwarranted given current form divergence. Same thesis as best Madrid calls."
+  },
+  {
+    "date": "May 27",
+    "time": "May 27 2026",
+    "tournament": "Roland Garros R2 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Khachanov vs Trungelliti",
+    "pick": "Over 3.5 sets",
+    "stake": 1.5,
+    "price": 0.59,
+    "pTrue": 0.67,
+    "edge": 8.0,
+    "mc": 67,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 67% pTrue vs 59c (+8pp). Khachanov ML 76% \u2014 correctly priced at 77c. But best-of-5 set distribution: Khachanov 3-0 ~28%, Khachanov 3-1 ~25%, Khachanov 3-2 ~23%. Under 3.5 (straight sets either side) only 33% pTrue. Trungelliti is a career clay grinder with 16+ clay titles \u2014 takes sets vs everyone. +8% on O3.5 at 59c vs pTrue 67%."
   }
 ]
