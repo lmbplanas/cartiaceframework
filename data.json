@@ -4808,8 +4808,8 @@
     "pTrue": 0.58,
     "edge": 17.0,
     "mc": 58,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: U3.5 sets 58% pTrue vs 41c (+17pp, 1u \u2014 thin $865 market). Over 3.5 at 60c implies 60% chance of 4-5 set match \u2014 wrong for a dominant clay player (Bublik 73.9% ATP clay last 52w, #10) vs Struff #80, 4-6 ATP clay, lost 3 straight. Bublik wins 3-0 or 3-1 ~58% of the time. ML 78c is perfectly priced. Thin market \u2014 sized 1u max."
   },
@@ -4825,8 +4825,8 @@
     "pTrue": 0.52,
     "edge": 9.0,
     "mc": 52,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 99.42,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Kopriva ML 52% pTrue vs 43c (+9pp). MOUTET FORM COLLAPSE: #34, 4-7 ATP clay last 52w (36.4%), lost last 4 matches. RG home advantage partially offsets but cannot override 4-match losing streak on surface. KOPRIVA: #66, 14-11 ATP clay (56%) last 52w, 9 Challenger clay titles, 6-4 last 10. Ranking premium for Moutet completely unwarranted given current form divergence. Same thesis as best Madrid calls."
   }
