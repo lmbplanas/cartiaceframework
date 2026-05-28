@@ -4842,8 +4842,8 @@
     "pTrue": 0.67,
     "edge": 8.0,
     "mc": 67,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.12,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 67% pTrue vs 59c (+8pp). Khachanov ML 76% \u2014 correctly priced at 77c. But best-of-5 set distribution: Khachanov 3-0 ~28%, Khachanov 3-1 ~25%, Khachanov 3-2 ~23%. Under 3.5 (straight sets either side) only 33% pTrue. Trungelliti is a career clay grinder with 16+ clay titles \u2014 takes sets vs everyone. +8% on O3.5 at 59c vs pTrue 67%."
   },
@@ -4876,8 +4876,8 @@
     "pTrue": 0.76,
     "edge": 9.0,
     "mc": 76,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 36.94,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 76% pTrue vs 67c (+9pp). $67.5K sharp market has ML at 50/51 \u2014 perfectly priced coin flip. Two 20yo rising stars on clay (Fonseca, Prizmic). At 50/50 in best-of-5, set distribution: 3-0 either ~24%, 4 or 5 sets ~76%. Under 3.5 at 36c implies only 36% chance of 4-5 sets for a coin flip \u2014 badly wrong. Systematic best-of-5 mispricing at RG."
   },
