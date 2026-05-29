@@ -4931,5 +4931,39 @@
     "pnl": 33.33,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 68% pTrue vs 60c (+8pp). FAA #6 (~68% pTrue) vs Burruchaga #68 clay specialist. Best-of-5 distribution at 68/32: 3-0 FAA ~25%, 4-5 sets ~68%. Under 3.5 at 42c implies only 32% chance of 4-5 sets \u2014 wrong when FAA is 4-5 ATP clay last 52w and Burruchaga is 75% Challenger clay grinder who takes sets. $13.6K market. FAA won 4-6 6-4 6-1 7-5 = 4 sets \u2192 O3.5 W if already played."
+  },
+  {
+    "date": "May 29",
+    "time": "May 29 2026",
+    "tournament": "Roland Garros R3 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Jodar vs Michelsen",
+    "pick": "Michelsen +2.5",
+    "stake": 1.5,
+    "price": 0.59,
+    "pTrue": 0.7,
+    "edge": 11.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Michelsen +2.5 70% pTrue vs 59c (+11pp). Jodar -2.5 at 42c = 42% for 3-0 sweep \u2014 pTrue only 30%. At 80% Jodar, straight sets is ~30% of the time. Michelsen #37 hard court player takes 1+ set in best-of-5 at RG ~70% of the time. $27.3K market. Jodar 17-3 ATP clay (85%) is dominant but not 3-0 dominant at this level."
+  },
+  {
+    "date": "May 29",
+    "time": "May 29 2026",
+    "tournament": "Roland Garros R3 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Mensik vs Opponent R3",
+    "pick": "Over 3.5 sets",
+    "stake": 1.5,
+    "price": 0.6,
+    "pTrue": 0.68,
+    "edge": 8.0,
+    "mc": 68,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets RG R3 (+8pp EV). Mensik R3 match \u2014 best-of-5 slow clay systematic mispricing, same thesis as all RG totals plays. Match and opponent to be updated when confirmed."
   }
 ]
