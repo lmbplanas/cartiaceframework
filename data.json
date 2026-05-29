@@ -4893,8 +4893,8 @@
     "pTrue": 0.72,
     "edge": 8.0,
     "mc": 72,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 42.19,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 72% pTrue vs 64c (+8pp). Svajda 54c/Walton 47c \u2014 near 50/50. Two hard court specialists on RG clay, coin-flip match. At 50/50 best-of-5: 3-0 either ~28%, 4-5 sets ~72%. Under 3.5 at 39c implies only 28% for 4-5 sets \u2014 correctly priced but Over at 64c still leaves +8% edge. Walton just beat Medvedev (momentum). $30.4K market."
   },
@@ -4927,8 +4927,8 @@
     "pTrue": 0.68,
     "edge": 8.0,
     "mc": 68,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 33.33,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 68% pTrue vs 60c (+8pp). FAA #6 (~68% pTrue) vs Burruchaga #68 clay specialist. Best-of-5 distribution at 68/32: 3-0 FAA ~25%, 4-5 sets ~68%. Under 3.5 at 42c implies only 32% chance of 4-5 sets \u2014 wrong when FAA is 4-5 ATP clay last 52w and Burruchaga is 75% Challenger clay grinder who takes sets. $13.6K market. FAA won 4-6 6-4 6-1 7-5 = 4 sets \u2192 O3.5 W if already played."
   }
