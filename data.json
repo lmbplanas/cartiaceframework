@@ -4944,8 +4944,8 @@
     "pTrue": 0.7,
     "edge": 11.0,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 52.12,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Michelsen +2.5 70% pTrue vs 59c (+11pp). Jodar -2.5 at 42c = 42% for 3-0 sweep \u2014 pTrue only 30%. At 80% Jodar, straight sets is ~30% of the time. Michelsen #37 hard court player takes 1+ set in best-of-5 at RG ~70% of the time. $27.3K market. Jodar 17-3 ATP clay (85%) is dominant but not 3-0 dominant at this level."
   },
@@ -4961,8 +4961,8 @@
     "pTrue": 0.66,
     "edge": 9.0,
     "mc": 68,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 56.58,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 66% pTrue vs 57c (+9pp). ADeM #7 (~79% pTrue), Mensik #27. H2H ADeM 4-0 (all hard). Best-of-5: ADeM 3-0 ~30%, ADeM 3-1 ~28%, ADeM 3-2 ~21% = Under 3.5 only 34% pTrue. Mensik 12.2 aces holds enough to take 2 sets in 66% of scenarios. Under 3.5 at 45c = -11% edge. $294K sharp market."
   }
