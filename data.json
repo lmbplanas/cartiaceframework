@@ -4954,16 +4954,16 @@
     "time": "May 29 2026",
     "tournament": "Roland Garros R3 (Slow Clay, Best-of-5)",
     "surface": "Clay (Slow)",
-    "match": "Mensik vs Opponent R3",
+    "match": "De Minaur vs Mensik",
     "pick": "Over 3.5 sets",
     "stake": 1.5,
-    "price": 0.6,
-    "pTrue": 0.68,
-    "edge": 8.0,
+    "price": 0.57,
+    "pTrue": 0.66,
+    "edge": 9.0,
     "mc": 68,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets RG R3 (+8pp EV). Mensik R3 match \u2014 best-of-5 slow clay systematic mispricing, same thesis as all RG totals plays. Match and opponent to be updated when confirmed."
+    "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 66% pTrue vs 57c (+9pp). ADeM #7 (~79% pTrue), Mensik #27. H2H ADeM 4-0 (all hard). Best-of-5: ADeM 3-0 ~30%, ADeM 3-1 ~28%, ADeM 3-2 ~21% = Under 3.5 only 34% pTrue. Mensik 12.2 aces holds enough to take 2 sets in 66% of scenarios. Under 3.5 at 45c = -11% edge. $294K sharp market."
   }
 ]
