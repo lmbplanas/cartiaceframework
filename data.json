@@ -4965,5 +4965,22 @@
     "pnl": 56.58,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 66% pTrue vs 57c (+9pp). ADeM #7 (~79% pTrue), Mensik #27. H2H ADeM 4-0 (all hard). Best-of-5: ADeM 3-0 ~30%, ADeM 3-1 ~28%, ADeM 3-2 ~21% = Under 3.5 only 34% pTrue. Mensik 12.2 aces holds enough to take 2 sets in 66% of scenarios. Under 3.5 at 45c = -11% edge. $294K sharp market."
+  },
+  {
+    "date": "May 30",
+    "time": "May 30 2026",
+    "tournament": "Roland Garros R4 (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Tabilo vs Kouame",
+    "pick": "Kouame +2.5",
+    "stake": 2.0,
+    "price": 0.58,
+    "pTrue": 0.7,
+    "edge": 12.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Kouame +2.5 70% pTrue vs 58c (+12pp). Tabilo -2.5 at 43c implies 43% 3-0 sweep \u2014 pTrue only 30%. At 79% Tabilo, straight sets only ~30% of the time in best-of-5. Kouame (young French WC, beat Cilic) takes at least 1 set ~70% of scenarios. $2K volume on handicap market. ML perfectly priced 80c/21c \u2014 no ML edge. Same systematic 3-0 mispricing found throughout RG."
   }
 ]
