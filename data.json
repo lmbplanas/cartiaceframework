@@ -4978,8 +4978,8 @@
     "pTrue": 0.7,
     "edge": 12.0,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 54.31,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Kouame +2.5 70% pTrue vs 58c (+12pp). Tabilo -2.5 at 43c implies 43% 3-0 sweep \u2014 pTrue only 30%. At 79% Tabilo, straight sets only ~30% of the time in best-of-5. Kouame (young French WC, beat Cilic) takes at least 1 set ~70% of scenarios. $2K volume on handicap market. ML perfectly priced 80c/21c \u2014 no ML edge. Same systematic 3-0 mispricing found throughout RG."
   },
@@ -4995,8 +4995,8 @@
     "pTrue": 0.69,
     "edge": 7.0,
     "mc": 69,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 30.65,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 69% pTrue vs 62c (+7pp). FAA #6 (~72% pTrue) vs Nakashima #35. FAA -1.5 at 58c = -6% overpriced (pTrue only 52%). Nakashima 9.7 aces holds serve on RG clay \u2014 takes sets even against top-6. Under 3.5 at 40c implies only 31% 4-5 sets in best-of-5. $119 vol seeded market. Same systematic handicap/totals mispricing found throughout RG."
   }
