@@ -5012,8 +5012,8 @@
     "pTrue": 0.67,
     "edge": 9.0,
     "mc": 67,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 54.31,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 67% pTrue vs 58c (+9pp). Jodar -2.5 at 39c = 39% for 3-0 sweep \u2014 pTrue only 29%. At 78% Jodar, distribution shows 4-5 sets ~67% of the time. PCB 114-95 career ATP clay \u2014 veteran who takes sets. Under 3.5 at 44c = -11% edge. $2.2K vol seeded. Same systematic mispricing as Michelsen/Jodar R3."
   },
@@ -5029,9 +5029,26 @@
     "pTrue": 0.58,
     "edge": 4.0,
     "mc": 58,
+    "result": "L",
+    "pnl": -50.0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Rublev ML 58% pTrue vs 54c (+4pp, below 8% threshold). Rublev 72.2% ATP clay last 52w, 6 clay titles, 97-49 career clay. Mensik 63.6% ATP clay, H2H 2-0 (all hard court \u2014 not relevant on clay). Market at 54c/47c slightly underprices Rublev clay form. $26.7K market."
+  },
+  {
+    "date": "Jun 1",
+    "time": "Jun 1 2026",
+    "tournament": "Roland Garros R5/QF (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Cobolli vs Svajda",
+    "pick": "Svajda +2.5",
+    "stake": 2.0,
+    "price": 0.51,
+    "pTrue": 0.65,
+    "edge": 14.0,
+    "mc": 65,
     "result": "P",
     "pnl": 0,
     "fw": "v2.5",
-    "note": "v2.5 SCOUT+QUANT+SIM: Rublev ML 58% pTrue vs 54c (+4pp, below 8% threshold). Rublev 72.2% ATP clay last 52w, 6 clay titles, 97-49 career clay. Mensik 63.6% ATP clay, H2H 2-0 (all hard court \u2014 not relevant on clay). Market at 54c/47c slightly underprices Rublev clay form. $26.7K market."
+    "note": "v2.5 SCOUT+QUANT+SIM: Svajda +2.5 65% pTrue vs 51c (+14pp). Cobolli -2.5 at 50c implies 50% 3-0 sweep \u2014 pTrue only 35% even at 86% Cobolli. Best-of-5 best-of-5: straight-set sweeps are rare even for dominant favorites. Svajda 7.4 aces holds service games on slow clay. $17.3K liquid handicap market. One of biggest RG mispricings \u2014 same systematic 3-0 overpricing found throughout tournament."
   }
 ]
