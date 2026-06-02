@@ -5067,5 +5067,39 @@
     "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 72% pTrue vs 66c (+6pp, below 8% threshold). FAA #6 (~62% pTrue) vs Tabilo #36 (8-2 last 10, 61.9% ATP clay). ML perfectly priced 63c/38c. Under 3.5 at 36c implies only 28% chance of 4-5 sets \u2014 wrong for a competitive QF between FAA and clay specialist Tabilo. $47.6K sharp market has ML right but total sets has same structural gap found throughout RG."
+  },
+  {
+    "date": "Jun 2",
+    "time": "Jun 2 2026",
+    "tournament": "Roland Garros QF (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Mensik vs Fonseca",
+    "pick": "Mensik +1.5",
+    "stake": 1.5,
+    "price": 0.48,
+    "pTrue": 0.54,
+    "edge": 6.0,
+    "mc": 54,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: Mensik +1.5 54% pTrue vs 48c (+6pp). Fonseca -1.5 at 53c = -7% overpriced (pTrue only 46%). Mensik 12.1 aces holds service games in best-of-5. Fonseca 63% pTrue but only wins 3-0 or 3-1 in 46% of scenarios. $16K liquid. Both 19-20yo, QF best-of-5, RG. Mensik 7-3 ATP clay last 52w, beat Rublev here."
+  },
+  {
+    "date": "Jun 2",
+    "time": "Jun 2 2026",
+    "tournament": "Roland Garros QF (Slow Clay, Best-of-5)",
+    "surface": "Clay (Slow)",
+    "match": "Mensik vs Fonseca",
+    "pick": "Over 3.5 sets",
+    "stake": 1.0,
+    "price": 0.64,
+    "pTrue": 0.7,
+    "edge": 6.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 70% pTrue vs 64c (+6pp). Under 3.5 at 37c implies only 30% 4-5 sets for a QF between two evenly matched young clay players. Two 19-20yo rising stars at RG QF go 4-5 sets 70% of the time. $9.3K liquid."
   }
 ]
