@@ -5080,8 +5080,8 @@
     "pTrue": 0.54,
     "edge": 6.0,
     "mc": 54,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 81.25,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Mensik +1.5 54% pTrue vs 48c (+6pp). Fonseca -1.5 at 53c = -7% overpriced (pTrue only 46%). Mensik 12.1 aces holds service games in best-of-5. Fonseca 63% pTrue but only wins 3-0 or 3-1 in 46% of scenarios. $16K liquid. Both 19-20yo, QF best-of-5, RG. Mensik 7-3 ATP clay last 52w, beat Rublev here."
   },
@@ -5097,8 +5097,8 @@
     "pTrue": 0.7,
     "edge": 6.0,
     "mc": 70,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 70% pTrue vs 64c (+6pp). Under 3.5 at 37c implies only 30% 4-5 sets for a QF between two evenly matched young clay players. Two 19-20yo rising stars at RG QF go 4-5 sets 70% of the time. $9.3K liquid."
   }
