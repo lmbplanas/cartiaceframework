@@ -5046,8 +5046,8 @@
     "pTrue": 0.65,
     "edge": 14.0,
     "mc": 65,
-    "result": "P",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 96.08,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: Svajda +2.5 65% pTrue vs 51c (+14pp). Cobolli -2.5 at 50c implies 50% 3-0 sweep \u2014 pTrue only 35% even at 86% Cobolli. Best-of-5 best-of-5: straight-set sweeps are rare even for dominant favorites. Svajda 7.4 aces holds service games on slow clay. $17.3K liquid handicap market. One of biggest RG mispricings \u2014 same systematic 3-0 overpricing found throughout tournament."
   },
@@ -5063,8 +5063,8 @@
     "pTrue": 0.72,
     "edge": 6.0,
     "mc": 72,
-    "result": "P",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 72% pTrue vs 66c (+6pp, below 8% threshold). FAA #6 (~62% pTrue) vs Tabilo #36 (8-2 last 10, 61.9% ATP clay). ML perfectly priced 63c/38c. Under 3.5 at 36c implies only 28% chance of 4-5 sets \u2014 wrong for a competitive QF between FAA and clay specialist Tabilo. $47.6K sharp market has ML right but total sets has same structural gap found throughout RG."
   }
