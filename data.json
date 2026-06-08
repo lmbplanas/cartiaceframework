@@ -5101,5 +5101,39 @@
     "pnl": -50.0,
     "fw": "v2.5",
     "note": "v2.5 SCOUT+QUANT+SIM: O3.5 sets 70% pTrue vs 64c (+6pp). Under 3.5 at 37c implies only 30% 4-5 sets for a QF between two evenly matched young clay players. Two 19-20yo rising stars at RG QF go 4-5 sets 70% of the time. $9.3K liquid."
+  },
+  {
+    "date": "Jun 8",
+    "time": "Jun 8 2026",
+    "tournament": "Libema Open R1 (Grass)",
+    "surface": "Grass",
+    "match": "Borges vs Atmane",
+    "pick": "Borges ML",
+    "stake": 1.0,
+    "price": 0.54,
+    "pTrue": 0.615,
+    "edge": 7.5,
+    "mc": 62,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "Borges (#50) vs Atmane (#53) Libema Open R1 grass. Borges 5-5 form vs Atmane 3-7 (4L streak). Both poor grass records (39% vs 33%) but Borges edge on return game (39% RPW vs 37%). Atmane lefty serve weapon but 3.3 DF/match exploitable. Model 61.5% Borges."
+  },
+  {
+    "date": "Jun 8",
+    "time": "Jun 8 2026",
+    "tournament": "Boss Open Stuttgart R1 (Grass)",
+    "surface": "Grass",
+    "match": "Herbert vs Landaluce",
+    "pick": "Herbert +1.5",
+    "stake": 1.0,
+    "price": 0.64,
+    "pTrue": 0.7,
+    "edge": 6.0,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "Herbert (35, #220) qualified through 2 grass wins vs Landaluce (#69) cold clay-to-grass transition from RG. Serve-and-volley game built for grass. Match-sharp from qualies. Herbert +1.5 sets = needs 1 set. Serve-dominant grass = tight sets = high chance of splitting."
   }
 ]
