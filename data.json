@@ -5169,5 +5169,22 @@
     "pnl": -25.0,
     "fw": "v2.5",
     "note": "Hijikata ML @ 2.85 decimal (35c implied). Ace model 42.1% vs market 35%. 9.3% edge. Upside kicker alongside +2.5 games primary play. Tiafoe fatigue from 3 consecutive 5-setters at RG."
+  },
+  {
+    "date": "Jun 12",
+    "time": "Jun 12 2026",
+    "tournament": "Boss Open Stuttgart QF (Grass)",
+    "surface": "Grass",
+    "match": "Mpetshi Perricard vs Bublik",
+    "pick": "Perricard +1.5 sets",
+    "stake": 1.0,
+    "price": 0.37,
+    "pTrue": 0.701,
+    "edge": 7.1,
+    "mc": 70,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v2.5",
+    "note": "Two big servers on grass. Bublik (#11) 10-2 grass 2025, better return game. Perricard (#93) 246km/h serve, 15.9% ace rate but 31.2% return pts won. Serve sim (100K iterations) = 49% three-set rate. True prob Perricard takes at least 1 set ~70.1%. Edge 7.1% at 63c, 92% confidence edge is real."
   }
 ]
