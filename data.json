@@ -5186,5 +5186,18 @@
     "pnl": -50.0,
     "fw": "v2.5",
     "note": "Two big servers on grass. Bublik (#11) 10-2 grass 2025, better return game. Perricard (#93) 246km/h serve, 15.9% ace rate but 31.2% return pts won. Serve sim (100K iterations) = 49% three-set rate. True prob Perricard takes at least 1 set ~70.1%. Edge 7.1% at 63c, 92% confidence edge is real."
+  },
+  {
+    "date": "Jun 13",
+    "tournament": "Boss Open Stuttgart SF (Grass)",
+    "match": "Shelton vs Lehecka",
+    "pick": "Shelton ML",
+    "price": 0.52,
+    "stake": 2,
+    "result": "P",
+    "pnl": 0,
+    "fw": "v3.0",
+    "surface": "Grass",
+    "time": ""
   }
 ]
