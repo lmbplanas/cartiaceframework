@@ -5233,22 +5233,5 @@
     "pnl": 0,
     "fw": "v3.0",
     "note": "RBA 38yo, 9-17 in 2026. Collignon 28-9 (75.7%), beat Shelton at RG, coach Steve Darcis (grass specialist). 197km/h serve. Only concern: 4 career grass matches."
-  },
-  {
-    "date": "Jun 14",
-    "time": "Jun 14 2026",
-    "tournament": "Halle R2 (Grass)",
-    "surface": "Grass",
-    "match": "Collignon vs Bautista Agut",
-    "pick": "Over 2.5 sets",
-    "stake": 0.5,
-    "price": 0.38,
-    "pTrue": 0.47,
-    "edge": 9.0,
-    "mc": 47,
-    "result": "pending",
-    "pnl": 0,
-    "fw": "v3.0",
-    "note": "RBA grass IQ \u2014 even in losses takes sets to tiebreaks (7-6 vs Giron, 6-7 vs Barton). Market pricing 65% straight sets is too high."
   }
 ]
