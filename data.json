@@ -5233,5 +5233,22 @@
     "pnl": 0,
     "fw": "v3.0",
     "note": "RBA 38yo, 9-17 in 2026. Collignon 28-9 (75.7%), beat Shelton at RG, coach Steve Darcis (grass specialist). 197km/h serve. Only concern: 4 career grass matches."
+  },
+  {
+    "date": "Jun 14",
+    "time": "Jun 14 2026",
+    "tournament": "Halle SF (Grass)",
+    "surface": "Grass",
+    "match": "Shelton vs Fritz",
+    "pick": "Fritz ML",
+    "stake": 2.0,
+    "price": 0.54,
+    "pTrue": 0.648,
+    "edge": 10.8,
+    "mc": 65,
+    "result": "pending",
+    "pnl": 0,
+    "fw": "v3.0",
+    "note": "Fritz 26-4 (86.7%) on grass last 2 years. Shelton needed three 3-setters to get here including 16-14 TB vs Lehecka. Fritz fresher by ~2hrs court time. Model: 64.8% true prob vs 54c market."
   }
 ]
