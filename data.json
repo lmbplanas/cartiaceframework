@@ -5250,5 +5250,22 @@
     "pnl": -100.0,
     "fw": "v3.0",
     "note": "Fritz 26-4 (86.7%) on grass last 2 years. Shelton needed three 3-setters to get here including 16-14 TB vs Lehecka. Fritz fresher by ~2hrs court time. Model: 64.8% true prob vs 54c market."
+  },
+  {
+    "date": "Jun 15",
+    "time": "Jun 15 2026",
+    "tournament": "Halle R1 (Grass)",
+    "surface": "Grass",
+    "match": "Atmane vs Landaluce",
+    "pick": "Landaluce ML",
+    "stake": 2.0,
+    "price": 0.67,
+    "pTrue": 0.8,
+    "edge": 13.2,
+    "mc": 80,
+    "result": "pending",
+    "pnl": 0,
+    "fw": "v3.0",
+    "note": "Landaluce 11-5 grass (69%) vs Atmane 4-9 (31%). H2H 1-0 Landaluce on grass. Atmane on 5-match losing streak. Landaluce just made Stuttgart SF. 13% edge at 67c."
   }
 ]
