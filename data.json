@@ -5212,8 +5212,8 @@
     "pTrue": 0.431,
     "edge": 6.1,
     "mc": 43,
-    "result": "pending",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 42.57,
     "fw": "v3.0",
     "note": "Basil former #16 in comeback \u2014 beat Shelton at Rome, took set off Rublev, 6W-4L recent. Sonego 3W-7L with losses to guys ranked 100+. Power game translates to grass. 57% career TB rate."
   },
@@ -5229,8 +5229,8 @@
     "pTrue": 0.73,
     "edge": 9.0,
     "mc": 73,
-    "result": "pending",
-    "pnl": 0,
+    "result": "W",
+    "pnl": 42.19,
     "fw": "v3.0",
     "note": "RBA 38yo, 9-17 in 2026. Collignon 28-9 (75.7%), beat Shelton at RG, coach Steve Darcis (grass specialist). 197km/h serve. Only concern: 4 career grass matches."
   },
@@ -5246,8 +5246,8 @@
     "pTrue": 0.648,
     "edge": 10.8,
     "mc": 65,
-    "result": "pending",
-    "pnl": 0,
+    "result": "L",
+    "pnl": -100.0,
     "fw": "v3.0",
     "note": "Fritz 26-4 (86.7%) on grass last 2 years. Shelton needed three 3-setters to get here including 16-14 TB vs Lehecka. Fritz fresher by ~2hrs court time. Model: 64.8% true prob vs 54c market."
   }
