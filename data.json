@@ -5263,9 +5263,26 @@
     "pTrue": 0.8,
     "edge": 13.2,
     "mc": 80,
+    "result": "L",
+    "pnl": -100.0,
+    "fw": "v3.0",
+    "note": "Landaluce 11-5 grass (69%) vs Atmane 4-9 (31%). H2H 1-0 Landaluce on grass. Atmane on 5-match losing streak. Landaluce just made Stuttgart SF. 13% edge at 67c."
+  },
+  {
+    "date": "Jun 19",
+    "time": "Jun 19 2026",
+    "tournament": "Queen's R16 (Grass)",
+    "surface": "Grass",
+    "match": "Medjedovic vs Humbert",
+    "pick": "Medjedovic ML",
+    "stake": 1.5,
+    "price": 0.44,
+    "pTrue": 0.52,
+    "edge": 8.4,
+    "mc": 52,
     "result": "pending",
     "pnl": 0,
     "fw": "v3.0",
-    "note": "Landaluce 11-5 grass (69%) vs Atmane 4-9 (31%). H2H 1-0 Landaluce on grass. Atmane on 5-match losing streak. Landaluce just made Stuttgart SF. 13% edge at 67c."
+    "note": "Suspended match resumption. Medjedovic leads 6-2, 6-7(4), deciding set TBD. Bageled Humbert in S1, never broken in S2. 2026 WR .690 vs Humbert .531. H2H 0-1 but on hard (Marseille). 8.4% edge at 44c."
   }
 ]
